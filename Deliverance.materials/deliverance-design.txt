@@ -1,0 +1,717 @@
+Deliverance: A Halloween story.
+
+STARTED
+Fri, 28 October 2016
+
+THEME
+Horror, Abduction, Escape.
+
+SCENE
+Old Victorian house in a remote location.
+
+PLOT
+A girl is abducted by a psychopath killer. She attempts to unravel her bonds, escape the room, and ultimately, the house. At the same time, a detective arrives at the same house after following a lead. He makes his way through the rooms, looking for the missing girl. The killer may or may not be in the house.
+
+GAME MECHANIC
+The viewpoint character is switched between the killer, the girl and the detective as the story progresses.
+
+PLOT TWIST
+When the killer becomes the viewpoint character, but every room, item and description is transformed into a hellish place and thing, complete with wails and demons threatening his existence. As the player, they can choose to run from the demons, or attach and try kill them. In the end, this determines the outcome whether the detective and girl are similarly attacked or killed. This parallels the actions of a deranged mind protecting itself, against a sane one inflicting harm indiscriminately.
+
+REFERENCES
+A nine room house, pg 125
+Leffel's house plans
+Published 1884
+Usage Public Domain Mark 1.0 
+https://archive.org/details/LeffelsHousePlansmicroformContainingElevationsPlansAnd
+
+
+DEVELOPMENT STEPS
+* write up the plot summary, optional plot twise, list any game mechanics.
+* find or create a map where the game plays out.
+* write a mockup transcript how the game might play out: summarize each scene, listing the main points what needs to happen. no need to give your characters name at this point, simply refer to them as "the detective" or "the killer".
+* rewrite the transcript, filling in possible player inputs and the responses.
+* when your transcript is in the first draft you can begin filling in character names and descriptions.
+* you can now start coding up the game. start by creating all the rooms and doors. Ignore any decorations or items for now.
+* run through your rooms to make sure they are all connected and in the right positions.
+* start adding room descriptions and items.
+* create the characters in code.
+* create the scenes in code.
+
+
+CHARACTERS
+
+The girl, Victoria Cote
+This girl puts you in mind of a curious cat. She has large orange eyes that are like two flames. Her luxurious, straight, brown hair is worn in a style that reminds you of a comet's trail. She is short and has an hourglass build. Her skin is cream-coloured. She has a high forehead and wide feet. Her wardrobe is strange.
+
+The detective, Otto York
+This determined gentleman has droopy violet eyes. His silky, wavy, vermillion hair is worn in a style that reminds you of a river. He has a graceful build. His skin is cream-colored. He has thin eyebrows. His wardrobe is classy, and is mostly gray.
+
+The killer, Tad Kemp
+This gentleman makes you think of a prowling jackal. He has slitted brown eyes that are like two splotches of mud. His silky, wavy, brown hair is worn in a style that reminds you of a wave of water. He is very tall and has a lithe build. His skin is ruddy. He has a small nose and knobby ears. His wardrobe is artistic, and is completely blue and green.
+
+The demon
+It has the figure of a man with leather-like skin, it has no use for clothes. The knees bend backwards, six razor talons extend where fingers would be. Sharp fangs fill the mouth, a bald head is adorned with two goat-like horns.
+
+
+
+MOCK TRANSCRIPT
+
+(scene 1, viewpoint: girl)
+(you attempt to free yourself and leave the room)
+
+Light pierces your vision as your eyes flutter open. Blurred shapes spin around as you shake the sound of a pounding heart free. You remember a struggle, the abduction, your name... nothing.
+
+Loft (printed as Somewhere)
+You don't know where you are, some kind of room. You feel too panicked to notice your surroundings. [You are sitting on a wooden chair, it is difficult to move.]
+
+> x self
+You see bruises and dirt on your arms. You have straight brown hair and cream-colored skin. [your hands are tied behind your back, your feet to the legs of the chair.]
+
+> i
+You are tied up and cannot search your pockets.
+
+> get up (first time)
+You try to stand up, but only manage to rock the chair, nearly toppling over. It creaks violently.
+
+> get up (second time)
+You rock the chair. Some part of it snaps underneath you, it sags to the right.
+
+> get up (third time)
+You rock the chair. One one side of the chair breaks under the strain and you topple on to your right side, your head almost hitting a cardboard box. Your right arm is freed.
+
+> get up (every other time)
+You fail to raise yourself up from this position.
+
+> l
+You are lying on your side, tied to a chair with only one hand free. A small cardboard box is nearby.
+
+> x small box
+A small closed cardboard box.
+
+> open small box
+You reach for the box. As you pull it closer it falls over, craft supplies spill out in front of you: string, a tube of hardened glue, pots of paints, a bottle of turpentine and a craft knife.
+
+> take string, glue, paints, turpentine
+You pick up [the noun], and drop it despite your restraints.
+
+> take knife
+You pick up the craft knife, carefully, not touching the business end of it.
+
+> x knife
+A partially rusted craft knife with a yellow plastic handle. The blade is still sharp.
+
+> cut bonds/rope with the craft knife
+You curl up enough to reach your legs and sever the bonds around them, get up in a kneeling position and cut your other arm free. You stand up, wobbling.
+
+> look
+
+The Loft
+You are in what looks like a loft, crates and boxes stacked against the walls. Wooden floors and white walls surround you. The ceiling exposes rafters. There is a single window. There is a [closed] door leading out.
+
+> x window
+A small window allows a trickle of light into the room.
+
+> look out window, open window
+It is high up and beyond any reach.
+
+> x/open boxes/crates
+You don't want to rummage through old boxes when you feel a strong need to get out of here.
+
+> open door, go out
+
+Bedroom
+A small bedroom furnished with a mattress on the floor. A door to the east leads to the loft, another to the south.
+
+You feel faint.
+
+> z
+
+The room turns into a tunnel, the floor rising up to meet you. Shadows creep in from all sides as your vision fades.
+
+
+        ------------------------------------------
+
+
+(scene 2. viewpoint: detective)
+(you attempt to enter the house, and begin your search)
+
+The last daylight creeps away, the moon struggles to find gaps through the looming thunder clouds. A chill moves over your skin.
+
+Front of the house
+You are outside, east in front of an old three storey house. The flaking paint and shoddy walkway indicate it's age, and it's abandonment. The front door is here, the porch wraps around the building, towards the south. [first time: You are carrying your badge, gun and flash light.]
+
+> x badge
+It reads: detective [John Doe]. Homicide.
+
+> x gun
+A Glock 9mm, standard issue.
+
+> x flashlight
+A high-powered tactical flashlight.
+
+> z
+Earlier today, an anonymous tip was called in at the homicide office. All they gave was a name, in connection with the missing girl.
+
+> z
+The name led to outdated property records, and those led to this address. Time is life, and death. I had to get here quick, even if my partner was an hour away the other direction. I had to.
+
+> z
+This place is derelict, remote and dreary. The perfect place to stash an abductee. Never have I wanted something so dismal to be so true. I pray she is alive.
+
+> open door
+You grasp the oval shaped metal door knob, with a firm grip you twist it back and forth. Locked.
+
+> attack door
+This door may be old, but it is too solid to break down.
+
+> knock on door
+This building is marked under abandonment, you don't need to knock or have a warrant to enter. Plus you want to avoid making your presence known to anybody inside. Stopping the perpetrator is your priority. Finding the girl safe, even more so.
+
+> s
+You walk down the porch, and around to the south side of the house.
+
+Porch
+The rough wood planks of the porch are weathered and stripped of their varnish years ago. They twitch at your movement. There are two windows here. The porch continues west to the side of the house.
+
+> look at/in/through windows
+Murky from dirt and dark from dusk, you can only make out the shapes of a table and some chairs. It looks like a parlour.
+
+> open window
+They are not openable.
+
+> attack window
+You prefer finding a less noisy way inside.
+
+> turn torch on
+You don't need it now.
+
+> w
+You walk along the porch to the west side of the house.
+
+Rear of the house
+The back of the house is no less weathered. There is a bay window here.
+
+> x bay window
+It is chest height and looks like it cannot close properly.
+
+> open window
+You pull on the window frame, rust crumbles between the hinges. It swings open.
+
+> look in window
+You see the parlour inside.
+
+> enter window
+Looking to make sure the room is empty, you slip inside.
+
+Parlour
+A large carpet covers the floor. A low and wide table dominates the room, tattered arm chairs guarding it. A silver serving dish is on the table. A bay window exits west, and there is a door to the north.
+
+> x chairs
+Torn and tattered, the floor looks more inviting.
+
+> sit in chair
+You did not come here for the holiday.
+
+> x floor/carpet
+It's once-floral pattern, now faded by time and memory, reminds you of a muddy lilly pond.
+
+> x table
+A dark wood table with Flemish scroll style legs.
+
+> x legs
+The legs have scrolls at the top and bottom, spiralling in opposite directions. It must be hand carved.
+
+> x serving dish
+An undecorated silver dish, tarnished with age. [A lid covers it.]
+
+> open serving dish
+Despite this silly act of curiosity, you have to see what is on the dish. You have to be sure. You lift the lid and see bone fragments.
+
+> x bones/bone fragments
+These are his trophies. You are now convinced this is, or was, the right place.
+
+> take bones
+No, they can be taken into evidence later. Time matters.
+
+> take serving dish.
+[open]No, they can be taken into evidence later. Time matters.[closed]open serving dish instead
+
+> n
+You open the door as silently possible.
+
+Living room
+An old couch rests against a wall, a painting hangs above it. A writing desk squats in one corner, and a serving trolley in the other. A door leads to the east, and some stairs go up to the second floor.
+
+> x trolley
+An rickety looking thing slanting to one side, two of the wheels are missing. It has a ceramic teapot and some cups on it. A hypodermic syringe and tourniquet also rest peacefully on top of the trolley.
+
+> push trolley
+It refuses to move.
+
+> x teapot
+A white ceramic teapot with a decorative design painted on the front: green leaves with violet and magenta orchid blooms. The handle in the shape of butterfly wings.
+
+> x cup
+Pale white tea cups without any designs.
+
+> take teapot/cups
+You refuse to break for tea.
+
+> open teapot
+Lifting the butterfly lid, a bronze key is revealed inside the teapot.
+
+> take key
+You lift the key out and close the teapot.
+
+> x key
+A short but fat bronze key, it has decorative grape vines embossed around the shaft and the head.
+
+> x painting
+It depicts four men riding giant horses through the air, rolling clouds behind them. On the ground below, soldiers and slaves alike engage in a battle frenzy. You recognize the horsemen by name: Conquest, War, Famine and Death.
+
+> x horsemen
+Conquest wears fine clothes and wields a longbow, a crown adorns his head. The warrior, War, is swinging a two-handed broad sword. Famine holds a sling, dressed in rags and looking fierce. The skeleton that is Death grips a long staff, his gaze causing recoil in those who it falls upon.
+
+> x clouds
+The clouds in the painting seem in turmoil, blocking out the entirety of the sky, except for one small patch at the very top. A lonesome white lamb floating in the open sky.
+
+> x lamb
+It watches the scene below with quiet indifference.
+
+> x writing desk
+A squat dark wood desk. You notice engravings on it's surface.
+
+> x engravings
+Names carved into the varnished wood. You read: Annette Faith Parker. Meghan Mcclure. Jami Berg. All previous victims.
+
+> x couch
+A musty antiquated thing, likely a housing for many unseen critters.
+
+> search/look under couch
+You only see dust.
+
+> e
+The door is locked.
+
+> unlock door with bronze key
+The key does not fit this door.
+
+> go up/go up stairs
+You peer up the staircase, making sure nobody else is watching from above, and cautiously ascend the stairs.
+
+
+        ------------------------------------------
+
+
+(scene 3. viewpoint: girl)
+(you wake up. the door exiting the room is locked. you find a sheet, tie it to pipes running below the window, climb outside and prepare to lower yourself down.)
+
+Bedroom
+A small bedroom furnished with a mattress on the floor. There is a flashlight on the bed. Pipes run along the floor below the window. A door to the east leads to the loft, another closed door to the south.
+
+> open closed door
+The door is locked.
+
+> x bed
+A single sized mattress lies on the floor. It is covered in a pale white sheet.
+
+> take flashlight
+You pick it up and stick in in your jean pocket.
+
+> take sheet
+You pull the sheet off the mattress.
+
+> x pipes
+They are painted the same as the faded white walls. You guess they carry water.
+
+> x/look through window
+You see grass down below, no other houses are visible. You are on a second storey floor.
+
+> open window
+You open the window
+
+> climb out window
+it is too high
+
+> drop sheet out window
+you need to tie the one end of the sheet to something first.
+
+> tie sheet on/to the pipes
+You wrap one end of the sheet around the pipes and make a knot.
+
+> drop sheet out window
+you drop the loose end of the sheet out the window
+
+> climb out window
+holding on to the makeshift rope, you climb through the window and prepare yourself.
+
+
+        ------------------------------------------
+
+
+(scene 4. viewpoint: detective)
+(you reach the second floor. there is a locked gate on the stairs going up. the bronze key unlocks it. you ascend to the third storey.)
+
+Second Floor Hall
+
+The last of the daylight vanishes. You are left in darkness.
+You are in a dark room.
+
+> go n/s/e/w/up/down
+you can't see where you are going.
+
+> turn torch on
+The torch beams a bright light.
+
+You are in a hallway, stairs leading up and down are here. There is a gate at the top of the stairs. Doors to the north, east and south.
+
+> go n
+
+Bathroom
+You are in a bathroom, there is a clawfoot bath, one window and a basin. A mirror is fixed to the wall.
+
+> x bath
+A white but stained clawfoot bath. The feet are metal and have decorative faces moulded into them.
+
+> x faces
+You do not recognize the moulded faces.
+
+> x basin
+A simple pedestal basin of white ceramic.
+
+> get in the bath
+There is no need for that.
+
+> x mirror
+A rectangular mirrow without any frame. The edges of the glass are stained.
+
+> look in mirror
+print player description.
+
+> x window
+The window is shoulder height, it leads to the outside.
+
+> open window
+[if closed] You fail to push the window open. It must be secured.
+[otherwise] already open
+
+> unlock window
+[if closed] You fail to push the window open. It must be secured.
+[otherwise] already open
+
+> s
+
+Hallway
+
+> go e
+
+Bedroom
+
+The bedroom is somewhat furnished, a mattress is on the floor, a bedside table next to it. The windows are covered with sheets. It all looks old and dusty. Nobody has been in here for a long time. 
+
+> x mattress/bed
+A single mattress on the floor.
+
+> look under mattress
+You find nothing
+
+> get on the bed
+This is no time to fool around!
+
+> x table
+A small bedside table with dust covering the surface.
+
+> x dust
+It is dirty.
+
+> x windows/sheets
+Sheets cover windows
+
+> take sheets
+You have no need for sheets.
+
+> open window
+There is nothing out there but a long drop to certain injury.
+
+> go w
+
+Hallway
+
+> go s
+
+Bedroom
+
+This bedroom has a mattress on the floor and a bedside table with newspapers on it.
+
+> x mattress/bed
+A single mattress on the floor.
+
+> look under mattress
+You find nothing
+
+> x table
+A small bedside table with newspapers on it.
+
+> x newspapers
+These are fairly recent, somebody is living here.
+
+> take/read newspapers
+You have no time for that.
+
+> go n
+
+Hallway
+
+> Go up (the stairs)
+The gate is locked.
+
+> unlock gate with bronze key
+The gate unlocks
+
+> go up
+You ascend the stairs, continuing your search...
+
+(end scene)
+
+
+        ------------------------------------------
+
+
+(scene 5. viewpoint: girl)
+(you hear a noise outside the bedroom. you pull the curtain closed to try hide the fact of your escape. you lower yourself down the hanging sheet, and only reach the second floor window. there is a latch locking the window from the outside, who does that? you unhook the latch and climb in. you are in a bathroom, you look in the mirror. you go down the stairs.)
+
+Third Storey Window
+
+You are hanging outside the third storey window, gripping the bed sheet tied inside the room. [first time: You hear a noise coming from the other side of the bedroom door, you pull the curtain closed quickly, hoping to hide your attempted escape from the person about the enter.] You can go down.
+
+> x window
+You are hanging outside the window
+
+> climb in window
+You won't dare go back into that room, not with somebody just outside the door.
+
+> go down
+Lowering yourself down, one handful at a time, you reach the end of the sheet.
+
+Second Storey Window
+
+You are hanging outside a window. You are at the end of the sheet, and cannot go down any more.
+
+> go up
+You refuse to climb back up.
+
+> x window
+The window is closed/open.
+
+> open window
+You struggle to open the window, it is secured tight.
+
+> attack/kick window
+You kick the window and shatter the glass pane. You should be able to fit through it.
+
+> climb in/through window
+You raise your legs through the opening and lower yourself into the room.
+
+Bathroom
+
+(reuse the bathroom room)
+
+> go s
+
+Hallway
+
+(same hallway, player needs to turn the flashlight on)
+
+> go e/s
+You feel the urgent need to get out of here, quick. You don't want to find out who is in those rooms!
+
+> go down
+Frightened and shaking, you climb down the stairs...
+
+
+        ------------------------------------------
+
+
+(scene 6. viewpoint: detective)
+(reaching the top of the stairs, you enter an empty room and see through the doorway into a loft. you see a broken chair and cut bonds. you run into the loft. the door closes behind you. you exit the loft, the bedroom door is locked. you can shoot the door open and run down the stairs, or go down the sheet out the window - where you cut your right arm bloody on the broken window below. You reach the second floor and hear a girl screaming below you. Either way, you run down the stairs towards the first storey.)
+
+You run up the stairs and enter an empty room to the north. You scan the room: a lonely mattress, and a doorway to your right leading to a loft. You see a broken chair and cut bonds next to it. You dash into the loft.
+
+The Loft
+
+(repeats loft description)
+
+> z/go w
+The loft door closes behind you!
+
+> go w
+
+Bedroom
+The south door is closed.
+
+> open door
+Someone has locked it!
+
+> attack/bash door
+You ram your shoulder into the door, it stays intact.
+
+(option 1)
+> shoot the door with the gun
+You fire two rounds into the lock of the door, it breaks open.
+> go w
+Hallway
+> go down
+You run down the stairs as fast as you can...
+
+(option 2)
+> x window
+The window is covered by a curtain
+
+> open window
+You draw back the curtain, revealing a sheet tied to some piping by the one end, and hanging out the window by the other.
+
+> climb in/through/out window
+
+Third Storey Window
+You are hanging outside the third storey window, gripping the bed sheet tied inside the room.
+
+> go down
+Lowering yourself down, one handful at a time, you reach the end of the sheet.
+
+Second Storey Window
+
+You are hanging outside a window. You are at the end of the sheet, and cannot go down any more.
+
+> climb in/through window
+You manage to squeeze your way through the broken frame, which is not that large for a man of your build. You cut your right forearm in the process. You hear a chilling scream come from down below. You get up, and dash down the stairs.
+
+
+        ------------------------------------------
+
+
+(scene 7. viewpoint: killer - kitchen)
+(you are in a dim pale room, you have been hiding in this abandoned house from demons that are hunting you: angry mean looking monsters that want your flesh. you managed to trap one of them, it is locked in the attic. you hear breaking glass, you must stop it. if it escapes it will call more demons to feast on your flesh. you have to grab a knife off the table before you exit west.)
+
+The room is very dim, they all are in hell. You have been hiding from the Demons that are hunting you, everywhere you go, they find your. Angry nasty demons that want your flesh. You managed to trap one of them, now locked in the attic.
+
+Kitchen
+
+In the pale light you see a bare kitchen: scuffed wooden floors, a table and some cupboards fixed to the wall.
+
+in 4 turns: You hear breaking glass. If that demon escapes, it will return with other demons. They will feast on your flesh. You have to stop it!
+
+
+> x floors
+Scuffed wooden floors groan under your steps.
+
+> x/open/search cupboards
+Empty.
+
+> x table
+There is a collection of knives on the table. You need to protect yourself.
+
+> go w
+before breaking glass: I cannot go out, not yet.
+after: You need to take a knife with you.
+
+> take knife
+You pick up a sharp cleaver.
+
+> go w
+You prepare to meet the horror, and pass through the door...
+
+
+        ------------------------------------------
+
+
+(scene 8. viewpoint: girl - living room)
+(you reach the bottom of the stairs, in the living room. as you try exit any direction, the east door open, the killer emerges. he comes at you with a knife.)
+
+You reach to bottom of the stairs, breathless and shaking.
+
+Living Room
+The room is dim and nothing you see makes sense.
+
+> go any direction
+The kitchen door opens, a shape moves out from the shadow. You see the killer, moving towards you with a knife. You scream.
+
+> attack killer with craft knife
+The knife is in your pocket. You limbs feel frozen, you cannot move while he glares at you.
+
+(on turn 3)
+if the detective does not have a hurt arm:
+You close your eyes. we go to scene 9
+otherwise:
+Movement to your right, a detective coming down the stairs. They aim their gun at the killer with a bloodied, shaking arm. It fires.
+
+The shot missed, the killer turns to the detective. Now is your chance!
+
+> z
+The killer moves toward the detective
+
+> attack the killer with the craft knife
+You slip the craft knife into your palm, scared to death, your limbs seem to move on their on volition. You slash at the killer's back and blood gushes out. More blood you ever saw. go to scene 10.
+
+
+        ------------------------------------------
+
+
+(scene 9. viewpoint: detective)
+
+You reach the bottom of the stairs. the girl is here, the killer going for her.
+
+> go *
+No time to run away, you must stop him!
+
+> x *
+You are wasting time!
+
+> shoot killer with gun
+You aim your pistol at him, you exhale, you fire. The killer drops to the floor. scene ends.
+
+
+        ------------------------------------------
+
+
+(scene 10. viewpoint: killer)
+(the demon escaped, it is here, mocking you. you have to attack it with your knife. doing so, or trying to go any direction, reveals another demon behind you, who either swipes at you with his razor claws and kills you, or misses. the turn after, you are clawed in the back and drop to the floor. scene ends)
+
+Living Room
+You don't care to notice anything in here, except the harbinger of death, the Demon. It mocks you, taunts you with ideas of pulling your flesh from the bones. You have to destroy it.
+
+> x demon
+It has the figure of a man with leather-like skin, it has no use for clothes. The knees bend backwards, six razor talons extend where fingers would be. Sharp fangs fill the mouth, a bald head is adorned with two goat-like horns.
+
+> attack demon with knife / go *
+Another demon appears behind you, swiping at you with razor claws. (option) it tears the skin off your back. (or) it misses you by a miracle, you turn to face it, ready to cut it's throat. You realize your mistake the second you feel sharp claws slashing across your back, and again, and again. (finally) you crumple to the floor from the pain, sobbing, you bleed out. 
+
+
+        ------------------------------------------
+
+
+(scene 11. viewpoint: detective)
+(the killer is lying prone in a pool of blood, the girl collapses to the floor. you have to get her out, you pick her up. exiting south (the only way to go) ends the story. )
+
+The girl collapses to the floor. you have to get her out...
+
+Living Room
+You are in the living room. the killer is lying prone in a pool of blood.
+
+> x killer
+He is bleeding out. There is no help for him here.
+
+> x girl
+She is unconscious.
+
+> go s
+You can't leave the girl lying here.
+
+> pick up girl
+You lift her up.
+
+> go s
+You carry the girl outside, the cool night air promising peace. You hear the sirens wailing over the hill.
+
+THE DAILY NEWS
+Last night Victoria Cote was found safe in an abandoned house in an undisclosed location. Her family is relieved to have her back. Detective Otto York was first on the location to ensure her safety. The family and police declined to release further details at this time.
