@@ -408,31 +408,7 @@ Hallway
 
 Bedroom
 
-The bedroom is somewhat furnished, a mattress is on the floor, a bedside table next to it. The windows are covered with sheets. It all looks old and dusty. Nobody has been in here for a long time. 
-
-> x mattress/bed
-A single mattress on the floor.
-
-> look under mattress
-You find nothing
-
-> get on the bed
-This is no time to fool around!
-
-> x table
-A small bedside table with dust covering the surface.
-
-> x dust
-It is dirty.
-
-> x windows/sheets
-Sheets cover windows
-
-> take sheets
-You have no need for sheets.
-
-> open window
-There is nothing out there but a long drop to certain injury.
+This is a bare room. It should symbolize the emptiness associated with this place, and contrast the rest of the floor.
 
 > go w
 
@@ -446,6 +422,9 @@ This bedroom has a mattress on the floor and a bedside table with newspapers on 
 
 > x mattress/bed
 A single mattress on the floor.
+
+> get on the bed
+This is no time to fool around!
 
 > look under mattress
 You find nothing
