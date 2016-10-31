@@ -36,7 +36,7 @@ Untying is an action applying to one thing. Understand "untie [something]" as un
 Looking out is an action applying to one thing. Understand "look out [something]" as looking out. Carry out looking out: try searching noun instead.
 
 [ Climb through windows ]
-Climbing out is an action applying to one thing. Understand "climb out/through [something]" as climbing out. Carry out climbing out: say "You can't climb through that."
+Climbing out is an action applying to one thing. Understand "climb out/through [something]" as climbing out. Carry out climbing out: try entering the noun.
 
 [ Kicking things is synonomous with attacking ]
 Understand "kick [something]" as attacking.
@@ -54,21 +54,27 @@ To pause for dramatic effect:
 
 Chapter 2 - Characters
 
+[ Since we play multiple characters, we have three descriptions: the player looks at self, the player looks in the mirror, the player looks at a (previously played) character. The latter uses the default person "description" property. ]
+A person has some text called self description.
+A person has some text called mirror description.
 A person can be tied or untied. A person is usually untied.
-[A person can be conscious or unconscious. A person is usually conscious.]
+A person can be bleeding. A person is usually not bleeding.
 
+[ Fix display of the current player name in the command line ]
 Rule for printing the name of Victoria: say "The Girl". 
 Rule for printing the name of Otto: say "Otto". 
 Rule for printing the name of Tad: say "Tad".
 
+[ player examining self yields a different response than when seen from another viewpoint character. ]
+Instead of examining the player:
+	say "[self description of the player][paragraph break]".
+
 Instead of taking inventory when the player is tied:
 	say "You are tied up and cannot search your pockets."
 
-Victoria Cote is a woman. The description is "This girl puts you in mind of a curious cat. She has large orange eyes that are like two flames. Her luxurious, straight, brown hair is worn in a style that reminds you of a comet's trail. She is short and has an hourglass build. Her skin is cream-coloured. She has a high forehead and wide feet. Her wardrobe is strange."
-
-[ change how Victoria sees herself. We will use the above description when she looks in a mirror ]
-Instead of examining Victoria:
-	say "You see dirt on your bruised arms. You are wearing jeans and a t-shirt. [if Victoria is tied]Your hands are tied with ropes to the back of the chair, your feet tied to the legs of the chair.[end if]".
+Victoria Cote is a woman. The description is "This girl puts you in mind of a frightened cat. She has large orange eyes that are like two flames. Her messy, straight, brown hair is worn in a style that reminds you of a comet's trail. She is short and has an hourglass build. Her skin is cream-coloured. She has a high forehead and wide feet. Her wardrobe is strange."
+The self description of Victoria is "You see dirt on your bruised arms. You are wearing red jeans and a yellow blouse. [if Victoria is tied]Your hands are tied with ropes to the back of the chair, your feet tied to the legs of the chair.[end if]".
+The mirror description of Victoria is "Big orange eyes stare back at you. Your straight brown hair is tangled about your face. You look like hell."
 
 Detective Otto York is a man. The description is "This determined gentleman has droopy violet eyes. His silky, wavy, vermilion hair is worn in a style that reminds you of a river. He has a graceful build. His skin is cream-coloured. He has thin eyebrows. His wardrobe is classy, and is mostly grey."
 Your badge is a thing carried by Otto. The description is "It reads: Detective Otto York. Homicide."
@@ -161,7 +167,7 @@ Rear of the house is a room. It is northwest of the Porch. The description is "T
 [ helper that allows the player to just go east/west to/from the porch ]
 Instead of going east when the location is the rear of the house: try going southeast. Instead of going west when the location is the porch: try going northwest.
 
-The bay window is a door. It is east of Rear of the house and west of the Parlour. The description is "It is divided into four panes of glass, and sits about chest-height." It is scenery. Instead of climbing out bay window, try entering bay window.
+The bay window is a door. It is east of Rear of the house and west of the Parlour. The description is "It is divided into four panes of glass, and sits about chest-height." It is scenery.
 
 Instead of searching the bay window, say "You see the parlour inside."
 
@@ -249,7 +255,6 @@ Instead of searching a couch, say "You only find dust." Instead of entering couc
 
 Check going up when the location is the living room:
 	if the second act is undone:
-		say "You peer up the staircase, making sure nobody else is watching from above, and cautiously ascend the stairs.";
 		now the second act is done;
 		stop the action;
 	
@@ -279,9 +284,27 @@ Check going up when the location is the Second Floor Hall:
 	otherwise:
 		try opening the third-floor-gate;
 		if the fourth act is undone:
-			say "You ascend the stairs, continuing your search...";
 			now the fourth act is done;
 			stop the action;
+
+Check going up when the location is second floor hall during the fifth act:
+	say "You feel the urgent need to get out of here, quick. You don't want to find out who is in those rooms!";
+	stop the action;
+Check going south when the location is second floor hall during the fifth act:
+	say "You feel the urgent need to get out of here, quick. You don't want to find out who is in those rooms!";
+	stop the action;
+Check going east when the location is second floor hall during the fifth act:
+	say "You feel the urgent need to get out of here, quick. You don't want to find out who is in those rooms!";
+	stop the action;
+Check going north when the location is second floor hall during the fifth act:
+	say "You feel the urgent need to get out of here, quick. You don't want to find out who is in those rooms!";
+	stop the action;
+Check going down when the location is second floor hall during the fifth act:
+	now the fifth act is done;
+	stop the action;
+
+
+
 
 
 Chapter 8 - Bathroom
@@ -291,13 +314,24 @@ Bathroom is a room. It is north of the Second Floor Hall. The description is "Yo
 The bathroom-window is a closed locked door. It is south of Second-floor-outside and north of the bathroom. The printed name is "window". Understand "window" as bathroom-window. The description is "The window is shoulder height, it leads to the outside."
 Instead of opening the locked bathroom-window, say "It won't open. It must be secured permanently."
 
+Instead of entering the bathroom-window during the sixth act:
+	say "You manage to squeeze your way through the broken frame, which is not that large for a man of your build. You cut your right forearm in the process. You hear a chilling scream come from down below. You get up, and dash down the stairs...";
+	now Otto is bleeding;
+	now the sixth act is done;
+	stop the action;
+
 A bath is in the bathroom. It is scenery. The description is "A stained white claw-foot bath. The feet are metal and have decorative faces moulded into them."
-Some faces are a part of the bath. The description is "You do not recognize the moulded faces."
-Instead of entering the bath, say "Taking a bath at this point is utterly ridiculous.".
+Some faces are a part of the bath. The description is "You do not recognize the moulded faces." Understand "claw-foot" as faces.
+
+Instead of entering the bath:
+	if the player is victoria:
+		say "You would love a bath, anywhere but here.";
+	otherwise:	
+		say "Taking a bath at this point is utterly ridiculous.";
 
 A basin is in the bathroom. It is scenery. The description is "A simple pedestal basin of white ceramic."
 
-A mirror is in the bathroom. It is scenery. The description is "A rectangular mirror without any frame. The edges of the glass are stained." Instead of searching mirror, try examining the player.
+A mirror is in the bathroom. It is scenery. The description is "A rectangular mirror without any frame. The edges of the glass are stained." Instead of searching mirror, say "You look at yourself in the mirror: [mirror description of the player][paragraph break]".
 
 Chapter 9 - Second floor bedrooms
 
@@ -305,7 +339,7 @@ second-floor-bedroom-east is a room. It is east of the Second Floor Hall. The pr
 
 The second-floor-window-a is in the second-floor-bedroom-east. It is scenery. Understand "window" as second-floor-window-a. The printed name is "window". The description is "You see grass down below, no other houses are visible. You are on a second storey floor." Instead of searching second-floor-window-a, try examining second-floor-window-a.
 
-second-floor-bedroom-south is a room. It is south of the Second Floor Hall. The printed name is "Bedroom". The description is "The bedroom is somewhat furnished, a mattress is on the floor, a bedside table next to it. The window is covered with a sheet."
+second-floor-bedroom-south is a room. It is south of the Second Floor Hall. The printed name is "Bedroom". The description is "The bedroom is somewhat furnished, a mattress on the floor serves as a bed, a bedside table next to it. The window is covered with a sheet."
 
 The second-mattress is a supporter in the second-floor-bedroom-south. Understand "bed" and "mattress" as second-mattress. The description is "A single mattress on the floor." Instead of entering the second-mattress, say "This is no time to fool around!"
 
@@ -313,19 +347,19 @@ The second-floor-window-b is in the second-floor-bedroom-south. It is scenery. U
 
 The second-floor-table is a supporter in the second-floor-bedroom-south. It is scenery. The printed name is "the table". The description is "A low bedside table, some newspapers are on it." Understand "table" as second-floor-table.
 
-Some newspapers are on the second-floor-table. The description is "These are fairly recent, somebody is living here.". Instead of taking newspapers, say "You don't want the newspapers."
+Some newspapers are on the second-floor-table. It is scenery. The description is "These are fairly recent, somebody is living here.". Instead of taking newspapers, say "You don't want the newspapers."
 
 
 
 Chapter 10 - Third floor hall
 
-Third Floor Hall is a room. 
+Third Floor Hall is a room. The printed name is "Third Floor".
 
-There is a closed locked door called third-floor-gate. It is scenery. The printed name is "the security gate". It is above the Second Floor Hall and below then Third Floor Hall. Understand "gate" and "security gate" as third-floor-gate. The bronze key unlocks the third-floor-gate.
+There is a closed locked door called third-floor-gate. It is scenery. The printed name is "the security gate". It is above the Second Floor Hall and below the Third Floor Hall. Understand "gate" and "security gate" as third-floor-gate. The bronze key unlocks the third-floor-gate.
 
 Chapter 11 - Third floor bedroom
 
-Third Floor Bedroom is a room. The printed name is "Bedroom". The description is "A small bedroom furnished with a mattress on the floor and a curtain against one wall[if curtain is open], a window behind it. Some pipes run along the wall behind the curtain[end if]. The loft is back to the east, another door is due south."
+Third Floor Bedroom is a room. The printed name is "Bedroom". The description is "A small bedroom furnished with a mattress on the floor and a curtain against one wall[if curtain is open], a window behind it. Some pipes run along the wall behind the curtain[end if]. The loft is back to the east, another door is due south.[if curtain is open and a sheet is tied][paragraph break]A bed sheet is tied to the pipes, the other end hanging out the window.[end if]"
 
 Carry out going to Third Floor Bedroom during the first act:
 	say "[paragraph break]You feel faint.";
@@ -337,8 +371,13 @@ At the time when Victoria passes-out:
 The third floor bedroom door is a closed locked door. It is north of the Third Floor Hall and south of the Third Floor Bedroom. It is scenery. The printed name is "bedroom door".
 
 Does the player mean opening the third floor bedroom door: it is very likely.
+Does the player mean attacking the third floor bedroom door: it is very likely.
+Does the player mean shooting at the third floor bedroom door: it is very likely.
 
-The first-mattress is a supporter in the third floor bedroom. It is scenery. The description is "A single sized mattress lies on the floor. It is covered in a pale white sheet." Understand "bed" and "mattress" as first-mattress. The printed name is "mattress."
+Instead of opening the third floor bedroom door during the sixth act:
+	say "Someone has locked the bedroom door!"
+
+The first-mattress is a supporter in the third floor bedroom. It is scenery. The description is "A single sized mattress lies on the floor. It is covered in a pale white sheet." Understand "bed" and "mattress" as first-mattress. The printed name is "mattress"
 
 A sheet is on the first-mattress. The description is "Pale from dirt." A sheet can be tied or untied. The sheet is untied.
 
@@ -355,7 +394,7 @@ Instead of switching off the simple-torch:
 A closed openable container called a curtain is in the third floor bedroom. It is scenery. The description is "Filthy and eaten by fish moths."
 Instead of opening curtain:
 	now the curtain is open;
-	say "You pull the curtain open, there is a window behind it. Near the floor are some pipes.";
+	say "You pull the curtain open, there is a window behind it. Near the floor are some pipes.[if a sheet is tied][line break]Someone has tied a bed sheet to the pipes, and hung the other end out the window.[end if]";
 
 Some pipes are in the third floor bedroom. It is scenery. The description is "They are painted the same as the faded white walls. You guess they carry water."
 
@@ -367,9 +406,6 @@ Instead of tying sheet to pipes:
 	otherwise:
 		say "It is already tied."
 
-Instead of climbing out escape-window:
-	try entering escape-window.
-
 [It is south of the Third-floor-outside and north of the Third Floor Bedroom.]
 [ a one-way escape door because we don't want to reference it when the player is hanging on the other side. ]
 The escape-window is a closed door. It is north of the Third Floor Bedroom. It is scenery. The printed name is "window". Understand "window" as escape-window. The description is "You see grass down below, no other houses are visible. You are on a second storey floor." Instead of searching escape-window, try examining escape-window.
@@ -377,18 +413,31 @@ The escape-window is a closed door. It is north of the Third Floor Bedroom. It i
 Instead of going the escape-window:
 	if the sheet is untied:
 		say "It is too high up, you will surely fall. Perhaps if you had something to climb down with.";
-	otherwise:
-		say "You hold on to the makeshift rope, climb through the window and prepare yourself.";
+		stop the action;
+	if the third act is undone:
 		now the third act is done;
-		
-		
+		stop the action;
+	if the sixth act is undone:
+		say "You grab the sheet and climb through the window.";
+		move the player to Third-floor-outside;
+
+[ sixth act - the detective can shoot the door open ]
+Instead of attacking third floor bedroom door during the sixth act:
+	say "You fire two rounds into the lock of the door, it breaks open.";
+	now the third floor bedroom door is open;
+
+Check going south when the location is the Third Floor Bedroom during the sixth act:
+	say "You run down the stairs as fast as you can...";
+	now the sixth act is done;
+	stop the action;
+
 
 
 
 
 Chapter 12 - Third floor loft
 
-The Loft is a room. The description is "[if the player is tied]You don't know where you are, some kind of room. You feel too panicked to notice your surroundings. It is difficult to move.[else]You are in what looks like a loft, crates and boxes stacked against the walls. Wooden floors and white walls surround you. The ceiling exposes rafters. There is a single window. There is a door to the west."
+The Loft is a room. The description is "[if the player is tied]You don't know where you are, some kind of room. You feel too panicked to notice your surroundings. It is difficult to move.[else]You are in what looks like a loft, crates and boxes stacked against the walls. Wooden floors and white walls surround you. The ceiling rafters are visible. There is a single window. There is a door to the west.[paragraph break]A broken chair and cut rope lies on the floor."
 
 walls, floors and ceiling are things in the loft. walls, floors and ceiling are scenery. The description of walls is "White walls, lined with crates and boxes." The description of floors is "Dusty wooden floors." The description of ceiling is "The visible rafters make you think of an attic." Understand "rafters" as ceiling. Understand "wall" as walls. Understand "floor" as floors.
 
@@ -400,7 +449,7 @@ Instead of searching the window, say "It is too far up, you can't see through it
 
 A thing called some boxes are in the loft. The description is "You don't want to rummage through old boxes when you feel a strong need to get out of here." It is scenery. Understand "crate" and "crates" as boxes.
 
-A supporter called the rickety chair is in the loft. It is fixed in place. The printed name is "chair". It is scenery. The description is "It feels rickety and creaks when you move. You should try get up."
+A supporter called the rickety chair is in the loft. It is fixed in place. The printed name is "chair". It is scenery. The description is "[if the player is tied]It feels rickety and creaks when you move. You should try get up.[else]Some of the legs are snapped off."
 
 The rickety chair can be upright or sideways. The rickety chair is upright.
 
@@ -479,19 +528,27 @@ Instead of cutting the rope:
 	silently try exiting;
 	try looking;
 
+At the time when the loft door slams closed:
+	now the loft door is closed;
+	say "The loft door slams shut behind you!";
+
 
 Chapter 13 - Second and Third Floor Windows
 
-Third-floor-outside is a room. The printed name is "Hanging Outside, third storey". The description is "You are hanging outside the third storey window, gripping the bed sheet tied inside the room. You can go down."
+Third-floor-outside is a room. The printed name is "Hanging outside the third floor". The description is "You are hanging outside the third storey window, gripping the bed sheet tied inside the room. You can go down."
 
-A tfo-window is here. It is scenery. The printed name is "the window". Understand "window" as tfo-window. The description is "You are hanging outside the window". Instead of climbing out tfo-window, try entering tfo-window. Instead of entering tfo-window, say "You won't dare go back into that room, not with somebody just outside the door."
+A tfo-window is in Third-floor-outside. It is scenery. The printed name is "the window". Understand "window" as tfo-window. The description is "You are hanging outside the window". Instead of entering tfo-window, say "You won't dare go back into that room, not with somebody just outside the door."
+
+A tfo-sheet is here. It is scenery. The printed name is "sheet". Understand "sheet" as tfo-sheet. The description is "You are hanging on to the sheet for dear life."
 
 Carry out going down when the location is Third-floor-outside:
 	say "Lowering yourself down, one handful at a time, you reach the end of the sheet.";
 
 
 Second-floor-outside is a room. It is below Third-floor-outside. 
-The printed name is "Hanging Outside, second storey". The description is "You are hanging outside a window. You are at the end of the sheet, and cannot go down any more."
+The printed name is "Hanging outside the second floor". The description is "You are hanging outside a window. You are at the end of the sheet, and cannot go down any more."
+
+A sfo-sheet is in Second-floor-outside. It is scenery. The printed name is "sheet". Understand "sheet" as sfo-sheet. The description is "You are hanging on to the sheet for dear life."
 
 Check going up when the location is second-floor-outside:
 	say "You refuse to climb back up." instead.
@@ -500,17 +557,27 @@ Check going up when the location is second-floor-outside:
 Instead of examining bathroom-window during the fifth act:
 	say "A chipped white frame with murky glass panes."
 
+Instead of opening bathroom-window during the fifth act:
+	say "You struggle to open the window, maybe a little force is called for."
+
 Instead of attacking bathroom-window during the fifth act:
 	say "You kick the window and shatter the glass pane. You should be able to fit through it.";
 	now the bathroom-window is open;
 
+Instead of entering bathroom-window during the fifth act:
+	if the location is second-floor-outside:
+		say "You raise your legs through the opening and lower yourself into the room.";
+		continue the action;
+	otherwise:
+		say "You are not going back up there.";
 
 
 Part 3 - The Story
 
 Chapter 1 - First act
 
-The first act is a scene. The first act begins when play begins. The first act ends when the first act is done.
+[DEBUG -- uncomment below]
+The first act is a scene. [The first act begins when play begins.] The first act ends when the first act is done.
 
 When the first act begins:
 	Move Victoria Cote to the rickety chair;
@@ -547,6 +614,7 @@ At the time when the player recounts-thrice:
 	say "This place is derelict, remote and dreary. The perfect place to hide. Never have I wanted something so dismal to be so true. I pray she is alive."
 
 When the second act ends:
+	say "You peer up the staircase, making sure nobody else is watching from above, and cautiously ascend the stairs.";
 	pause for dramatic effect;
 
 
@@ -556,10 +624,11 @@ The third act is a scene. The third act begins when second act ends. The third a
 
 When the third act begins:
 	now the player is Victoria;
-	say "Your eyes flutter open.";
+	say "(as [Victoria]) Your eyes flutter open.";
 	try looking;
 
 When the third act ends:
+	say "You hold on to the makeshift rope, climb through the window and prepare yourself.";
 	pause for dramatic effect;
 
 
@@ -568,13 +637,14 @@ Chapter 4 - Fourth act
 The fourth act is a scene. The fourth act begins when third act ends. The fourth act ends when the fourth act is done.
 
 When the fourth act begins:
-	say "As you reach the top of the second floor, the last of the daylight vanishes. You are left in darkness.";
+	say "(as [Otto]) As you reach the top of the second floor, the last of the daylight vanishes. You are left in darkness.";
 	now all rooms in the interior are dark;
 	move Otto to the second floor hall;
 	now the player is Otto;
 	try looking;
 
 When the fourth act ends:
+	say "You ascend the stairs, continuing your search...";
 	pause for dramatic effect;
 
 Chapter 5 - Fifth act
@@ -582,13 +652,91 @@ Chapter 5 - Fifth act
 The fifth act is a scene. The fifth act begins when the fourth act ends. The fifth act ends when the fifth act is done.
 
 When the fifth act begins:
-	say "You hold tight to the bed sheet as you climb through the window. You hear a noise coming from the other side of the bedroom door, fear rises up inside. You pull the curtain closed, hoping to hide your escape attempt.";
+	say "(as [Victoria]) You hold tight to the bed sheet as you climb through the window. You hear a noise coming from the other side of the bedroom door, fear rises up inside. You pull the curtain closed, hoping to hide your escape attempt.";
+	now the curtain is closed;
 	move Victoria to the Third-floor-outside;
 	now the player is Victoria;
 	try looking;
 
 When the fifth act ends:
+	say "Frightened and shaking, you go down the stairs...";
 	pause for dramatic effect;
+
+Chapter 6 - Sixth act
+
+The sixth act is a scene. The sixth act begins when the fifth act ends. The sixth act ends when the sixth act is done.
+
+the sixth act begins when play begins.
+
+When the sixth act begins:
+	say "(as [Otto]) You reach the top of the stairs, an open bedroom door in front of you. Stepping inside, you see a doorway leading to a loft: a broken chair and cut bonds inside. You dash into the loft...";
+	move Otto to the Loft;
+	now the player is Otto;
+	the loft door slams closed in one turn from now;
+	try looking;
+
+When the sixth act ends:
+	pause for dramatic effect;
+
+Chapter 7 - Seventh act
+
+The seventh act is a scene. The seventh act begins when the sixth act ends. The seventh act ends when the seventh act is done.
+
+When the seventh act begins:
+	say "(as [Tad]) The room is very dim, all of them are, in hell. You have been hiding from the Demons that hunt you. Everywhere you go, they follow. Angry nasty demons that want your flesh. You managed to trap one of them, now locked in the attic.";
+	move Tad to the Kitchen;
+	now the player is Tad;
+	try looking;
+
+When the seventh act ends:
+	pause for dramatic effect;
+
+[
+
+The eighth act is a scene. The eighth act begins when the seventh act ends. The eighth act ends when the eighth act is done.
+
+When the eighth act begins:
+	say "(as [Victoria])";
+	move Victoria to the Third-floor-outside;
+	now the player is Victoria;
+	try looking;
+
+When the eighth act ends:
+	pause for dramatic effect;
+
+The ninth act is a scene. The ninth act begins when the eighth act ends. The ninth act ends when the ninth act is done.
+
+When the ninth act begins:
+	say "(as [Victoria])";
+	move Victoria to the Third-floor-outside;
+	now the player is Victoria;
+	try looking;
+
+When the ninth act ends:
+	pause for dramatic effect;
+
+The tenth act is a scene. The tenth act begins when the ninth act ends. The tenth act ends when the tenth act is done.
+
+When the tenth act begins:
+	say "(as [Victoria])";
+	move Victoria to the Third-floor-outside;
+	now the player is Victoria;
+	try looking;
+
+When the tenth act ends:
+	pause for dramatic effect;
+
+The eleventh act is a scene. The eleventh act begins when the tenth act ends. The eleventh act ends when the eleventh act is done.
+
+When the eleventh act begins:
+	say "(as [Victoria])";
+	move Victoria to the Third-floor-outside;
+	now the player is Victoria;
+	try looking;
+
+When the eleventh act ends:
+	pause for dramatic effect;
+]
 
 [ TESTING third scene ]
 [testing is a scene. testing begins when play begins.
@@ -602,14 +750,13 @@ when testing begins:
 ]
 
 [ TESTING scene 4 ]
-[testing is a scene. testing begins when play begins.
+testing is a scene. testing begins when play begins.
 when testing begins:
+	move victoria to Third Floor Bedroom;
 	now victoria carries the craft knife;
 	now victoria is untied;
-	move victoria to the Third-floor-outside;
 	now otto carries the bronze key;
-	move Otto to the second floor hall;
-	now first act is done;
-	now second act is done;
-	now third act is done;
-]
+	now the rickety chair is sideways;
+	now a sheet is tied;
+	now third-floor-gate is unlocked;
+	now the bathroom-window is open;
