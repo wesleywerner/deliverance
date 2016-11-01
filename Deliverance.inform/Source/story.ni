@@ -75,6 +75,7 @@ Instead of taking inventory when the player is tied:
 Victoria Cote is a woman. The description is "This girl puts you in mind of a frightened cat. She has large orange eyes that are like two flames. Her messy, straight, brown hair is worn in a style that reminds you of a comet's trail. She is short and has an hourglass build. Her skin is cream-coloured. She has a high forehead and wide feet. Her wardrobe is strange."
 The self description of Victoria is "You see dirt on your bruised arms. You are wearing red jeans and a yellow blouse. [if Victoria is tied]Your hands are tied with ropes to the back of the chair, your feet tied to the legs of the chair.[end if]".
 The mirror description of Victoria is "Big orange eyes stare back at you. Your straight brown hair is tangled about your face. You look like hell."
+Understand "girl" and "the girl" as Victoria.
 
 Detective Otto York is a man. The description is "This determined gentleman has droopy violet eyes. His silky, wavy, vermilion hair is worn in a style that reminds you of a river. He has a graceful build. His skin is cream-coloured. He has thin eyebrows. His wardrobe is classy, and is mostly grey."
 Your badge is a thing carried by Otto. The description is "It reads: Detective Otto York. Homicide."
@@ -257,11 +258,26 @@ Check going up when the location is the living room:
 	if the second act is undone:
 		now the second act is done;
 		stop the action;
-	
-	
-	
 
+Check going during the eighth act:
+	if Tad is not in the Living Room:
+		say "The kitchen door opens, a shape moves out from the shadow. You see the killer, moving towards you with a knife. You scream.";
+		move Tad to the Living Room;
+		Otto appears in three turns from now;
+	[ always stop going anywhere from here ]
+	if the player is Victoria:
+		say "You can't, you are frozen with fear!";
+		stop the action;	
+	
+Every turn during the eighth act:
+	if Tad is in the location:
+		say "[Tad] moves closer to you, a cleaver in his hand...";
 
+Instead of attacking tad when the player is Victoria during the eighth act:
+	say "The knife is in your pocket. You limbs feel frozen, you cannot move while he glares at you.";
+
+At the time when Otto appears:
+	now the eighth act is done;
 
 
 
@@ -271,8 +287,37 @@ Check going up when the location is the living room:
 
 Chapter 6 - Kitchen
 
-The Kitchen is a room. 
+The Kitchen is a room. The description is "In the pale light you see a bare kitchen: scuffed wooden floors, a table and some cupboards fixed to the wall." 
+ 
 The kitchen door is a locked door. It is east of the Living room and west of the Kitchen.
+
+The kitchen-floor is in the Kitchen. Understand "floor" and "floors" as kitchen-floor. It is scenery. The printed name is "floor". The description is "Scuffed wooden floors groan under your steps."
+
+Some cupboards are in the kitchen. It is scenery. Understand "cupboard" as cupboards. The description is "Empty cupboards, like so many graves, are fixed to the wall. Some are missing doors, you used those for fire." Instead of searching cupboards, say "They are empty." Instead of opening cupboards, say "You know they have nothing in them, so you don't bother looking inside them."
+
+A kitchen table is a supporter in the kitchen. The description is "There are some knives on the table."
+
+Some sharp knives are on the kitchen table. Understand "knife" as sharp knives. The description is "A small collection of sharp knives. This is how you protect yourself."
+
+Instead of taking sharp knives:
+	now Tad carries a cleaver;
+	say "You pick up a sharp cleaver from the pile of knives.";
+
+A cleaver is a thing. The description is "A sharp meat cleaver. This one is called protector."
+
+Instead of going west during the seventh act:
+	if the player is not carrying a cleaver:
+		say "I can't go out there with protection. I need a knife!";
+	otherwise:
+		now the seventh act is done;
+
+At the time when Tad hears noise:
+	say "You hear breaking glass. The demon... if it escapes, it will return with friends. Then they will feast on your flesh. You have to stop it![paragraph break]You unlock the kitchen door with a key hidden under a loose floor board.";
+	now the kitchen door is unlocked;
+
+
+
+
 
 Chapter 7 - Second floor hall
 
@@ -315,7 +360,7 @@ The bathroom-window is a closed locked door. It is south of Second-floor-outside
 Instead of opening the locked bathroom-window, say "It won't open. It must be secured permanently."
 
 Instead of entering the bathroom-window during the sixth act:
-	say "You manage to squeeze your way through the broken frame, which is not that large for a man of your build. You cut your right forearm in the process. You hear a chilling scream come from down below. You get up, and dash down the stairs...";
+	say "You manage to squeeze your way through the broken frame, which is not that large for a man of your build. You cut your shooting arm in the process. A chilling scream echos from down below. You get up, and dash down the stairs...";
 	now Otto is bleeding;
 	now the sixth act is done;
 	stop the action;
@@ -398,7 +443,7 @@ Instead of opening curtain:
 
 Some pipes are in the third floor bedroom. It is scenery. The description is "They are painted the same as the faded white walls. You guess they carry water."
 
-Instead of tying sheet to pipes:
+Instead of tying sheet to pipes during the third act:
 	if the sheet is untied:
 		if escape-window is closed, try opening escape-window;
 		say "You wrap one end of the sheet around the pipes and make a knot. You drop the other end of the sheet out the window.";
@@ -410,16 +455,19 @@ Instead of tying sheet to pipes:
 [ a one-way escape door because we don't want to reference it when the player is hanging on the other side. ]
 The escape-window is a closed door. It is north of the Third Floor Bedroom. It is scenery. The printed name is "window". Understand "window" as escape-window. The description is "You see grass down below, no other houses are visible. You are on a second storey floor." Instead of searching escape-window, try examining escape-window.
 
-Instead of going the escape-window:
+Instead of going the escape-window during the third act:
 	if the sheet is untied:
 		say "It is too high up, you will surely fall. Perhaps if you had something to climb down with.";
 		stop the action;
 	if the third act is undone:
 		now the third act is done;
 		stop the action;
-	if the sixth act is undone:
-		say "You grab the sheet and climb through the window.";
-		move the player to Third-floor-outside;
+
+Instead of going the escape-window during the sixth act:
+	say "You grab the sheet and climb through the window.";
+	move the player to Third-floor-outside;
+	stop the action;
+
 
 [ sixth act - the detective can shoot the door open ]
 Instead of attacking third floor bedroom door during the sixth act:
@@ -427,7 +475,7 @@ Instead of attacking third floor bedroom door during the sixth act:
 	now the third floor bedroom door is open;
 
 Check going south when the location is the Third Floor Bedroom during the sixth act:
-	say "You run down the stairs as fast as you can...";
+	say "A chilling scream echos from down below. You run down the stairs as fast as you can...";
 	now the sixth act is done;
 	stop the action;
 
@@ -537,7 +585,13 @@ Chapter 13 - Second and Third Floor Windows
 
 Third-floor-outside is a room. The printed name is "Hanging outside the third floor". The description is "You are hanging outside the third storey window, gripping the bed sheet tied inside the room. You can go down."
 
-A tfo-window is in Third-floor-outside. It is scenery. The printed name is "the window". Understand "window" as tfo-window. The description is "You are hanging outside the window". Instead of entering tfo-window, say "You won't dare go back into that room, not with somebody just outside the door."
+A tfo-window is in Third-floor-outside. It is scenery. The printed name is "the window". Understand "window" as tfo-window. The description is "You are hanging outside the window". 
+
+Instead of entering tfo-window during the third act:
+	say "You won't dare go back into that room, not with somebody just outside the door."
+
+Instead of entering tfo-window during the sixth act:
+	say "You are wasting time. You can't back out with your choice now."
 
 A tfo-sheet is here. It is scenery. The printed name is "sheet". Understand "sheet" as tfo-sheet. The description is "You are hanging on to the sheet for dear life."
 
@@ -666,8 +720,6 @@ Chapter 6 - Sixth act
 
 The sixth act is a scene. The sixth act begins when the fifth act ends. The sixth act ends when the sixth act is done.
 
-the sixth act begins when play begins.
-
 When the sixth act begins:
 	say "(as [Otto]) You reach the top of the stairs, an open bedroom door in front of you. Stepping inside, you see a doorway leading to a loft: a broken chair and cut bonds inside. You dash into the loft...";
 	move Otto to the Loft;
@@ -686,45 +738,79 @@ When the seventh act begins:
 	say "(as [Tad]) The room is very dim, all of them are, in hell. You have been hiding from the Demons that hunt you. Everywhere you go, they follow. Angry nasty demons that want your flesh. You managed to trap one of them, now locked in the attic.";
 	move Tad to the Kitchen;
 	now the player is Tad;
+	Tad hears noise in four turns from now;
 	try looking;
 
 When the seventh act ends:
+	say "You prepare to meet the horror, and pass through the door...";
 	pause for dramatic effect;
 
-[
+Chapter 8 - Eighth act
 
 The eighth act is a scene. The eighth act begins when the seventh act ends. The eighth act ends when the eighth act is done.
 
+the eighth act begins when play begins.
+
 When the eighth act begins:
-	say "(as [Victoria])";
-	move Victoria to the Third-floor-outside;
+	now the description of the Living Room is "The room is dim and nothing you see makes sense.";
+	say "(as [Victoria]) You reach to bottom of the stairs, breathless and shaking.";
+	move Victoria to the Living room;
 	now the player is Victoria;
 	try looking;
 
 When the eighth act ends:
+	if Otto is not bleeding:
+		say "You close your eyes.";
+	otherwise:
+		say "There is movement to your right, a detective on the stairs! They aim their gun at the killer with a bloodied, shaking arm. The gun fires.";
 	pause for dramatic effect;
+
+Chapter 9 - Ninth act
 
 The ninth act is a scene. The ninth act begins when the eighth act ends. The ninth act ends when the ninth act is done.
 
 When the ninth act begins:
-	say "(as [Victoria])";
-	move Victoria to the Third-floor-outside;
-	now the player is Victoria;
-	try looking;
+	now Otto is in the Living room;
+	if Otto is not bleeding:
+		say "(as [Otto]) You reach the bottom of the stairs. The girl is here, the killer going for her...";
+		now the player is Otto;
+		try looking;
+	otherwise:
+		say "The shot missed! The killer turns to the detective. Now is your chance!";
+		now the player is Victoria;
 
 When the ninth act ends:
 	pause for dramatic effect;
 
+Instead of examining during the ninth act:
+	say "You are wasting time!";
+
+Instead of waiting during the ninth act:
+	say "You are wasting time!";
+
+Instead of going during the ninth act:
+	say "No time to run away, you must stop him!"
+
+Instead of attacking Tad during the ninth act:
+	if the player is Victoria:
+		say "You slip the craft knife into your palm, scared to death, your limbs seem to move on their on volition. You slash at the killer's back, blood gushes out. More blood than you ever saw.";
+		now the ninth act is done;
+	otherwise:
+		say "You aim your pistol at the man, you exhale and squeeze the trigger. The killer drops to the floor.";
+		now the ninth act is done;
+
 The tenth act is a scene. The tenth act begins when the ninth act ends. The tenth act ends when the tenth act is done.
 
 When the tenth act begins:
-	say "(as [Victoria])";
+	say "(as [Tad])";
 	move Victoria to the Third-floor-outside;
 	now the player is Victoria;
 	try looking;
 
 When the tenth act ends:
 	pause for dramatic effect;
+
+[
 
 The eleventh act is a scene. The eleventh act begins when the tenth act ends. The eleventh act ends when the eleventh act is done.
 
@@ -752,7 +838,8 @@ when testing begins:
 [ TESTING scene 4 ]
 testing is a scene. testing begins when play begins.
 when testing begins:
-	move victoria to Third Floor Bedroom;
+	now Otto is bleeding;
+	now Victoria is in the Living room;
 	now victoria carries the craft knife;
 	now victoria is untied;
 	now otto carries the bronze key;
@@ -760,3 +847,4 @@ when testing begins:
 	now a sheet is tied;
 	now third-floor-gate is unlocked;
 	now the bathroom-window is open;
+

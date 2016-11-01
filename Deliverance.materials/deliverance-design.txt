@@ -538,7 +538,7 @@ You ram your shoulder into the door, it stays intact.
 (option 1)
 > shoot the door with the gun
 You fire two rounds into the lock of the door, it breaks open.
-> go w
+> go s
 Hallway
 > go down
 You run down the stairs as fast as you can...
