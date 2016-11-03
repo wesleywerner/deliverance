@@ -112,6 +112,13 @@ To pause for dramatic effect:
 	say "[paragraph break][bold type]press a key to continue...[roman type][paragraph break]";
 	Do nothing.
 
+After reading a command (this is the ignore beta-comments rule):
+	if the player's command matches the regular expression "^\p":
+		say "(Noted)";
+		reject the player's command.
+
+When play begins:
+	say "BETA RELEASE[line break]Enter SCRIPT as your first command to record your session. You can add annotations during play via '?' or '!' prefixes: '? I have no idea what to do' or '! This thing is really lame'[paragraph break]";
 
 Chapter 4 - Default responses
 
