@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x1d557b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x19437b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x1d557b0"/>
-  <item nodeId="node-0x1d557b0">
+  <activeNode nodeId="node-0x19437b0"/>
+  <item nodeId="node-0x19437b0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 
-Light pierces your vision as your eyes flutter open. Blurred shapes spin around as you shake the sound of a pounding heart free. You remember a struggle, the abduction, your name... nothing.
+Light pierces your vision as your eyes flutter open. Blurred shapes spin around as you shake the sound of a pounding heart free. You remember the struggle and abduction, but not your name...
 
 # BETA RELEASE
 # Enter SCRIPT as your first command to record your session. You can add annotations during play via &quot;?&quot; or &quot;!&quot; prefixes: &quot;? I have no idea what to do&quot; or &quot;! This thing is really lame&quot;
 
 Deliverance
-A Halloween story by Wesley Werner
+Some demons are more real than others, by Wesley Werner
 Release 1 / Serial number 161106 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Loft (on the chair)
@@ -49,16 +49,18 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d55930"/>
-      <child nodeId="node-0x2174be0"/>
-      <child nodeId="node-0x224d470"/>
-      <child nodeId="node-0x2269c10"/>
-      <child nodeId="node-0x2319b90"/>
-      <child nodeId="node-0x237b120"/>
-      <child nodeId="node-0x2447170"/>
+      <child nodeId="node-0x1943930"/>
+      <child nodeId="node-0x1db8bf0"/>
+      <child nodeId="node-0x1e92480"/>
+      <child nodeId="node-0x1eadc20"/>
+      <child nodeId="node-0x1f5ebb0"/>
+      <child nodeId="node-0x1fc0130"/>
+      <child nodeId="node-0x208b180"/>
+      <child nodeId="node-0x21254c0"/>
+      <child nodeId="node-0x2168f00"/>
     </children>
   </item>
-  <item nodeId="node-0x1d55930">
+  <item nodeId="node-0x1943930">
     <command xml:space="preserve">get up</command>
     <result xml:space="preserve">You try to stand up. Your hands and feet are bound to the chair with rope, and you nearly topple over. The chair creaks violently.
 
@@ -71,11 +73,11 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d55ab0"/>
-      <child nodeId="node-0x206b2b0"/>
+      <child nodeId="node-0x1943ab0"/>
+      <child nodeId="node-0x1c982d0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d55ab0">
+  <item nodeId="node-0x1943ab0">
     <command xml:space="preserve">x chair</command>
     <result xml:space="preserve">It feels rickety and creaks when you move. You should try get up.
 
@@ -88,10 +90,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d55c30"/>
+      <child nodeId="node-0x1943c30"/>
     </children>
   </item>
-  <item nodeId="node-0x1d55c30">
+  <item nodeId="node-0x1943c30">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You see dirt on your bruised arms. You are wearing red jeans and a yellow blouse. Your hands are tied with ropes to the back of the chair, your feet tied to the legs of the chair.
 
@@ -104,10 +106,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d55db0"/>
+      <child nodeId="node-0x1943db0"/>
     </children>
   </item>
-  <item nodeId="node-0x1d55db0">
+  <item nodeId="node-0x1943db0">
     <command xml:space="preserve">x ropes</command>
     <result xml:space="preserve">They are bound around your hands and feet, fixing you to the chair.
 
@@ -120,10 +122,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1d55f30"/>
+      <child nodeId="node-0x1943f30"/>
     </children>
   </item>
-  <item nodeId="node-0x1d55f30">
+  <item nodeId="node-0x1943f30">
     <command xml:space="preserve">untie ropes</command>
     <result xml:space="preserve">You struggle to untie the knots. There must be another way.
 
@@ -136,10 +138,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2009140"/>
+      <child nodeId="node-0x1c36140"/>
     </children>
   </item>
-  <item nodeId="node-0x2009140">
+  <item nodeId="node-0x1c36140">
     <command xml:space="preserve">take ropes</command>
     <result xml:space="preserve">Ironically you are tied up with the very rope you want to take.
 
@@ -152,10 +154,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20092c0"/>
+      <child nodeId="node-0x1c362c0"/>
     </children>
   </item>
-  <item nodeId="node-0x20092c0">
+  <item nodeId="node-0x1c362c0">
     <command xml:space="preserve">get up</command>
     <result xml:space="preserve">You rock the chair. Some part of it snaps underneath you, it sags to the right.
 
@@ -168,10 +170,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2009440"/>
+      <child nodeId="node-0x1c36440"/>
     </children>
   </item>
-  <item nodeId="node-0x2009440">
+  <item nodeId="node-0x1c36440">
     <command xml:space="preserve">get up</command>
     <result xml:space="preserve">You rock the chair. One one side of the chair breaks under the strain and you topple on to your side, your head almost hitting a small cardboard box. Your one arm is freed.
 
@@ -184,10 +186,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20095c0"/>
+      <child nodeId="node-0x1c365c0"/>
     </children>
   </item>
-  <item nodeId="node-0x20095c0">
+  <item nodeId="node-0x1c365c0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You see dirt on your bruised arms. You are wearing red jeans and a yellow blouse. Your hands are tied with ropes to the back of the chair, your feet tied to the legs of the chair.
 
@@ -200,10 +202,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2009740"/>
+      <child nodeId="node-0x1c36740"/>
     </children>
   </item>
-  <item nodeId="node-0x2009740">
+  <item nodeId="node-0x1c36740">
     <command xml:space="preserve">x chair</command>
     <result xml:space="preserve">It feels rickety and creaks when you move. You should try get up.
 
@@ -216,10 +218,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20098c0"/>
+      <child nodeId="node-0x1c368c0"/>
     </children>
   </item>
-  <item nodeId="node-0x20098c0">
+  <item nodeId="node-0x1c368c0">
     <command xml:space="preserve">take ropes</command>
     <result xml:space="preserve">Ironically you are tied up with the very rope you want to take.
 
@@ -232,10 +234,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2009a40"/>
+      <child nodeId="node-0x1c36a40"/>
     </children>
   </item>
-  <item nodeId="node-0x2009a40">
+  <item nodeId="node-0x1c36a40">
     <command xml:space="preserve">untie ropes</command>
     <result xml:space="preserve">You struggle to untie the knots. There must be another way.
 
@@ -248,10 +250,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2009bc0"/>
+      <child nodeId="node-0x1c36bc0"/>
     </children>
   </item>
-  <item nodeId="node-0x2009bc0">
+  <item nodeId="node-0x1c36bc0">
     <command xml:space="preserve">get up</command>
     <result xml:space="preserve">You struggle to raise yourself up from this position.
 
@@ -264,10 +266,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2009d40"/>
+      <child nodeId="node-0x1c36d40"/>
     </children>
   </item>
-  <item nodeId="node-0x2009d40">
+  <item nodeId="node-0x1c36d40">
     <command xml:space="preserve">x box</command>
     <result xml:space="preserve">A small closed box.
 
@@ -280,10 +282,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2009ec0"/>
+      <child nodeId="node-0x1c36ec0"/>
     </children>
   </item>
-  <item nodeId="node-0x2009ec0">
+  <item nodeId="node-0x1c36ec0">
     <command xml:space="preserve">take box</command>
     <result xml:space="preserve">You reach for the box. As you pull it closer it falls over, craft supplies spill out in front of you - some twine, a tube of hardened glue, pots of paints, a bottle of lamp oil and a craft knife.
 
@@ -296,10 +298,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20271c0"/>
+      <child nodeId="node-0x1c53130"/>
     </children>
   </item>
-  <item nodeId="node-0x20271c0">
+  <item nodeId="node-0x1c53130">
     <command xml:space="preserve">take knife</command>
     <result xml:space="preserve">You pick up the craft knife carefully, avoiding the business end of it.
 
@@ -312,10 +314,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2027340"/>
+      <child nodeId="node-0x1c532b0"/>
     </children>
   </item>
-  <item nodeId="node-0x2027340">
+  <item nodeId="node-0x1c532b0">
     <command xml:space="preserve">x knife</command>
     <result xml:space="preserve">A partially rusted craft knife with a yellow plastic handle. The blade is still sharp.
 
@@ -328,10 +330,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20274c0"/>
+      <child nodeId="node-0x1c53430"/>
     </children>
   </item>
-  <item nodeId="node-0x20274c0">
+  <item nodeId="node-0x1c53430">
     <command xml:space="preserve">cut ropes</command>
     <result xml:space="preserve">You curl up enough to reach your legs and sever the bonds around them. You get up into a kneeling position and cut your other arm free. You stand up, wobbling.
 
@@ -362,10 +364,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2027640"/>
+      <child nodeId="node-0x1c535b0"/>
     </children>
   </item>
-  <item nodeId="node-0x2027640">
+  <item nodeId="node-0x1c535b0">
     <command xml:space="preserve">take lamp oil</command>
     <result xml:space="preserve">You pick up the bottle of lamp oil.
 
@@ -378,10 +380,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20277c0"/>
+      <child nodeId="node-0x1c53730"/>
     </children>
   </item>
-  <item nodeId="node-0x20277c0">
+  <item nodeId="node-0x1c53730">
     <command xml:space="preserve">x paints</command>
     <result xml:space="preserve">Small pots of red, green and blue paints.
 
@@ -394,10 +396,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2027940"/>
+      <child nodeId="node-0x1c538b0"/>
     </children>
   </item>
-  <item nodeId="node-0x2027940">
+  <item nodeId="node-0x1c538b0">
     <command xml:space="preserve">take paints</command>
     <result xml:space="preserve">You don&apos;t want the paints.
 
@@ -410,10 +412,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2027ac0"/>
+      <child nodeId="node-0x1c53a30"/>
     </children>
   </item>
-  <item nodeId="node-0x2027ac0">
+  <item nodeId="node-0x1c53a30">
     <command xml:space="preserve">x glue</command>
     <result xml:space="preserve">The label reads &quot;The Steel Queen Super Glue&quot;, the tube is rock hard.
 
@@ -426,10 +428,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2027c40"/>
+      <child nodeId="node-0x1c53bb0"/>
     </children>
   </item>
-  <item nodeId="node-0x2027c40">
+  <item nodeId="node-0x1c53bb0">
     <command xml:space="preserve">take glue</command>
     <result xml:space="preserve">You don&apos;t need dry glue.
 
@@ -442,10 +444,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2027dc0"/>
+      <child nodeId="node-0x1c53d30"/>
     </children>
   </item>
-  <item nodeId="node-0x2027dc0">
+  <item nodeId="node-0x1c53d30">
     <command xml:space="preserve">x oil</command>
     <result xml:space="preserve">&quot;Grail of Fire Lamp Oil&quot;, the bottle is half full and smudged from usage.
 
@@ -458,10 +460,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2027f40"/>
+      <child nodeId="node-0x1c53eb0"/>
     </children>
   </item>
-  <item nodeId="node-0x2027f40">
+  <item nodeId="node-0x1c53eb0">
     <command xml:space="preserve">x twine</command>
     <result xml:space="preserve">a light string of two smaller strands.
 
@@ -474,10 +476,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2050120"/>
+      <child nodeId="node-0x1c7c120"/>
     </children>
   </item>
-  <item nodeId="node-0x2050120">
+  <item nodeId="node-0x1c7c120">
     <command xml:space="preserve">take twine</command>
     <result xml:space="preserve">You pick up the twine.
 
@@ -490,10 +492,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20502a0"/>
+      <child nodeId="node-0x1c7c2a0"/>
     </children>
   </item>
-  <item nodeId="node-0x20502a0">
+  <item nodeId="node-0x1c7c2a0">
     <command xml:space="preserve">x window</command>
     <result xml:space="preserve">A small window allows a trickle of light into the room.
 
@@ -506,10 +508,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2050420"/>
+      <child nodeId="node-0x1c7c420"/>
     </children>
   </item>
-  <item nodeId="node-0x2050420">
+  <item nodeId="node-0x1c7c420">
     <command xml:space="preserve">look out window</command>
     <result xml:space="preserve">It is too far up, you can&apos;t see through it.
 
@@ -522,10 +524,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20505a0"/>
+      <child nodeId="node-0x1c7c5a0"/>
     </children>
   </item>
-  <item nodeId="node-0x20505a0">
+  <item nodeId="node-0x1c7c5a0">
     <command xml:space="preserve">x rafters</command>
     <result xml:space="preserve">The visible rafters make you think of an attic.
 
@@ -538,10 +540,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2050720"/>
+      <child nodeId="node-0x1c7c720"/>
     </children>
   </item>
-  <item nodeId="node-0x2050720">
+  <item nodeId="node-0x1c7c720">
     <command xml:space="preserve">x floor</command>
     <result xml:space="preserve">Dusty wooden floors.
 
@@ -554,10 +556,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20508a0"/>
+      <child nodeId="node-0x1c7c8a0"/>
     </children>
   </item>
-  <item nodeId="node-0x20508a0">
+  <item nodeId="node-0x1c7c8a0">
     <command xml:space="preserve">x ceiling</command>
     <result xml:space="preserve">The visible rafters make you think of an attic.
 
@@ -570,10 +572,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2050a20"/>
+      <child nodeId="node-0x1c7ca20"/>
     </children>
   </item>
-  <item nodeId="node-0x2050a20">
+  <item nodeId="node-0x1c7ca20">
     <command xml:space="preserve">x walls</command>
     <result xml:space="preserve">White walls, lined with crates and boxes.
 
@@ -586,10 +588,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2050ba0"/>
+      <child nodeId="node-0x1c7cba0"/>
     </children>
   </item>
-  <item nodeId="node-0x2050ba0">
+  <item nodeId="node-0x1c7cba0">
     <command xml:space="preserve">x crates</command>
     <result xml:space="preserve">You don&apos;t want to rummage through old boxes when you feel a strong need to get out of here.
 
@@ -602,10 +604,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2050d20"/>
+      <child nodeId="node-0x1c7cd20"/>
     </children>
   </item>
-  <item nodeId="node-0x2050d20">
+  <item nodeId="node-0x1c7cd20">
     <command xml:space="preserve">open crates</command>
     <result xml:space="preserve">You can&apos;t seem to open the boxes.
 
@@ -618,10 +620,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2050ea0"/>
+      <child nodeId="node-0x1c7cea0"/>
     </children>
   </item>
-  <item nodeId="node-0x2050ea0">
+  <item nodeId="node-0x1c7cea0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">(first opening the loft door)
 
@@ -650,10 +652,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x206b130"/>
+      <child nodeId="node-0x1c98150"/>
     </children>
   </item>
-  <item nodeId="node-0x206b130">
+  <item nodeId="node-0x1c98150">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -686,7 +688,7 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve">test first act</annotation>
   </item>
-  <item nodeId="node-0x206b2b0">
+  <item nodeId="node-0x1c982d0">
     <command xml:space="preserve">get up</command>
     <result xml:space="preserve">You rock the chair. Some part of it snaps underneath you, it sags to the right.
 
@@ -701,10 +703,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x206b430"/>
+      <child nodeId="node-0x1c98450"/>
     </children>
   </item>
-  <item nodeId="node-0x206b430">
+  <item nodeId="node-0x1c98450">
     <command xml:space="preserve">get up</command>
     <result xml:space="preserve">You rock the chair. One side of the chair breaks under the strain and you topple onto your side, your head almost hitting a small cardboard box. Your one arm is freed.
 
@@ -719,10 +721,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x206b5b0"/>
+      <child nodeId="node-0x1c985d0"/>
     </children>
   </item>
-  <item nodeId="node-0x206b5b0">
+  <item nodeId="node-0x1c985d0">
     <command xml:space="preserve">take box</command>
     <result xml:space="preserve">You reach for the box. As you pull it closer it falls over, craft supplies spill out in front of you - some twine, a tube of hardened glue, pots of paints, a bottle of lamp oil and a craft knife.
 
@@ -735,10 +737,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x206b730"/>
+      <child nodeId="node-0x1c98750"/>
     </children>
   </item>
-  <item nodeId="node-0x206b730">
+  <item nodeId="node-0x1c98750">
     <command xml:space="preserve">take knife</command>
     <result xml:space="preserve">You pick up the craft knife carefully, avoiding the business end of it.
 
@@ -751,10 +753,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x206b8b0"/>
+      <child nodeId="node-0x1c988d0"/>
     </children>
   </item>
-  <item nodeId="node-0x206b8b0">
+  <item nodeId="node-0x1c988d0">
     <command xml:space="preserve">cut ropes with knife</command>
     <result xml:space="preserve">You curl up enough to reach your legs and sever the bonds around them. You get up into a kneeling position and cut your other arm free. You stand up, wobbling.
 
@@ -776,10 +778,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x206ba30"/>
+      <child nodeId="node-0x1c98a50"/>
     </children>
   </item>
-  <item nodeId="node-0x206ba30">
+  <item nodeId="node-0x1c98a50">
     <command xml:space="preserve">take lamp oil</command>
     <result xml:space="preserve">You pick up the bottle of lamp oil.
 
@@ -792,10 +794,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x206bbb0"/>
+      <child nodeId="node-0x1c98bd0"/>
     </children>
   </item>
-  <item nodeId="node-0x206bbb0">
+  <item nodeId="node-0x1c98bd0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">(first opening the loft door)
 
@@ -819,10 +821,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x206bd30"/>
+      <child nodeId="node-0x1c98d50"/>
     </children>
   </item>
-  <item nodeId="node-0x206bd30">
+  <item nodeId="node-0x1c98d50">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -845,10 +847,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x206beb0"/>
+      <child nodeId="node-0x1c98ed0"/>
     </children>
   </item>
-  <item nodeId="node-0x206beb0">
+  <item nodeId="node-0x1c98ed0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You walk down the porch, and around to the south side of the house.
 
@@ -867,10 +869,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2098180"/>
+      <child nodeId="node-0x1cd2150"/>
     </children>
   </item>
-  <item nodeId="node-0x2098180">
+  <item nodeId="node-0x1cd2150">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You walk along the porch to the west side of the house.
 
@@ -891,10 +893,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2098300"/>
+      <child nodeId="node-0x1cd22d0"/>
     </children>
   </item>
-  <item nodeId="node-0x2098300">
+  <item nodeId="node-0x1cd22d0">
     <command xml:space="preserve">open bay window</command>
     <result xml:space="preserve">You pull on the window frame, rust crumbles between the hinges. It swings open.
 
@@ -909,10 +911,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2098480"/>
+      <child nodeId="node-0x1cd2450"/>
     </children>
   </item>
-  <item nodeId="node-0x2098480">
+  <item nodeId="node-0x1cd2450">
     <command xml:space="preserve">climb in bay window</command>
     <result xml:space="preserve">Looking to make sure the room is empty, you slip inside.
 
@@ -933,10 +935,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2098600"/>
+      <child nodeId="node-0x1cd25d0"/>
     </children>
   </item>
-  <item nodeId="node-0x2098600">
+  <item nodeId="node-0x1cd25d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the living room door)
 You open the door as silently possible.
@@ -957,10 +959,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2098780"/>
+      <child nodeId="node-0x1cd2750"/>
     </children>
   </item>
-  <item nodeId="node-0x2098780">
+  <item nodeId="node-0x1cd2750">
     <command xml:space="preserve">open teapot</command>
     <result xml:space="preserve">Lifting the butterfly lid, a business card is revealed inside the teapot.
 
@@ -973,10 +975,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2098900"/>
+      <child nodeId="node-0x1cd28d0"/>
     </children>
   </item>
-  <item nodeId="node-0x2098900">
+  <item nodeId="node-0x1cd28d0">
     <command xml:space="preserve">take business card</command>
     <result xml:space="preserve">You pick up the business card.
 
@@ -989,10 +991,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2098a80"/>
+      <child nodeId="node-0x1cd2a50"/>
     </children>
   </item>
-  <item nodeId="node-0x2098a80">
+  <item nodeId="node-0x1cd2a50">
     <command xml:space="preserve">go up</command>
     <result xml:space="preserve">You peer up the staircase, making sure nobody else is watching from above, and cautiously ascend the stairs.
 
@@ -1025,10 +1027,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2098c00"/>
+      <child nodeId="node-0x1cd2bd0"/>
     </children>
   </item>
-  <item nodeId="node-0x2098c00">
+  <item nodeId="node-0x1cd2bd0">
     <command xml:space="preserve">open curtain</command>
     <result xml:space="preserve">You pull the curtain open, there is a window behind it. Near the floor are some pipes.
 
@@ -1041,10 +1043,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2098d80"/>
+      <child nodeId="node-0x1cd2d50"/>
     </children>
   </item>
-  <item nodeId="node-0x2098d80">
+  <item nodeId="node-0x1cd2d50">
     <command xml:space="preserve">take sheet</command>
     <result xml:space="preserve">You pick up the sheet.
 
@@ -1057,10 +1059,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2098f00"/>
+      <child nodeId="node-0x1cd2ed0"/>
     </children>
   </item>
-  <item nodeId="node-0x2098f00">
+  <item nodeId="node-0x1cd2ed0">
     <command xml:space="preserve">tie sheet to pipes</command>
     <result xml:space="preserve">You open the window.
 
@@ -1077,10 +1079,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20b3110"/>
+      <child nodeId="node-0x1cf2120"/>
     </children>
   </item>
-  <item nodeId="node-0x20b3110">
+  <item nodeId="node-0x1cf2120">
     <command xml:space="preserve">climb out window</command>
     <result xml:space="preserve">You hold on to the makeshift rope, climb through the window and prepare yourself.
 
@@ -1109,10 +1111,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20b3290"/>
+      <child nodeId="node-0x1cf22a0"/>
     </children>
   </item>
-  <item nodeId="node-0x20b3290">
+  <item nodeId="node-0x1cf22a0">
     <command xml:space="preserve">switch torch on</command>
     <result xml:space="preserve">A bright beam flows out of your torch.
 
@@ -1131,10 +1133,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20b3410"/>
+      <child nodeId="node-0x1cf2420"/>
     </children>
   </item>
-  <item nodeId="node-0x20b3410">
+  <item nodeId="node-0x1cf2420">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Bedroom
@@ -1151,10 +1153,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20b3590"/>
+      <child nodeId="node-0x1cf25a0"/>
     </children>
   </item>
-  <item nodeId="node-0x20b3590">
+  <item nodeId="node-0x1cf25a0">
     <command xml:space="preserve">look under table</command>
     <result xml:space="preserve">You see a safe under the table.
 
@@ -1167,10 +1169,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20b3710"/>
+      <child nodeId="node-0x1cf2720"/>
     </children>
   </item>
-  <item nodeId="node-0x20b3710">
+  <item nodeId="node-0x1cf2720">
     <command xml:space="preserve">x keypad</command>
     <result xml:space="preserve">An electronic pad for entering a code. You can ENTER 0000 to unlock the safe.
 
@@ -1183,10 +1185,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20b3890"/>
+      <child nodeId="node-0x1cf28a0"/>
     </children>
   </item>
-  <item nodeId="node-0x20b3890">
+  <item nodeId="node-0x1cf28a0">
     <command xml:space="preserve">x business card</command>
     <result xml:space="preserve">&quot;Unholy Battle pest control, Tad Kemp&quot;. You notice an impression like writing on the back of the card.
 
@@ -1199,10 +1201,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20b3a10"/>
+      <child nodeId="node-0x1cf2a20"/>
     </children>
   </item>
-  <item nodeId="node-0x20b3a10">
+  <item nodeId="node-0x1cf2a20">
     <command xml:space="preserve">turn business card</command>
     <result xml:space="preserve">The back of the card has 6375 written on it.
 
@@ -1215,10 +1217,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20b3b90"/>
+      <child nodeId="node-0x1cf2ba0"/>
     </children>
   </item>
-  <item nodeId="node-0x20b3b90">
+  <item nodeId="node-0x1cf2ba0">
     <command xml:space="preserve">enter 6375</command>
     <result xml:space="preserve">(in the keypad)
 Click. The safe door creaks open. Inside is a bronze key.
@@ -1233,10 +1235,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20b3d10"/>
+      <child nodeId="node-0x1cf2d20"/>
     </children>
   </item>
-  <item nodeId="node-0x20b3d10">
+  <item nodeId="node-0x1cf2d20">
     <command xml:space="preserve">take bronze key</command>
     <result xml:space="preserve">You pick up the bronze key.
 
@@ -1249,10 +1251,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20b3e90"/>
+      <child nodeId="node-0x1cf2ea0"/>
     </children>
   </item>
-  <item nodeId="node-0x20b3e90">
+  <item nodeId="node-0x1cf2ea0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Second Floor
@@ -1269,10 +1271,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20dc150"/>
+      <child nodeId="node-0x1d1c160"/>
     </children>
   </item>
-  <item nodeId="node-0x20dc150">
+  <item nodeId="node-0x1d1c160">
     <command xml:space="preserve">unlock gate with bronze key</command>
     <result xml:space="preserve">You unlock the security gate.
 
@@ -1285,10 +1287,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20dc2d0"/>
+      <child nodeId="node-0x1d1c2e0"/>
     </children>
   </item>
-  <item nodeId="node-0x20dc2d0">
+  <item nodeId="node-0x1d1c2e0">
     <command xml:space="preserve">go up</command>
     <result xml:space="preserve">You open the security gate.
 
@@ -1327,10 +1329,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20dc450"/>
+      <child nodeId="node-0x1d1c460"/>
     </children>
   </item>
-  <item nodeId="node-0x20dc450">
+  <item nodeId="node-0x1d1c460">
     <command xml:space="preserve">go down</command>
     <result xml:space="preserve">Lowering yourself down, one handful at a time, you reach the end of the sheet.
 
@@ -1353,10 +1355,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20dc5d0"/>
+      <child nodeId="node-0x1d1c5e0"/>
     </children>
   </item>
-  <item nodeId="node-0x20dc5d0">
+  <item nodeId="node-0x1d1c5e0">
     <command xml:space="preserve">kick window</command>
     <result xml:space="preserve">You kick the window and shatter the glass pane. You should be able to fit through it.
 
@@ -1369,10 +1371,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20dc750"/>
+      <child nodeId="node-0x1d1c760"/>
     </children>
   </item>
-  <item nodeId="node-0x20dc750">
+  <item nodeId="node-0x1d1c760">
     <command xml:space="preserve">climb through window</command>
     <result xml:space="preserve">You raise your legs through the opening and lower yourself into the room.
 
@@ -1395,10 +1397,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20dc8d0"/>
+      <child nodeId="node-0x1d1c8e0"/>
     </children>
   </item>
-  <item nodeId="node-0x20dc8d0">
+  <item nodeId="node-0x1d1c8e0">
     <command xml:space="preserve">take lantern</command>
     <result xml:space="preserve">You pick up the brass lantern.
 
@@ -1411,10 +1413,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20dca50"/>
+      <child nodeId="node-0x1d1ca60"/>
     </children>
   </item>
-  <item nodeId="node-0x20dca50">
+  <item nodeId="node-0x1d1ca60">
     <command xml:space="preserve">put lamp oil in brass lantern</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1427,10 +1429,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20dcbd0"/>
+      <child nodeId="node-0x1d1cbe0"/>
     </children>
   </item>
-  <item nodeId="node-0x20dcbd0">
+  <item nodeId="node-0x1d1cbe0">
     <command xml:space="preserve">turn lantern on</command>
     <result xml:space="preserve">You flick the spark wheel but the wick does not light. The lantern needs fuel.
 
@@ -1443,10 +1445,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20dcd50"/>
+      <child nodeId="node-0x1d1cd60"/>
     </children>
   </item>
-  <item nodeId="node-0x20dcd50">
+  <item nodeId="node-0x1d1cd60">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Darkness
@@ -1463,10 +1465,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20dced0"/>
+      <child nodeId="node-0x1d1cee0"/>
     </children>
   </item>
-  <item nodeId="node-0x20dced0">
+  <item nodeId="node-0x1d1cee0">
     <command xml:space="preserve">down</command>
     <result xml:space="preserve">Frightened and shaking, you go down the stairs...
 
@@ -1499,10 +1501,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20f91c0"/>
+      <child nodeId="node-0x1d39100"/>
     </children>
   </item>
-  <item nodeId="node-0x20f91c0">
+  <item nodeId="node-0x1d39100">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -1519,10 +1521,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20f9340"/>
+      <child nodeId="node-0x1d39280"/>
     </children>
   </item>
-  <item nodeId="node-0x20f9340">
+  <item nodeId="node-0x1d39280">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">(first opening the loft door)
 
@@ -1545,11 +1547,11 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20f94c0"/>
-      <child nodeId="node-0x2125f20"/>
+      <child nodeId="node-0x1d39400"/>
+      <child nodeId="node-0x1d67e90"/>
     </children>
   </item>
-  <item nodeId="node-0x20f94c0">
+  <item nodeId="node-0x1d39400">
     <command xml:space="preserve">open bedroom door</command>
     <result xml:space="preserve">Someone has locked the bedroom door!
 
@@ -1562,10 +1564,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20f9640"/>
+      <child nodeId="node-0x1d39580"/>
     </children>
   </item>
-  <item nodeId="node-0x20f9640">
+  <item nodeId="node-0x1d39580">
     <command xml:space="preserve">shoot bedroom door</command>
     <result xml:space="preserve">You fire two rounds into the lock of the door, it breaks open.
 
@@ -1578,10 +1580,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20f97c0"/>
+      <child nodeId="node-0x1d39700"/>
     </children>
   </item>
-  <item nodeId="node-0x20f97c0">
+  <item nodeId="node-0x1d39700">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">A chilling scream echos from down below. You run down the stairs as fast as you can...
 
@@ -1616,10 +1618,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20f9940"/>
+      <child nodeId="node-0x1d39880"/>
     </children>
   </item>
-  <item nodeId="node-0x20f9940">
+  <item nodeId="node-0x1d39880">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -1632,10 +1634,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20f9ac0"/>
+      <child nodeId="node-0x1d39a00"/>
     </children>
   </item>
-  <item nodeId="node-0x20f9ac0">
+  <item nodeId="node-0x1d39a00">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -1648,10 +1650,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20f9c40"/>
+      <child nodeId="node-0x1d39b80"/>
     </children>
   </item>
-  <item nodeId="node-0x20f9c40">
+  <item nodeId="node-0x1d39b80">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -1664,10 +1666,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20f9dc0"/>
+      <child nodeId="node-0x1d39d00"/>
     </children>
   </item>
-  <item nodeId="node-0x20f9dc0">
+  <item nodeId="node-0x1d39d00">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -1688,10 +1690,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x20f9f40"/>
+      <child nodeId="node-0x1d39e80"/>
     </children>
   </item>
-  <item nodeId="node-0x20f9f40">
+  <item nodeId="node-0x1d39e80">
     <command xml:space="preserve">take knife</command>
     <result xml:space="preserve">You pick up a sharp cleaver from the pile of knives.
 
@@ -1704,10 +1706,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21251a0"/>
+      <child nodeId="node-0x1d67110"/>
     </children>
   </item>
-  <item nodeId="node-0x21251a0">
+  <item nodeId="node-0x1d67110">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You prepare to meet the horror, and pass through the door...
 
@@ -1736,10 +1738,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2125320"/>
+      <child nodeId="node-0x1d67290"/>
     </children>
   </item>
-  <item nodeId="node-0x2125320">
+  <item nodeId="node-0x1d67290">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">The kitchen door opens, a shape moves out from the shadow. You see the killer, moving towards you with a knife. You scream.
 
@@ -1756,10 +1758,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21254a0"/>
+      <child nodeId="node-0x1d67410"/>
     </children>
   </item>
-  <item nodeId="node-0x21254a0">
+  <item nodeId="node-0x1d67410">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -1776,10 +1778,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2125620"/>
+      <child nodeId="node-0x1d67590"/>
     </children>
   </item>
-  <item nodeId="node-0x2125620">
+  <item nodeId="node-0x1d67590">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -1796,10 +1798,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21257a0"/>
+      <child nodeId="node-0x1d67710"/>
     </children>
   </item>
-  <item nodeId="node-0x21257a0">
+  <item nodeId="node-0x1d67710">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -1846,10 +1848,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2125920"/>
+      <child nodeId="node-0x1d67890"/>
     </children>
   </item>
-  <item nodeId="node-0x2125920">
+  <item nodeId="node-0x1d67890">
     <command xml:space="preserve">shoot killer</command>
     <result xml:space="preserve">You aim your pistol at the killer, exhale and squeeze the trigger...
 
@@ -1884,10 +1886,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2125aa0"/>
+      <child nodeId="node-0x1d67a10"/>
     </children>
   </item>
-  <item nodeId="node-0x2125aa0">
+  <item nodeId="node-0x1d67a10">
     <command xml:space="preserve">attack demon</command>
     <result xml:space="preserve">Another demon appears behind you, swiping at you with razor claws, tearing the skin from your back.
 
@@ -1936,10 +1938,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2125c20"/>
+      <child nodeId="node-0x1d67b90"/>
     </children>
   </item>
-  <item nodeId="node-0x2125c20">
+  <item nodeId="node-0x1d67b90">
     <command xml:space="preserve">pick up the girl</command>
     <result xml:space="preserve">You lift her up.
 
@@ -1952,10 +1954,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2125da0"/>
+      <child nodeId="node-0x1d67d10"/>
     </children>
   </item>
-  <item nodeId="node-0x2125da0">
+  <item nodeId="node-0x1d67d10">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You carry the girl outside, the cool night air promising peace. You hear sirens wailing over the hill.
 
@@ -1986,7 +1988,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve">*** Heroic ending</annotation>
   </item>
-  <item nodeId="node-0x2125f20">
+  <item nodeId="node-0x1d67e90">
     <command xml:space="preserve">open curtain</command>
     <result xml:space="preserve">You pull the curtain open, there is a window behind it. Near the floor are some pipes.
 
@@ -2003,10 +2005,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2142160"/>
+      <child nodeId="node-0x1d85170"/>
     </children>
   </item>
-  <item nodeId="node-0x2142160">
+  <item nodeId="node-0x1d85170">
     <command xml:space="preserve">climb out window</command>
     <result xml:space="preserve">You grab the sheet and climb through the window.
 
@@ -2025,10 +2027,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21422e0"/>
+      <child nodeId="node-0x1d852f0"/>
     </children>
   </item>
-  <item nodeId="node-0x21422e0">
+  <item nodeId="node-0x1d852f0">
     <command xml:space="preserve">go down</command>
     <result xml:space="preserve">Lowering yourself down, one handful at a time, you reach the end of the sheet.
 
@@ -2051,10 +2053,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2142460"/>
+      <child nodeId="node-0x1d85470"/>
     </children>
   </item>
-  <item nodeId="node-0x2142460">
+  <item nodeId="node-0x1d85470">
     <command xml:space="preserve">climb through window</command>
     <result xml:space="preserve">You manage to squeeze your way through the broken frame, which is not that large for a man of your build. You cut your forearm badly. A chilling scream echos from down below right before you dash out the bathroom and down the stairs...
 
@@ -2089,10 +2091,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21425e0"/>
+      <child nodeId="node-0x1d855f0"/>
     </children>
   </item>
-  <item nodeId="node-0x21425e0">
+  <item nodeId="node-0x1d855f0">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -2105,10 +2107,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2142760"/>
+      <child nodeId="node-0x1d85770"/>
     </children>
   </item>
-  <item nodeId="node-0x2142760">
+  <item nodeId="node-0x1d85770">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -2121,10 +2123,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21428e0"/>
+      <child nodeId="node-0x1d858f0"/>
     </children>
   </item>
-  <item nodeId="node-0x21428e0">
+  <item nodeId="node-0x1d858f0">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -2137,10 +2139,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2142a60"/>
+      <child nodeId="node-0x1d85a70"/>
     </children>
   </item>
-  <item nodeId="node-0x2142a60">
+  <item nodeId="node-0x1d85a70">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -2161,10 +2163,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2142be0"/>
+      <child nodeId="node-0x1d85bf0"/>
     </children>
   </item>
-  <item nodeId="node-0x2142be0">
+  <item nodeId="node-0x1d85bf0">
     <command xml:space="preserve">take knife</command>
     <result xml:space="preserve">You pick up a sharp cleaver from the pile of knives.
 
@@ -2177,10 +2179,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2142d60"/>
+      <child nodeId="node-0x1d85d70"/>
     </children>
   </item>
-  <item nodeId="node-0x2142d60">
+  <item nodeId="node-0x1d85d70">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You prepare to meet the horror, and pass through the door...
 
@@ -2209,10 +2211,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2142ee0"/>
+      <child nodeId="node-0x1d85ef0"/>
     </children>
   </item>
-  <item nodeId="node-0x2142ee0">
+  <item nodeId="node-0x1d85ef0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">The kitchen door opens, a shape moves out from the shadow. You see the killer, moving towards you with a knife. You scream.
 
@@ -2229,10 +2231,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2174160"/>
+      <child nodeId="node-0x1db8170"/>
     </children>
   </item>
-  <item nodeId="node-0x2174160">
+  <item nodeId="node-0x1db8170">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -2249,10 +2251,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21742e0"/>
+      <child nodeId="node-0x1db82f0"/>
     </children>
   </item>
-  <item nodeId="node-0x21742e0">
+  <item nodeId="node-0x1db82f0">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -2269,10 +2271,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2174460"/>
+      <child nodeId="node-0x1db8470"/>
     </children>
   </item>
-  <item nodeId="node-0x2174460">
+  <item nodeId="node-0x1db8470">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -2323,10 +2325,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21745e0"/>
+      <child nodeId="node-0x1db85f0"/>
     </children>
   </item>
-  <item nodeId="node-0x21745e0">
+  <item nodeId="node-0x1db85f0">
     <command xml:space="preserve">attack killer</command>
     <result xml:space="preserve">You slip the craft knife into your palm, scared to death, your limbs seem to move on their on volition. You slash at the killer&apos;s neck, blood gushes out. More blood than you ever saw.
 
@@ -2361,10 +2363,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2174760"/>
+      <child nodeId="node-0x1db8770"/>
     </children>
   </item>
-  <item nodeId="node-0x2174760">
+  <item nodeId="node-0x1db8770">
     <command xml:space="preserve">attack demon</command>
     <result xml:space="preserve">Another demon appears behind you, swiping at you with razor claws, and misses by a small miracle. You turn to face it, ready to cut it&apos;s throat. You realize your mistake the second you feel sharp claws slashing through your neck, and again, and again.
 
@@ -2413,10 +2415,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21748e0"/>
+      <child nodeId="node-0x1db88f0"/>
     </children>
   </item>
-  <item nodeId="node-0x21748e0">
+  <item nodeId="node-0x1db88f0">
     <command xml:space="preserve">pick up the girl</command>
     <result xml:space="preserve">You lift her up.
 
@@ -2429,10 +2431,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2174a60"/>
+      <child nodeId="node-0x1db8a70"/>
     </children>
   </item>
-  <item nodeId="node-0x2174a60">
+  <item nodeId="node-0x1db8a70">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You carry the girl outside, the cool night air promising peace. You hear sirens wailing over the hill.
 
@@ -2463,7 +2465,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve">*** Distraught ending</annotation>
   </item>
-  <item nodeId="node-0x2174be0">
+  <item nodeId="node-0x1db8bf0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You are wearing black jeans, a light blue collared shirt and a leather jacket. A gun holster is strapped underneath around your shoulder, a badge is attached to your belt.
 
@@ -2476,10 +2478,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2174d60"/>
+      <child nodeId="node-0x1db8d70"/>
     </children>
   </item>
-  <item nodeId="node-0x2174d60">
+  <item nodeId="node-0x1db8d70">
     <command xml:space="preserve">x house</command>
     <result xml:space="preserve">Shabby and derelict.
 
@@ -2496,10 +2498,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2174ee0"/>
+      <child nodeId="node-0x1db8ef0"/>
     </children>
   </item>
-  <item nodeId="node-0x2174ee0">
+  <item nodeId="node-0x1db8ef0">
     <command xml:space="preserve">x walkway</command>
     <result xml:space="preserve">It is aged and weathered.
 
@@ -2516,10 +2518,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21901a0"/>
+      <child nodeId="node-0x1dd61b0"/>
     </children>
   </item>
-  <item nodeId="node-0x21901a0">
+  <item nodeId="node-0x1dd61b0">
     <command xml:space="preserve">x badge</command>
     <result xml:space="preserve">A silver badge attached to your belt, with words embossed on the front, Detective Otto York. Homicide.
 
@@ -2536,10 +2538,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2190320"/>
+      <child nodeId="node-0x1dd6330"/>
     </children>
   </item>
-  <item nodeId="node-0x2190320">
+  <item nodeId="node-0x1dd6330">
     <command xml:space="preserve">x gun</command>
     <result xml:space="preserve">A Glock 9mm, standard issue.
 
@@ -2552,10 +2554,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21904a0"/>
+      <child nodeId="node-0x1dd64b0"/>
     </children>
   </item>
-  <item nodeId="node-0x21904a0">
+  <item nodeId="node-0x1dd64b0">
     <command xml:space="preserve">x torch</command>
     <result xml:space="preserve">A high-powered tactical torch.
 
@@ -2572,10 +2574,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2190620"/>
+      <child nodeId="node-0x1dd6630"/>
     </children>
   </item>
-  <item nodeId="node-0x2190620">
+  <item nodeId="node-0x1dd6630">
     <command xml:space="preserve">switch torch on</command>
     <result xml:space="preserve">You don&apos;t need it right now.
 
@@ -2588,10 +2590,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21907a0"/>
+      <child nodeId="node-0x1dd67b0"/>
     </children>
   </item>
-  <item nodeId="node-0x21907a0">
+  <item nodeId="node-0x1dd67b0">
     <command xml:space="preserve">x door</command>
     <result xml:space="preserve">A solid wood door with a knocker fixed on the front.
 
@@ -2604,10 +2606,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2190920"/>
+      <child nodeId="node-0x1dd6930"/>
     </children>
   </item>
-  <item nodeId="node-0x2190920">
+  <item nodeId="node-0x1dd6930">
     <command xml:space="preserve">x knocker</command>
     <result xml:space="preserve">A tarnished bronze knocker, the part fixed to the door is shaped like a cat&apos;s head. The hinged part that of a rat, hanging by it&apos;s tail from the cat&apos;s mouth.
 
@@ -2620,10 +2622,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2190aa0"/>
+      <child nodeId="node-0x1dd6ab0"/>
     </children>
   </item>
-  <item nodeId="node-0x2190aa0">
+  <item nodeId="node-0x1dd6ab0">
     <command xml:space="preserve">x rat</command>
     <result xml:space="preserve">A tarnished bronze knocker, the part fixed to the door is shaped like a cat&apos;s head. The hinged part that of a rat, hanging by it&apos;s tail from the cat&apos;s mouth.
 
@@ -2636,10 +2638,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2190c20"/>
+      <child nodeId="node-0x1dd6c30"/>
     </children>
   </item>
-  <item nodeId="node-0x2190c20">
+  <item nodeId="node-0x1dd6c30">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">You grasp the oval shaped metal door knob, with a firm grip you twist it back and forth. Locked.
 
@@ -2652,10 +2654,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2190da0"/>
+      <child nodeId="node-0x1dd6db0"/>
     </children>
   </item>
-  <item nodeId="node-0x2190da0">
+  <item nodeId="node-0x1dd6db0">
     <command xml:space="preserve">knock on door</command>
     <result xml:space="preserve">This building is marked under abandonment, you don&apos;t need to knock or have a warrant to enter. Plus you want to avoid making your presence known to anybody inside. Stopping the perpetrator is your priority. Finding the girl safe, even more so.
 
@@ -2668,10 +2670,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2190f20"/>
+      <child nodeId="node-0x1dd6f30"/>
     </children>
   </item>
-  <item nodeId="node-0x2190f20">
+  <item nodeId="node-0x1dd6f30">
     <command xml:space="preserve">kick door</command>
     <result xml:space="preserve">This door may be old, but it is too solid to break down.
 
@@ -2684,10 +2686,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21ba140"/>
+      <child nodeId="node-0x1e00150"/>
     </children>
   </item>
-  <item nodeId="node-0x21ba140">
+  <item nodeId="node-0x1e00150">
     <command xml:space="preserve">x floor</command>
     <result xml:space="preserve">It is aged and weathered.
 
@@ -2700,10 +2702,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21ba2c0"/>
+      <child nodeId="node-0x1e002d0"/>
     </children>
   </item>
-  <item nodeId="node-0x21ba2c0">
+  <item nodeId="node-0x1e002d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You walk down the porch, and around to the south side of the house.
 
@@ -2722,10 +2724,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21ba440"/>
+      <child nodeId="node-0x1e00450"/>
     </children>
   </item>
-  <item nodeId="node-0x21ba440">
+  <item nodeId="node-0x1e00450">
     <command xml:space="preserve">x windows</command>
     <result xml:space="preserve">Murky and dark, you can only make out the shapes of a table and some chairs. It looks like a parlour.
 
@@ -2738,10 +2740,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21ba5c0"/>
+      <child nodeId="node-0x1e005d0"/>
     </children>
   </item>
-  <item nodeId="node-0x21ba5c0">
+  <item nodeId="node-0x1e005d0">
     <command xml:space="preserve">open windows</command>
     <result xml:space="preserve">These windows are not supposed to open.
 
@@ -2754,10 +2756,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21ba740"/>
+      <child nodeId="node-0x1e00750"/>
     </children>
   </item>
-  <item nodeId="node-0x21ba740">
+  <item nodeId="node-0x1e00750">
     <command xml:space="preserve">shoot windows</command>
     <result xml:space="preserve">You prefer finding a less noisy way inside.
 
@@ -2770,10 +2772,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21ba8c0"/>
+      <child nodeId="node-0x1e008d0"/>
     </children>
   </item>
-  <item nodeId="node-0x21ba8c0">
+  <item nodeId="node-0x1e008d0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You walk along the porch to the west side of the house.
 
@@ -2792,10 +2794,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21baa40"/>
+      <child nodeId="node-0x1e00a50"/>
     </children>
   </item>
-  <item nodeId="node-0x21baa40">
+  <item nodeId="node-0x1e00a50">
     <command xml:space="preserve">x house</command>
     <result xml:space="preserve">The rear of a shabby derelict house
 
@@ -2808,10 +2810,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21babc0"/>
+      <child nodeId="node-0x1e00bd0"/>
     </children>
   </item>
-  <item nodeId="node-0x21babc0">
+  <item nodeId="node-0x1e00bd0">
     <command xml:space="preserve">x window</command>
     <result xml:space="preserve">It is divided into four panes of glass, and sits about chest-height.
 
@@ -2824,10 +2826,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21bad40"/>
+      <child nodeId="node-0x1e00d50"/>
     </children>
   </item>
-  <item nodeId="node-0x21bad40">
+  <item nodeId="node-0x1e00d50">
     <command xml:space="preserve">open window</command>
     <result xml:space="preserve">You pull on the window frame, rust crumbles between the hinges. It swings open.
 
@@ -2840,10 +2842,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21baec0"/>
+      <child nodeId="node-0x1e00ed0"/>
     </children>
   </item>
-  <item nodeId="node-0x21baec0">
+  <item nodeId="node-0x1e00ed0">
     <command xml:space="preserve">climb in window</command>
     <result xml:space="preserve">Looking to make sure the room is empty, you slip inside.
 
@@ -2862,10 +2864,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21d6160"/>
+      <child nodeId="node-0x1e1c180"/>
     </children>
   </item>
-  <item nodeId="node-0x21d6160">
+  <item nodeId="node-0x1e1c180">
     <command xml:space="preserve">x carpet</command>
     <result xml:space="preserve">It&apos;s once-floral pattern, now faded by time and memory, reminds you of a muddy lily pond.
 
@@ -2878,10 +2880,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21d62e0"/>
+      <child nodeId="node-0x1e1c300"/>
     </children>
   </item>
-  <item nodeId="node-0x21d62e0">
+  <item nodeId="node-0x1e1c300">
     <command xml:space="preserve">x floor</command>
     <result xml:space="preserve">It&apos;s once-floral pattern, now faded by time and memory, reminds you of a muddy lily pond.
 
@@ -2894,10 +2896,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21d6460"/>
+      <child nodeId="node-0x1e1c480"/>
     </children>
   </item>
-  <item nodeId="node-0x21d6460">
+  <item nodeId="node-0x1e1c480">
     <command xml:space="preserve">x table</command>
     <result xml:space="preserve">A dark wood table with Flemish scroll style legs.
 
@@ -2910,10 +2912,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21d65e0"/>
+      <child nodeId="node-0x1e1c600"/>
     </children>
   </item>
-  <item nodeId="node-0x21d65e0">
+  <item nodeId="node-0x1e1c600">
     <command xml:space="preserve">x legs</command>
     <result xml:space="preserve">The legs have scrolls at the top and bottom, spiralling in opposite directions. It must be hand carved.
 
@@ -2926,10 +2928,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21d6760"/>
+      <child nodeId="node-0x1e1c780"/>
     </children>
   </item>
-  <item nodeId="node-0x21d6760">
+  <item nodeId="node-0x1e1c780">
     <command xml:space="preserve">x window</command>
     <result xml:space="preserve">It is divided into four panes of glass, and sits about chest-height.
 
@@ -2942,10 +2944,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21d68e0"/>
+      <child nodeId="node-0x1e1c900"/>
     </children>
   </item>
-  <item nodeId="node-0x21d68e0">
+  <item nodeId="node-0x1e1c900">
     <command xml:space="preserve">x chairs</command>
     <result xml:space="preserve">Torn and tattered, the floor looks more inviting.
 
@@ -2958,10 +2960,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21d6a60"/>
+      <child nodeId="node-0x1e1ca80"/>
     </children>
   </item>
-  <item nodeId="node-0x21d6a60">
+  <item nodeId="node-0x1e1ca80">
     <command xml:space="preserve">sit in chairs</command>
     <result xml:space="preserve">You did not come here for the holiday.
 
@@ -2974,10 +2976,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21d6be0"/>
+      <child nodeId="node-0x1e1cc00"/>
     </children>
   </item>
-  <item nodeId="node-0x21d6be0">
+  <item nodeId="node-0x1e1cc00">
     <command xml:space="preserve">x dish</command>
     <result xml:space="preserve">An undecorated silver dish, tarnished with age. A lid covers it.
 
@@ -2990,10 +2992,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21d6d60"/>
+      <child nodeId="node-0x1e1cd80"/>
     </children>
   </item>
-  <item nodeId="node-0x21d6d60">
+  <item nodeId="node-0x1e1cd80">
     <command xml:space="preserve">open dish</command>
     <result xml:space="preserve">Despite this silly act of curiosity, you have to see what is on the dish. You have to be sure. You lift the lid to reveal bone fragments.
 
@@ -3006,10 +3008,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21d6ee0"/>
+      <child nodeId="node-0x1e1cf00"/>
     </children>
   </item>
-  <item nodeId="node-0x21d6ee0">
+  <item nodeId="node-0x1e1cf00">
     <command xml:space="preserve">open dish</command>
     <result xml:space="preserve">There is no need to relive that moment all over again.
 
@@ -3022,10 +3024,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21fe180"/>
+      <child nodeId="node-0x1e43190"/>
     </children>
   </item>
-  <item nodeId="node-0x21fe180">
+  <item nodeId="node-0x1e43190">
     <command xml:space="preserve">close dish</command>
     <result xml:space="preserve">You decide to leave the dish alone. It is evidence.
 
@@ -3038,10 +3040,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21fe300"/>
+      <child nodeId="node-0x1e43310"/>
     </children>
   </item>
-  <item nodeId="node-0x21fe300">
+  <item nodeId="node-0x1e43310">
     <command xml:space="preserve">x bone fragments</command>
     <result xml:space="preserve">These are his trophies. You are now convinced this is, the right place.
 
@@ -3054,10 +3056,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21fe480"/>
+      <child nodeId="node-0x1e43490"/>
     </children>
   </item>
-  <item nodeId="node-0x21fe480">
+  <item nodeId="node-0x1e43490">
     <command xml:space="preserve">take bones</command>
     <result xml:space="preserve">No, they can be taken into evidence later. Time matters.
 
@@ -3070,10 +3072,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21fe600"/>
+      <child nodeId="node-0x1e43610"/>
     </children>
   </item>
-  <item nodeId="node-0x21fe600">
+  <item nodeId="node-0x1e43610">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening the living room door)
 You open the door as silently possible.
@@ -3094,10 +3096,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21fe780"/>
+      <child nodeId="node-0x1e43790"/>
     </children>
   </item>
-  <item nodeId="node-0x21fe780">
+  <item nodeId="node-0x1e43790">
     <command xml:space="preserve">x couch</command>
     <result xml:space="preserve">A musty antiquated thing, likely a housing for many unseen critters.
 
@@ -3110,10 +3112,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21fe900"/>
+      <child nodeId="node-0x1e43910"/>
     </children>
   </item>
-  <item nodeId="node-0x21fe900">
+  <item nodeId="node-0x1e43910">
     <command xml:space="preserve">look under couch</command>
     <result xml:space="preserve">You find nothing of interest.
 
@@ -3126,10 +3128,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21fea80"/>
+      <child nodeId="node-0x1e43a90"/>
     </children>
   </item>
-  <item nodeId="node-0x21fea80">
+  <item nodeId="node-0x1e43a90">
     <command xml:space="preserve">sit on couch</command>
     <result xml:space="preserve">And risk all the lice and bedbugs living in it?
 
@@ -3142,10 +3144,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21fec00"/>
+      <child nodeId="node-0x1e43c10"/>
     </children>
   </item>
-  <item nodeId="node-0x21fec00">
+  <item nodeId="node-0x1e43c10">
     <command xml:space="preserve">x painting</command>
     <result xml:space="preserve">It depicts four horsemen riding through the sky, rolling clouds behind them. On the earth below, soldiers and slaves alike engage in a battle frenzy. You recognize the horsemen by name: Conquest, War, Famine and Death.
 
@@ -3158,10 +3160,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21fed80"/>
+      <child nodeId="node-0x1e43d90"/>
     </children>
   </item>
-  <item nodeId="node-0x21fed80">
+  <item nodeId="node-0x1e43d90">
     <command xml:space="preserve">x horsemen</command>
     <result xml:space="preserve">Conquest wears fine clothes, wields a longbow and a crown adorns his head. War is swinging a two-handed broad sword. Famine holds a sling, dressed in rags and looking fierce. The skeleton that is Death grips a long staff, his gaze causing recoil in those who it falls upon.
 
@@ -3174,10 +3176,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x21fef00"/>
+      <child nodeId="node-0x1e43f10"/>
     </children>
   </item>
-  <item nodeId="node-0x21fef00">
+  <item nodeId="node-0x1e43f10">
     <command xml:space="preserve">x clouds</command>
     <result xml:space="preserve">The clouds in the painting seem in turmoil, blocking out the entirety of the sky, except for one small patch in the heavens above, occupied by a lonesome white lamb.
 
@@ -3190,10 +3192,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x221b130"/>
+      <child nodeId="node-0x1e60140"/>
     </children>
   </item>
-  <item nodeId="node-0x221b130">
+  <item nodeId="node-0x1e60140">
     <command xml:space="preserve">x lamb</command>
     <result xml:space="preserve">It watches the scene below with quiet indifference.
 
@@ -3206,10 +3208,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x221b2b0"/>
+      <child nodeId="node-0x1e602c0"/>
     </children>
   </item>
-  <item nodeId="node-0x221b2b0">
+  <item nodeId="node-0x1e602c0">
     <command xml:space="preserve">x slaves</command>
     <result xml:space="preserve">The soldiers and slaves are in the middle of a massive battle. It does not seem they can tell friend apart from foe.
 
@@ -3222,10 +3224,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x221b430"/>
+      <child nodeId="node-0x1e60440"/>
     </children>
   </item>
-  <item nodeId="node-0x221b430">
+  <item nodeId="node-0x1e60440">
     <command xml:space="preserve">x writing desk</command>
     <result xml:space="preserve">A squat dark wood desk. You notice engravings on it&apos;s surface.
 
@@ -3238,10 +3240,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x221b5b0"/>
+      <child nodeId="node-0x1e605c0"/>
     </children>
   </item>
-  <item nodeId="node-0x221b5b0">
+  <item nodeId="node-0x1e605c0">
     <command xml:space="preserve">x engravings</command>
     <result xml:space="preserve">Names carved into the varnished wood. You read: Annette Faith Parker. Meghan Mcclure. Jami Berg. All previous victims.
 
@@ -3254,10 +3256,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x221b730"/>
+      <child nodeId="node-0x1e60740"/>
     </children>
   </item>
-  <item nodeId="node-0x221b730">
+  <item nodeId="node-0x1e60740">
     <command xml:space="preserve">x trolley</command>
     <result xml:space="preserve">An rickety looking thing slanted to one side: two of the wheels are missing. It has a teapot and some teacups on it.
 
@@ -3270,10 +3272,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x221b8b0"/>
+      <child nodeId="node-0x1e608c0"/>
     </children>
   </item>
-  <item nodeId="node-0x221b8b0">
+  <item nodeId="node-0x1e608c0">
     <command xml:space="preserve">x teacups</command>
     <result xml:space="preserve">Pale white tea cups without any designs.
 
@@ -3286,10 +3288,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x221ba30"/>
+      <child nodeId="node-0x1e60a40"/>
     </children>
   </item>
-  <item nodeId="node-0x221ba30">
+  <item nodeId="node-0x1e60a40">
     <command xml:space="preserve">x teapot</command>
     <result xml:space="preserve">A white ceramic teapot with a decorative design painted on: green leaves with violet and magenta orchid blooms. The handle in the shape of butterfly wings.
 
@@ -3302,10 +3304,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x221bbb0"/>
+      <child nodeId="node-0x1e60bc0"/>
     </children>
   </item>
-  <item nodeId="node-0x221bbb0">
+  <item nodeId="node-0x1e60bc0">
     <command xml:space="preserve">open teapot</command>
     <result xml:space="preserve">Lifting the butterfly lid, a business card is revealed inside the teapot.
 
@@ -3318,10 +3320,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x221bd30"/>
+      <child nodeId="node-0x1e60d40"/>
     </children>
   </item>
-  <item nodeId="node-0x221bd30">
+  <item nodeId="node-0x1e60d40">
     <command xml:space="preserve">push trolley</command>
     <result xml:space="preserve">It is broken and refuses to move.
 
@@ -3334,10 +3336,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x221beb0"/>
+      <child nodeId="node-0x1e60ec0"/>
     </children>
   </item>
-  <item nodeId="node-0x221beb0">
+  <item nodeId="node-0x1e60ec0">
     <command xml:space="preserve">take business card</command>
     <result xml:space="preserve">You pick up the business card.
 
@@ -3350,10 +3352,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x224d170"/>
+      <child nodeId="node-0x1e92180"/>
     </children>
   </item>
-  <item nodeId="node-0x224d170">
+  <item nodeId="node-0x1e92180">
     <command xml:space="preserve">open kitchen door</command>
     <result xml:space="preserve">The kitchen door is locked.
 
@@ -3366,10 +3368,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x224d2f0"/>
+      <child nodeId="node-0x1e92300"/>
     </children>
   </item>
-  <item nodeId="node-0x224d2f0">
+  <item nodeId="node-0x1e92300">
     <command xml:space="preserve">go up</command>
     <result xml:space="preserve">You peer up the staircase, making sure nobody else is watching from above, and cautiously ascend the stairs.
 
@@ -3402,7 +3404,7 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve">test second act</annotation>
   </item>
-  <item nodeId="node-0x224d470">
+  <item nodeId="node-0x1e92480">
     <command xml:space="preserve">x mattress</command>
     <result xml:space="preserve">A single sized mattress lies on the floor.
 
@@ -3419,10 +3421,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x224d5f0"/>
+      <child nodeId="node-0x1e92600"/>
     </children>
   </item>
-  <item nodeId="node-0x224d5f0">
+  <item nodeId="node-0x1e92600">
     <command xml:space="preserve">look under mattress</command>
     <result xml:space="preserve">You find nothing of interest.
 
@@ -3435,10 +3437,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x224d770"/>
+      <child nodeId="node-0x1e92780"/>
     </children>
   </item>
-  <item nodeId="node-0x224d770">
+  <item nodeId="node-0x1e92780">
     <command xml:space="preserve">x curtain</command>
     <result xml:space="preserve">Filthy and eaten by fish moths. It is drawn closed.
 
@@ -3451,10 +3453,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x224d8f0"/>
+      <child nodeId="node-0x1e92900"/>
     </children>
   </item>
-  <item nodeId="node-0x224d8f0">
+  <item nodeId="node-0x1e92900">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the bedroom door)
 The bedroom door is locked.
@@ -3469,10 +3471,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x224da70"/>
+      <child nodeId="node-0x1e92a80"/>
     </children>
   </item>
-  <item nodeId="node-0x224da70">
+  <item nodeId="node-0x1e92a80">
     <command xml:space="preserve">kick door</command>
     <result xml:space="preserve">(the bedroom door)
 You bash at the door.
@@ -3487,10 +3489,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x224dbf0"/>
+      <child nodeId="node-0x1e92c00"/>
     </children>
   </item>
-  <item nodeId="node-0x224dbf0">
+  <item nodeId="node-0x1e92c00">
     <command xml:space="preserve">x pipes</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3503,10 +3505,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x224dd70"/>
+      <child nodeId="node-0x1e92d80"/>
     </children>
   </item>
-  <item nodeId="node-0x224dd70">
+  <item nodeId="node-0x1e92d80">
     <command xml:space="preserve">x window</command>
     <result xml:space="preserve">The window is covered by the curtain.
 
@@ -3519,10 +3521,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x224def0"/>
+      <child nodeId="node-0x1e92f00"/>
     </children>
   </item>
-  <item nodeId="node-0x224def0">
+  <item nodeId="node-0x1e92f00">
     <command xml:space="preserve">open curtain</command>
     <result xml:space="preserve">You pull the curtain open, there is a window behind it. Near the floor are some pipes.
 
@@ -3535,10 +3537,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2269190"/>
+      <child nodeId="node-0x1ead1a0"/>
     </children>
   </item>
-  <item nodeId="node-0x2269190">
+  <item nodeId="node-0x1ead1a0">
     <command xml:space="preserve">x pipes</command>
     <result xml:space="preserve">They are painted the same as the faded white walls. You guess they carry water.
 
@@ -3551,10 +3553,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2269310"/>
+      <child nodeId="node-0x1ead320"/>
     </children>
   </item>
-  <item nodeId="node-0x2269310">
+  <item nodeId="node-0x1ead320">
     <command xml:space="preserve">pull curtain open</command>
     <result xml:space="preserve">I only understood you as far as wanting to pull the curtain.
 
@@ -3567,10 +3569,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2269490"/>
+      <child nodeId="node-0x1ead4a0"/>
     </children>
   </item>
-  <item nodeId="node-0x2269490">
+  <item nodeId="node-0x1ead4a0">
     <command xml:space="preserve">pull curtain</command>
     <result xml:space="preserve">It is already pulled open.
 
@@ -3583,10 +3585,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2269610"/>
+      <child nodeId="node-0x1ead620"/>
     </children>
   </item>
-  <item nodeId="node-0x2269610">
+  <item nodeId="node-0x1ead620">
     <command xml:space="preserve">take sheet</command>
     <result xml:space="preserve">You pick up the sheet.
 
@@ -3599,10 +3601,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2269790"/>
+      <child nodeId="node-0x1ead7a0"/>
     </children>
   </item>
-  <item nodeId="node-0x2269790">
+  <item nodeId="node-0x1ead7a0">
     <command xml:space="preserve">x window</command>
     <result xml:space="preserve">You see grass down below, no other houses are visible. You are on a second storey floor.
 
@@ -3615,10 +3617,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2269910"/>
+      <child nodeId="node-0x1ead920"/>
     </children>
   </item>
-  <item nodeId="node-0x2269910">
+  <item nodeId="node-0x1ead920">
     <command xml:space="preserve">tie sheet to pipes</command>
     <result xml:space="preserve">You open the window.
 
@@ -3635,10 +3637,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2269a90"/>
+      <child nodeId="node-0x1eadaa0"/>
     </children>
   </item>
-  <item nodeId="node-0x2269a90">
+  <item nodeId="node-0x1eadaa0">
     <command xml:space="preserve">climb out window</command>
     <result xml:space="preserve">You hold on to the makeshift rope, climb through the window and prepare yourself.
 
@@ -3667,7 +3669,7 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve">test third act</annotation>
   </item>
-  <item nodeId="node-0x2269c10">
+  <item nodeId="node-0x1eadc20">
     <command xml:space="preserve">switch torch on</command>
     <result xml:space="preserve">A bright beam flows out of your torch.
 
@@ -3686,10 +3688,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2269d90"/>
+      <child nodeId="node-0x1eadda0"/>
     </children>
   </item>
-  <item nodeId="node-0x2269d90">
+  <item nodeId="node-0x1eadda0">
     <command xml:space="preserve">x stairs</command>
     <result xml:space="preserve">A flight of wooden stairs, they lead up and down.
 
@@ -3702,10 +3704,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2269f10"/>
+      <child nodeId="node-0x1eadf20"/>
     </children>
   </item>
-  <item nodeId="node-0x2269f10">
+  <item nodeId="node-0x1eadf20">
     <command xml:space="preserve">x gate</command>
     <result xml:space="preserve">It is a swing gate made of metal bars.
 
@@ -3718,10 +3720,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22911c0"/>
+      <child nodeId="node-0x1ed6120"/>
     </children>
   </item>
-  <item nodeId="node-0x22911c0">
+  <item nodeId="node-0x1ed6120">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 bathroom
@@ -3742,10 +3744,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2291340"/>
+      <child nodeId="node-0x1ed62a0"/>
     </children>
   </item>
-  <item nodeId="node-0x2291340">
+  <item nodeId="node-0x1ed62a0">
     <command xml:space="preserve">x lantern</command>
     <result xml:space="preserve">A brass lantern with a spark wheel fixed next to the wick.
 
@@ -3762,10 +3764,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22914c0"/>
+      <child nodeId="node-0x1ed6420"/>
     </children>
   </item>
-  <item nodeId="node-0x22914c0">
+  <item nodeId="node-0x1ed6420">
     <command xml:space="preserve">take lantern</command>
     <result xml:space="preserve">You don&apos;t need a lantern, you have a torch.
 
@@ -3778,10 +3780,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2291640"/>
+      <child nodeId="node-0x1ed65a0"/>
     </children>
   </item>
-  <item nodeId="node-0x2291640">
+  <item nodeId="node-0x1ed65a0">
     <command xml:space="preserve">x bath</command>
     <result xml:space="preserve">A stained white claw-foot bath. The feet are metal and have decorative faces moulded into them.
 
@@ -3794,10 +3796,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22917c0"/>
+      <child nodeId="node-0x1ed6720"/>
     </children>
   </item>
-  <item nodeId="node-0x22917c0">
+  <item nodeId="node-0x1ed6720">
     <command xml:space="preserve">x faces</command>
     <result xml:space="preserve">You do not recognize the moulded faces.
 
@@ -3810,10 +3812,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2291940"/>
+      <child nodeId="node-0x1ed68a0"/>
     </children>
   </item>
-  <item nodeId="node-0x2291940">
+  <item nodeId="node-0x1ed68a0">
     <command xml:space="preserve">get in bath</command>
     <result xml:space="preserve">Taking a bath at this point is utterly ridiculous.
 
@@ -3826,10 +3828,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2291ac0"/>
+      <child nodeId="node-0x1ed6a20"/>
     </children>
   </item>
-  <item nodeId="node-0x2291ac0">
+  <item nodeId="node-0x1ed6a20">
     <command xml:space="preserve">x window</command>
     <result xml:space="preserve">The window is shoulder height, it leads to the outside.
 
@@ -3842,10 +3844,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2291c40"/>
+      <child nodeId="node-0x1ed6ba0"/>
     </children>
   </item>
-  <item nodeId="node-0x2291c40">
+  <item nodeId="node-0x1ed6ba0">
     <command xml:space="preserve">open window</command>
     <result xml:space="preserve">It won&apos;t open. It must be secured permanently.
 
@@ -3858,10 +3860,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2291dc0"/>
+      <child nodeId="node-0x1ed6d20"/>
     </children>
   </item>
-  <item nodeId="node-0x2291dc0">
+  <item nodeId="node-0x1ed6d20">
     <command xml:space="preserve">x basin</command>
     <result xml:space="preserve">A simple pedestal basin of white ceramic.
 
@@ -3874,10 +3876,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2291f40"/>
+      <child nodeId="node-0x1ed6ea0"/>
     </children>
   </item>
-  <item nodeId="node-0x2291f40">
+  <item nodeId="node-0x1ed6ea0">
     <command xml:space="preserve">x mirror</command>
     <result xml:space="preserve">A rectangular mirror without any frame. The edges of the glass are stained.
 
@@ -3890,10 +3892,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22ae180"/>
+      <child nodeId="node-0x1ef3190"/>
     </children>
   </item>
-  <item nodeId="node-0x22ae180">
+  <item nodeId="node-0x1ef3190">
     <command xml:space="preserve">look in mirror</command>
     <result xml:space="preserve">You look at yourself in the mirror: A determined gentleman with droopy violet eyes and thin eyebrows. Your brown hair is worn in a style that reminds you of a river.
 
@@ -3906,10 +3908,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22ae300"/>
+      <child nodeId="node-0x1ef3310"/>
     </children>
   </item>
-  <item nodeId="node-0x22ae300">
+  <item nodeId="node-0x1ef3310">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Second Floor
@@ -3926,10 +3928,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22ae480"/>
+      <child nodeId="node-0x1ef3490"/>
     </children>
   </item>
-  <item nodeId="node-0x22ae480">
+  <item nodeId="node-0x1ef3490">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Bedroom
@@ -3946,10 +3948,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22ae600"/>
+      <child nodeId="node-0x1ef3610"/>
     </children>
   </item>
-  <item nodeId="node-0x22ae600">
+  <item nodeId="node-0x1ef3610">
     <command xml:space="preserve">x window</command>
     <result xml:space="preserve">You see grass down below, no other houses are visible. You are on a second storey floor.
 
@@ -3962,10 +3964,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22ae780"/>
+      <child nodeId="node-0x1ef3790"/>
     </children>
   </item>
-  <item nodeId="node-0x22ae780">
+  <item nodeId="node-0x1ef3790">
     <command xml:space="preserve">x floor</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3978,10 +3980,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22ae900"/>
+      <child nodeId="node-0x1ef3910"/>
     </children>
   </item>
-  <item nodeId="node-0x22ae900">
+  <item nodeId="node-0x1ef3910">
     <command xml:space="preserve">open window</command>
     <result xml:space="preserve">You can&apos;t seem to open the window.
 
@@ -3994,10 +3996,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22aea80"/>
+      <child nodeId="node-0x1ef3a90"/>
     </children>
   </item>
-  <item nodeId="node-0x22aea80">
+  <item nodeId="node-0x1ef3a90">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Second Floor
@@ -4014,10 +4016,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22aec00"/>
+      <child nodeId="node-0x1ef3c10"/>
     </children>
   </item>
-  <item nodeId="node-0x22aec00">
+  <item nodeId="node-0x1ef3c10">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Bedroom
@@ -4038,10 +4040,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22aed80"/>
+      <child nodeId="node-0x1ef3d90"/>
     </children>
   </item>
-  <item nodeId="node-0x22aed80">
+  <item nodeId="node-0x1ef3d90">
     <command xml:space="preserve">x mattress</command>
     <result xml:space="preserve">A single mattress on the floor.
 
@@ -4054,10 +4056,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22aef00"/>
+      <child nodeId="node-0x1ef3f10"/>
     </children>
   </item>
-  <item nodeId="node-0x22aef00">
+  <item nodeId="node-0x1ef3f10">
     <command xml:space="preserve">look under mattress</command>
     <result xml:space="preserve">You find nothing of interest.
 
@@ -4070,10 +4072,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22d6190"/>
+      <child nodeId="node-0x1f1a1a0"/>
     </children>
   </item>
-  <item nodeId="node-0x22d6190">
+  <item nodeId="node-0x1f1a1a0">
     <command xml:space="preserve">x table</command>
     <result xml:space="preserve">A low bedside table, some newspapers are on it.
 
@@ -4086,10 +4088,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22d6310"/>
+      <child nodeId="node-0x1f1a320"/>
     </children>
   </item>
-  <item nodeId="node-0x22d6310">
+  <item nodeId="node-0x1f1a320">
     <command xml:space="preserve">x newspaper</command>
     <result xml:space="preserve">These are fairly recent, somebody is living here.
 
@@ -4102,10 +4104,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22d6490"/>
+      <child nodeId="node-0x1f1a4a0"/>
     </children>
   </item>
-  <item nodeId="node-0x22d6490">
+  <item nodeId="node-0x1f1a4a0">
     <command xml:space="preserve">take newspaper</command>
     <result xml:space="preserve">You don&apos;t want the newspapers.
 
@@ -4118,10 +4120,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22d6610"/>
+      <child nodeId="node-0x1f1a620"/>
     </children>
   </item>
-  <item nodeId="node-0x22d6610">
+  <item nodeId="node-0x1f1a620">
     <command xml:space="preserve">x window</command>
     <result xml:space="preserve">It is covered by a sheet.
 
@@ -4134,10 +4136,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22d6790"/>
+      <child nodeId="node-0x1f1a7a0"/>
     </children>
   </item>
-  <item nodeId="node-0x22d6790">
+  <item nodeId="node-0x1f1a7a0">
     <command xml:space="preserve">open window</command>
     <result xml:space="preserve">You can&apos;t seem to open the window.
 
@@ -4150,10 +4152,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22d6910"/>
+      <child nodeId="node-0x1f1a920"/>
     </children>
   </item>
-  <item nodeId="node-0x22d6910">
+  <item nodeId="node-0x1f1a920">
     <command xml:space="preserve">x sheet</command>
     <result xml:space="preserve">A dirty and torn sheet covers the window.
 
@@ -4166,10 +4168,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22d6a90"/>
+      <child nodeId="node-0x1f1aaa0"/>
     </children>
   </item>
-  <item nodeId="node-0x22d6a90">
+  <item nodeId="node-0x1f1aaa0">
     <command xml:space="preserve">open sheet</command>
     <result xml:space="preserve">You would rather not waste the time, you know what is outside the window.
 
@@ -4182,11 +4184,11 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22d6c10"/>
-      <child nodeId="node-0x22f1400"/>
+      <child nodeId="node-0x1f1ac20"/>
+      <child nodeId="node-0x1f36410"/>
     </children>
   </item>
-  <item nodeId="node-0x22d6c10">
+  <item nodeId="node-0x1f1ac20">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Second Floor
@@ -4203,10 +4205,10 @@ Otto &gt; </commentary>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22d6d90"/>
+      <child nodeId="node-0x1f1ada0"/>
     </children>
   </item>
-  <item nodeId="node-0x22d6d90">
+  <item nodeId="node-0x1f1ada0">
     <command xml:space="preserve">open gate</command>
     <result xml:space="preserve">the security gate is locked.
 
@@ -4219,10 +4221,10 @@ Otto &gt; </commentary>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22d6f10"/>
+      <child nodeId="node-0x1f1af20"/>
     </children>
   </item>
-  <item nodeId="node-0x22d6f10">
+  <item nodeId="node-0x1f1af20">
     <command xml:space="preserve">purloin bronze key</command>
     <result xml:space="preserve">[Purloined.]
 
@@ -4235,10 +4237,10 @@ Otto &gt; </commentary>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22f1100"/>
+      <child nodeId="node-0x1f36110"/>
     </children>
   </item>
-  <item nodeId="node-0x22f1100">
+  <item nodeId="node-0x1f36110">
     <command xml:space="preserve">unlock gate with key</command>
     <result xml:space="preserve">You unlock the security gate.
 
@@ -4251,10 +4253,10 @@ Otto &gt; </commentary>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22f1280"/>
+      <child nodeId="node-0x1f36290"/>
     </children>
   </item>
-  <item nodeId="node-0x22f1280">
+  <item nodeId="node-0x1f36290">
     <command xml:space="preserve">go up stairs</command>
     <result xml:space="preserve">You open the security gate.
 
@@ -4293,7 +4295,7 @@ The Girl &gt; </commentary>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x22f1400">
+  <item nodeId="node-0x1f36410">
     <command xml:space="preserve">look under table</command>
     <result xml:space="preserve">You see a safe under the table.
 
@@ -4306,10 +4308,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22f1580"/>
+      <child nodeId="node-0x1f36590"/>
     </children>
   </item>
-  <item nodeId="node-0x22f1580">
+  <item nodeId="node-0x1f36590">
     <command xml:space="preserve">x safe</command>
     <result xml:space="preserve">A small gun safe with an electronic keypad.
 
@@ -4322,10 +4324,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22f1700"/>
+      <child nodeId="node-0x1f36710"/>
     </children>
   </item>
-  <item nodeId="node-0x22f1700">
+  <item nodeId="node-0x1f36710">
     <command xml:space="preserve">x keypad</command>
     <result xml:space="preserve">An electronic pad for entering a code. You can ENTER 0000 to unlock the safe.
 
@@ -4338,10 +4340,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22f1880"/>
+      <child nodeId="node-0x1f36890"/>
     </children>
   </item>
-  <item nodeId="node-0x22f1880">
+  <item nodeId="node-0x1f36890">
     <command xml:space="preserve">purloin business card</command>
     <result xml:space="preserve">[Purloined.]
 
@@ -4352,10 +4354,10 @@ Otto &gt; </result>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22f1a00"/>
+      <child nodeId="node-0x1f36a10"/>
     </children>
   </item>
-  <item nodeId="node-0x22f1a00">
+  <item nodeId="node-0x1f36a10">
     <command xml:space="preserve">x card</command>
     <result xml:space="preserve">&quot;Unholy Battle pest control, Tad Kemp&quot;. You notice an impression like writing on the back of the card.
 
@@ -4368,10 +4370,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22f1b80"/>
+      <child nodeId="node-0x1f36b90"/>
     </children>
   </item>
-  <item nodeId="node-0x22f1b80">
+  <item nodeId="node-0x1f36b90">
     <command xml:space="preserve">x back of card</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -4384,10 +4386,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22f1d00"/>
+      <child nodeId="node-0x1f36d10"/>
     </children>
   </item>
-  <item nodeId="node-0x22f1d00">
+  <item nodeId="node-0x1f36d10">
     <command xml:space="preserve">turn card over</command>
     <result xml:space="preserve">I only understood you as far as wanting to turn the business card.
 
@@ -4400,10 +4402,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x22f1e80"/>
+      <child nodeId="node-0x1f36e90"/>
     </children>
   </item>
-  <item nodeId="node-0x22f1e80">
+  <item nodeId="node-0x1f36e90">
     <command xml:space="preserve">turn card</command>
     <result xml:space="preserve">The back of the card has 6375 written on it.
 
@@ -4416,10 +4418,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2319110"/>
+      <child nodeId="node-0x1f5e130"/>
     </children>
   </item>
-  <item nodeId="node-0x2319110">
+  <item nodeId="node-0x1f5e130">
     <command xml:space="preserve">enter 6375</command>
     <result xml:space="preserve">(in the keypad)
 Click. The safe door creaks open.
@@ -4434,10 +4436,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2319290"/>
+      <child nodeId="node-0x1f5e2b0"/>
     </children>
   </item>
-  <item nodeId="node-0x2319290">
+  <item nodeId="node-0x1f5e2b0">
     <command xml:space="preserve">x safe</command>
     <result xml:space="preserve">A small gun safe with an electronic keypad.
 
@@ -4454,10 +4456,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2319410"/>
+      <child nodeId="node-0x1f5e430"/>
     </children>
   </item>
-  <item nodeId="node-0x2319410">
+  <item nodeId="node-0x1f5e430">
     <command xml:space="preserve">take bronze key</command>
     <result xml:space="preserve">You pick up the bronze key.
 
@@ -4470,10 +4472,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2319590"/>
+      <child nodeId="node-0x1f5e5b0"/>
     </children>
   </item>
-  <item nodeId="node-0x2319590">
+  <item nodeId="node-0x1f5e5b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Second Floor
@@ -4490,10 +4492,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2319710"/>
+      <child nodeId="node-0x1f5e730"/>
     </children>
   </item>
-  <item nodeId="node-0x2319710">
+  <item nodeId="node-0x1f5e730">
     <command xml:space="preserve">unlock gate</command>
     <result xml:space="preserve">What do you want to unlock the security gate with?
 
@@ -4506,10 +4508,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2319890"/>
+      <child nodeId="node-0x1f5e8b0"/>
     </children>
   </item>
-  <item nodeId="node-0x2319890">
+  <item nodeId="node-0x1f5e8b0">
     <command xml:space="preserve">unlock gate with bronze key</command>
     <result xml:space="preserve">You unlock the security gate.
 
@@ -4522,10 +4524,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2319a10"/>
+      <child nodeId="node-0x1f5ea30"/>
     </children>
   </item>
-  <item nodeId="node-0x2319a10">
+  <item nodeId="node-0x1f5ea30">
     <command xml:space="preserve">go up stairs</command>
     <result xml:space="preserve">You open the security gate.
 
@@ -4564,7 +4566,7 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve">test fourth act</annotation>
   </item>
-  <item nodeId="node-0x2319b90">
+  <item nodeId="node-0x1f5ebb0">
     <command xml:space="preserve">climb in window</command>
     <result xml:space="preserve">You won&apos;t dare go back into that room, not with somebody just outside the door.
 
@@ -4577,10 +4579,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2319d10"/>
+      <child nodeId="node-0x1f5ed30"/>
     </children>
   </item>
-  <item nodeId="node-0x2319d10">
+  <item nodeId="node-0x1f5ed30">
     <command xml:space="preserve">x window</command>
     <result xml:space="preserve">You are hanging outside the window
 
@@ -4593,10 +4595,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2319e90"/>
+      <child nodeId="node-0x1f5eeb0"/>
     </children>
   </item>
-  <item nodeId="node-0x2319e90">
+  <item nodeId="node-0x1f5eeb0">
     <command xml:space="preserve">close window</command>
     <result xml:space="preserve">The window cannot close, the tied sheet prevents that.
 
@@ -4609,10 +4611,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2335170"/>
+      <child nodeId="node-0x1f7a1a0"/>
     </children>
   </item>
-  <item nodeId="node-0x2335170">
+  <item nodeId="node-0x1f7a1a0">
     <command xml:space="preserve">listen</command>
     <result xml:space="preserve">You hear nothing unexpected.
 
@@ -4625,10 +4627,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23352f0"/>
+      <child nodeId="node-0x1f7a320"/>
     </children>
   </item>
-  <item nodeId="node-0x23352f0">
+  <item nodeId="node-0x1f7a320">
     <command xml:space="preserve">go down</command>
     <result xml:space="preserve">Lowering yourself down, one handful at a time, you reach the end of the sheet.
 
@@ -4651,10 +4653,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2335470"/>
+      <child nodeId="node-0x1f7a4a0"/>
     </children>
   </item>
-  <item nodeId="node-0x2335470">
+  <item nodeId="node-0x1f7a4a0">
     <command xml:space="preserve">x window</command>
     <result xml:space="preserve">A chipped white frame with murky glass panes.
 
@@ -4667,10 +4669,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23355f0"/>
+      <child nodeId="node-0x1f7a620"/>
     </children>
   </item>
-  <item nodeId="node-0x23355f0">
+  <item nodeId="node-0x1f7a620">
     <command xml:space="preserve">x sheet</command>
     <result xml:space="preserve">You are hanging on to the sheet for dear life.
 
@@ -4683,10 +4685,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2335770"/>
+      <child nodeId="node-0x1f7a7a0"/>
     </children>
   </item>
-  <item nodeId="node-0x2335770">
+  <item nodeId="node-0x1f7a7a0">
     <command xml:space="preserve">go up</command>
     <result xml:space="preserve">You refuse to climb back up.
 
@@ -4699,10 +4701,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23358f0"/>
+      <child nodeId="node-0x1f7a920"/>
     </children>
   </item>
-  <item nodeId="node-0x23358f0">
+  <item nodeId="node-0x1f7a920">
     <command xml:space="preserve">open window</command>
     <result xml:space="preserve">You struggle to open the window, maybe a little force is called for.
 
@@ -4715,10 +4717,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2335a70"/>
+      <child nodeId="node-0x1f7aaa0"/>
     </children>
   </item>
-  <item nodeId="node-0x2335a70">
+  <item nodeId="node-0x1f7aaa0">
     <command xml:space="preserve">hit window</command>
     <result xml:space="preserve">You kick the window and shatter the glass pane. You should be able to fit through it.
 
@@ -4731,10 +4733,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2335bf0"/>
+      <child nodeId="node-0x1f7ac20"/>
     </children>
   </item>
-  <item nodeId="node-0x2335bf0">
+  <item nodeId="node-0x1f7ac20">
     <command xml:space="preserve">climb through window</command>
     <result xml:space="preserve">You raise your legs through the opening and lower yourself into the room.
 
@@ -4757,10 +4759,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2335d70"/>
+      <child nodeId="node-0x1f7ada0"/>
     </children>
   </item>
-  <item nodeId="node-0x2335d70">
+  <item nodeId="node-0x1f7ada0">
     <command xml:space="preserve">take lantern</command>
     <result xml:space="preserve">You pick up the brass lantern.
 
@@ -4773,10 +4775,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2335ef0"/>
+      <child nodeId="node-0x1f7af20"/>
     </children>
   </item>
-  <item nodeId="node-0x2335ef0">
+  <item nodeId="node-0x1f7af20">
     <command xml:space="preserve">x lantern</command>
     <result xml:space="preserve">A brass lantern with a spark wheel fixed next to the wick.
 
@@ -4793,10 +4795,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x235f1b0"/>
+      <child nodeId="node-0x1fa41c0"/>
     </children>
   </item>
-  <item nodeId="node-0x235f1b0">
+  <item nodeId="node-0x1fa41c0">
     <command xml:space="preserve">turn lantern on</command>
     <result xml:space="preserve">You flick the spark wheel but the wick does not light. The lantern needs fuel.
 
@@ -4809,10 +4811,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x235f330"/>
+      <child nodeId="node-0x1fa4340"/>
     </children>
   </item>
-  <item nodeId="node-0x235f330">
+  <item nodeId="node-0x1fa4340">
     <command xml:space="preserve">x bath</command>
     <result xml:space="preserve">A stained white claw-foot bath. The feet are metal and have decorative faces moulded into them.
 
@@ -4825,10 +4827,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x235f4b0"/>
+      <child nodeId="node-0x1fa44c0"/>
     </children>
   </item>
-  <item nodeId="node-0x235f4b0">
+  <item nodeId="node-0x1fa44c0">
     <command xml:space="preserve">x mirror</command>
     <result xml:space="preserve">A rectangular mirror without any frame. The edges of the glass are stained.
 
@@ -4841,10 +4843,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x235f630"/>
+      <child nodeId="node-0x1fa4640"/>
     </children>
   </item>
-  <item nodeId="node-0x235f630">
+  <item nodeId="node-0x1fa4640">
     <command xml:space="preserve">look in mirror</command>
     <result xml:space="preserve">You look at yourself in the mirror: Big orange eyes stare back at you. Your straight brown hair is tangled about your face. You look like hell.
 
@@ -4857,10 +4859,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x235f7b0"/>
+      <child nodeId="node-0x1fa47c0"/>
     </children>
   </item>
-  <item nodeId="node-0x235f7b0">
+  <item nodeId="node-0x1fa47c0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Second Floor
@@ -4877,10 +4879,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x235f930"/>
+      <child nodeId="node-0x1fa4940"/>
     </children>
   </item>
-  <item nodeId="node-0x235f930">
+  <item nodeId="node-0x1fa4940">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You feel the urgent need to get out of here, quick. You don&apos;t want to find out who is in those rooms!
 
@@ -4893,10 +4895,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x235fab0"/>
+      <child nodeId="node-0x1fa4ac0"/>
     </children>
   </item>
-  <item nodeId="node-0x235fab0">
+  <item nodeId="node-0x1fa4ac0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You feel the urgent need to get out of here, quick. You don&apos;t want to find out who is in those rooms!
 
@@ -4909,10 +4911,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x235fc30"/>
+      <child nodeId="node-0x1fa4c40"/>
     </children>
   </item>
-  <item nodeId="node-0x235fc30">
+  <item nodeId="node-0x1fa4c40">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You feel the urgent need to get out of here, quick. You don&apos;t want to find out who is in those rooms!
 
@@ -4925,10 +4927,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x235fdb0"/>
+      <child nodeId="node-0x1fa4dc0"/>
     </children>
   </item>
-  <item nodeId="node-0x235fdb0">
+  <item nodeId="node-0x1fa4dc0">
     <command xml:space="preserve">go up</command>
     <result xml:space="preserve">You feel the urgent need to get out of here, quick. You don&apos;t want to find out who is in those rooms!
 
@@ -4941,10 +4943,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x235ff30"/>
+      <child nodeId="node-0x1fa4f40"/>
     </children>
   </item>
-  <item nodeId="node-0x235ff30">
+  <item nodeId="node-0x1fa4f40">
     <command xml:space="preserve">go down</command>
     <result xml:space="preserve">Frightened and shaking, you go down the stairs...
 
@@ -4977,7 +4979,7 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve">test fifth act</annotation>
   </item>
-  <item nodeId="node-0x237b120">
+  <item nodeId="node-0x1fc0130">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Hang on, you just got here.
 
@@ -4990,10 +4992,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x237b2a0"/>
+      <child nodeId="node-0x1fc02b0"/>
     </children>
   </item>
-  <item nodeId="node-0x237b2a0">
+  <item nodeId="node-0x1fc02b0">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -5010,10 +5012,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x237b420"/>
+      <child nodeId="node-0x1fc0430"/>
     </children>
   </item>
-  <item nodeId="node-0x237b420">
+  <item nodeId="node-0x1fc0430">
     <command xml:space="preserve">x chair</command>
     <result xml:space="preserve">Some of the legs are snapped off.
 
@@ -5026,10 +5028,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x237b5a0"/>
+      <child nodeId="node-0x1fc05b0"/>
     </children>
   </item>
-  <item nodeId="node-0x237b5a0">
+  <item nodeId="node-0x1fc05b0">
     <command xml:space="preserve">x ropes</command>
     <result xml:space="preserve">They are bound around your hands and feet, fixing you to the chair.They are cut to pieces.
 
@@ -5042,10 +5044,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x237b720"/>
+      <child nodeId="node-0x1fc0730"/>
     </children>
   </item>
-  <item nodeId="node-0x237b720">
+  <item nodeId="node-0x1fc0730">
     <command xml:space="preserve">take rope</command>
     <result xml:space="preserve">You don&apos;t need cut ropes.
 
@@ -5058,10 +5060,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x237b8a0"/>
+      <child nodeId="node-0x1fc08b0"/>
     </children>
   </item>
-  <item nodeId="node-0x237b8a0">
+  <item nodeId="node-0x1fc08b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">(first opening the loft door)
 
@@ -5084,10 +5086,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x237ba20"/>
+      <child nodeId="node-0x1fc0a30"/>
     </children>
   </item>
-  <item nodeId="node-0x237ba20">
+  <item nodeId="node-0x1fc0a30">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Someone has locked the bedroom door!
 
@@ -5100,11 +5102,11 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x237bba0"/>
-      <child nodeId="node-0x23c27b0"/>
+      <child nodeId="node-0x1fc0bb0"/>
+      <child nodeId="node-0x20067c0"/>
     </children>
   </item>
-  <item nodeId="node-0x237bba0">
+  <item nodeId="node-0x1fc0bb0">
     <command xml:space="preserve">kick door</command>
     <result xml:space="preserve">(the bedroom door)
 You fire two rounds into the lock of the door, it breaks open.
@@ -5119,10 +5121,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x237bd20"/>
+      <child nodeId="node-0x1fc0d30"/>
     </children>
   </item>
-  <item nodeId="node-0x237bd20">
+  <item nodeId="node-0x1fc0d30">
     <command xml:space="preserve">go s</command>
     <result xml:space="preserve">A chilling scream echos from down below. You run down the stairs as fast as you can...
 
@@ -5157,10 +5159,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x237bea0"/>
+      <child nodeId="node-0x1fc0eb0"/>
     </children>
   </item>
-  <item nodeId="node-0x237bea0">
+  <item nodeId="node-0x1fc0eb0">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -5173,10 +5175,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23a5150"/>
+      <child nodeId="node-0x1fea160"/>
     </children>
   </item>
-  <item nodeId="node-0x23a5150">
+  <item nodeId="node-0x1fea160">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -5189,10 +5191,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23a52d0"/>
+      <child nodeId="node-0x1fea2e0"/>
     </children>
   </item>
-  <item nodeId="node-0x23a52d0">
+  <item nodeId="node-0x1fea2e0">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -5205,10 +5207,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23a5450"/>
+      <child nodeId="node-0x1fea460"/>
     </children>
   </item>
-  <item nodeId="node-0x23a5450">
+  <item nodeId="node-0x1fea460">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -5229,10 +5231,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23a55d0"/>
+      <child nodeId="node-0x1fea5e0"/>
     </children>
   </item>
-  <item nodeId="node-0x23a55d0">
+  <item nodeId="node-0x1fea5e0">
     <command xml:space="preserve">take knife</command>
     <result xml:space="preserve">You pick up a sharp cleaver from the pile of knives.
 
@@ -5245,10 +5247,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23a5750"/>
+      <child nodeId="node-0x1fea760"/>
     </children>
   </item>
-  <item nodeId="node-0x23a5750">
+  <item nodeId="node-0x1fea760">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You prepare to meet the horror, and pass through the door...
 
@@ -5277,10 +5279,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23a58d0"/>
+      <child nodeId="node-0x1fea8e0"/>
     </children>
   </item>
-  <item nodeId="node-0x23a58d0">
+  <item nodeId="node-0x1fea8e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">The kitchen door opens, a shape moves out from the shadow. You see the killer, moving towards you with a knife. You scream.
 
@@ -5297,10 +5299,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23a5a50"/>
+      <child nodeId="node-0x1feaa60"/>
     </children>
   </item>
-  <item nodeId="node-0x23a5a50">
+  <item nodeId="node-0x1feaa60">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -5317,10 +5319,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23a5bd0"/>
+      <child nodeId="node-0x1feabe0"/>
     </children>
   </item>
-  <item nodeId="node-0x23a5bd0">
+  <item nodeId="node-0x1feabe0">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -5337,10 +5339,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23a5d50"/>
+      <child nodeId="node-0x1fead60"/>
     </children>
   </item>
-  <item nodeId="node-0x23a5d50">
+  <item nodeId="node-0x1fead60">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -5387,10 +5389,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23a5ed0"/>
+      <child nodeId="node-0x1feaee0"/>
     </children>
   </item>
-  <item nodeId="node-0x23a5ed0">
+  <item nodeId="node-0x1feaee0">
     <command xml:space="preserve">shoot killer</command>
     <result xml:space="preserve">You aim your pistol at the killer, exhale and squeeze the trigger...
 
@@ -5425,10 +5427,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23c21b0"/>
+      <child nodeId="node-0x20061c0"/>
     </children>
   </item>
-  <item nodeId="node-0x23c21b0">
+  <item nodeId="node-0x20061c0">
     <command xml:space="preserve">x demon</command>
     <result xml:space="preserve">It has the figure of a man with leather-like skin, it has no use for clothes. The knees bend backwards, six razor talons extend where fingers would be. Sharp fangs fill the mouth, a bald head is adorned with two goat-like horns.
 
@@ -5441,10 +5443,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23c2330"/>
+      <child nodeId="node-0x2006340"/>
     </children>
   </item>
-  <item nodeId="node-0x23c2330">
+  <item nodeId="node-0x2006340">
     <command xml:space="preserve">kill demon</command>
     <result xml:space="preserve">Another demon appears behind you, swiping at you with razor claws, tearing the skin from your back.
 
@@ -5493,10 +5495,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23c24b0"/>
+      <child nodeId="node-0x20064c0"/>
     </children>
   </item>
-  <item nodeId="node-0x23c24b0">
+  <item nodeId="node-0x20064c0">
     <command xml:space="preserve">pick up girl</command>
     <result xml:space="preserve">You lift her up.
 
@@ -5509,10 +5511,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23c2630"/>
+      <child nodeId="node-0x2006640"/>
     </children>
   </item>
-  <item nodeId="node-0x23c2630">
+  <item nodeId="node-0x2006640">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You carry the girl outside, the cool night air promising peace. You hear sirens wailing over the hill.
 
@@ -5543,7 +5545,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve">test sixth act (safe path)</annotation>
   </item>
-  <item nodeId="node-0x23c27b0">
+  <item nodeId="node-0x20067c0">
     <command xml:space="preserve">open curtain</command>
     <result xml:space="preserve">You pull the curtain open, there is a window behind it. Near the floor are some pipes.
 
@@ -5560,10 +5562,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23c2930"/>
+      <child nodeId="node-0x2006940"/>
     </children>
   </item>
-  <item nodeId="node-0x23c2930">
+  <item nodeId="node-0x2006940">
     <command xml:space="preserve">take sheet</command>
     <result xml:space="preserve">The sheet is tied to the pipes. You can&apos;t take it.
 
@@ -5576,10 +5578,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23c2ab0"/>
+      <child nodeId="node-0x2006ac0"/>
     </children>
   </item>
-  <item nodeId="node-0x23c2ab0">
+  <item nodeId="node-0x2006ac0">
     <command xml:space="preserve">untie sheet</command>
     <result xml:space="preserve">You can&apos;t untie that.
 
@@ -5592,10 +5594,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23c2c30"/>
+      <child nodeId="node-0x2006c40"/>
     </children>
   </item>
-  <item nodeId="node-0x23c2c30">
+  <item nodeId="node-0x2006c40">
     <command xml:space="preserve">climb out window</command>
     <result xml:space="preserve">You grab the sheet and climb through the window.
 
@@ -5614,10 +5616,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23c2db0"/>
+      <child nodeId="node-0x2006dc0"/>
     </children>
   </item>
-  <item nodeId="node-0x23c2db0">
+  <item nodeId="node-0x2006dc0">
     <command xml:space="preserve">climb out window</command>
     <result xml:space="preserve">You are wasting time. You can&apos;t back out with your choice now.
 
@@ -5630,10 +5632,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23c2f30"/>
+      <child nodeId="node-0x2006f40"/>
     </children>
   </item>
-  <item nodeId="node-0x23c2f30">
+  <item nodeId="node-0x2006f40">
     <command xml:space="preserve">x sheet</command>
     <result xml:space="preserve">You are hanging on to the sheet for dear life.
 
@@ -5646,10 +5648,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23ec100"/>
+      <child nodeId="node-0x2031120"/>
     </children>
   </item>
-  <item nodeId="node-0x23ec100">
+  <item nodeId="node-0x2031120">
     <command xml:space="preserve">go down</command>
     <result xml:space="preserve">Lowering yourself down, one handful at a time, you reach the end of the sheet.
 
@@ -5672,10 +5674,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23ec280"/>
+      <child nodeId="node-0x20312a0"/>
     </children>
   </item>
-  <item nodeId="node-0x23ec280">
+  <item nodeId="node-0x20312a0">
     <command xml:space="preserve">open window</command>
     <result xml:space="preserve">It won&apos;t open, but the glass panes are broken away. You can climb through it.
 
@@ -5688,10 +5690,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23ec400"/>
+      <child nodeId="node-0x2031420"/>
     </children>
   </item>
-  <item nodeId="node-0x23ec400">
+  <item nodeId="node-0x2031420">
     <command xml:space="preserve">climb through window</command>
     <result xml:space="preserve">You manage to squeeze your way through the broken frame, which is not that large for a man of your build. You cut your forearm badly. A chilling scream echos from down below right before you dash out the bathroom and down the stairs...
 
@@ -5726,10 +5728,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23ec580"/>
+      <child nodeId="node-0x20315a0"/>
     </children>
   </item>
-  <item nodeId="node-0x23ec580">
+  <item nodeId="node-0x20315a0">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -5742,10 +5744,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23ec700"/>
+      <child nodeId="node-0x2031720"/>
     </children>
   </item>
-  <item nodeId="node-0x23ec700">
+  <item nodeId="node-0x2031720">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -5758,10 +5760,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23ec880"/>
+      <child nodeId="node-0x20318a0"/>
     </children>
   </item>
-  <item nodeId="node-0x23ec880">
+  <item nodeId="node-0x20318a0">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -5774,10 +5776,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23eca00"/>
+      <child nodeId="node-0x2031a20"/>
     </children>
   </item>
-  <item nodeId="node-0x23eca00">
+  <item nodeId="node-0x2031a20">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -5798,10 +5800,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23ecb80"/>
+      <child nodeId="node-0x2031ba0"/>
     </children>
   </item>
-  <item nodeId="node-0x23ecb80">
+  <item nodeId="node-0x2031ba0">
     <command xml:space="preserve">take knife</command>
     <result xml:space="preserve">You pick up a sharp cleaver from the pile of knives.
 
@@ -5814,10 +5816,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23ecd00"/>
+      <child nodeId="node-0x2031d20"/>
     </children>
   </item>
-  <item nodeId="node-0x23ecd00">
+  <item nodeId="node-0x2031d20">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You prepare to meet the horror, and pass through the door...
 
@@ -5846,10 +5848,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x23ece80"/>
+      <child nodeId="node-0x2031ea0"/>
     </children>
   </item>
-  <item nodeId="node-0x23ece80">
+  <item nodeId="node-0x2031ea0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">The kitchen door opens, a shape moves out from the shadow. You see the killer, moving towards you with a knife. You scream.
 
@@ -5866,10 +5868,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x241b130"/>
+      <child nodeId="node-0x2060140"/>
     </children>
   </item>
-  <item nodeId="node-0x241b130">
+  <item nodeId="node-0x2060140">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -5886,10 +5888,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x241b2b0"/>
+      <child nodeId="node-0x20602c0"/>
     </children>
   </item>
-  <item nodeId="node-0x241b2b0">
+  <item nodeId="node-0x20602c0">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -5906,10 +5908,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x241b430"/>
+      <child nodeId="node-0x2060440"/>
     </children>
   </item>
-  <item nodeId="node-0x241b430">
+  <item nodeId="node-0x2060440">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -5960,10 +5962,10 @@ The Girl &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x241b5b0"/>
+      <child nodeId="node-0x20605c0"/>
     </children>
   </item>
-  <item nodeId="node-0x241b5b0">
+  <item nodeId="node-0x20605c0">
     <command xml:space="preserve">attack killer</command>
     <result xml:space="preserve">You slip the craft knife into your palm, scared to death, your limbs seem to move on their on volition. You slash at the killer&apos;s neck, blood gushes out. More blood than you ever saw.
 
@@ -5998,10 +6000,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x241b730"/>
+      <child nodeId="node-0x2060740"/>
     </children>
   </item>
-  <item nodeId="node-0x241b730">
+  <item nodeId="node-0x2060740">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.
 
@@ -6014,10 +6016,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x241b8b0"/>
+      <child nodeId="node-0x20608c0"/>
     </children>
   </item>
-  <item nodeId="node-0x241b8b0">
+  <item nodeId="node-0x20608c0">
     <command xml:space="preserve">x demon</command>
     <result xml:space="preserve">It has the figure of a man with leather-like skin, it has no use for clothes. The knees bend backwards, six razor talons extend where fingers would be. Sharp fangs fill the mouth, a bald head is adorned with two goat-like horns.
 
@@ -6030,10 +6032,10 @@ Tad &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x241ba30"/>
+      <child nodeId="node-0x2060a40"/>
     </children>
   </item>
-  <item nodeId="node-0x241ba30">
+  <item nodeId="node-0x2060a40">
     <command xml:space="preserve">attack demon</command>
     <result xml:space="preserve">Another demon appears behind you, swiping at you with razor claws, and misses by a small miracle. You turn to face it, ready to cut it&apos;s throat. You realize your mistake the second you feel sharp claws slashing through your neck, and again, and again.
 
@@ -6082,10 +6084,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x241bbb0"/>
+      <child nodeId="node-0x2060bc0"/>
     </children>
   </item>
-  <item nodeId="node-0x241bbb0">
+  <item nodeId="node-0x2060bc0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t leave the girl lying here.
 
@@ -6098,10 +6100,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x241bd30"/>
+      <child nodeId="node-0x2060d40"/>
     </children>
   </item>
-  <item nodeId="node-0x241bd30">
+  <item nodeId="node-0x2060d40">
     <command xml:space="preserve">pick up girl</command>
     <result xml:space="preserve">You lift her up.
 
@@ -6114,10 +6116,10 @@ Otto &gt; </commentary>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x241beb0"/>
+      <child nodeId="node-0x2060ec0"/>
     </children>
   </item>
-  <item nodeId="node-0x241beb0">
+  <item nodeId="node-0x2060ec0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You carry the girl outside, the cool night air promising peace. You hear sirens wailing over the hill.
 
@@ -6148,7 +6150,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve">test sixth act (unsafe path)</annotation>
   </item>
-  <item nodeId="node-0x2447170">
+  <item nodeId="node-0x208b180">
     <command xml:space="preserve">test cracksafe</command>
     <result xml:space="preserve">(Testing.)
 
@@ -6172,11 +6174,11 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x24472f0"/>
-      <child nodeId="node-0x24b98f0"/>
+      <child nodeId="node-0x208b300"/>
+      <child nodeId="node-0x20fe920"/>
     </children>
   </item>
-  <item nodeId="node-0x24472f0">
+  <item nodeId="node-0x208b300">
     <command xml:space="preserve">x safe</command>
     <result xml:space="preserve">A small gun safe with an electronic keypad.
 
@@ -6187,10 +6189,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2447470"/>
+      <child nodeId="node-0x208b480"/>
     </children>
   </item>
-  <item nodeId="node-0x2447470">
+  <item nodeId="node-0x208b480">
     <command xml:space="preserve">x keypad</command>
     <result xml:space="preserve">An electronic pad for entering a number code. You can ENTER 0000 to unlock the safe.
 
@@ -6201,11 +6203,11 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x24475f0"/>
-      <child nodeId="node-0x2462b90"/>
+      <child nodeId="node-0x208b600"/>
+      <child nodeId="node-0x20a7ba0"/>
     </children>
   </item>
-  <item nodeId="node-0x24475f0">
+  <item nodeId="node-0x208b600">
     <command xml:space="preserve">press 4</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -6216,10 +6218,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2447770"/>
+      <child nodeId="node-0x208b780"/>
     </children>
   </item>
-  <item nodeId="node-0x2447770">
+  <item nodeId="node-0x208b780">
     <command xml:space="preserve">press digit 4</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -6230,10 +6232,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x24478f0"/>
+      <child nodeId="node-0x208b900"/>
     </children>
   </item>
-  <item nodeId="node-0x24478f0">
+  <item nodeId="node-0x208b900">
     <command xml:space="preserve">push digit</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -6244,10 +6246,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2447a70"/>
+      <child nodeId="node-0x208ba80"/>
     </children>
   </item>
-  <item nodeId="node-0x2447a70">
+  <item nodeId="node-0x208ba80">
     <command xml:space="preserve">press reset</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -6258,10 +6260,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2447bf0"/>
+      <child nodeId="node-0x208bc00"/>
     </children>
   </item>
-  <item nodeId="node-0x2447bf0">
+  <item nodeId="node-0x208bc00">
     <command xml:space="preserve">press digit reset</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -6272,10 +6274,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2447d70"/>
+      <child nodeId="node-0x208bd80"/>
     </children>
   </item>
-  <item nodeId="node-0x2447d70">
+  <item nodeId="node-0x208bd80">
     <command xml:space="preserve">press digit 10</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -6286,10 +6288,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2447ef0"/>
+      <child nodeId="node-0x208bf00"/>
     </children>
   </item>
-  <item nodeId="node-0x2447ef0">
+  <item nodeId="node-0x208bf00">
     <command xml:space="preserve">press digit foo</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -6300,10 +6302,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2462110"/>
+      <child nodeId="node-0x20a7120"/>
     </children>
   </item>
-  <item nodeId="node-0x2462110">
+  <item nodeId="node-0x20a7120">
     <command xml:space="preserve">press digit #</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -6314,10 +6316,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2462290"/>
+      <child nodeId="node-0x20a72a0"/>
     </children>
   </item>
-  <item nodeId="node-0x2462290">
+  <item nodeId="node-0x20a72a0">
     <command xml:space="preserve">x buttons</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -6328,10 +6330,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2462410"/>
+      <child nodeId="node-0x20a7420"/>
     </children>
   </item>
-  <item nodeId="node-0x2462410">
+  <item nodeId="node-0x20a7420">
     <command xml:space="preserve">x digits</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -6342,10 +6344,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2462590"/>
+      <child nodeId="node-0x20a75a0"/>
     </children>
   </item>
-  <item nodeId="node-0x2462590">
+  <item nodeId="node-0x20a75a0">
     <command xml:space="preserve">push digit</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -6356,10 +6358,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2462710"/>
+      <child nodeId="node-0x20a7720"/>
     </children>
   </item>
-  <item nodeId="node-0x2462710">
+  <item nodeId="node-0x20a7720">
     <command xml:space="preserve">push digit 3</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -6370,10 +6372,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2462890"/>
+      <child nodeId="node-0x20a78a0"/>
     </children>
   </item>
-  <item nodeId="node-0x2462890">
+  <item nodeId="node-0x20a78a0">
     <command xml:space="preserve">press digit 5</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -6384,10 +6386,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2462a10"/>
+      <child nodeId="node-0x20a7a20"/>
     </children>
   </item>
-  <item nodeId="node-0x2462a10">
+  <item nodeId="node-0x20a7a20">
     <command xml:space="preserve">showme keypad</command>
     <result xml:space="preserve">keypad - thing
 location: part of the safe in Bedroom
@@ -6406,7 +6408,7 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x2462b90">
+  <item nodeId="node-0x20a7ba0">
     <command xml:space="preserve">enter 0000 in keypad</command>
     <result xml:space="preserve">The safe beeps in error.
 
@@ -6417,10 +6419,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2462d10"/>
+      <child nodeId="node-0x20a7d20"/>
     </children>
   </item>
-  <item nodeId="node-0x2462d10">
+  <item nodeId="node-0x20a7d20">
     <command xml:space="preserve">enter 0000 in keypad</command>
     <result xml:space="preserve">The safe beeps in error.
 
@@ -6431,10 +6433,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2462e90"/>
+      <child nodeId="node-0x20a7ea0"/>
     </children>
   </item>
-  <item nodeId="node-0x2462e90">
+  <item nodeId="node-0x20a7ea0">
     <command xml:space="preserve">enter 1234 in keypad</command>
     <result xml:space="preserve">The safe beeps in error.
 
@@ -6445,10 +6447,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x249d140"/>
+      <child nodeId="node-0x20e2150"/>
     </children>
   </item>
-  <item nodeId="node-0x249d140">
+  <item nodeId="node-0x20e2150">
     <command xml:space="preserve">enter 6375 in keypad</command>
     <result xml:space="preserve">Click. The safe door creaks open.
 
@@ -6459,10 +6461,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x249d2c0"/>
+      <child nodeId="node-0x20e22d0"/>
     </children>
   </item>
-  <item nodeId="node-0x249d2c0">
+  <item nodeId="node-0x20e22d0">
     <command xml:space="preserve">x safe</command>
     <result xml:space="preserve">A small gun safe with an electronic keypad.
 
@@ -6475,10 +6477,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x249d440"/>
+      <child nodeId="node-0x20e2450"/>
     </children>
   </item>
-  <item nodeId="node-0x249d440">
+  <item nodeId="node-0x20e2450">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">You pick up the bronze key.
 
@@ -6489,10 +6491,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x249d5c0"/>
+      <child nodeId="node-0x20e25d0"/>
     </children>
   </item>
-  <item nodeId="node-0x249d5c0">
+  <item nodeId="node-0x20e25d0">
     <command xml:space="preserve">x key</command>
     <result xml:space="preserve">A short but fat bronze key, it has decorative grape vines embossed around the shaft and the head.
 
@@ -6503,10 +6505,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x249d740"/>
+      <child nodeId="node-0x20e2750"/>
     </children>
   </item>
-  <item nodeId="node-0x249d740">
+  <item nodeId="node-0x20e2750">
     <command xml:space="preserve">enter 1234</command>
     <result xml:space="preserve">(in the keypad)
 The safe is already open.
@@ -6518,10 +6520,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x249d8c0"/>
+      <child nodeId="node-0x20e28d0"/>
     </children>
   </item>
-  <item nodeId="node-0x249d8c0">
+  <item nodeId="node-0x20e28d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Second Floor
@@ -6534,10 +6536,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x249da40"/>
+      <child nodeId="node-0x20e2a50"/>
     </children>
   </item>
-  <item nodeId="node-0x249da40">
+  <item nodeId="node-0x20e2a50">
     <command xml:space="preserve">enter 123</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -6548,10 +6550,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x249dbc0"/>
+      <child nodeId="node-0x20e2bd0"/>
     </children>
   </item>
-  <item nodeId="node-0x249dbc0">
+  <item nodeId="node-0x20e2bd0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Bedroom
@@ -6566,10 +6568,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x249dd40"/>
+      <child nodeId="node-0x20e2d50"/>
     </children>
   </item>
-  <item nodeId="node-0x249dd40">
+  <item nodeId="node-0x20e2d50">
     <command xml:space="preserve">enter 344</command>
     <result xml:space="preserve">(in the keypad)
 The safe is already open.
@@ -6581,10 +6583,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x249dec0"/>
+      <child nodeId="node-0x20e2ed0"/>
     </children>
   </item>
-  <item nodeId="node-0x249dec0">
+  <item nodeId="node-0x20e2ed0">
     <command xml:space="preserve">close safe</command>
     <result xml:space="preserve">You close the safe.
 
@@ -6595,10 +6597,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x24b9170"/>
+      <child nodeId="node-0x20fe1a0"/>
     </children>
   </item>
-  <item nodeId="node-0x24b9170">
+  <item nodeId="node-0x20fe1a0">
     <command xml:space="preserve">open safe</command>
     <result xml:space="preserve">The safe is locked.
 
@@ -6609,10 +6611,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x24b92f0"/>
+      <child nodeId="node-0x20fe320"/>
     </children>
   </item>
-  <item nodeId="node-0x24b92f0">
+  <item nodeId="node-0x20fe320">
     <command xml:space="preserve">enter 1234</command>
     <result xml:space="preserve">(in the keypad)
 The safe beeps in error.
@@ -6624,10 +6626,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x24b9470"/>
+      <child nodeId="node-0x20fe4a0"/>
     </children>
   </item>
-  <item nodeId="node-0x24b9470">
+  <item nodeId="node-0x20fe4a0">
     <command xml:space="preserve">enter 6375</command>
     <result xml:space="preserve">(in the keypad)
 Click. The safe door creaks open.
@@ -6639,10 +6641,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x24b95f0"/>
+      <child nodeId="node-0x20fe620"/>
     </children>
   </item>
-  <item nodeId="node-0x24b95f0">
+  <item nodeId="node-0x20fe620">
     <command xml:space="preserve">x safe</command>
     <result xml:space="preserve">A small gun safe with an electronic keypad.
 
@@ -6653,10 +6655,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x24b9770"/>
+      <child nodeId="node-0x20fe7a0"/>
     </children>
   </item>
-  <item nodeId="node-0x24b9770">
+  <item nodeId="node-0x20fe7a0">
     <command xml:space="preserve">x safe</command>
     <result xml:space="preserve">A small gun safe with an electronic keypad.
 
@@ -6667,7 +6669,7 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x24b98f0">
+  <item nodeId="node-0x20fe920">
     <command xml:space="preserve">look under table</command>
     <result xml:space="preserve">You see a safe under the table.
 
@@ -6678,10 +6680,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x24b9a70"/>
+      <child nodeId="node-0x20feaa0"/>
     </children>
   </item>
-  <item nodeId="node-0x24b9a70">
+  <item nodeId="node-0x20feaa0">
     <command xml:space="preserve">x safe</command>
     <result xml:space="preserve">A small gun safe with an electronic keypad.
 
@@ -6692,10 +6694,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x24b9bf0"/>
+      <child nodeId="node-0x20fec20"/>
     </children>
   </item>
-  <item nodeId="node-0x24b9bf0">
+  <item nodeId="node-0x20fec20">
     <command xml:space="preserve">x keypad</command>
     <result xml:space="preserve">An electronic pad for entering a code. You can ENTER 0000 to unlock the safe.
 
@@ -6706,10 +6708,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x24b9d70"/>
+      <child nodeId="node-0x20feda0"/>
     </children>
   </item>
-  <item nodeId="node-0x24b9d70">
+  <item nodeId="node-0x20feda0">
     <command xml:space="preserve">open safe</command>
     <result xml:space="preserve">The safe is locked.
 
@@ -6720,10 +6722,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x24b9ef0"/>
+      <child nodeId="node-0x20fef20"/>
     </children>
   </item>
-  <item nodeId="node-0x24b9ef0">
+  <item nodeId="node-0x20fef20">
     <command xml:space="preserve">enter 1111</command>
     <result xml:space="preserve">(in the keypad)
 The safe beeps in error.
@@ -6735,10 +6737,10 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x24e01b0"/>
+      <child nodeId="node-0x21251c0"/>
     </children>
   </item>
-  <item nodeId="node-0x24e01b0">
+  <item nodeId="node-0x21251c0">
     <command xml:space="preserve">enter 6375</command>
     <result xml:space="preserve">(in the keypad)
 Click. The safe door creaks open.
@@ -6750,14 +6752,555 @@ Otto &gt; </result>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x24e0330"/>
+      <child nodeId="node-0x2125340"/>
     </children>
   </item>
-  <item nodeId="node-0x24e0330">
+  <item nodeId="node-0x2125340">
     <command xml:space="preserve">look in safe</command>
     <result xml:space="preserve">In the safe is a bronze key.
 
 Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x21254c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">The kitchen door opens, a shape moves out from the shadow. You see the killer, moving towards you with a knife. You scream.
+
+Tad moves closer to you, a cleaver in his hand...
+
+The Girl &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2125640"/>
+      <child nodeId="node-0x2125f40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2125640">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You walk along the porch to the west side of the house.
+
+Rear of the house
+The back of the house is no less weathered. There is a bay window here.
+
+Earlier today, an anonymous tip was called in at the homicide office. All they gave was a name, in connection with the missing girl.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x21257c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x21257c0">
+    <command xml:space="preserve">open window</command>
+    <result xml:space="preserve">You pull on the window frame, rust crumbles between the hinges. It swings open.
+
+The name led to outdated property records, and those led to this address. I had to get here quick, even if my partner was an hour away in the other direction. I had to.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2125940"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2125940">
+    <command xml:space="preserve">enter window</command>
+    <result xml:space="preserve">Looking to make sure the room is empty, you slip inside.
+
+Parlour
+A large carpet covers the floor. A low and wide table dominates the room, tattered armchairs guarding it. A silver serving dish is on the table. A bay window is to the west, a door to the north.
+
+This place is derelict, remote and dreary. The perfect place to hide an abducted girl. Never have I wanted something so dismal to be so true. I pray she is alive.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2125ac0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2125ac0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the living room door)
+You open the door as silently possible.
+
+Living room
+An old couch rests against a wall, a painting hangs above it. A writing desk squats in one corner, and a serving trolley in the other. A door to the south leads back to the Parlour, another leads to the east. Stairs go up to the second floor.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2125c40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2125c40">
+    <command xml:space="preserve">x stairs</command>
+    <result xml:space="preserve">A flight of wooden stairs that lead up.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2125dc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2125dc0">
+    <command xml:space="preserve">go up stairs</command>
+    <result xml:space="preserve">You peer up the staircase, making sure nobody else is watching from above, and cautiously ascend the stairs.
+
+
+press a key to continue...
+
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x2125f40">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+Tad moves closer to you, a cleaver in his hand...
+
+The Girl &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2140110"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2140110">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+Tad moves closer to you, a cleaver in his hand...
+
+The Girl &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f22b00f2430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f22b00f2430">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+Tad moves closer to you, a cleaver in his hand...
+
+There is movement to your right, a detective on the stairs! They aim their gun at the killer with a bloodied, shaking arm. The gun fires...
+
+
+press a key to continue...
+
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f22b00f22b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f22b00f22b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+
+Living room
+The room is dim and nothing you see makes sense. There are doors to the south and east.
+
+You can see Otto and Tad here.
+
+The shot missed! The killer turns to the detective. Now is your chance!
+
+The Girl &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f22b00f25b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f22b00f25b0">
+    <command xml:space="preserve">cut killer with knife</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+The Girl &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f22b00f2730"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f22b00f2730">
+    <command xml:space="preserve">puloin craft knife</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+The Girl &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f22b00f28b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f22b00f28b0">
+    <command xml:space="preserve">purloin craft knife</command>
+    <result xml:space="preserve">[Purloined.]
+
+The Girl &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f22b00f2a30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f22b00f2a30">
+    <command xml:space="preserve">cut killer with knife</command>
+    <result xml:space="preserve">You slip the craft knife into your palm, scared to death, your limbs seem to move on their on volition. You slash at the killer&apos;s neck, blood gushes out. More blood than you ever saw.
+
+
+
+press a key to continue...
+
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f22b00f2bb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f22b00f2bb0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">
+
+(as Tad) You enter the Living room, the Demon is here. It is mocking you, calling out for your flesh. The parlour is due south, the kitchen to the east. Stairs go up to the second floor.
+
+Living room
+The room is dim and nothing you see makes sense. There are doors to the south and east.
+
+You can see a Demon here.
+
+Tad &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x2168f00">
+    <command xml:space="preserve">turn torch on</command>
+    <result xml:space="preserve">A bright beam flows out of your torch.
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see doors to the north, east and south.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2183180"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2183180">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+bathroom
+You are in a bathroom, there is a claw-foot bath, one window and a basin. It is dark outside. The room is very dim, the moon giving just enough light to see. A mirror is fixed to the wall. The exit is to the south.
+
+You can see a brass lantern here.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2183300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2183300">
+    <command xml:space="preserve">open window</command>
+    <result xml:space="preserve">It won&apos;t open. It must be secured permanently.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2183480"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2183480">
+    <command xml:space="preserve">x window</command>
+    <result xml:space="preserve">The window is shoulder height, it leads to the outside.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2183600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2183600">
+    <command xml:space="preserve">x feet</command>
+    <result xml:space="preserve">Moulded faces make up the feet of the bathtub.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2183780"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2183780">
+    <command xml:space="preserve">break mirror</command>
+    <result xml:space="preserve">On second thought, you don&apos;t think that is a good idea.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2183900"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2183900">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see doors to the north, east and south.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2183a80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2183a80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bedroom
+The bedroom is somewhat furnished, a mattress on the floor serves as a bed, a bedside table next to it. The window is covered with a sheet. There is something under the table.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2183c00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2183c00">
+    <command xml:space="preserve">look under table</command>
+    <result xml:space="preserve">You see a safe under the table.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2183d80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2183d80">
+    <command xml:space="preserve">x gun safe</command>
+    <result xml:space="preserve">A small gun safe with an electronic keypad.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2183f00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2183f00">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">A small gun safe with an electronic keypad.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x21aa100"/>
+    </children>
+  </item>
+  <item nodeId="node-0x21aa100">
+    <command xml:space="preserve">open gun safe</command>
+    <result xml:space="preserve">The gun safe is locked.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x21aa280"/>
+    </children>
+  </item>
+  <item nodeId="node-0x21aa280">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see doors to the north, east and south.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x21aa400"/>
+    </children>
+  </item>
+  <item nodeId="node-0x21aa400">
+    <command xml:space="preserve">purloin bronze key</command>
+    <result xml:space="preserve">[Purloined.]
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x21aa580"/>
+    </children>
+  </item>
+  <item nodeId="node-0x21aa580">
+    <command xml:space="preserve">unlock gate with bronze</command>
+    <result xml:space="preserve">You unlock the security gate.
+
+Otto &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x21aa700"/>
+    </children>
+  </item>
+  <item nodeId="node-0x21aa700">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">You open the security gate.
+
+You ascend the stairs, continuing your search...
+
+
+press a key to continue...
+
+</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x21aa880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x21aa880">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">
+
+(as The Girl) You hold tight to the bed sheet as you climb through the window. You hear a noise coming from the other side of the bedroom door, fear rises up inside. You pull the curtain closed, hoping to hide your escape attempt.
+
+Hanging outside the third floor
+You are hanging outside the third storey window, gripping the bed sheet tied inside the room. You can go down.
+
+The Girl &gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x21aaa00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x21aaa00">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+The Girl &gt; </result>
     <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>

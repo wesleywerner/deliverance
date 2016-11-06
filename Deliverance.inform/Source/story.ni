@@ -1,6 +1,6 @@
 "Deliverance" by "Wesley Werner"
 
-The story headline is "A Halloween story".
+The story headline is "Some demons are more real than others,".
 
 [ We use the press any key to continue extension ]
 Include Basic Screen Effects by Emily Short.
@@ -116,6 +116,9 @@ Instead of searching a dead Tad Kemp:
 	say "You find [list of things carried by Tad]";
 	now all things carried by Tad is in the location;
 
+Instead of cutting Tad:
+	try attacking Tad.
+
 A Demon is an animal. The description is "It has the figure of a man with leather-like skin, it has no use for clothes. The knees bend backwards, six razor talons extend where fingers would be. Sharp fangs fill the mouth, a bald head is adorned with two goat-like horns."
 
 
@@ -140,7 +143,7 @@ standard report taking rule response (A) is "You pick up [the noun].".
 can't open unless openable rule response (A) is "You can't seem to open [the noun].".
 can't unlock without the correct key rule response (A) is "[The second noun] does not fit [the noun] lock.".
 can't open what's locked rule response (A) is "[The noun] [are] locked.".
-
+block attacking rule response (A) is "On second thought, you don't think that is a good idea.".
 
 
 
@@ -262,6 +265,8 @@ Chapter 5 - Living room
 
 Living room is a room. The description is "An old couch rests against a wall, a painting hangs above it. A writing desk squats in one corner, and a serving trolley in the other. A door to the south leads back to the Parlour, another leads to the east. Stairs go up to the second floor."
 
+Some living-room-stairs are in the living room. It is scenery. Understand "stairs" as living-room-stairs. The description is "A flight of wooden stairs that lead up."
+
 The living room door is a door. It is north of the Parlour and south of the Living Room. It is scenery. 
 Instead of opening the living room door:
 	now the living room door is open;
@@ -375,7 +380,7 @@ Chapter 8 - Bathroom
 
 Bathroom is a room. It is north of the Second Floor Hall. The description is "You are in a bathroom, there is a claw-foot bath, one window and a basin. [if Bathroom is dark]It is dark outside. The room is very dim, the moon giving just enough light to see.[end if] A mirror is fixed to the wall. The exit is to the south."
 
-The bathroom-window is a closed locked door. It is south of Second-floor-outside and north of the bathroom. The printed name is "window". Understand "window" as bathroom-window. The description is "The window is shoulder height, it leads to the outside."
+The bathroom-window is a closed locked door. It is scenery. It is south of Second-floor-outside and north of the bathroom. The printed name is "window". Understand "window" as bathroom-window. The description is "The window is shoulder height, it leads to the outside."
 Instead of opening the locked bathroom-window, say "It won't open. It must be secured permanently."
 
 Instead of entering the bathroom-window during the sixth act:
@@ -385,7 +390,7 @@ Instead of entering the bathroom-window during the sixth act:
 	stop the action;
 
 A bath is in the bathroom. It is scenery. The description is "A stained white claw-foot bath. The feet are metal and have decorative faces moulded into them."
-Some faces are a part of the bath. The description is "You do not recognize the moulded faces." Understand "claw-foot" as faces.
+Some faces are a part of the bath. The description is "Moulded faces make up the feet of the bathtub." Understand "claw-foot" and "feet" as faces.
 
 Instead of entering the bath:
 	if the player is victoria:
@@ -443,7 +448,7 @@ Some newspapers are on the second-floor-table. It is scenery. The description is
 
 A second-floor-sheet is in the second-floor-bedroom-south. It is scenery. Understand "sheet" as second-floor-sheet. The description is "A dirty and torn sheet covers the window." Instead of opening second-floor-sheet, say "You would rather not waste the time, you know what is outside the window."
 
-A safe is a locked closed container in the second-floor-bedroom-south. It is fixed in place. It is scenery. The description is "A small gun safe with an electronic keypad." The keypad is part of the safe. The description is "An electronic pad for entering a code. You can ENTER 0000 to unlock the safe."
+A gun safe is a locked closed container in the second-floor-bedroom-south. It is fixed in place. It is scenery. The description is "A small gun safe with an electronic keypad." The keypad is part of the gun safe. The description is "An electronic pad for entering a code. You can ENTER 0000 to unlock the safe."
 
 Entering a code is an action applying to one number and one thing. Understand "enter [number] in [keypad]" as entering a code.
 Check entering a code:
@@ -527,7 +532,7 @@ Instead of tying sheet to pipes during the third act:
 
 [It is south of the Third-floor-outside and north of the Third Floor Bedroom.]
 [ a one-way escape door because we don't want to reference it when the player is hanging on the other side. ]
-The escape-window is a closed door. It is north of the Third Floor Bedroom. It is scenery. The printed name is "window". Understand "window" as escape-window. The description is "[if a curtain is closed]The window is covered by the curtain.[else]You see grass down below, no other houses are visible. You are on a second storey floor." Instead of searching escape-window, try examining escape-window.
+The escape-window is a closed door. It is north of the Third Floor Bedroom. It is scenery. The printed name is "window". Understand "window" as escape-window. The description is "[if a curtain is closed]The window is covered by the curtain.[else]You see grass down below, no other houses are visible. You appear to be on the third storey." Instead of searching escape-window, try examining escape-window.
 
 Instead of going the escape-window during the third act:
 	if the sheet is untied:
@@ -719,7 +724,7 @@ When the first act begins:
 	Move Victoria Cote to the rickety chair;
 	Now Victoria Cote is tied;
 	Now the player is Victoria Cote;
-	say "Light pierces your vision as your eyes flutter open. Blurred shapes spin around as you shake the sound of a pounding heart free. You remember a struggle, the abduction, your name... nothing."
+	say "Light pierces your vision as your eyes flutter open. Blurred shapes spin around as you shake the sound of a pounding heart free. You remember the struggle and abduction, but not your name..."
 	
 When the first act ends:
 	say "The room turns into a tunnel, the floor rising up to meet you. Shadows creep in from all sides as your vision fades.";
@@ -788,11 +793,11 @@ Chapter 5 - Fifth act
 The fifth act is a scene. The fifth act begins when the fourth act ends. The fifth act ends when the fifth act is done.
 
 When the fifth act begins:
-	say "(as [Victoria]) You hold tight to the bed sheet as you climb through the window. You hear a noise coming from the other side of the bedroom door, fear rises up inside. You pull the curtain closed, hoping to hide your escape attempt.";
-	now the curtain is closed;
 	move Victoria to the Third-floor-outside;
-	move Otto to waiting room;
 	now the player is Victoria;
+	now the curtain is closed;
+	move Otto to waiting room;
+	say "(as [Victoria]) You hold tight to the bed sheet as you climb through the window. You hear a noise coming from the other side of the bedroom door, fear rises up inside. You pull the curtain closed, hoping to hide your escape attempt.";
 	try looking;
 
 When the fifth act ends:
@@ -805,7 +810,7 @@ Chapter 6 - Sixth act
 The sixth act is a scene. The sixth act begins when the fifth act ends. The sixth act ends when the sixth act is done.
 
 When the sixth act begins:
-	say "(as [Otto]) You reach the top of the stairs. Through an open bedroom door you see a doorway leading to a loft: a broken chair and cut bonds inside. You dash into the loft...";
+	say "(as [Otto]) You reach the top of the stairs. A bedroom door in front of you is latched from the outside, you undo the latch and step inside. You see a doorway leading to a loft: a broken chair and cut bonds inside. You dash into the loft...";
 	move Otto to the Loft;
 	now the player is Otto;
 	now the player is delayed;
@@ -868,9 +873,6 @@ When the eighth act ends:
 Instead of examining during the eighth act:
 	say "You can't focus on anything.";
 
-Instead of cutting Tad during the eighth act:
-	try attacking Tad.
-
 Check going during the eighth act:
 	if Tad is not in the Living Room:
 		say "The kitchen door opens, a shape moves out from the shadow. You see the killer, moving towards you with a knife. You scream.";
@@ -898,24 +900,24 @@ Chapter 9 - Ninth act
 The ninth act is a scene. The ninth act begins when the eighth act ends. The ninth act ends when the ninth act is done.
 
 When the ninth act begins:
-	now the description of the Living room is "(as [the player]) A door to the south leads to the parlour, another to the east. You are on the stairs.";
+	[now the description of the Living room is "(as [the player]) A door to the south leads to the parlour, another to the east. You are on the stairs.";]
 	move Otto to the Living room;
 	move Victoria to the Living room;
 	move Tad to the Living room;
 	if Otto is not bleeding:
 		now the player is Otto;
-		try looking;
+		[try looking;]
 	otherwise:
 		say "The shot missed! The killer turns to the detective. Now is your chance!";
 		now the player is Victoria;
-		try looking;
+		[try looking;]
 		
 When the ninth act ends:
 	pause for dramatic effect;
 
 Every turn during the ninth act:
 	if Tad is in the location:
-		say "[Tad] moves closer to the girl, a cleaver in his hand...";
+		say "[if the player is Otto]The killer moves closer to the girl, a cleaver in his hand...[else]The killer moves closer to the detective, a cleaver in his hand...";
 
 Instead of examining during the ninth act:
 	say "You are wasting time!";
@@ -979,7 +981,7 @@ When the eleventh act begins:
 	move Tad to the Living room;
 	move Demon to the waiting room;
 	now the player is Otto;
-	try looking;
+	[try looking;]
 
 When the eleventh act ends:
 	say "You carry the girl outside, the cool night air promising peace. You hear sirens wailing over the hill.";
