@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-0x1d557b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x20b3b90"/>
+  <activeNode nodeId="node-0x1d557b0"/>
   <item nodeId="node-0x1d557b0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -12,9 +12,6 @@ Light pierces your vision as your eyes flutter open. Blurred shapes spin around 
 
 # BETA RELEASE
 # Enter SCRIPT as your first command to record your session. You can add annotations during play via &quot;?&quot; or &quot;!&quot; prefixes: &quot;? I have no idea what to do&quot; or &quot;! This thing is really lame&quot;
-
-TODO
-Add s second floor safe, a combination and the gate key inside.
 
 Deliverance
 A Halloween story by Wesley Werner
@@ -69,7 +66,7 @@ The Girl &gt; </result>
     <commentary xml:space="preserve">But you aren&apos;t in anything at the moment.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -699,7 +696,7 @@ The Girl &gt; </result>
 Earlier today, an anonymous tip was called in at the homicide office. All they gave was a name, in connection with the missing girl.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -717,7 +714,7 @@ The Girl &gt; </result>
 The name led to outdated property records, and those led to this address. I had to get here quick, even if my partner was an hour away in the other direction. I had to.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -733,7 +730,7 @@ The Girl &gt; </result>
     <commentary xml:space="preserve">You can&apos;t see any such thing.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -749,7 +746,7 @@ The Girl &gt; </result>
     <commentary xml:space="preserve">You can&apos;t see any such thing.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -774,7 +771,7 @@ The Girl &gt; </result>
     <commentary xml:space="preserve">You can&apos;t see any such thing.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -790,7 +787,7 @@ The Girl &gt; </result>
     <commentary xml:space="preserve">You can&apos;t see any such thing.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -817,7 +814,7 @@ You grasp the oval shaped metal door knob, with a firm grip you twist it back an
 This place is derelict, remote and dreary. The perfect place to hide an abducted girl. Never have I wanted something so dismal to be so true. I pray she is alive.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -843,7 +840,7 @@ Otto &gt; </result>
     <commentary xml:space="preserve">Time passes.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -865,7 +862,7 @@ Porch
 The rough wood of the porch is weathered and stripped of varnish. There are two windows here. The porch continues west. The front door is back to the north.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -889,7 +886,7 @@ Rear of the house
 The back of the house is no less weathered. There is a bay window here.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -907,7 +904,7 @@ Otto &gt; </result>
     <commentary xml:space="preserve">You pull on the window frame, rust crumbles between the hinges. It swings open.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -931,7 +928,7 @@ Parlour
 A large carpet covers the floor. A low and wide table dominates the room, tattered armchairs guarding it. A silver serving dish is on the table. A bay window is to the west, a door to the north.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -955,7 +952,7 @@ Living room
 An old couch rests against a wall, a painting hangs above it. A writing desk squats in one corner, and a serving trolley in the other. A door to the south leads back to the Parlour, another leads to the east. Stairs go up to the second floor.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -971,7 +968,7 @@ Otto &gt; </result>
     <commentary xml:space="preserve">Lifting the butterfly lid, a business card is revealed inside the teapot.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -987,7 +984,7 @@ Otto &gt; </result>
     <commentary xml:space="preserve">You pick up the business card.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1023,7 +1020,7 @@ A small bedroom furnished with a mattress on the floor and a curtain against one
 On the mattress is a sheet.
 
 The Girl &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1039,7 +1036,7 @@ The Girl &gt; </result>
     <commentary xml:space="preserve">You pull the curtain open, there is a window behind it. Near the floor are some pipes.
 
 The Girl &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1055,7 +1052,7 @@ The Girl &gt; </result>
     <commentary xml:space="preserve">You pick up the sheet.
 
 The Girl &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1075,7 +1072,7 @@ The Girl &gt; </result>
 You wrap one end of the sheet around the pipes and make a knot. You drop the other end of the sheet out the window.
 
 The Girl &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1107,7 +1104,7 @@ Darkness
 It is pitch dark, and you can&apos;t see a thing.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1129,7 +1126,7 @@ Second Floor
 You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see doors to the north, east and south.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1149,7 +1146,7 @@ Bedroom
 The bedroom is somewhat furnished, a mattress on the floor serves as a bed, a bedside table next to it. The window is covered with a sheet. There is something under the table.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1165,7 +1162,7 @@ Otto &gt; </result>
     <commentary xml:space="preserve">You see a safe under the table.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1181,7 +1178,7 @@ Otto &gt; </result>
     <commentary xml:space="preserve">An electronic pad for entering a code. You can ENTER 0000 to unlock the safe.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1197,7 +1194,7 @@ Otto &gt; </result>
     <commentary xml:space="preserve">&quot;Unholy Battle pest control, Tad Kemp&quot;. You notice an impression like writing on the back of the card.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1213,7 +1210,7 @@ Otto &gt; </result>
     <commentary xml:space="preserve">The back of the card has 6375 written on it.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
@@ -1231,7 +1228,7 @@ Otto &gt; </result>
 Click. The safe door creaks open. Inside is a bronze key.
 
 Otto &gt; </commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>

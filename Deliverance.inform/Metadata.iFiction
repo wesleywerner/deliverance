@@ -14,6 +14,12 @@
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
+        <resources>
+            <auxiliary>
+                <leafname>floorplan.jpg</leafname>
+                <description>Map</description>
+            </auxiliary>
+        </resources>
         <cover>
             <format>jpg</format>
             <height>960</height>
