@@ -974,13 +974,13 @@ Chapter 11 - Eleventh act
 The eleventh act is a scene. The eleventh act begins when the tenth act ends. The eleventh act ends when the eleventh act is done.
 
 When the eleventh act begins:
-	now the description of the Living Room is "The room is dim and nothing you see makes sense. A door leads to the east, and some stairs go up to the second floor.";
-	say "(as [Otto]) For a moment you stand lifeless, making sense of the scene. [Victoria] collapses to the floor. You have to get her out of here.";
+	move Demon to the waiting room;
 	move Victoria to the Living room;
 	move Otto to the Living room;
 	move Tad to the Living room;
-	move Demon to the waiting room;
 	now the player is Otto;
+	now the description of the Living Room is "The room is dim and nothing you see makes sense. A door leads to the east, and some stairs go up to the second floor.";
+	say "(as [Otto]) For a moment you stand lifeless, making sense of the scene. [Victoria] collapses to the floor. You have to get her out of here.";
 	[try looking;]
 
 When the eleventh act ends:
