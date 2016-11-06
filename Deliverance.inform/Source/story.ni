@@ -131,7 +131,7 @@ After reading a command (this is the ignore beta-comments rule):
 		reject the player's command.
 
 When play begins:
-	say "BETA RELEASE[line break]Enter SCRIPT as your first command to record your session. You can add annotations during play via '?' or '!' prefixes: '? I have no idea what to do' or '! This thing is really lame'[paragraph break]TODO[line break]Add s second floor safe, a combination and the gate key inside.";
+	say "# BETA RELEASE[line break]# Enter SCRIPT as your first command to record your session. You can add annotations during play via '?' or '!' prefixes: '? I have no idea what to do' or '! This thing is really lame'[paragraph break]";
 
 Chapter 4 - Default responses
 
@@ -278,7 +278,7 @@ Instead of opening the teapot:
 	
 Some teacups are on the trolley. It is scenery. The description is "Pale white tea cups without any designs." Understand "cup" and "teacup" as teacups. Instead of taking teacups, say "You refuse to break for tea."
 
-The bronze key is in the teapot. The description is "A short but fat bronze key, it has decorative grape vines embossed around the shaft and the head."
+A business card is in the teapot. The description is "A white card with black print." Instead of examining a business card, say "'Unholy Battle pest control, Tad Kemp'. You notice an impression like writing on the back of the card." Instead of turning a business card, say "The back of the card has 6375 written on it."
 
 A painting is in the living room. It is fixed in place. It is scenery. The description is "It depicts four horsemen riding through the sky, rolling clouds behind them. On the earth below, soldiers and slaves alike engage in a battle frenzy. You recognize the horsemen by name: Conquest, War, Famine and Death."
 Some horsemen are part of the painting. Understand "horses" as horsemen. The description is "Conquest wears fine clothes, wields a longbow and a crown adorns his head. War is swinging a two-handed broad sword. Famine holds a sling, dressed in rags and looking fierce. The skeleton that is Death grips a long staff, his gaze causing recoil in those who it falls upon."
@@ -430,18 +430,31 @@ second-floor-bedroom-east is a room. It is east of the Second Floor Hall. The pr
 
 The second-floor-window-a is in the second-floor-bedroom-east. It is scenery. Understand "window" as second-floor-window-a. The printed name is "window". The description is "You see grass down below, no other houses are visible. You are on a second storey floor." Instead of searching second-floor-window-a, try examining second-floor-window-a.
 
-second-floor-bedroom-south is a room. It is south of the Second Floor Hall. The printed name is "Bedroom". The description is "The bedroom is somewhat furnished, a mattress on the floor serves as a bed, a bedside table next to it. The window is covered with a sheet."
+second-floor-bedroom-south is a room. It is south of the Second Floor Hall. The printed name is "Bedroom". The description is "The bedroom is somewhat furnished, a mattress on the floor serves as a bed, a bedside table next to it. The window is covered with a sheet. There is something under the table."
 
-The second-mattress is a supporter in the second-floor-bedroom-south. Understand "bed" and "mattress" as second-mattress. The description is "A single mattress on the floor." Instead of entering the second-mattress, say "This is no time to fool around!"
+The second-mattress is a supporter in the second-floor-bedroom-south. It is scenery. Understand "bed" and "mattress" as second-mattress. The description is "A single mattress on the floor." Instead of entering the second-mattress, say "This is no time to fool around!"
 
 The second-floor-window-b is in the second-floor-bedroom-south. It is scenery. Understand "window" as second-floor-window-b. The printed name is "window". The description is "It is covered by a sheet." Instead of searching second-floor-window-b, try examining second-floor-window-b.
 
-The second-floor-table is a supporter in the second-floor-bedroom-south. It is scenery. The printed name is "the table". The description is "A low bedside table, some newspapers are on it." Understand "table" as second-floor-table.
+The second-floor-table is a supporter in the second-floor-bedroom-south. It is scenery. The printed name is "the table". The description is "A low bedside table, some newspapers are on it." Understand "table" as second-floor-table. Instead of looking under second-floor-table, say "You see a safe under the table."
 
 Some newspapers are on the second-floor-table. It is scenery. The description is "These are fairly recent, somebody is living here.". Instead of taking newspapers, say "You don't want the newspapers."
 
 A second-floor-sheet is in the second-floor-bedroom-south. It is scenery. Understand "sheet" as second-floor-sheet. The description is "A dirty and torn sheet covers the window." Instead of opening second-floor-sheet, say "You would rather not waste the time, you know what is outside the window."
 
+A safe is a locked closed container in the second-floor-bedroom-south. It is fixed in place. It is scenery. The description is "A small gun safe with an electronic keypad." The keypad is part of the safe. The description is "An electronic pad for entering a code. You can ENTER 0000 to unlock the safe."
+
+Entering a code is an action applying to one number and one thing. Understand "enter [number] in [keypad]" as entering a code.
+Check entering a code:
+	if the safe is open, say "The safe is already open." instead;
+	if the number understood is not 6375:
+		say "The safe beeps in error." instead;
+Carry out entering a code:
+	now the safe is open;
+Report entering a code:
+	say "Click. The safe door creaks open. Inside is [a list of things in the safe].";
+
+The bronze key is in the safe. The description is "A short but fat bronze key, it has decorative grape vines embossed around the shaft and the head."
 
 
 Chapter 10 - Third floor hall
@@ -1002,6 +1015,10 @@ The final act is a scene. The final act begins when the eleventh act ends.
 When the final act begins:
 	end the story saying "THE DAILY NEWS[line break]Last night Victoria Cote was found safe in an abandoned house in an undisclosed location. Her family is relieved to have her back. Detective Otto York was first on the location to ensure her safety. The family and police declined to release further details at this time.";
 
-Chapter 13 - Entry point
+Chapter 13 - Entry point - For Release Only
+
+The first act begins when play begins.
+
+Chapter 14 - Dev testing - not for release
 
 The first act begins when play begins.
