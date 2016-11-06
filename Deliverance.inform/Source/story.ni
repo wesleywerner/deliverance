@@ -121,9 +121,10 @@ A Demon is an animal. The description is "It has the figure of a man with leathe
 
 Chapter 3 - Not for release
 
-To pause for dramatic effect:
+[To pause for dramatic effect:
 	say "[paragraph break][bold type]press a key to continue...[roman type][paragraph break]";
 	Do nothing.
+]
 
 After reading a command (this is the ignore beta-comments rule):
 	if the player's command matches the regular expression "^\p":
