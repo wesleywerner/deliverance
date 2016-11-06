@@ -4,6 +4,13 @@ The story headline is "A Halloween story".
 
 [ We use the press any key to continue extension ]
 Include Basic Screen Effects by Emily Short.
+[Release along with a solution.]
+Release along with the library card.
+Release along with cover art.
+[Release along with a file of "Map" called "floorplan.jpg".]
+[Release along with a file of "Design notes" called "deliverance-design.txt".]
+Release along with an introductory postcard.
+Release along with an interpreter.
 
 Part 1 - Definitions
 
@@ -65,6 +72,7 @@ A person has some text called mirror description.
 A person can be tied or untied. A person is usually untied.
 A person can be bleeding. A person is usually not bleeding.
 A person can be delayed. A person is usually not delayed.
+A person can be dead. A person is usually not dead.
 
 [ Fix display of the current player name in the command line ]
 Rule for printing the name of Victoria: say "The Girl". 
@@ -100,8 +108,13 @@ Instead of switching off the tactical-torch:
 	say "click."
 
 
-Tad Kemp is a man. The description is "This gentleman makes you think of a prowling jackal. He has slitted brown eyes that are like two splotches of mud. His silky, wavy, brown hair is worn in a style that reminds you of a wave of water. He is very tall and has a lithe build. His skin is ruddy. He has a small nose and knobby ears. His wardrobe is artistic, and is completely blue and green."
+Tad Kemp is a man. The description is "A lithe man [if Tad is dead]lies on the floor staring[else]glares at you[end if] through slit brown eyes. His ruddy tone and wavy brown hair does nothing to detract from his prowling jackal disposition."
+The self description of Tad is "You are wearing stained brown trousers and a black golf shirt. You have not looked in a mirror recently, for fear of what Demons may stare back."
 Understand "killer" as Tad Kemp.
+
+Instead of searching a dead Tad Kemp:
+	say "You find [list of things carried by Tad]";
+	now all things carried by Tad is in the location;
 
 A Demon is an animal. The description is "It has the figure of a man with leather-like skin, it has no use for clothes. The knees bend backwards, six razor talons extend where fingers would be. Sharp fangs fill the mouth, a bald head is adorned with two goat-like horns."
 
@@ -118,7 +131,7 @@ After reading a command (this is the ignore beta-comments rule):
 		reject the player's command.
 
 When play begins:
-	say "BETA RELEASE[line break]Enter SCRIPT as your first command to record your session. You can add annotations during play via '?' or '!' prefixes: '? I have no idea what to do' or '! This thing is really lame'[paragraph break]";
+	say "BETA RELEASE[line break]Enter SCRIPT as your first command to record your session. You can add annotations during play via '?' or '!' prefixes: '? I have no idea what to do' or '! This thing is really lame'[paragraph break]TODO[line break]Add s second floor safe, a combination and the gate key inside.";
 
 Chapter 4 - Default responses
 
@@ -310,7 +323,7 @@ Instead of taking sharp knives:
 	now Tad carries a cleaver;
 	say "You pick up a sharp cleaver from the pile of knives.";
 
-A cleaver is a thing. The description is "A sharp meat cleaver. This one is called protector."
+A cleaver is a thing. The description is "[if the player is Tad]A sharp meat cleaver. This one is called protector.[else]A meat cleaver, a potential murder weapon."
 
 Instead of going west during the seventh act:
 	if the kitchen door is locked:
@@ -359,7 +372,7 @@ Check going down when the location is second floor hall during the fifth act:
 
 Chapter 8 - Bathroom
 
-Bathroom is a room. It is north of the Second Floor Hall. The description is "You are in a bathroom, there is a claw-foot bath, one window and a basin. A mirror is fixed to the wall. The exit is to the south."
+Bathroom is a room. It is north of the Second Floor Hall. The description is "You are in a bathroom, there is a claw-foot bath, one window and a basin. [if Bathroom is dark]It is dark outside. The room is very dim, the moon giving just enough light to see.[end if] A mirror is fixed to the wall. The exit is to the south."
 
 The bathroom-window is a closed locked door. It is south of Second-floor-outside and north of the bathroom. The printed name is "window". Understand "window" as bathroom-window. The description is "The window is shoulder height, it leads to the outside."
 Instead of opening the locked bathroom-window, say "It won't open. It must be secured permanently."
@@ -408,6 +421,7 @@ Instead of inserting lamp oil into a brass lantern:
 	now a brass lantern is full;
 	now the lamp oil is nowhere;
 
+The moon is a thing in the bathroom. It is scenery. It is lit. The description is "The pale moon pushes through the clouds, proving some light in the dim bathroom."
 
 
 Chapter 9 - Second floor bedrooms
@@ -605,7 +619,7 @@ Instead of getting off the rickety chair for the second time:
 Instead of getting off the rickety chair for the third time:
 	Move small cardboard box to the loft;
 	Now the rickety chair is sideways;
-	say "You rock the chair. One one side of the chair breaks under the strain and you topple on to your side, your head almost hitting a small cardboard box. Your one arm is freed."
+	say "You rock the chair. One side of the chair breaks under the strain and you topple onto your side, your head almost hitting a small cardboard box. Your one arm is freed."
 	
 Instead of getting off the rickety chair:
 	If the player is tied:
@@ -901,6 +915,7 @@ Instead of going during the ninth act:
 Instead of attacking Tad during the ninth act:
 	if the player is Victoria:
 		say "You slip the craft knife into your palm, scared to death, your limbs seem to move on their on volition. You slash at the killer's neck, blood gushes out. More blood than you ever saw.";
+		now Tad is dead;
 		now the ninth act is done;
 	otherwise:
 		say "You aim your pistol at the killer, [if Otto is bleeding]your arm shakes, you feel faint. You [end if]exhale and squeeze the trigger...";
@@ -935,6 +950,7 @@ Instead of cutting Demon during the tenth act:
 
 To reveal another demon:
 	say "Another demon appears behind you, swiping at you with razor claws, [if Otto is not bleeding]tearing the skin from your back.[otherwise]and misses by a small miracle. You turn to face it, ready to cut it's throat. You realize your mistake the second you feel sharp claws slashing through your neck, and again, and again.[end if][line break]You crumple to the floor in a bloody mess, sobbing, bleeding out.";
+	now Tad is dead;
 	now the tenth act is done;
 
 Chapter 11 - Eleventh act
@@ -986,6 +1002,6 @@ The final act is a scene. The final act begins when the eleventh act ends.
 When the final act begins:
 	end the story saying "THE DAILY NEWS[line break]Last night Victoria Cote was found safe in an abandoned house in an undisclosed location. Her family is relieved to have her back. Detective Otto York was first on the location to ensure her safety. The family and police declined to release further details at this time.";
 
-Chapter 13 - Testing - Not for release
+Chapter 13 - Entry point
 
 The first act begins when play begins.
