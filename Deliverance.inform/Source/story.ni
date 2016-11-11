@@ -75,7 +75,7 @@ A person can be delayed. A person is usually not delayed.
 A person can be dead. A person is usually not dead.
 
 [ Fix display of the current player name in the command line ]
-Rule for printing the name of Victoria: say "The Girl". 
+Rule for printing the name of Victoria: say "Victoria". 
 Rule for printing the name of Otto: say "Otto". 
 Rule for printing the name of Tad: say "Tad".
 
@@ -158,6 +158,12 @@ The Waiting Room is a room.
 
 The interior is a region. The Parlour, Living room, second floor hall, bathroom, second-floor-bedroom-south, second-floor-bedroom-east, third floor hall, third floor bedroom and Loft are in the interior.
 
+
+Chapter - Dream Sequence
+
+Your Home is a room. The description is "You are inside your living room. Against the north wall is a fireplace mantel, a painting fixed to the wall above it. A hallway leads to the west. A closed door is to the south, two windows on either side of it."
+
+
 Chapter 1 - Front of the house
 
 Front of the house is a room. The description is "You are in front of an old house. The flaking paint and shoddy walkway indicate it's age and abandonment. The front door is here, the porch wraps around the building, towards the south. You are carrying [list of things carried by the player]."
@@ -175,7 +181,7 @@ The knocker is a part of the front door. The description is "A tarnished bronze 
 
 The knob is a part of the front door. The description is "An oval shaped bronze door knob."
 
-Instead of knocking the front door, say "This building is marked under abandonment, you don't need to knock or have a warrant to enter. Plus you want to avoid making your presence known to anybody inside. Stopping the perpetrator is your priority. Finding the girl safe, even more so."
+Instead of knocking the front door, say "This building is marked under abandonment, you don't need to knock or have a warrant to enter. Plus you want to avoid making your presence known to anybody inside. Stopping the perpetrator is your priority. Finding Victoria safe, even more so."
 
 Instead of opening the front door, say "You grasp the oval shaped metal door knob, with a firm grip you twist it back and forth. Locked."
 
@@ -719,15 +725,27 @@ Instead of opening bathroom-window during the sixth act:
 
 Part 3 - Scenes
 
+Chapter - Dream Sequence
+
+The dream sequence is a scene. The dream sequence ends when the dream sequence is done.
+
+When the dream sequence begins:
+	Move Victoria to Your Home;
+	Now the player is Victoria Cote;
+
+[ Alter descriptions and actions based on the current dream state ]
+Dream state is a kind of value. The dream states are lucid, confused and dreamlike. The reality is a dream state that varies. The reality is lucid. 
+
+
 Chapter 1 - First act
 
-The first act is a scene. The first act ends when the first act is done.
+The first act is a scene. The first act ends when the first act is done. The first act begins when the dream sequence ends.
 
 When the first act begins:
 	Move Victoria Cote to the rickety chair;
 	Now Victoria Cote is tied;
 	Now the player is Victoria Cote;
-	say "Light pierces your vision as your eyes flutter open. Blurred shapes spin around as you shake the sound of a pounding heart free. You remember the struggle and abduction, but not your name..."
+	say "Light pierces your vision as your eyes flutter open. Blurred shapes spin around as you shake the sound of a pounding heart free. You are Victoria, and you have to escape your abductor."
 	
 When the first act ends:
 	say "The room turns into a tunnel, the floor rising up to meet you. Shadows creep in from all sides as your vision fades.";
@@ -920,7 +938,7 @@ When the ninth act ends:
 
 Every turn during the ninth act:
 	if Tad is in the location:
-		say "[if the player is Otto]The killer moves closer to the girl, a cleaver in his hand...[else]The killer moves closer to the detective, a cleaver in his hand...";
+		say "[if the player is Otto]The killer moves closer to Victoria, a cleaver in his hand...[else]The killer moves closer to the detective, a cleaver in his hand...";
 
 Instead of examining during the ninth act:
 	say "You are wasting time!";
@@ -987,7 +1005,7 @@ When the eleventh act begins:
 	[try looking;]
 
 When the eleventh act ends:
-	say "You carry the girl outside, the cool night air promising peace. You hear sirens wailing over the hill.";
+	say "You carry Victoria outside, the cool night air promising peace. You hear sirens wailing over the hill.";
 	[pause for dramatic effect;]
 
 Instead of attacking Tad during the eleventh act:
@@ -999,7 +1017,7 @@ Instead of going during the eleventh act:
 
 Instead of going south during the eleventh act:
 	if Victoria is not carried by the player:
-		say "You can't leave the girl lying here.";
+		say "You can't leave Victoria lying here.";
 		stop the action;
 	otherwise:
 		now the eleventh act is done;
