@@ -694,7 +694,6 @@ Chapter 11 - Third floor bedroom
 Third Floor Bedroom is a room. The printed name is "Bedroom". The description is "A small bedroom furnished with a mattress on the floor and a curtain against one wall[if curtain is open], a window behind it. Some pipes run along the wall behind the curtain[end if]. The loft is back to the east, another door is due south.[if curtain is open and a sheet is tied][paragraph break]A bed sheet is tied to the pipes, the other end hanging out the window.[end if]"
 
 Carry out going to Third Floor Bedroom during the first act:
-	say "[paragraph break]You feel faint.";
 	Victoria passes-out in one turn from now.
 
 At the time when Victoria passes-out:
@@ -1019,6 +1018,8 @@ Instead of smelling when the location is in the interior during the second act:
 	say "The house smells old and moldy.".
 Instead of listening to kitchen door during the second act:
 	say "You put your ear up against the door, it is quiet on the other side.".
+Instead of knocking the bedroom door during the first act:
+	say "You hesitate to knock on the door, scared of whomever kidnapped you. You would rather try and escape unnoticed.".
 
 
 
