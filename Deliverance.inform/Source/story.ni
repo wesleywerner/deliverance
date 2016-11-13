@@ -382,7 +382,7 @@ test quinn with "ask quinn about us/ask quinn about park/ask quinn about picnic/
 
 Chapter 1 - Front of the house
 
-Front of the house is a room. The description is "You are in front of an old house. The flaking paint and shoddy walkway indicate it's age and abandonment. The front door is here, the porch wraps around the building, towards the south. You are carrying [list of things carried by the player]."
+Front of the house is a room. The description is "You are in front of an old, remote house. The flaking paint and shoddy walkway indicate it's age and abandonment. The porch leads to the south. The front door is to the west. You are carrying [list of things carried by the player]."
 
 The house proper is a thing in the front of the house. It is scenery. Understand "house" as the house proper. The description is "Shabby and derelict." Instead of entering the house proper, try entering the front door.
 
