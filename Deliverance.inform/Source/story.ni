@@ -835,6 +835,12 @@ Check taking something not carried when the player is tied:
 		say "They are tied to the chair and to you, preventing you from taking them." instead;
 	say "You pick up [the noun], and drop it despite your restraints." instead.
 
+Instead of touching the rickety chair when Victoria is tied:
+	say "You feel the chair pressing up against your back."
+
+Instead of touching the rickety chair when Victoria is not tied:
+	say "The wood of the chair feels old and rough."
+
 Instead of getting off the rickety chair for the first time:
 	say "You try to stand up. Your hands and feet are bound to the chair with rope, and you nearly topple over. The chair creaks violently."
 
