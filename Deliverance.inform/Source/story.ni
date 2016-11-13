@@ -509,7 +509,9 @@ Instead of opening the teapot:
 	
 Some teacups are on the trolley. It is scenery. The description is "Pale white tea cups without any designs." Understand "cup" and "teacup" as teacups. Instead of taking teacups, say "You refuse to break for tea."
 
-A business card is in the teapot. The description is "A white card with black print." Instead of examining a business card, say "'Unholy Battle pest control, Tad Kemp'. You notice an impression like writing on the back of the card." Instead of turning a business card, say "The back of the card has 6375 written on it."
+A business card is in the teapot. The description is "A white card with black print." Instead of examining a business card, say "'Unholy Battle pest control, Tad Kemp'. You notice an impression like writing on the back of the card."
+An impression is part of a business card. Instead of examining impression, try turning a business card.
+Instead of turning a business card, say "The back of the card has 6375 written on it."
 
 A painting is in the living room. It is fixed in place. It is scenery. The description is "It depicts four horsemen riding through the sky, rolling clouds behind them. On the earth below, soldiers and slaves alike engage in a battle frenzy. A small plaque is fixed to the frame."
 A plaque is part of a painting. The description is "The plaque reads: 'Conquest, War, Famine and Death.'" 
