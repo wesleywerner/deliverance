@@ -454,7 +454,7 @@ A rear-house-proxy is in Rear of the house. It is scenery. Understand "house" as
 
 Chapter 4 - Parlour
 
-Parlour is a room. The description is "A large carpet covers the floor. A low and wide table dominates the room, tattered armchairs guarding it. A silver serving dish is on the table. A bay window is to the west, a door to the north."
+Parlour is a room. The description is "A low and wide table dominates the room, tattered armchairs guarding it, a carpet underneath it. A serving dish is on the table. A bay window is to the west, a door to the north."
 
 parlour-chairs are a thing in the parlour. It is fixed in place. It is scenery. The printed name is "chair". The description is "Torn and tattered, the floor looks more inviting." Instead of entering parlour-chairs, say "You did not come here for the holiday." Understand "chair" and "chairs" and "armchair" and "armchairs" as parlour-chairs.
 
