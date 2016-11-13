@@ -85,7 +85,11 @@ Instead of examining the player:
 	say "[self description of the player][paragraph break]".
 
 Instead of taking inventory when the player is tied:
-	say "You are tied up and cannot search your pockets."
+	if the chair is upright:
+		say "Your hands are tied to the back of the chair with rope, you can't reach your pockets.";
+	if the chair is sideways:
+		say "With your one free hand you reach into your jean pocket.";
+		continue the action;
 
 Victoria Cote is a woman. The description is "This girl puts you in mind of a frightened cat. She has large orange eyes that are like two flames. Her messy, straight, brown hair is worn in a style that reminds you of a comet's trail. She is short and has an hourglass build. Her skin is cream-coloured. She has a high forehead and wide feet. Her wardrobe is strange."
 The self description of Victoria is "You see dirt on your bruised arms. You are wearing red jeans and a yellow blouse. [if Victoria is tied]Your hands are tied with ropes to the back of the chair, your feet tied to the legs of the chair.[end if]".
