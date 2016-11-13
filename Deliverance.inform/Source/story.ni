@@ -415,7 +415,7 @@ Instead of going north when the location is the Porch: try going northeast.
 
 Some porch-windows is a thing in the porch. The printed name is "windows". It is scenery. Understand "window" and "windows" as porch-windows. The description is "Murky and dark, you can only make out the shapes of a table and some chairs. It looks like a parlour." Instead of searching porch-windows, try examining porch-windows. Instead of attacking porch-windows, say "You prefer finding a less noisy way inside." Instead of opening porch-windows, say "These windows are not supposed to open."
 
-Some porch-planks are in the porch. Understand "wood" and "porch" and "floor" as porch-planks. It is scenery. The description is "The rough wood planks of the porch are weathered and stripped of their varnish years ago."
+Some porch-planks are in the porch. Understand "wood" and "porch" and "floor" and "planks" as porch-planks. It is scenery. The description is "The rough wood planks of the porch are weathered and stripped of their varnish years ago."
 
 Carry out going northwest when the location is the porch: say "You walk along the porch to the west side of the house."
 
@@ -427,12 +427,12 @@ Carry out going northwest when the location is the porch: say "You walk along th
 
 Chapter 3 - Rear of the house
 
-Rear of the house is a room. It is northwest of the Porch. The description is "The back of the house is no less weathered. There is a bay window here."
+Rear of the house is a room. It is northwest of the Porch. The description is "The back of the house is no less weathered. There is a bay window to the east."
 
 [ helper that allows the player to just go east/west to/from the porch ]
-Instead of going east when the location is the rear of the house: try going southeast. Instead of going west when the location is the porch: try going northwest.
+Instead of going west when the location is the porch: try going northwest.
 
-The bay window is a door. It is east of Rear of the house and west of the Parlour. The description is "It is divided into four panes of glass, and sits about chest-height." It is scenery.
+The bay window is a door. It is east of Rear of the house and west of the Parlour. The description is "It is divided into four panes of glass, and sits about chest-height. The window is [if bay window is open]open[else]closed[end if]." It is scenery.
 
 Instead of searching the bay window, say "You see the parlour inside."
 
