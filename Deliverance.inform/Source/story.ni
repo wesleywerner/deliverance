@@ -805,7 +805,7 @@ A supporter called the rickety chair is in the loft. It is fixed in place. The p
 The rickety chair can be upright or sideways. The rickety chair is upright.
 Instead of taking rickety chair, say "You have no need for a broken chair."
 
-Some rope is a part of the chair. Understand "bonds" and "ropes" and "restraints" as rope. The description is "[if the rickety chair is upright]They are bound around your hands and feet, fixing you to the chair.[end if][if the rickety chair is sideways and the player is tied]They are bound around your one hand and both your feet.[end if][if the player is untied]They are cut to pieces.[end if]".
+Some rope is a part of the chair. Understand "bonds" and "ropes" and "restraints" as rope. The description is "[if the rickety chair is upright]The rope is tied around your hands and feet, fixing you to the chair.[end if][if the rickety chair is sideways and the player is tied]The rope is tied to your one hand and both your feet.[end if][if the player is untied]The rope is cut to pieces.[end if]".
 
 Instead of untying the rope: say "[if Victoria is tied]You struggle to untie the knots. There must be another way.[else]You cut them pretty good, so why bother undoing the knots now."
 
