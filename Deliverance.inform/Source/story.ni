@@ -76,6 +76,7 @@ A person can be dead. A person is usually not dead.
 
 [ Fix display of the current player name in the command line ]
 Rule for printing the name of Victoria: say "Victoria". 
+Rule for printing the name of Quinn: say "Quinn". 
 Rule for printing the name of Otto: say "Otto". 
 Rule for printing the name of Tad: say "Tad".
 
@@ -90,6 +91,10 @@ Victoria Cote is a woman. The description is "This girl puts you in mind of a fr
 The self description of Victoria is "You see dirt on your bruised arms. You are wearing red jeans and a yellow blouse. [if Victoria is tied]Your hands are tied with ropes to the back of the chair, your feet tied to the legs of the chair.[end if]".
 The mirror description of Victoria is "Big orange eyes stare back at you. Your straight brown hair is tangled about your face. You look like hell."
 Understand "girl" and "the girl" as Victoria.
+
+Quinn Cooper is a man. The description is "Your husband has a gentle way about him, with his deep-set eyes the color of coffee. His straight, chocolate-colored hair reaches his shoulders. He is tall and has a lean build. His prominent cheekbones is one of his more striking features."
+Understand "husband" as Quinn.
+
 
 Detective Otto York is a man. The description is "This determined gentleman has droopy violet eyes. His silky, wavy, vermilion hair is worn in a style that reminds you of a river. He has a graceful build. His skin is cream-coloured. He has thin eyebrows. He wears black jeans, light blue collared shirt and leather jacket."
 The self description of Otto is "You are wearing black jeans, a light blue collared shirt and a leather jacket. A gun holster is strapped underneath around your shoulder, a badge is attached to your belt."
@@ -143,12 +148,11 @@ When play begins:
 Chapter 4 - Default responses
 
 standard report taking rule response (A) is "You pick up [the noun].".
-can't open unless openable rule response (A) is "You can't seem to open [the noun].".
 can't unlock without the correct key rule response (A) is "[The second noun] does not fit [the noun] lock.".
 can't open what's locked rule response (A) is "[The noun] [are] locked.".
 block attacking rule response (A) is "On second thought, you don't think that is a good idea.".
-
-
+report smelling rule response (A) is "That is a silly thing to try smell.".
+report listening rule response (A) is "You did not expect [the noun] to make a sound, did you?".
 
 
 Part 2 - Rooms
@@ -161,7 +165,196 @@ The interior is a region. The Parlour, Living room, second floor hall, bathroom,
 
 Chapter - Dream Sequence
 
-Your Home is a room. The description is "You are inside your living room. Against the north wall is a fireplace mantel, a painting fixed to the wall above it. A hallway leads to the west. A closed door is to the south, two windows on either side of it."
+The Park is a room. The description is "[dreamy-park-description]".
+
+The path is in the park. It is scenery. 
+The description is "[dreamy-path]".
+
+The sky is in the park. It is scenery. 
+The description is "[dreamy-sky]". Understand "clouds" as sky.
+
+A playground is in the park. It is scenery. 
+The description is "[dreamy-playground]".
+
+The swings are in the park. It is scenery. 
+The description is "[dreamy-swings]".
+
+The seesaws are in the park. It is scenery. 
+The description is "[dreamy-swings]". Understand "seesaw" as seesaws.
+
+Some trees are in the park. It is scenery.
+The description is "[dreamy-trees]".
+Understand "oak" and "leaves" as trees.
+
+The grass is in the park. It is scenery.
+The description is "[dreamy-grass]".
+
+Some kids are people in the park. It is scenery. 
+The description is "[dreamy-kids]". Understand "children" as kids.
+
+To say dreamy-park-description:
+	if reality is lucid:
+		say "You are walking on a scenic path with your husband, the park is beautiful this time of year, a clear sky stretches above you. A playground is in the distance, a dozen kids playing on the swings and seesaws. Majestic trees line the path, you are walking north.";
+	if reality is confused:
+		say "You are on a path, your husband beside you. The park surrounding you looks pale and unkempt, a grey sky looms up above. A playground is in the distance, a few kids are ambling around the swings and seesaws. Tired trees line the path, you are walking north.";
+	if reality is dreamlike:
+		say "".
+
+To say dreamy-path:
+	if reality is lucid:
+		say "A smooth cobblestone path comprised of dark and light shaded tones, the stones consisting of a multitude of shapes. The path winds through the park. The bright sky illuminates the path ahead of you.";
+	if reality is confused:
+		say "A dreary cobblestone path comprised of dark shaded tones. The path winds through the park. The sky casting a dull undertone on the path ahead of you.";
+	if reality is dreamlike:
+		say "A broken cobblestone path comprised of brown and black shaded stones. The path is winding affair intended to confused and mislead.";
+
+To say dreamy-sky:
+	if reality is lucid:
+		say "A beautiful clear, temperate sky. Faint wisps of cirrus clouds are visible, high above you. It reminds you of your wedding day.";
+	if reality is confused:
+		say "The sky is covered by pale stratus clouds. You thought that it was clear and temperate just a moment ago.";
+	if reality is dreamlike:
+		say "The sky is dark, you can't see any stars, moon or clouds.";
+
+To say dreamy-playground:
+	if reality is lucid:
+		say "A merry affair in the distance, situated on top of luscious grass. You see a set of four swings and a couple of seesaws. It is the main attraction for children.";
+	if reality is confused:
+		say "The playground is dull, the few children moping around the swings and seesaws don't seem to eager to play.";
+	if reality is dreamlike:
+		say "The playground is deserted. You see a set of four swings and a couple of seesaws.";
+
+To say dreamy-kids:
+	if reality is lucid:
+		say "The dozen or so kids are playing joyfully on the playground swings and seesaw. Seeing them fills you with joy at the thought of having your own one day.";
+	if reality is confused:
+		say "They stand around the playground, listlessly pushing empty swings without a word.";
+	if reality is dreamlike:
+		say "";
+
+Instead of asking kids about something:
+	say "They are far away in the distance, way beyond earshot."
+
+Instead of telling kids about something:
+	say "They are far away in the distance, way beyond earshot."
+
+To say dreamy-swings:
+	if reality is lucid:
+		say "The rhythmic motion of the kids playing on the swings and seesaws is mesmerizing. It makes you feel happy.";
+	if reality is confused:
+		say "The staccato rhythm of empty swings, and awkwardly poised seesaws, all feel out of place.";
+	if reality is dreamlike:
+		say "The swings sway gently in the wind, the seesaws frozen in mid-sway.";
+
+To say dreamy-trees:
+	if reality is lucid:
+		say "Beautiful oak trees line the path, they must at least a century old.";
+	if reality is confused:
+		say "The oaks look tired, their branches sagging from the weight of their leaves.";
+	if reality is dreamlike:
+		say "The oak trees are bare of leaves. They don't inspire happy thoughts.";
+
+To say dreamy-grass:
+	if reality is lucid:
+		say "Luscious and green, the perfect grass for a park.";
+	if reality is confused:
+		say "It looks pale and dry.";
+	if reality is dreamlike:
+		say "The grass is dead.";
+
+Instead of examining Quinn when reality is lucid:
+	say "[description of Quinn][paragraph break]He looks expectantly at the children playing in the playground.";
+Instead of examining Quinn when reality is confused:
+	say "Your husband has a sombre look about him. His dark deep-set eyes indicating as much. The breeze moving his hair about his shoulders. Shadows underlie his prominent cheekbones.[paragraph break]He seems troubled by something.";
+Instead of examining Quinn when reality is dreamlike:
+	say "Your husband has stopped walking, he stares at you with a disturbed expression on his face.";
+
+Instead of asking Quinn about "the/-- us/marriage/honeymoon/ring/wedding/anniversary" when reality is lucid:
+	say "'I love you Victoria', Quinn says with a big smile. It is nearly our first anniversary!";
+Instead of asking Quinn about "the/-- us/marriage/honeymoon/ring/wedding/anniversary" when reality is confused:
+	say "'I love you too' he says distractedly.";
+Instead of asking Quinn about "the/-- park/grass/trees" when reality is lucid:
+	say "'The park is very beautiful today', Quinn smiles.";
+Instead of asking Quinn about "the/-- park/grass/trees" when reality is confused:
+	say "'It all seems a bit dreary' Quinn laments.";
+Instead of asking Quinn about "the/-- picnic" when reality is lucid:
+	say "'A picnic would be great, we will come next week for one', he agrees.";
+Instead of asking Quinn about "the/-- picnic" when reality is confused:
+	say "'It does not feel like the right time for a picnic. Maybe when all this trouble has cleared up...'";
+Instead of asking Quinn about "the/-- playground/swings/seesaws" when reality is lucid:
+	say "'Those kids really love those swings and seesaws', Quinn chuckles.";
+Instead of asking Quinn about "the/-- playground/swings/seesaws" when reality is confused:
+	say "'They look a bit empty, don't they.' he laments.";
+Instead of asking Quinn about "the/-- sky/clouds" when reality is lucid:
+	say "'This day is splendid!' your husband grins, 'a picnic would be nice'.";
+Instead of asking Quinn about "the/-- sky/clouds" when reality is confused:
+	say "'I wonder when all this will clear up. It seems hopeless'.";
+Instead of asking Quinn about "the/-- kids/children" when reality is lucid:
+	say "'Maybe our own kids will play here, one day', Quinn smiles.";
+Instead of asking Quinn about "the/-- kids/children" when reality is confused:
+	say "Quinn does not seem interested in the kids right now. He seems troubled.";
+Instead of asking Quinn about "the/-- himself/husband" when reality is lucid:
+	say "'I always feel great on a day like this.' he grins.";
+Instead of asking Quinn about "the/-- himself/husband" when reality is confused:
+	say "'Today feels a bit drab, something is missing.' he laments.";
+Instead of asking Quinn about "me" when reality is lucid:
+	say "Quinn winks at you.";
+Instead of asking Quinn about "the/-- me/trouble" when reality is lucid:
+	say "'Nothing is wrong today, my love', he kisses you on the cheek.";
+Instead of asking Quinn about "the/-- me/trouble/distraction" when reality is confused:
+	say "'Why did you go missing, Victoria? I wish I knew what happened to you', he laments.";
+Instead of asking Quinn about "missing" when reality is confused:
+	say "'Yes you disappeared, very much unlike you.', he laments.";
+Instead of asking Quinn about "going missing" when reality is confused:
+	say "'Yes you disappeared, very much unlike you.', he laments.";
+Instead of asking Quinn about "disturbed" when reality is confused:
+	say "'Yes you disappeared, very much unlike you.', he laments.";
+Instead of asking Quinn about "being disturbed" when reality is confused:
+	say "'Yes you disappeared, very much unlike you.', he laments.";
+
+Instead of asking Quinn about something when reality is lucid:
+	say "Quinn ignores the question and smiles at the children playing."
+Instead of asking Quinn about something when reality is confused:
+	say "Quinn ignores you, he seems troubled by something."
+Instead of asking Quinn about something when reality is dreamlike:
+	say "Your husband tries to speak, his lips are moving but you can't hear the words, like he is very far away."
+
+Instead of going north during the dream sequence:
+	if reality is dreamlike:
+		[ our dream ends here ]
+		say "You walk north along the path. Your legs feel heavy, as if moving through mud. Everything around you fades away, you are left in darkness.";
+		now the dream sequence is done;
+	otherwise:
+		distort reality;
+		if reality is confused,
+			say "You walk north along the path. Everything around you seems different, you are not sure how much time has passed.";
+		if reality is dreamlike:
+			say "You walk north along the path. Everything around you seems different, you are not sure how much time has passed.";
+			now the kids are nowhere;
+		try looking;	
+
+Instead of going south during the dream sequence:
+	if reality is lucid:
+		say "You came to the park with your husband, Quinn, for a walk. You are not going back home now.";
+	if reality is confused:
+		say "You turn to face the direction where you came from, but the path going south is not there. You remember walking on it, but you only see endless grass stretching our before you.";
+	if reality is dreamlike:
+		say "No matter how hard you try and will yourself, you can't seem to turn back, like some invisible force preventing you from retreating.";  
+
+Every turn during the dream sequence:
+	if a random chance of 1 in 5 succeeds:
+		if reality is lucid:
+			say "[italic type]A soft, warm wind caresses your face.[roman type][line break]";
+		if reality is confused:
+			say "[italic type]A cold breeze touches your face.[roman type][line break]";
+		if reality is dreamlike:
+			say "[italic type]An icy chill cuts your face. You shiver.[roman type][line break]";
+
+test park with "x quinn/x path/x sky/x playground/x kids/ask children about swings/tell kids about seesaws/x swings/x trees/x grass/n"
+
+test quinn with "ask quinn about us/ask quinn about park/ask quinn about picnic/ask quinn about kids/ask quinn about playground/ask quinn about sky/ask quinn about trees/ask quinn about swings/ask quinn about seesaws/ask quinn about marriage/ask quinn about wedding/ask quinn about himself/ask quinn about husband/ask quinn about me/ask quinn about honeymoon/ask quinn about ring/ask quinn about children/ask husband about trouble/ask husband about missing/ask husband about going missing/ask husband about being disturbed/ask husband about disturbed/n"
+
+
 
 
 Chapter 1 - Front of the house
@@ -730,11 +923,17 @@ Chapter - Dream Sequence
 The dream sequence is a scene. The dream sequence ends when the dream sequence is done.
 
 When the dream sequence begins:
-	Move Victoria to Your Home;
+	Move Quinn Cooper to the park;
+	Move Victoria to the park;
 	Now the player is Victoria Cote;
 
 [ Alter descriptions and actions based on the current dream state ]
-Dream state is a kind of value. The dream states are lucid, confused and dreamlike. The reality is a dream state that varies. The reality is lucid. 
+Dream state is a kind of value. The dream states are lucid, confused and dreamlike. The reality is a dream state that varies. The reality is lucid.
+
+To distort reality:
+	if the reality is not dreamlike:
+		Now the reality is the dream state after the reality;
+
 
 
 Chapter 1 - First act
@@ -742,10 +941,10 @@ Chapter 1 - First act
 The first act is a scene. The first act ends when the first act is done. The first act begins when the dream sequence ends.
 
 When the first act begins:
-	Move Victoria Cote to the rickety chair;
 	Now Victoria Cote is tied;
+	say "Light pierces your vision as your eyes flutter open. Blurred shapes spin around as you shake the sound of a pounding heart free. You just woke from a very strange dream.";
+	Move Victoria Cote to the rickety chair;
 	Now the player is Victoria Cote;
-	say "Light pierces your vision as your eyes flutter open. Blurred shapes spin around as you shake the sound of a pounding heart free. You are Victoria, and you have to escape your abductor."
 	
 When the first act ends:
 	say "The room turns into a tunnel, the floor rising up to meet you. Shadows creep in from all sides as your vision fades.";
@@ -1045,4 +1244,4 @@ The first act begins when play begins.
 
 Chapter 14 - Dev testing - not for release
 
-The first act begins when play begins.
+The dream sequence begins when play begins.

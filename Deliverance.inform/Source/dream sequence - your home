@@ -1,0 +1,253 @@
+
+Your Home is a room. The description is "[dream-home-description]".
+
+The mantel is a supporter in your home. It is fixed in place. It is scenery. The description is "[dream-home-mantel]".  The printed name is "mantel".
+
+The decoration is part of the mantel. The description is "[dream-home-mantel]". Understand "curves" and "wood" as the mantel.
+
+The fireplace is in your home. It is fixed in place. It is scenery. Understand "fire" and "chimney" as fireplace. The description is "[dream-home-fireplace]".
+
+The clock is on the mantel. Understand "face" as the clock. The description is "[dream-home-clock]".
+
+The wedding photo is on the mantel. Understand "photograph" as wedding photo. The description is "[dream-home-photo]".
+
+Some plane tickets are on the mantel. The description is "[dream-home-tickets]".
+
+The home door is in your home. It is fixed in place. It is scenery. The description is "[dream-home-door]". The printed name is "front door". Understand "front door" as home door.
+
+The home hallway is in your home. It is fixed in place. It is scenery. The description is "[dream-home-hallway]". The printed name is "hallway".
+
+The home window is in your home. It is fixed in place. It is scenery. The description is "[dream-home-window]". The printed name is "window".
+
+To say dream-home-description:
+	if the reality is lucid:
+		say "You are inside your living room. Against the north wall is a fireplace mantel. A hallway leads to the west. A closed door and a window is to the south.";
+	if the reality is confused:
+		say "There is a fire burning in the fireplace against the north wall, a mantel surrounds the fireplace. Cold frost outlines the window to the south. A hallway leads to the west. A closed door to the south.";
+	if the reality is dreamlike:
+		say "The room is very dim. The ashes of a burnt fire rests in the fireplace, a decaying mantel framing the fireplace. A dreary hallway leads to the west. The window to the south only shows black outside, a closed door beside the window.";
+
+To say dream-home-fireplace:
+	if the reality is lucid:
+		say "The fireplace is unlit and clean. You and Michael only use it during winter, it has been too warm for the last four months to use it.";
+	if the reality is confused:
+		say "There is a fire lit in the fireplace, providing some much needed warmth.";
+	if the reality is dreamlike:
+		say "";
+
+To say dream-home-mantel:
+	if the reality is lucid:
+		say "It is a decorative wooden framework around the fireplace. The top of the mantel is a shelf, on it is [a list of things on the mantel].";
+	if the reality is confused:
+		say "This faded wooden framework surrounds the fireplace. The top of the mantel is a shelf, on it is [a list of things on the mantel].";
+	if the reality is dreamlike:
+		say "The once decorative wood of the mantel is now rotting to pieces. The top of the mantel is a shelf, on it is [a list of things on the mantel].";
+
+To say dream-home-clock:
+	if the reality is lucid:
+		say "Made from hand crafted wood, the clock was a wedding gift from Michael's parents. The wood is stained black and has a matt finish. The time reads [the time of day in words].";
+	if the reality is confused:
+		say "The clock was a wedding gift. The wood is cracked in some places, the clock is close to falling apart. The hands of the clock are twisted and bent, making it impossible to see the time.";
+	if the reality is dreamlike:
+		say "The clock, a wedding gift to you and Michael, is rotting beyond repair. It seems that if you touch it, it would crumble in your hands. There is an empty space where the face of the clock once was.";
+
+To say dream-home-photo:
+	if the reality is lucid:
+		say "It is you and Michael's wedding photograph. You both look so happy in the photo.";
+	if the reality is confused:
+		say "It is you and Michael's wedding photograph, except it is different than how you remember it: The eyes in the photo have been replaced by empty black spots, and the photo seems faded.";
+	if the reality is dreamlike:
+		say "This used to be your and Michael's wedding photograph, it is beyond recognition now, it looks burned up.";
+
+To say dream-home-tickets:
+	if the reality is lucid:
+		say "These are you and Michael's plane tickets, you are going on a two-week anniversary holiday to the Alps. You are very excited! Michael should return from the office any minute now.";
+	if the reality is confused:
+		say "These are you and Michael's plane tickets, you are going on a two-week anniversary holiday to the Alps. You are very excited! You notice the print on the tickets is hard to read, like the words are jumbled. You are concerned why Michael hasn't arrived yet.";
+	if the reality is dreamlike:
+		say "The tickets look burnt, the print hardly legible. They crumble in your hands, ash falling to the floor.";
+		now the plane tickets are nowhere;
+	
+To say dream-home-door:
+	if the reality is lucid:
+		say "It is the front door of the house, it is painted white.";
+	if the reality is confused:
+		say "The front door is dusty and pale.";
+	if the reality is dreamlike:
+		say "The door is rotting away in the outer edges.";
+	
+To say dream-home-window:
+	if the reality is lucid:
+		say "";
+	if the reality is confused:
+		say "";
+	if the reality is dreamlike:
+		say "";
+	
+To say dream-home-hallway:
+	if the reality is lucid:
+		say "";
+	if the reality is confused:
+		say "";
+	if the reality is dreamlike:
+		say "";
+
+Instead of taking the mantel, 
+	say "[The noun] is built into the wall. You can't take it.".
+Instead of opening the mantel, 
+	say "This mantel has no door to open.".
+Instead of closing the mantel, 
+	say "This mantel has no door to close.".
+Instead of searching the mantel, 
+	say "You look closer at the curves of the carved mantel, and find nothing.".
+Instead of smelling the mantel when reality is lucid, 
+	say "It smells of varnished wood.".
+Instead of smelling the mantel when reality is confused, 
+	say "The smell of varnish is faint and masked by something more sour smelling, almost like rot.".
+Instead of smelling the mantel when reality is dreamlike, 
+	say "The wood smells rotten, with mixed tones of earth and mold.".
+
+Instead of taking the fireplace when reality is lucid, 
+	say "It is built into the wall, it would be silly to try take it out by yourself.".
+Instead of taking the fireplace when reality is confused, 
+	say "You don't want to burn yourself.".
+Instead of taking the fireplace when reality is dreamlike, 
+	say "You take some of the ash, it falls through your fingers.".
+Instead of opening the fireplace, 
+	say "The fireplace has no door covering it.".
+Instead of closing the fireplace, 
+	say "There is no door covering the fireplace to close.".
+Instead of searching the fireplace when reality is lucid, 
+	say "The fireplace is clean, it hasn't been used in the past couple of warmer months.".
+Instead of searching the fireplace when reality is confused, 
+	say "The fire burning in there is very hot, you don't want to burn yourself.".
+Instead of searching the fireplace when reality is dreamlike, 
+	say "You gingerly push the bones aside, but find nothing of interest.".
+Instead of smelling the fireplace when reality is lucid, 
+	say "The fireplace has a faint scent of past use.".
+Instead of smelling the fireplace when reality is confused, 
+	say "The smell of fire and smoke rises with waves of heat from the fireplace.".
+Instead of smelling the fireplace when reality is dreamlike, 
+	say "It smells of burnt ashes, there is a hint of something acrid about the smell, you can't place it.".
+Instead of listening to the fireplace when reality is lucid, 
+	say "The empty fireplace is silent, not even the sound of of a wind coming through the chimney.".
+Instead of listening to the fireplace when reality is confused, 
+	say "You hear the fire roaring, hungrily, as the flames leap forth up into the chimney.".
+Instead of listening to the fireplace when reality is dreamlike, 
+	say "".
+
+Instead of taking the clock when reality is lucid, 
+	say "You take the clock into your hands, it is heavy and ticking away happily. Content that the clock is working, you put it back on the mantel.".
+Instead of taking the clock when reality is confused,
+	say "You take the clock into your hands, it creaks as you move it, the ticking sounds wrong.".
+Instead of taking the clock when reality is dreamlike:
+	say "You take the clock, it's wood is rotten and it disintegrates in your hands.";
+	now the clock is nowhere.
+Instead of opening the clock, 
+	say "The clock is sealed shut, you won't be able to open it.".
+Instead of pushing the clock, 
+	say "You don't want to push the clock off the mantel and onto the ground. It will break.".
+Instead of searching the clock, 
+	say "You find nothing behind the clock.".
+Instead of listening to the clock when reality is lucid, 
+	say "The rhythmic ticking of the clock reassured you that it is working.".
+Instead of listening to the clock when reality is confused, 
+	say "The ticking has become staccato. It does not sound good for the clock.".
+Instead of listening to the clock when reality is dreamlike, 
+	say "It is silent.".
+
+Instead of taking the wedding photo when reality is lucid:
+	say "You pick the photograph up and stare at it, reminiscing about the happiest day of your lives.";
+	try examining the wedding photo;
+	say "You put the photograph back on the mantel.".
+Instead of taking the wedding photo when reality is confused:
+	say "You pick the photograph up and stare at it.";
+	try examining the wedding photo;
+	say "You put the photograph back on the mantel.".
+Instead of taking the wedding photo when reality is dreamlike:
+	try examining the wedding photo;
+	say "As you pick up the photograph, it crumbles into ash, lost forever.";
+	now the wedding photo is nowhere.
+Instead of searching the wedding photo,
+	say "You look behind the photo, turn it around, and see nothing remarkable.".
+
+
+Instead of taking the plane tickets:
+	if the plane tickets are carried by the player:
+		say "You already have them.";
+		stop the action;
+	say "You take the plane tickets for safe keeping.";
+	now the player carries the plane tickets.
+Instead of opening the plane tickets:
+	say "You open the tickets and look at the inside:";
+	try examining the plane tickets.
+Instead of searching the plane tickets when reality is lucid, 
+	say "You flip through the tickets and find nothing new.".
+Instead of searching the plane tickets when reality is confused, 
+	say "You flip through the tickets and see the print is all jumbled up, the words are hard to make out.".
+Instead of searching the plane tickets when reality is dreamlike, 
+	try examining the plane tickets.
+
+Instead of opening the home door, 
+	say "".
+Instead of closing the home door, 
+	say "".
+Instead of searching the home door, 
+	say "".
+Instead of smelling the home door, 
+	say "".
+Instead of listening to the home door, 
+	say "".
+
+Instead of taking the home hallway, say "".
+Instead of opening the home hallway, say "".
+Instead of closing the home hallway, say "".
+Instead of searching the home hallway, say "".
+Instead of listening to the home hallway, say "".
+
+Instead of taking the home window, say "".
+Instead of opening the home window, say "".
+Instead of closing the home window, say "".
+Instead of searching the home window, say "".
+Instead of smelling the home window, say "".
+Instead of listening to the home window, say "".
+
+test mantel with "x mantel/take mantel/open mantel/close mantel/search mantel/smell mantel/listen to mantel".
+
+test fireplace with "x fireplace/take fire/open fireplace/close fireplace/search fireplace/smell fireplace/listen to fireplace".
+
+test chimney with "x chimney/take chimney/open chimney/close chimney/push chimney/pull chimney/search chimney/smell chimney/listen to chimney".
+
+test clock with "x clock/take clock/open clock/close clock/push clock/pull clock/search clock/smell clock/listen to clock".
+
+test photo with "x photo/take photograph/open photo/close photo/search photo/smell wedding photo/listen to wedding photograph".
+
+test tickets with "x plane tickets/take tickets/open tickets/close tickets/search tickets/smell tickets/listen to tickets".
+
+test home-door with "x door/take front door/open door/close door/search door/smell door/listen to door".
+
+test home-hallway with "x hallway/take hallway/open hallway/close hallway/search hallway/smell hallway/listen to hallway".
+
+test home-window with "x window/take window/open window/close window/search window/smell window/listen to window".
+
+
+
+Chapter - Dream Sequence
+
+The dream sequence is a scene. The dream sequence ends when the dream sequence is done.
+
+When the dream sequence begins:
+	Move Victoria to Your Home;
+	Now the player is Victoria Cote;
+	The mantel clock chimes in 10 turns from now;
+
+[ Alter descriptions and actions based on the current dream state ]
+Dream state is a kind of value. The dream states are lucid, confused and dreamlike. The reality is a dream state that varies. The reality is lucid.
+
+At the time when the mantel clock chimes:
+	if the reality is not dreamlike:
+		Now the reality is the dream state after the reality;
+		The mantel clock chimes in 10 turns from now;
+		say "[italic type]The mantel clock chimes.[roman type]";
+
+
