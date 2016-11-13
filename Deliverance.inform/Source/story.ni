@@ -847,7 +847,7 @@ Check taking something not carried when the player is tied:
 		stop the action;
 	if the noun is some rope:
 		say "They are tied to the chair and to you, preventing you from taking them." instead;
-	say "You pick up [the noun], and drop it despite your restraints." instead.
+	say "This won't cut the ropes." instead.
 
 Instead of touching the rickety chair when Victoria is tied:
 	say "You feel the chair pressing up against your back."
@@ -863,7 +863,7 @@ Understand "move chair" as a mistake ("Perhaps you means to GET UP.");
 Instead of getting off the rickety chair for the second time:
 	Move small cardboard box to the loft;
 	Now the rickety chair is sideways;
-	say "You rock the chair. One side of the chair breaks under the strain and you topple onto your side, your head almost hitting a small cardboard box. Your one arm is freed."
+	say "You rock the chair. One side of the chair breaks under the strain and you topple onto your side, your head almost hits a small cardboard box. Your one arm is free!"
 	
 Instead of getting off the rickety chair:
 	If the player is tied:
