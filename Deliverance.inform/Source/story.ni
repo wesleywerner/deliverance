@@ -154,7 +154,7 @@ Chapter 4 - Default responses
 standard report taking rule response (A) is "You pick up [the noun].".
 can't unlock without the correct key rule response (A) is "[The second noun] does not fit [the noun] lock.".
 can't open what's locked rule response (A) is "[The noun] [are] locked.".
-block attacking rule response (A) is "On second thought, you don't think that is a good idea.".
+block attacking rule response (A) is "You don't think that is a good idea.".
 report smelling rule response (A) is "That is a silly thing to try smell.".
 report listening rule response (A) is "You don't hear any noises coming from [the noun].".
 
@@ -788,7 +788,7 @@ Check going south when the location is the Third Floor Bedroom during the sixth 
 
 Chapter 12 - Third floor loft
 
-The Loft is a room. The description is "[if the player is tied]You don't know where you are, some kind of room. You feel too panicked to notice your surroundings. It is difficult to move.[else]You are in what looks like a loft, crates and boxes stacked against the walls. Wooden floors and white walls surround you. The ceiling rafters are visible. There is a single window. There is a door to the west.[paragraph break]A broken chair and cut rope lies on the floor."
+The Loft is a room. The description is "[if the player is tied]You don't know where you are, some kind of room. You feel too panicked to notice your surroundings. It is difficult to move.[else]You are in what looks like a loft, crates and boxes stacked against the walls. Wooden floors and white walls surround you. The ceiling rafters are visible. There is a single window. A broken chair and cut rope lies on the floor. There is a door to the west.[end if][if lamp oil is not carried by the player][paragraph break]The lamp oil catches your eye.[end if]";
 
 walls, floors and ceiling are things in the loft. walls, floors and ceiling are scenery. The description of walls is "White walls, lined with crates and boxes." The description of floors is "Dusty wooden floors." The description of ceiling is "The visible rafters make you think of an attic." Understand "rafters" as ceiling. Understand "wall" as walls. Understand "floor" as floors.
 
@@ -811,7 +811,7 @@ Instead of untying the rope: say "[if Victoria is tied]You struggle to untie the
 
 Instead of taking the rope, say "[if Victoria is tied]Ironically you are tied up with the very rope you want to take.[else]You don't need cut ropes."
 
-A small cardboard box is closed openable container. "A small cardboard box is nearby." The description is "[if small cardboard box is closed]A small closed box.[otherwise]The small box is open, it's contents on the floor."
+A small cardboard box is closed openable container. The description is "[if small cardboard box is closed]A small closed box.[otherwise]The small box is open, it's contents on the floor."
 
 Instead of taking a small cardboard box:
 	if the small cardboard box is closed:
