@@ -211,7 +211,7 @@ To say dreamy-park-description:
 	if reality is confused:
 		say "You are on a path, your husband beside you. The park surrounding you looks pale and unkempt, a grey sky looms up above. A playground is in the distance, a few kids are ambling around the swings and seesaws. Tired trees line the path, you are walking north.";
 	if reality is dreamlike:
-		say "".
+		say "The once beautiful park is lifeless, a black sky hovers above you. A distant playground with swings and seesaws is abandoned. Dead trees line the path heading north.";
 
 To say dreamy-path:
 	if reality is lucid:
