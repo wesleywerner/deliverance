@@ -990,18 +990,10 @@ When the second act begins:
 	Move Otto York to the front of the house;
 	Now the player is Otto;
 	try looking;
-	The player recounts-once in one turn from now;
-	The player recounts-twice in two turns from now;
-	The player recounts-thrice in three turns from now;
+	The player recounts in one turn from now;
 	
-At the time when the player recounts-once:
-	say "Earlier today, an anonymous tip was called in at the homicide office. All they gave was a name, in connection with the missing girl."
-
-At the time when the player recounts-twice:
-	say "The name led to outdated property records, and those led to this address. I had to get here quick, even if my partner was an hour away in the other direction. I had to."
-
-At the time when the player recounts-thrice:
-	say "This place is derelict, remote and dreary. The perfect place to hide an abducted girl. Never have I wanted something so dismal to be so true. I pray she is alive."
+At the time when the player recounts:
+	say "[italic type]An anonymous tip to the homicide office, in connection with the missing woman, led me here.[paragraph break]Victoria... I pray she is still alive.[roman type][line break]";
 
 When the second act ends:
 	say "You peer up the staircase, making sure nobody else is watching from above, and cautiously ascend the stairs.";
@@ -1363,4 +1355,4 @@ The dream sequence begins when play begins.
 
 Chapter 14 - Dev testing - not for release
 
-The first act begins when play begins.
+The second act begins when play begins.
