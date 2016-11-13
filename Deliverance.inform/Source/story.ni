@@ -133,10 +133,10 @@ A Demon is an animal. The description is "It has the figure of a man with leathe
 
 Chapter 3 - Not for release
 
-[To pause for dramatic effect:
+To pause for dramatic effect:
 	say "[paragraph break][bold type]press a key to continue...[roman type][paragraph break]";
 	Do nothing.
-]
+
 
 After reading a command (this is the ignore beta-comments rule):
 	if the player's command matches the regular expression "^\p":
@@ -156,7 +156,16 @@ can't unlock without the correct key rule response (A) is "[The second noun] doe
 can't open what's locked rule response (A) is "[The noun] [are] locked.".
 block attacking rule response (A) is "On second thought, you don't think that is a good idea.".
 report smelling rule response (A) is "That is a silly thing to try smell.".
-report listening rule response (A) is "You did not expect [the noun] to make a sound, did you?".
+report listening rule response (A) is "You don't hear any noises coming from [the noun].".
+
+Instead of smelling:
+	if the location is in the interior:
+		say "You smell mold and dust.";
+	otherwise:
+		say "You can smell damp air and woody scents."
+
+Instead of listening when the location is not in the interior:
+	say "The cool night is quiet, save for the faint chirps of crickets in the distance.".
 
 
 Part 2 - Rooms
@@ -164,7 +173,7 @@ Part 2 - Rooms
 [* A place the player can wait while we set up ]
 The Waiting Room is a room.	
 
-The interior is a region. The Parlour, Living room, second floor hall, bathroom, second-floor-bedroom-south, second-floor-bedroom-east, third floor hall, third floor bedroom and Loft are in the interior.
+The interior is a region. The Parlour, Living room, second floor hall, bathroom, second-floor-bedroom-south, second-floor-bedroom-east, third floor hall, third floor bedroom, kitchen and Loft are in the interior.
 
 
 Chapter - Dream Sequence
@@ -322,6 +331,16 @@ Instead of asking Quinn about something when reality is confused:
 	say "Quinn ignores you, he seems troubled by something."
 Instead of asking Quinn about something when reality is dreamlike:
 	say "Your husband tries to speak, his lips are moving but you can't hear the words, like he is very far away."
+
+Instead of smelling during the dream sequence:
+	if reality is lucid, say "The air smells fresh and clean.";
+	if reality is confused, say "The air in the park smells stale.";
+	if reality is dreamlike, say "The air is pungent with decay.";
+
+Instead of listening during the dream sequence:
+	if reality is lucid, say "The sound of children play echoes across the stretch of grass.";
+	if reality is confused, say "You only hear the cold breeze twisting through the trees.";
+	if reality is dreamlike, say "You don't hear any sound, this place is lifeless.";
 
 Instead of going north during the dream sequence:
 	if reality is dreamlike:
@@ -508,11 +527,6 @@ Check going up when the location is the living room:
 	if the second act is undone:
 		now the second act is done;
 		stop the action;
-
-
-
-
-
 
 
 
@@ -960,6 +974,14 @@ When the first act ends:
 	say "The room turns into a tunnel, the floor rising up to meet you. Shadows creep in from all sides as your vision fades.";
 	pause for dramatic effect;
 
+Instead of listening during the first act:
+	if Victoria is tied:
+		say "You don't hear anything, except the creaking chair when you move.";
+	otherwise:
+		say "You stop to listen carefully for any noises. You hear nothing.";
+Instead of smelling during the first act:
+	say "The room smells a little moldy, which is not unexpected looking at the state of it.".
+
 Chapter 2 - Second act
 
 The second act is a scene. The second act begins when first act ends.
@@ -987,6 +1009,19 @@ When the second act ends:
 	say "You peer up the staircase, making sure nobody else is watching from above, and cautiously ascend the stairs.";
 	pause for dramatic effect;
 
+Instead of listening when the location is not in the interior during the second act:
+	say "The cool night is quiet, save for the faint chirps of crickets in the distance.".
+Instead of smelling when the location is not in the interior during the second act:
+	say "The evening air smells of bitter ozone.".
+
+Instead of listening when the location is in the interior during the second act:
+	say "The house is quiet, apart from the creaking floor boards when you move.".
+Instead of smelling when the location is in the interior during the second act:
+	say "The house smells old and moldy.".
+Instead of listening to kitchen door during the second act:
+	say "You put your ear up against the door, it is quiet on the other side.".
+
+
 
 Chapter 3 - Third act
 
@@ -1001,6 +1036,15 @@ When the third act begins:
 When the third act ends:
 	say "You hold on to the makeshift rope, climb through the window and prepare yourself.";
 	pause for dramatic effect;
+
+Instead of listening during the third act:
+	say "You stop to listen carefully for any noises. You hear nothing.";
+Instead of smelling during the third act:
+	say "The room smells a little moldy, which is not unexpected looking at the state of it.".
+Instead of listening to the bedroom door during the third act:
+	say "You hear faint movements through the door, like somebody moving around downstairs.";
+Instead of knocking the bedroom door during the third act:
+	say "You hesitate to knock on the door, scared of whomever kidnapped you. You would rather try and escape unnoticed.".
 
 
 Chapter 4 - Fourth act
@@ -1018,6 +1062,10 @@ When the fourth act ends:
 	say "You ascend the stairs, continuing your search...";
 	pause for dramatic effect;
 
+Instead of listening during the fourth act:
+	say "You can hear faint noises coming from upstairs. Somebody is up there, moving around.".
+
+
 Chapter 5 - Fifth act
 
 The fifth act is a scene. The fifth act begins when the fourth act ends. The fifth act ends when the fifth act is done.
@@ -1027,6 +1075,8 @@ When the fifth act begins:
 	now the player is Victoria;
 	now the curtain is closed;
 	move Otto to waiting room;
+	now the third-floor-gate is open;
+	now the third-floor-gate is unlocked;
 	say "(as [Victoria]) You hold tight to the bed sheet as you climb through the window. You hear a noise coming from the other side of the bedroom door, fear rises up inside. You pull the curtain closed, hoping to hide your escape attempt.";
 	try looking;
 
@@ -1034,6 +1084,23 @@ When the fifth act ends:
 	say "Frightened and shaking, you go down the stairs...";
 	pause for dramatic effect;
 
+Instead of closing third-floor-gate during the fifth act:
+	say "You don't want to close it, you only want to get down stairs and out of this place."
+
+Instead of listening when the location is not in the interior during the fifth act:
+	say "You hear faint chirps of crickets.";
+Instead of smelling when the location is not in the interior during the fifth act:
+	say "Apart from smelling the damp evening air, you don't notice any other smells.".
+Instead of listening to tfo-window during the fifth act:
+	say "You hear faint movements through the window, coming from behind the bedroom door."
+Instead of listening to bathroom-window during the fifth act:
+	say "You don't hear any noises through this window."
+Instead of listening when the location is the bathroom during the fifth act:
+	say "You only hear your own heart pounding, your climb down was taxing."
+Instead of listening during the fifth act:
+	say "You hear movement upstairs!";
+Instead of examining third-floor-gate during the fifth act:
+	say "This gate leads up the stairs, where you were kept. Somebody has opened the gate. They could be up there now.";
 
 Chapter 6 - Sixth act
 
@@ -1063,6 +1130,13 @@ Instead of going west when the location is the loft during the sixth act:
 When the sixth act ends:
 	pause for dramatic effect;
 
+Instead of listening for the first time during the sixth act:
+	say "You hear breaking glass, sounds like it came from one level below you.".
+
+Instead of listening when the location is in the interior during the sixth act:
+	say "You hear movement down below.".
+
+
 Chapter 7 - Seventh act
 
 The seventh act is a scene. The seventh act begins when the sixth act ends. The seventh act ends when the seventh act is done.
@@ -1081,6 +1155,15 @@ When the seventh act ends:
 At the time when Tad hears noise:
 	say "You hear breaking glass. The Demon! You must stop it, before it comes for your flesh.[paragraph break]You unlock the kitchen door.";
 	now the kitchen door is unlocked;
+
+Instead of listening during the seventh act:
+	if the kitchen door is locked:
+		say "The kitchen is quiet.";
+	else:
+		say "You hear something moving beyond the kitchen door.";
+Instead of smelling during the seventh act:
+	say "The kitchen smells moldy.".
+
 
 Chapter 8 - Eighth act
 
@@ -1123,6 +1206,12 @@ Instead of attacking tad when the player is Victoria during the eighth act:
 
 At the time when Otto appears:
 	now the eighth act is done;
+
+Instead of listening during the eighth act:
+	if Tad is in the location:
+		say "You only hear your heart pounding in your chest.";
+	else:
+		say "You hear somebody rustling around beyond the door to the east. You make a note to avoid that door.";
 
 
 Chapter 9 - Ninth act
@@ -1167,12 +1256,20 @@ Instead of attacking Tad during the ninth act:
 		say "You aim your pistol at the killer, [if Otto is bleeding]your arm shakes, you feel faint. You [end if]exhale and squeeze the trigger...";
 		now the ninth act is done;
 
+Instead of listening during the ninth act:
+	say "You hear the frightened breathing of Victoria.".
+Instead of smelling during the ninth act:
+	say "The smell of fear permeates this room.".
+
+
 Chapter 10 - Tenth act
 
 The tenth act is a scene. The tenth act begins when the ninth act ends. The tenth act ends when the tenth act is done.
 
 When the tenth act begins:
 	say "(as [Tad]) You enter the Living room, the Demon is here. It is mocking you, calling out for your flesh. The parlour is due south, the kitchen to the east. Stairs go up to the second floor.";
+	if Tad is not in the location:
+		move Tad to the Living room;
 	now the player is Tad;
 	now the Living room is lit;
 	move Victoria to the Waiting Room;
@@ -1198,6 +1295,12 @@ To reveal another demon:
 	say "Another demon appears behind you, swiping at you with razor claws, [if Otto is not bleeding]tearing the skin from your back.[otherwise]and misses by a small miracle. You turn to face it, ready to cut it's throat. You realize your mistake the second you feel sharp claws slashing through your neck, and again, and again.[end if][line break]You crumple to the floor in a bloody mess, sobbing, bleeding out.";
 	now Tad is dead;
 	now the tenth act is done;
+
+Instead of listening during the tenth act:
+	say "You hear the hard breathing of the hungry Demon in front of you.";
+Instead of smelling during the tenth act:
+	say "You smell the vile stench of the Demon facing you.";
+
 
 Chapter 11 - Eleventh act
 
@@ -1241,6 +1344,12 @@ Instead of taking Victoria during the eleventh act:
 Instead of dropping Victoria during the eleventh act:
 	say "You are not putting her back down.";
 
+Instead of listening during the eleventh act:
+	say "You hear the frightened breathing of Victoria.".
+Instead of smelling during the eleventh act:
+	say "The smell of fear permeates this room.".
+
+
 Chapter 12 - Final act
 
 The final act is a scene. The final act begins when the eleventh act ends.
@@ -1250,7 +1359,7 @@ When the final act begins:
 
 Chapter 13 - Entry point - For Release Only
 
-The first act begins when play begins.
+The dream sequence begins when play begins.
 
 Chapter 14 - Dev testing - not for release
 
