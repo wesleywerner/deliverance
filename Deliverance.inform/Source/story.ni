@@ -856,12 +856,11 @@ Instead of touching the rickety chair when Victoria is not tied:
 	say "The wood of the chair feels old and rough."
 
 Instead of getting off the rickety chair for the first time:
-	say "You try to stand up. Your hands and feet are bound to the chair with rope, and you nearly topple over. The chair creaks violently."
-
-Instead of getting off the rickety chair for the second time:
-	say "You rock the chair. Some part of it snaps underneath you, it sags to the right."
+	say "You rock the chair. Some part of it snaps underneath you, it sags to the right. The chair sounds pretty weak, you think it might break if you try that again."
 	
-Instead of getting off the rickety chair for the third time:
+Understand "move chair" as a mistake ("Perhaps you means to GET UP.");
+	
+Instead of getting off the rickety chair for the second time:
 	Move small cardboard box to the loft;
 	Now the rickety chair is sideways;
 	say "You rock the chair. One side of the chair breaks under the strain and you topple onto your side, your head almost hitting a small cardboard box. Your one arm is freed."
@@ -1363,4 +1362,4 @@ The dream sequence begins when play begins.
 
 Chapter 14 - Dev testing - not for release
 
-The dream sequence begins when play begins.
+The first act begins when play begins.
