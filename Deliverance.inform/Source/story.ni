@@ -507,7 +507,7 @@ Instead of opening the teapot:
 	now the teapot is open;
 	say "Lifting the butterfly lid, a [list of things in teapot] is revealed inside the teapot."
 	
-Some teacups are on the trolley. It is scenery. The description is "Pale white tea cups without any designs." Understand "cup" and "teacup" as teacups. Instead of taking teacups, say "You refuse to break for tea."
+Some teacups are on the trolley. It is scenery. The description is "Pale white tea cups without any designs." Understand "cup" and "cups" and "teacup" as teacups. Instead of taking teacups, say "You refuse to break for tea."
 
 A business card is in the teapot. The description is "A white card with black print." Instead of examining a business card, say "'Unholy Battle pest control, Tad Kemp'. You notice an impression like writing on the back of the card."
 An impression is part of a business card. Instead of examining impression, try turning a business card.
