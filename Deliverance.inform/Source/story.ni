@@ -92,7 +92,7 @@ Instead of taking inventory when the player is tied:
 		continue the action;
 
 Victoria Cote is a woman. The description is "This girl puts you in mind of a frightened cat. She has large orange eyes that are like two flames. Her messy, straight, brown hair is worn in a style that reminds you of a comet's trail. She is short and has an hourglass build. Her skin is cream-coloured. She has a high forehead and wide feet. Her wardrobe is strange."
-The self description of Victoria is "You see dirt on your bruised arms. You are wearing red jeans and a yellow blouse. [if Victoria is tied]Your hands are tied with ropes to the back of the chair, your feet tied to the legs of the chair.[end if]".
+The self description of Victoria is "You see dirt on your bruised arms. You are wearing red your jeans and yellow blouse. [if Victoria is tied]Your hands are tied with ropes to the back of the chair, your feet tied to the legs of the chair.[end if]".
 The mirror description of Victoria is "Big orange eyes stare back at you. Your straight brown hair is tangled about your face. You look like hell."
 Understand "girl" and "the girl" as Victoria.
 
