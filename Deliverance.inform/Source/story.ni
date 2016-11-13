@@ -473,7 +473,7 @@ Instead of opening the serving dish:
 	now the serving dish is open;
 	say "Despite this silly act of curiosity, you have to see what is on the dish. You have to be sure. You lift the lid to reveal [list of things in serving dish].";
 
-Some bone fragments are in the serving dish. It is plural-named. The description is "These are his trophies. You are now convinced this is, the right place." Understand "bones" as bone fragments. Instead of taking bone fragments, say "No, they can be taken into evidence later. Time matters."
+Some bone fragments are in the serving dish. It is plural-named. The description is "These are Tad's trophies, your main suspect. He keeps human bones, and displays them exactly like this." Understand "bones" as bone fragments. Instead of taking bone fragments, say "No, they can be taken into evidence later. Time matters."
 
 Instead of taking serving dish:
 	if serving dish is open:
