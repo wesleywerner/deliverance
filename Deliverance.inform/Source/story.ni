@@ -537,7 +537,7 @@ Chapter 6 - Kitchen
 
 The Kitchen is a room. The description is "In the pale light you see a bare kitchen: scuffed wooden floors, a table and some cupboards fixed to the wall. There is a door to the west."
  
-The kitchen door is a locked door. It is scenery. It is east of the Living room and west of the Kitchen.
+The kitchen door is a locked door. It is scenery. It is east of the Living room and west of the Kitchen. The description is "The kitchen door is [if the kitchen door is open]open[else]closed[end if].".
 Does the player mean unlocking kitchen door with bronze key: it is very likely.
 
 The kitchen-floor is in the Kitchen. Understand "floor" and "floors" as kitchen-floor. It is scenery. The printed name is "floor". The description is "Scuffed wooden floors groan under your steps."
