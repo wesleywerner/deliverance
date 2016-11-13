@@ -513,9 +513,9 @@ A business card is in the teapot. The description is "A white card with black pr
 
 A painting is in the living room. It is fixed in place. It is scenery. The description is "It depicts four horsemen riding through the sky, rolling clouds behind them. On the earth below, soldiers and slaves alike engage in a battle frenzy. A small plaque is fixed to the frame."
 A plaque is part of a painting. The description is "The plaque reads: 'Conquest, War, Famine and Death.'" 
-Some horsemen are part of the painting. Understand "horses" as horsemen. The description is "Conquest wears fine clothes, wields a longbow and a crown adorns his head. War is swinging a two-handed broad sword. Famine holds a sling, dressed in rags and looking fierce. The skeleton that is Death grips a long staff, his gaze causing recoil in those who it falls upon."
+Some horsemen are part of the painting. Understand "horses" and "war" and "conquest" and "famine" and "death" as horsemen. The description is "Conquest wears fine clothes, wields a longbow and a crown adorns his head. War is swinging a two-handed broad sword. Famine holds a sling, dressed in rags and looking fierce. The skeleton that is Death grips a long staff, his gaze causing recoil in those who it falls upon."
 Some clouds are part of the painting. Understand "rolling clouds" as clouds. The description is "The clouds in the painting seem in turmoil, blocking out the entirety of the sky, except for one small patch in the heavens above, occupied by a lonesome white lamb."
-A lamb is part of the painting.  The description is "It watches the scene below with quiet indifference."
+A lamb is part of the painting. The description is "It watches the scene below with quiet indifference."
 Some fighters are part of the painting. Understand "soldiers" and "slaves" as fighters. The description is "The soldiers and slaves are in the middle of a massive battle. It does not seem they can tell friend apart from foe."
 
 A writing desk is a supporter in the living room. It is scenery. The description is "A squat dark wood desk. You notice engravings on it's surface." Instead of opening the writing desk, say "It has no drawers to open."
