@@ -445,7 +445,7 @@ Carry out going the bay window:
 	say "Looking to make sure the room is empty, you slip inside."
 
 [ some helpers for entering the bay window / house ]
-A rear-house-proxy is in Rear of the house. It is scenery. Understand "house" as rear-house-proxy. The description is "The rear of a shabby derelict house". Instead of entering rear-house-proxy, try entering bay window.
+A rear-house-proxy is in Rear of the house. It is scenery. The printed name is "house". Understand "house" as rear-house-proxy. The description is "The rear of a shabby derelict house". Instead of entering rear-house-proxy, try entering bay window.
 
 
 
