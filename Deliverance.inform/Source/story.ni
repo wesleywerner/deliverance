@@ -631,7 +631,7 @@ The moon is a thing in the bathroom. It is scenery. It is lit. The description i
 
 Chapter 9 - Second floor bedrooms
 
-The Second Floor Bedroom is a room. It is south of the Second Floor Hall. The printed name is "Bedroom". The description is "The bedroom is furnished with a mattress in the corner, and a bedside table against the wall. There is a safe under the table."
+The Second Floor Bedroom is a room. It is south of the Second Floor Hall. The printed name is "Bedroom". The description is "The bedroom is furnished with a mattress in the corner, and a bedside table against the wall. There is a safe under the table. The exit is to the north."
 
 The second-mattress is a supporter in the Second Floor Bedroom. It is scenery. The printed name is "mattress". Understand "bed" and "mattress" as second-mattress. The description is "A single mattress on the floor." Instead of entering the second-mattress, say "This is no time to fool around!"
 
