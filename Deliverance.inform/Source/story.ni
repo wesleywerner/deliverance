@@ -71,7 +71,6 @@ A person has some text called self description.
 A person has some text called mirror description.
 A person can be tied or untied. A person is usually untied.
 A person can be bleeding. A person is usually not bleeding.
-A person can be delayed. A person is usually not delayed.
 A person can be dead. A person is usually not dead.
 
 [ Fix display of the current player name in the command line ]
@@ -694,7 +693,7 @@ There is a closed locked door called third-floor-gate. It is scenery. The printe
 
 Chapter 11 - Third floor bedroom
 
-Third Floor Bedroom is a room. The printed name is "Bedroom". The description is "A small bedroom furnished with a mattress on the floor and a curtain against one wall[if curtain is open], a window behind it. Some pipes run along the wall behind the curtain[end if]. The loft is back to the east, another door is due south.[if curtain is open and a sheet is tied][paragraph break]A bed sheet is tied to the pipes, the other end hanging out the window.[end if]"
+Third Floor Bedroom is a room. The printed name is "Bedroom". The description is "A small bedroom furnished with a mattress on the floor and a curtain against one wall[if curtain is open], a window behind it. Some pipes run along the wall behind the curtain[end if]. The loft is back to the east. The bedroom door is to south.[if curtain is open and a sheet is tied][paragraph break]A bed sheet is tied to the pipes, the other end hanging out the window.[end if]"
 
 Carry out going to Third Floor Bedroom during the first act:
 	Victoria passes-out in one turn from now.
@@ -790,11 +789,11 @@ Check going south when the location is the Third Floor Bedroom during the sixth 
 
 Chapter 12 - Third floor loft
 
-The Loft is a room. The description is "[if the player is tied]You don't know where you are, some kind of room. You feel too panicked to notice your surroundings. It is difficult to move.[else]You are in what looks like a loft, crates and boxes stacked against the walls. Wooden floors and white walls surround you. The ceiling rafters are visible. There is a single window. A broken chair and cut rope lies on the floor. There is a door to the west.[end if][if lamp oil is not carried by the player][paragraph break]The lamp oil catches your eye.[end if]";
+The Loft is a room. The description is "[if the player is tied]You don't know where you are, some kind of room. You feel too panicked to notice your surroundings. It is difficult to move.[else]You are in what looks like a loft, crates and boxes stacked against the walls. Wooden floors and white walls surround you. The ceiling rafters are visible. There is a single window. A broken chair and cut rope lies on the floor. There is an exit to the west.[end if][if lamp oil is not carried by the player][paragraph break]The lamp oil catches your eye.[end if]";
+
+The Loft is east of the third floor bedroom.
 
 walls, floors and ceiling are things in the loft. walls, floors and ceiling are scenery. The description of walls is "White walls, lined with crates and boxes." The description of floors is "Dusty wooden floors." The description of ceiling is "The visible rafters make you think of an attic." Understand "rafters" as ceiling. Understand "wall" as walls. Understand "floor" as floors.
-
-The loft door is a door. It is east of the Third Floor Bedroom and west of the Loft. The description is "A white wood door divided in four panels." Instead of opening the loft door when the player is tied, say "You are tied up and cannot reach the door." It is scenery.
 
 A thing called the window is in the loft. The description is "A small window allows a trickle of light into the room." It is scenery.
 
@@ -1105,22 +1104,8 @@ When the sixth act begins:
 	say "(as [Otto]) You reach the top of the stairs. A bedroom door in front of you is latched from the outside, you undo the latch and step inside. You see a doorway leading to a loft: a broken chair and cut bonds inside. You dash into the loft...";
 	move Otto to the Loft;
 	now the player is Otto;
-	now the player is delayed;
 	now the sheet is tied;
-	the loft door slams closed in one turn from now;
 	try looking;
-
-At the time when the loft door slams closed:
-	now the loft door is closed;
-	now the player is not delayed;
-	say "The loft door slams shut behind you!";
-
-Instead of going west when the location is the loft during the sixth act:
-	if the player is delayed:
-		say "Hang on, you just got here.";
-		stop the action;
-	otherwise:
-		continue the action;
 
 When the sixth act ends:
 	pause for dramatic effect;
@@ -1358,4 +1343,4 @@ The dream sequence begins when play begins.
 
 Chapter 14 - Dev testing - not for release
 
-The second act begins when play begins.
+The sixth act begins when play begins.
