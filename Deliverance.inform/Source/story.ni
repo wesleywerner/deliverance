@@ -172,7 +172,7 @@ Part 2 - Rooms
 [* A place the player can wait while we set up ]
 The Waiting Room is a room.	
 
-The interior is a region. The Parlour, Living room, second floor hall, bathroom, second-floor-bedroom-south, second-floor-bedroom-east, third floor hall, third floor bedroom, kitchen and Loft are in the interior.
+The interior is a region. The Parlour, Living room, second floor hall, bathroom, second-floor-bedroom-south, third floor hall, third floor bedroom, kitchen and Loft are in the interior.
 
 
 Chapter - Dream Sequence
@@ -565,7 +565,7 @@ Instead of going west during the seventh act:
 
 Chapter 7 - Second floor hall
 
-Second Floor Hall is a room. It is above the Living room. The printed name is "Second Floor". The description is "You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see doors to the north, east and south."
+Second Floor Hall is a room. It is above the Living room. The printed name is "Second Floor". The description is "You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see exits to the north and south."
 
 Some second-floor-stairs are in the second floor hall. It is scenery. Understand "stairs" as second-floor-stairs. Instead of entering second-floor-stairs: try going up. The description is "A flight of wooden stairs, they lead up and down."
 
@@ -653,10 +653,6 @@ The moon is a thing in the bathroom. It is scenery. It is lit. The description i
 
 
 Chapter 9 - Second floor bedrooms
-
-second-floor-bedroom-east is a room. It is east of the Second Floor Hall. The printed name is "Bedroom". The description is "This room is bare, save for some dust covering the floor. There is one lonely window."
-
-The second-floor-window-a is in the second-floor-bedroom-east. It is scenery. Understand "window" as second-floor-window-a. The printed name is "window". The description is "You see grass down below, no other houses are visible. You are on a second storey floor." Instead of searching second-floor-window-a, try examining second-floor-window-a.
 
 second-floor-bedroom-south is a room. It is south of the Second Floor Hall. The printed name is "Bedroom". The description is "The bedroom is somewhat furnished, a mattress on the floor serves as a bed, a bedside table next to it. The window is covered with a sheet. There is something under the table."
 
@@ -1343,4 +1339,4 @@ The dream sequence begins when play begins.
 
 Chapter 14 - Dev testing - not for release
 
-The sixth act begins when play begins.
+The fourth act begins when play begins.
