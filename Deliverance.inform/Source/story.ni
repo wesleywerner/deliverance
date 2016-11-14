@@ -172,7 +172,7 @@ Part 2 - Rooms
 [* A place the player can wait while we set up ]
 The Waiting Room is a room.	
 
-The interior is a region. The Parlour, Living room, second floor hall, bathroom, second-floor-bedroom-south, third floor hall, third floor bedroom, kitchen and Loft are in the interior.
+The interior is a region. The Parlour, Living room, second floor hall, bathroom, Second Floor Bedroom, third floor hall, third floor bedroom, kitchen and Loft are in the interior.
 
 
 Chapter - Dream Sequence
@@ -631,22 +631,21 @@ The moon is a thing in the bathroom. It is scenery. It is lit. The description i
 
 Chapter 9 - Second floor bedrooms
 
-second-floor-bedroom-south is a room. It is south of the Second Floor Hall. The printed name is "Bedroom". The description is "The bedroom is somewhat furnished, a mattress on the floor serves as a bed, a bedside table next to it. The window is covered with a sheet. There is something under the table."
+The Second Floor Bedroom is a room. It is south of the Second Floor Hall. The printed name is "Bedroom". The description is "The bedroom is furnished with a mattress in the corner, and a bedside table against the wall. There is a safe under the table."
 
-The second-mattress is a supporter in the second-floor-bedroom-south. It is scenery. The printed name is "mattress". Understand "bed" and "mattress" as second-mattress. The description is "A single mattress on the floor." Instead of entering the second-mattress, say "This is no time to fool around!"
+The second-mattress is a supporter in the Second Floor Bedroom. It is scenery. The printed name is "mattress". Understand "bed" and "mattress" as second-mattress. The description is "A single mattress on the floor." Instead of entering the second-mattress, say "This is no time to fool around!"
 
-The second-floor-window-b is in the second-floor-bedroom-south. It is scenery. Understand "window" as second-floor-window-b. The printed name is "window". The description is "It is covered by a sheet." Instead of searching second-floor-window-b, try examining second-floor-window-b.
+The bedside table is a supporter in the Second Floor Bedroom. It is scenery. The description is "A low bedside table with some newspapers on it." Instead of looking under the bedside table, say "You see a safe under the table."
 
-The second-floor-table is a supporter in the second-floor-bedroom-south. It is scenery. The printed name is "the table". The description is "A low bedside table, some newspapers are on it." Understand "table" as second-floor-table. Instead of looking under second-floor-table, say "You see a safe under the table."
+Some newspapers are on the bedside table. It is scenery. The description is "These are fairly recent, somebody is living here.". Instead of taking newspapers, say "You don't want the newspapers."
 
-Some newspapers are on the second-floor-table. It is scenery. The description is "These are fairly recent, somebody is living here.". Instead of taking newspapers, say "You don't want the newspapers."
-
-A second-floor-sheet is in the second-floor-bedroom-south. It is scenery. Understand "sheet" as second-floor-sheet. The description is "A dirty and torn sheet covers the window." Instead of opening second-floor-sheet, say "You would rather not waste the time, you know what is outside the window."
-
-A gun safe is a locked closed container in the second-floor-bedroom-south. It is fixed in place. It is scenery. The description is "A small gun safe with an electronic keypad." The keypad is part of the gun safe. The description is "An electronic pad for entering a code. You can ENTER <number> to unlock the safe."
+A gun safe is a locked closed container in the Second Floor Bedroom. It is fixed in place. It is scenery. The description is "A small gun safe with an electronic keypad." The keypad is part of the gun safe. The description is "An electronic pad for entering a code. (You can ENTER <a number> to unlock it)."
 
 Instead of attacking a gun safe:
 	say "The bullet will ricochet off the safe, it is too dangerous."
+
+Instead of taking a gun safe:
+	say "It is fixed securely to the wall."
 
 Entering a code is an action applying to one number and one thing. Understand "enter [number] in [keypad]" as entering a code.
 Check entering a code:
@@ -660,6 +659,7 @@ Report entering a code:
 
 The bronze key is in the safe. The description is "A short but fat bronze key, it has decorative grape vines embossed around the shaft and the head."
 
+Understand "unlock safe" and "unlock the safe" as a mistake ("The safe has a keypad, maybe you should look at that.").
 
 Chapter 10 - Third floor hall
 
