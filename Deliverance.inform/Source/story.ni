@@ -643,7 +643,10 @@ Some newspapers are on the second-floor-table. It is scenery. The description is
 
 A second-floor-sheet is in the second-floor-bedroom-south. It is scenery. Understand "sheet" as second-floor-sheet. The description is "A dirty and torn sheet covers the window." Instead of opening second-floor-sheet, say "You would rather not waste the time, you know what is outside the window."
 
-A gun safe is a locked closed container in the second-floor-bedroom-south. It is fixed in place. It is scenery. The description is "A small gun safe with an electronic keypad." The keypad is part of the gun safe. The description is "An electronic pad for entering a code. You can ENTER 0000 to unlock the safe."
+A gun safe is a locked closed container in the second-floor-bedroom-south. It is fixed in place. It is scenery. The description is "A small gun safe with an electronic keypad." The keypad is part of the gun safe. The description is "An electronic pad for entering a code. You can ENTER <number> to unlock the safe."
+
+Instead of attacking a gun safe:
+	say "The bullet will ricochet off the safe, it is too dangerous."
 
 Entering a code is an action applying to one number and one thing. Understand "enter [number] in [keypad]" as entering a code.
 Check entering a code:
