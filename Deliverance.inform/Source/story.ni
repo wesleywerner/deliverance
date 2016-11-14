@@ -511,6 +511,8 @@ Some teacups are on the trolley. It is scenery. The description is "Pale white t
 A business card is in the teapot. The description is "A white card with black print." Instead of examining a business card, say "'Unholy Battle pest control, Tad Kemp'. You notice an impression like writing on the back of the card."
 An impression is part of a business card. Instead of examining impression, try turning a business card.
 Instead of turning a business card, say "The back of the card has 6375 written on it."
+Instead of touching a business card, try turning a business card.
+Instead of touching impression, try turning a business card.
 
 A painting is in the living room. It is fixed in place. It is scenery. The description is "It depicts four horsemen riding through the sky, rolling clouds behind them. On the earth below, soldiers and slaves alike engage in a battle frenzy. A small plaque is fixed to the frame."
 A plaque is part of a painting. The description is "The plaque reads: 'Conquest, War, Famine and Death.'" 
@@ -631,7 +633,7 @@ Chapter 9 - Second floor bedrooms
 
 second-floor-bedroom-south is a room. It is south of the Second Floor Hall. The printed name is "Bedroom". The description is "The bedroom is somewhat furnished, a mattress on the floor serves as a bed, a bedside table next to it. The window is covered with a sheet. There is something under the table."
 
-The second-mattress is a supporter in the second-floor-bedroom-south. It is scenery. Understand "bed" and "mattress" as second-mattress. The description is "A single mattress on the floor." Instead of entering the second-mattress, say "This is no time to fool around!"
+The second-mattress is a supporter in the second-floor-bedroom-south. It is scenery. The printed name is "mattress". Understand "bed" and "mattress" as second-mattress. The description is "A single mattress on the floor." Instead of entering the second-mattress, say "This is no time to fool around!"
 
 The second-floor-window-b is in the second-floor-bedroom-south. It is scenery. Understand "window" as second-floor-window-b. The printed name is "window". The description is "It is covered by a sheet." Instead of searching second-floor-window-b, try examining second-floor-window-b.
 
