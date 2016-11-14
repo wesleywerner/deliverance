@@ -936,13 +936,13 @@ Check going up when the location is second-floor-outside:
 	
 [ Alter the bathroom-window description this time ]
 Instead of examining bathroom-window during the fifth act:
-	say "A chipped white frame with murky glass panes."
+	say "[if bathroom-window is closed]A chipped white frame with murky glass panes.[else]A chipped white frame with broken glass panes."
 
 Instead of opening bathroom-window during the fifth act:
 	say "You struggle to open the window, maybe a little force is called for."
 
 Instead of attacking bathroom-window during the fifth act:
-	say "You kick the window and shatter the glass pane. You should be able to fit through it.";
+	say "You kick the window and shatter the glass pane. You should be able to fit through it without cutting yourself.";
 	now the bathroom-window is open;
 
 Instead of entering bathroom-window during the fifth act:
@@ -1103,7 +1103,7 @@ Instead of listening when the location is not in the interior during the fifth a
 	say "You hear faint chirps of crickets.";
 Instead of smelling when the location is not in the interior during the fifth act:
 	say "Apart from smelling the damp evening air, you don't notice any other smells.".
-Instead of listening during the fifth act:
+Instead of listening to tfo-window during the fifth act:
 	say "You hear faint movements through the window, coming from behind the bedroom door."
 Instead of listening to bathroom-window during the fifth act:
 	say "You don't hear any noises through this window."
