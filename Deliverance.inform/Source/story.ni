@@ -709,6 +709,9 @@ Instead of opening the third floor bedroom door during the sixth act:
 		say "Someone has locked the bedroom door!";
 		stop the action;
 
+Instead of searching the third floor bedroom door:
+	say "You can't see through the door."
+
 The first-mattress is a supporter in the third floor bedroom. It is scenery. The description is "A single sized mattress lies on the floor." Understand "bed" and "mattress" as first-mattress. The printed name is "mattress"
 
 A sheet is on the first-mattress. The description is "Pale from dirt." A sheet can be tied or untied. The sheet is untied.
@@ -740,6 +743,8 @@ Some pipes are a thing. It is scenery. The description is "They are painted the 
 
 Instead of tying sheet to pipes during the third act:
 	if the sheet is untied:
+		if the sheet is not carried by the player:
+			try taking the sheet;
 		if escape-window is closed, try opening escape-window;
 		say "You wrap one end of the sheet around the pipes and make a knot. You drop the other end of the sheet out the window.";
 		now the sheet is tied;
@@ -749,7 +754,15 @@ Instead of tying sheet to pipes during the third act:
 
 [It is south of the Third-floor-outside and north of the Third Floor Bedroom.]
 [ a one-way escape door because we don't want to reference it when the player is hanging on the other side. ]
-The escape-window is a closed door. It is north of the Third Floor Bedroom. It is scenery. The printed name is "window". Understand "window" as escape-window. The description is "[if a curtain is closed]The window is covered by the curtain.[else]You see grass down below, no other houses are visible. You appear to be on the third storey." Instead of searching escape-window, try examining escape-window.
+The escape-window is a closed door. It is north of the Third Floor Bedroom. It is scenery. The printed name is "window". Understand "window" and "grass" as escape-window. The description is "[if a curtain is closed]The window is covered by the curtain.[else]You look through the window. You see grass down below, no other houses are visible. You appear to be on the third storey."
+Instead of searching escape-window, try examining escape-window.
+
+Instead of exiting when the location is the third floor bedroom, try entering the escape-window.
+
+Instead of going down when the location is the third floor bedroom, try entering the escape-window.
+
+Instead of inserting the sheet into escape-window:
+	say "You can't throw the sheet out the window, it will help to TIE the sheet to something first."
 
 Instead of going the escape-window during the third act:
 	if the sheet is untied:
@@ -1028,11 +1041,11 @@ When the third act ends:
 	pause for dramatic effect;
 
 Instead of listening during the third act:
-	say "You stop to listen carefully for any noises. You hear nothing.";
+	say "You hear faint sounds coming through the bedroom door.";
 Instead of smelling during the third act:
 	say "The room smells a little moldy, which is not unexpected looking at the state of it.".
 Instead of listening to the bedroom door during the third act:
-	say "You hear faint movements through the door, like somebody moving around downstairs.";
+	say "You hear somebody moving around downstairs.";
 Instead of knocking the bedroom door during the third act:
 	say "You hesitate to knock on the door, scared of whomever kidnapped you. You would rather try and escape unnoticed.".
 
@@ -1339,4 +1352,4 @@ The dream sequence begins when play begins.
 
 Chapter 14 - Dev testing - not for release
 
-The fourth act begins when play begins.
+The third act begins when play begins.
