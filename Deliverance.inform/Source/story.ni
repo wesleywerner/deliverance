@@ -1103,7 +1103,7 @@ Instead of listening when the location is not in the interior during the fifth a
 	say "You hear faint chirps of crickets.";
 Instead of smelling when the location is not in the interior during the fifth act:
 	say "Apart from smelling the damp evening air, you don't notice any other smells.".
-Instead of listening to tfo-window during the fifth act:
+Instead of listening during the fifth act:
 	say "You hear faint movements through the window, coming from behind the bedroom door."
 Instead of listening to bathroom-window during the fifth act:
 	say "You don't hear any noises through this window."
@@ -1113,6 +1113,15 @@ Instead of listening during the fifth act:
 	say "You hear movement upstairs!";
 Instead of examining third-floor-gate during the fifth act:
 	say "This gate leads up the stairs, where you were kept. Somebody has opened the gate. They could be up there now.";
+
+
+Direction-looking is an action applying to one visible thing and
+requiring light. Understand "look [direction]" as direction-looking.
+Carry out direction-looking:
+say "You see nothing unusual in that direction."
+
+Instead of direction-looking down when the location is not in the interior:
+	say "You see the ground a couple storeys below you."
 
 Chapter 6 - Sixth act
 
@@ -1361,4 +1370,4 @@ The dream sequence begins when play begins.
 
 Chapter 14 - Dev testing - not for release
 
-The fourth act begins when play begins.
+The fifth act begins when play begins.
