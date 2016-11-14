@@ -624,31 +624,6 @@ A basin is in the bathroom. It is scenery. The description is "A simple pedestal
 
 A mirror is in the bathroom. It is scenery. The description is "A rectangular mirror without any frame. The edges of the glass are stained." Instead of searching mirror, say "You look at yourself in the mirror: [mirror description of the player][paragraph break]".
 
-A device called a brass lantern is in the bathroom. The description is "A brass lantern with a spark wheel fixed next to the wick.". A brass lantern can be full or empty. A brass lantern is empty.
-
-Instead of taking the lantern:
-	if the player is Victoria:
-		continue the action;
-	otherwise:
-		say "You don't need a lantern, you have a torch.";
-
-Instead of switching on a brass lantern:
-	if a brass lantern is empty:
-		say "You flick the spark wheel but the wick does not light. The lantern needs fuel.";
-		stop the action;
-	otherwise:
-		say "You flick the spark wheel, the wick catches alight.";
-		now the brass lantern is lit;
-
-Instead of switching off a brass lantern:
-	say "You blow out the flame.";
-	now a brass lantern is not lit;
-
-Instead of inserting lamp oil into a brass lantern:
-	say "You unscrew the lantern base and fill it with the lamp oil. Screwing the base back on, you discard the empty oil bottle.";
-	now a brass lantern is full;
-	now the lamp oil is nowhere;
-
 The moon is a thing in the bathroom. It is scenery. It is lit. The description is "The pale moon pushes through the clouds, proving some light in the dim bathroom."
 
 
@@ -798,7 +773,7 @@ Check going south when the location is the Third Floor Bedroom during the sixth 
 
 Chapter 12 - Third floor loft
 
-The Loft is a room. The description is "[if the player is tied]You don't know where you are, some kind of room. You feel too panicked to notice your surroundings. It is difficult to move.[else]You are in what looks like a loft, crates and boxes stacked against the walls. Wooden floors and white walls surround you. The ceiling rafters are visible. There is a single window. A broken chair and cut rope lies on the floor. There is an exit to the west.[end if][if lamp oil is not carried by the player][paragraph break]The lamp oil catches your eye.[end if]";
+The Loft is a room. The description is "[if the player is tied]You don't know where you are, some kind of room. You feel too panicked to notice your surroundings. It is difficult to move.[else]You are in what looks like a loft, crates and boxes stacked against the walls. Wooden floors and white walls surround you. The ceiling rafters are visible. There is a single window. A broken chair and cut rope lies on the floor. There is an exit to the west.[end if]";
 
 The Loft is east of the third floor bedroom.
 
@@ -841,6 +816,7 @@ The twine is plural-named. The description of twine is "a light string of two sm
 The description of a tube of hardened glue is "The label reads 'The Steel Queen Super Glue', the tube is rock hard."
 The description of pots of paints is "Small pots of red, green and blue paints." Understand "paint" as paints.
 The description of a bottle of lamp oil is "'Grail of Fire Lamp Oil', the bottle is half full and smudged from usage."
+The initial appearance of the lamp oil is "The lamp oil catches your eye."
 
 Instead of taking a tube of hardened glue when the player is untied, say "You don't need dry glue."
 
@@ -897,6 +873,34 @@ Instead of cutting the rope:
 	Now the player is untied;
 	silently try exiting;
 	try looking;
+
+A device called a brass lantern is in the cardboard box. The description is "A brass lantern with a spark wheel fixed next to the wick.". A brass lantern can be full or empty. A brass lantern is empty.
+
+The initial appearance of a brass lantern is "The lantern catches your eye."
+
+Instead of taking the lantern:
+	if the player is Victoria:
+		continue the action;
+	otherwise:
+		say "You don't need a lantern, you have a torch.";
+
+Instead of switching on a brass lantern:
+	if a brass lantern is empty:
+		say "You flick the spark wheel but the wick does not light. The lantern needs fuel.";
+		stop the action;
+	otherwise:
+		say "You flick the spark wheel, the wick catches alight.";
+		now the brass lantern is lit;
+
+Instead of switching off a brass lantern:
+	say "You blow out the flame.";
+	now a brass lantern is not lit;
+
+Instead of inserting lamp oil into a brass lantern:
+	say "You unscrew the lantern base and fill it with the lamp oil. Screwing the base back on, you discard the empty oil bottle.";
+	now a brass lantern is full;
+	now the lamp oil is nowhere;
+
 
 
 Chapter 13 - Second and Third Floor Windows
@@ -1352,4 +1356,4 @@ The dream sequence begins when play begins.
 
 Chapter 14 - Dev testing - not for release
 
-The third act begins when play begins.
+The first act begins when play begins.
