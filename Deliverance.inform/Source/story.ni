@@ -33,7 +33,7 @@ Carry out knocking:
 Cutting it with is an action applying to two things. Understand "cut [something] with [something carried]" as cutting it with. Carry out cutting it with: try cutting the noun instead.
 
 [ firing our service pistol ]
-Shooting at is an action applying to one thing. Understand "shoot [something] with the/your/-- gun" as shooting at. Understand "shoot [something]" as shooting at. Understand "shoot gun" and "fire gun" as a mistake ("To use your service pistol, try [bold type]shoot the door[roman type] or [bold type]shoot the killer[roman type].").
+Shooting at is an action applying to one thing. Understand "shoot [something] with the/your/-- gun" as shooting at. Understand "shoot [something]" as shooting at. Understand "shoot gun" and "fire gun" as a mistake ("To use your service pistol, try [bold type]shoot the door[roman type] or [bold type]shoot the person[roman type].").
 Check shooting at when the noun is the player: say "Suicide is not the answer." instead.
 Carry out shooting at: try attacking the noun. [say "[the noun] is no threat to you."]
 
@@ -1198,7 +1198,7 @@ When the eighth act ends:
 	if Otto is not bleeding:
 		say "You close your eyes.";
 	otherwise:
-		say "There is movement to your right, a detective on the stairs! They aim their gun at the killer with a bloodied, shaking arm. The gun fires...";
+		say "There is movement to your right, a detective on the stairs! They aim their gun at Tad with a bloodied, shaking arm. The gun fires...";
 	pause for dramatic effect;
 
 Instead of examining during the eighth act:
@@ -1249,7 +1249,7 @@ When the ninth act begins:
 		now the player is Otto;
 		try looking;
 	otherwise:
-		say "The shot missed! The killer turns to the detective. Now is your chance!";
+		say "The shot missed! Tad turns to the detective. Now is your chance!";
 		now the player is Victoria;
 		[try looking;]
 		
@@ -1258,7 +1258,7 @@ When the ninth act ends:
 
 Every turn during the ninth act:
 	if Tad is in the location:
-		say "[if the player is Otto]The killer moves closer to Victoria, a cleaver in his hand...[else]The killer moves closer to the detective, a cleaver in his hand...";
+		say "[if the player is Otto]Tad moves closer to Victoria, a cleaver in his hand...[else]Tad moves closer to the detective, a cleaver in his hand...";
 
 Instead of examining during the ninth act:
 	say "You are wasting time!";
@@ -1271,11 +1271,11 @@ Instead of going during the ninth act:
 
 Instead of attacking Tad during the ninth act:
 	if the player is Victoria:
-		say "You slip the craft knife into your palm, scared to death, your limbs seem to move on their on volition. You slash at the killer's neck, blood gushes out. More blood than you ever saw.";
+		say "You slip the craft knife into your palm, scared to death, your limbs seem to move on their on volition. You slash at Tad's neck, blood gushes out. More blood than you ever saw.";
 		now Tad is dead;
 		now the ninth act is done;
 	otherwise:
-		say "You aim your pistol at the killer, [if Otto is bleeding]your arm shakes, you feel faint. You [end if]exhale and squeeze the trigger...";
+		say "You aim your pistol at Tad, [if Otto is bleeding]your arm shakes, you feel faint. You [end if]exhale and squeeze the trigger...";
 		now the ninth act is done;
 
 Instead of listening during the ninth act:
