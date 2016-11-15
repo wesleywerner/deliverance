@@ -580,25 +580,6 @@ Check going up when the location is the Second Floor Hall:
 			now the fourth act is done;
 			stop the action;
 
-Check going up when the location is Second Floor Hall during the fifth act:
-	say "You feel the urgent need to get out of here, quick. You don't want to find out who is in those rooms!";
-	stop the action;
-Check going south when the location is Second Floor Hall during the fifth act:
-	say "You feel the urgent need to get out of here, quick. You don't want to find out who is in those rooms!";
-	stop the action;
-Check going east when the location is Second Floor Hall during the fifth act:
-	say "You feel the urgent need to get out of here, quick. You don't want to find out who is in those rooms!";
-	stop the action;
-Check going north when the location is Second Floor Hall during the fifth act:
-	say "You feel the urgent need to get out of here, quick. You don't want to find out who is in those rooms!";
-	stop the action;
-Check going down when the location is Second Floor Hall during the fifth act:
-	now the fifth act is done;
-	stop the action;
-
-
-
-
 
 Chapter 8 - Bathroom
 
@@ -1104,7 +1085,7 @@ When the fifth act begins:
 	try looking;
 
 When the fifth act ends:
-	say "Frightened and shaking, you go down the stairs...";
+	say "Frightened and shaking, you run out the bathroom and down the stairs...";
 	pause for dramatic effect;
 
 Instead of closing third-floor-gate during the fifth act:
@@ -1136,6 +1117,11 @@ Instead of direction-looking down when the location is not in the interior:
 
 Instead of going to the Lower Outside when the location is the Bathroom during the fifth act:
 	say "You really don't want to go back out there."
+
+[ exiting the bathroom as victoria ends the scene ]
+Check going south when the location is the Bathroom during the fifth act:
+	now the fifth act is done;
+	stop the action;
 
 Chapter 6 - Sixth act
 
