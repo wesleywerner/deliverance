@@ -1133,6 +1133,9 @@ say "You see nothing unusual in that direction."
 Instead of direction-looking down when the location is not in the interior:
 	say "You see the ground a couple storeys below you."
 
+Instead of going to the Lower Outside when the location is the Bathroom during the fifth act:
+	say "You really don't want to go back out there."
+
 Chapter 6 - Sixth act
 
 The sixth act is a scene. The sixth act begins when the fifth act ends. The sixth act ends when the sixth act is done.
