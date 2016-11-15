@@ -1330,13 +1330,16 @@ The eleventh act is a scene. The eleventh act begins when the tenth act ends. Th
 
 When the eleventh act begins:
 	move Demon to the waiting room;
-	move Victoria to the Living room;
-	move Otto to the Living room;
-	move Tad to the Living room;
+	if Victoria is not in the location:
+		move Victoria to the Living room;
+	if Otto is not in the location:
+		move Otto to the Living room;
+	if Tad is not in the location:
+		move Tad to the Living room;
 	now the player is Otto;
-	now the description of the Living Room is "The room is dim and nothing you see makes sense. A door leads to the east, and some stairs go up to the second floor.";
+	now the description of the Living Room is "The exit is to the south.";
 	say "(as [Otto]) For a moment you stand lifeless, making sense of the scene. [Victoria] collapses to the floor. You have to get her out of here.";
-	[try looking;]
+	try looking;
 
 When the eleventh act ends:
 	say "You carry Victoria outside, the cool night air promising peace. You hear sirens wailing over the hill.";
@@ -1385,4 +1388,4 @@ The dream sequence begins when play begins.
 
 Chapter 14 - Dev testing - not for release
 
-The eighth act begins when play begins.
+The tenth act begins when play begins.
