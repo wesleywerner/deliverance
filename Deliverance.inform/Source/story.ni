@@ -610,6 +610,15 @@ Instead of opening the locked bathroom-window, say "It won't open. It must be se
 A bath is in the bathroom. It is scenery. The description is "A stained white claw-foot bath. The feet are metal and have decorative faces moulded into them."
 Some faces are a part of the bath. The description is "Moulded faces make up the feet of the bathtub." Understand "claw-foot" and "feet" as faces.
 
+Washing-up is an action applying to nothing.
+Understand "wash self" and "wash face" and "bathe" as "[cleaning-up]".
+Understand "[cleaning-up]" as washing-up.
+Carry out washing-up:
+	if a bath is visible:
+		try entering a bath instead;
+	else:
+		say "You would love to wash yourself, even if you see a bath, you won't dare to bathe in this house.";
+
 Instead of taking a bath, try entering a bath.
 
 Instead of entering the bath:
