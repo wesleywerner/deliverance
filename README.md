@@ -2,10 +2,13 @@
 
 Deliverance is a work of short interactive fiction. The theme is abduction, and the genre is dark psychological thriller. This game contains elements of mental delusion, murder and human remains. Sensitive people should approach carefully.
 
+The source is written against the Inform7 compiler.
+
 # Testers
 
-* heartless zombie
+My thanks to these people, their testing was invaluable to the game's improvement!
 
+* heartless zombie
 
 # Credits and References
 
