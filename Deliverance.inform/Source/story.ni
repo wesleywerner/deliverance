@@ -746,10 +746,9 @@ Instead of going to the Upper Outside during the third act:
 		now the third act is done;
 		stop the action;
 
-Instead of going the escape-window during the sixth act:
+Instead of going to the Upper Outside during the sixth act:
 	say "You grab the sheet and climb through the window.";
-	move the player to Upper Outside;
-	stop the action;
+	continue the action;
 
 
 [ sixth act - the detective can shoot the door open ]
@@ -906,18 +905,29 @@ Chapter 13 - Second and Third Floor Windows
 
 Upper Outside is a room. The printed name is "Hanging outside the third floor". The description is "You are hanging outside the third storey window, gripping the bed sheet tied inside the room. You can go down."
 
-A Upper Outside Window is in Upper Outside. It is scenery. The printed name is "the window". Understand "window" as Upper Outside Window. The description is "You are hanging outside the window". Instead of closing Upper Outside Window, say "The window cannot close, the tied sheet prevents that."
-
-Instead of entering Upper Outside Window during the fifth act:
+[ Prevent Victoria climbing back in the window ]
+Instead of going to the Third Floor Bedroom when the location is the Upper Outside during the fifth act:
 	say "You won't dare go back into that room, not with somebody just outside the door."
 
-Instead of entering Upper Outside Window during the sixth act:
+[ Prevent Otto climbing back in the window ]
+Instead of going to the Third Floor Bedroom when the location is the Upper Outside during the sixth act:
 	say "You are wasting time. You can't back out with your choice now."
+
+Instead of opening the escape-window when the location is the Upper Outside:
+	say "It is already open.";
+Instead of closing the escape-window when the location is the Upper Outside:
+	say "The sheet hanging outside the window prevents it from closing.";
 
 A Makeshift Rope is here. It is scenery. The printed name is "sheet". Understand "sheet" as Makeshift Rope. The description is "You are hanging on to the sheet for dear life."
 
 Carry out going down when the location is Upper Outside:
 	say "Lowering yourself down, one handful at a time, you reach the end of the sheet.";
+
+The Outer Curtain is in the Upper Outside. It is scenery. The printed name is "curtain".
+Instead of examining the outer curtain during the fifth act, say "You drew the curtain closed to hide your escape." 
+Instead of examining the outer curtain during the sixth act, say "The curtain hangs next to the window." 
+Instead of opening the outer curtain during the fifth act, say "You want to keep that closed to hide your escape."
+Instead of closing the outer curtain during the fifth act, say "It is already drawn closed."
 
 
 Lower Outside is a room. It is below Upper Outside. 
@@ -1117,6 +1127,7 @@ When the sixth act begins:
 	now the player is Otto;
 	now the sheet is tied;
 	now the bathroom-window is open;
+	now the escape-window is open;
 	try looking;
 
 When the sixth act ends:
@@ -1134,6 +1145,8 @@ After going to the Bathroom during the sixth act:
 	now the sixth act is done;
 	stop the action;
 
+Instead of going to the Upper Outside when the curtain is closed during the sixth act:
+	say "You can't see a window to climb out of.";
 
 
 Chapter 7 - Seventh act
@@ -1362,4 +1375,4 @@ The dream sequence begins when play begins.
 
 Chapter 14 - Dev testing - not for release
 
-The third act begins when play begins.
+The sixth act begins when play begins.
