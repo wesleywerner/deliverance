@@ -1,0 +1,149 @@
+Start of a transcript of
+
+Deliverance
+Some demons are more real than others, by Wesley Werner
+Release 1 / Serial number 161106 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Identification number: //BF24E716-9DF2-11E6-97DB-74E50B693D30//
+Standard interpreter 1.1 (4F) / Library serial number 080126
+Standard Rules version 3/120430 by Graham Nelson
+
+The Girl > *note resuming from second transcript
+I didn't understand that sentence.
+
+The Girl > restore
+Ok.
+
+Tad > l
+Living room
+You don't care to notice anything in here, except the harbinger of death, the
+Demon. It mocks you, taunts you with ideas of pulling your flesh from your
+bones. You have to kill it.
+
+You can see a Demon here.
+
+Tad > banish demon
+I didn't understand that sentence.
+
+Tad > pray
+I didn't understand that sentence.
+
+Tad > attack
+(the cleaver)
+On second thought, you don't think that is a good idea.
+
+Tad > *note oops wrong object!
+I didn't understand that sentence.
+
+Tad > attack him
+Another demon appears behind you, swiping at you with razor claws, tearing the
+skin from your back.
+
+You crumple to the floor in a bloody mess, sobbing, bleeding out.
+
+
+
+press a key to continue...
+
+
+
+Living room
+You don't care to notice anything in here, except the harbinger of death, the
+Demon. It mocks you, taunts you with ideas of pulling your flesh from your
+bones. You have to kill it.
+
+You can see Otto and The Girl here.
+
+(as Otto) For a moment you stand lifeless, making sense of the scene. The Girl
+collapses to the floor. You have to get her out of here.
+
+Otto > *note is Otto seeing the Demon as well as Tad?
+I didn't understand that sentence.
+
+Otto > x demon
+You can't see any such thing.
+
+Otto > x girl
+This girl puts you in mind of a frightened cat. She has large orange eyes that
+are like two flames. Her messy, straight, brown hair is worn in a style that
+reminds you of a comet's trail. She is short and has an hourglass build. Her
+skin is cream-coloured. She has a high forehead and wide feet. Her wardrobe is
+strange.
+
+Otto > *note her wardrobe is strange??
+I didn't understand that sentence.
+
+Otto > say hello
+Whom do you want to say that to?
+
+Otto > girl
+There is no reply.
+
+Otto > get her
+(The Girl)
+You lift her up.
+
+Otto > *note what direction is the exit?
+I didn't understand that sentence.
+
+Otto > e
+That is not the way out.
+
+Otto > w
+That is not the way out.
+
+Otto > s
+You carry the girl outside, the cool night air promising peace. You hear sirens
+wailing over the hill.
+
+
+
+    *** THE DAILY NEWS
+Last night Victoria Cote was found safe in an abandoned house in an undisclosed
+location. Her family is relieved to have her back. Detective Otto York was first
+on the location to ensure her safety. The family and police declined to release
+further details at this time. ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+> 
+*note are there any suggestions for AMUSING things? Not sure if it's apt but every IF can have humour or oddities.
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+> restore
+Ok.
+
+Tad > l
+Living room
+You don't care to notice anything in here, except the harbinger of death, the
+Demon. It mocks you, taunts you with ideas of pulling your flesh from your
+bones. You have to kill it.
+
+You can see a Demon here.
+
+Tad > attack demon
+Another demon appears behind you, swiping at you with razor claws, tearing the
+skin from your back.
+
+You crumple to the floor in a bloody mess, sobbing, bleeding out.
+
+
+
+press a key to continue...
+
+
+
+Living room
+You don't care to notice anything in here, except the harbinger of death, the
+Demon. It mocks you, taunts you with ideas of pulling your flesh from your
+bones. You have to kill it.
+
+You can see Otto and The Girl here.
+
+(as Otto) For a moment you stand lifeless, making sense of the scene. The Girl
+collapses to the floor. You have to get her out of here.
+
+Otto > quit
+Are you sure you want to quit? y

@@ -1,0 +1,650 @@
+It's hard to establish sympathy for a strange anonymous character (the girl) who just appears in a scenario. Consider a contrasting dream scene where the girl has a happy memory (grounding who she is) - but there are sinister overtones: is there something wrong? When the player does WAKE UP and finds themself captive it would be shocking and the player would have motivation to help the character.
+
+Have you read the Lovely Bones by Alice Sebold? That's a novel about a kidnapped girl. There is also a movie of it.
+
+BTW It's easier to read a walkthrough with one command per line. I guess the linefeeds don't work in Windows Notepad! Also label who the character (the girl/Otto) is for each batch of commands.
+
+TAKE LAMP OIL?
+Is there a hint for this? Very cryptic - why would I get the oil from the lamp?
+
+TURN BUSINESS CARD
+-Aha I thought those impressions were the key I just couldn't figure out how to read them. HINT needed.
+
+PICK UP THE GIRL
+-Unfortunate choice of words. Is there a later scene were everything is ok and they're going on a date? (In the walkthrough we don't know if Tad or Otto is doing this action).
+
+
+Start of a transcript of
+
+Deliverance
+Some demons are more real than others, by Wesley Werner
+Release 1 / Serial number 161106 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Identification number: //BF24E716-9DF2-11E6-97DB-74E50B693D30//
+Standard interpreter 1.1 (4F) / Library serial number 080126
+Standard Rules version 3/120430 by Graham Nelson
+
+The Girl > *note continuing from end of previous transcript
+I didn't understand that sentence.
+
+The Girl > restore
+Ok.
+
+Otto > script
+Transcripting is already on.
+
+Otto > l
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third
+floor, protected by a security gate. You can go back down to the first floor.
+You see doors to the north, east and south.
+
+Otto > i
+You are carrying:
+  a business card
+  your badge
+  a gun
+  a torch (providing light)
+
+Otto > *note from the walkthrough
+I didn't understand that sentence.
+
+Otto > turn card
+The back of the card has 6375 written on it.
+
+Otto > x keypad
+You can't see any such thing.
+
+Otto > x gate
+It is a swing gate made of metal bars.
+
+Otto > open it
+the security gate is locked.
+
+Otto > unlock it
+What do you want to unlock the security gate with?
+
+Otto > card
+The business card does not fit the security gate lock.
+
+Otto > n
+
+bathroom
+You are in a bathroom, there is a claw-foot bath, one window and a basin. It is
+dark outside. The room is very dim, the moon giving just enough light to see. A
+mirror is fixed to the wall. The exit is to the south.
+
+You can see a brass lantern here.
+
+Otto > get oil
+You can't see any such thing.
+
+Otto > x lantern
+A brass lantern with a spark wheel fixed next to the wick.
+
+The brass lantern is currently switched off.
+
+Otto > open it
+You can't seem to open the brass lantern.
+
+Otto > get lamp oil
+You can't see any such thing.
+
+Otto > s
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third
+floor, protected by a security gate. You can go back down to the first floor.
+You see doors to the north, east and south.
+
+Otto > e
+
+Bedroom
+This room is bare, save for some dust covering the floor. There is one lonely
+window.
+
+Otto > w
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third
+floor, protected by a security gate. You can go back down to the first floor.
+You see doors to the north, east and south.
+
+Otto > s
+
+Bedroom
+The bedroom is somewhat furnished, a mattress on the floor serves as a bed, a
+bedside table next to it. The window is covered with a sheet. There is something
+under the table.
+
+Otto > look under table
+You see a safe under the table.
+
+Otto > x safe
+A small gun safe with an electronic keypad.
+
+Otto > x keypad
+An electronic pad for entering a code. You can ENTER 0000 to unlock the safe.
+
+Otto > enter code
+You can't see any such thing.
+
+Otto > *note provide another hint on syntax
+I didn't understand that sentence.
+
+Otto > x card
+"Unholy Battle pest control, Tad Kemp". You notice an impression like writing on
+the back of the card.
+
+Otto > x back of card
+You can't see any such thing.
+
+Otto > turn card
+The back of the card has 6375 written on it.
+
+Otto > type 6375
+I didn't understand that sentence.
+
+Otto > *note synonym
+I didn't understand that sentence.
+
+Otto > enter 6375
+(in the keypad)
+Click. The safe door creaks open. Inside is a bronze key.
+
+Otto > x key
+A short but fat bronze key, it has decorative grape vines embossed around the
+shaft and the head.
+
+Otto > get it
+You pick up the bronze key.
+
+Otto > n
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third
+floor, protected by a security gate. You can go back down to the first floor.
+You see doors to the north, east and south.
+
+Otto > unlock gate
+What do you want to unlock the security gate with?
+
+Otto > key
+You unlock the security gate.
+
+Otto > x staris
+You can't see any such thing.
+
+Otto > oops stairs
+A flight of wooden stairs, they lead up and down.
+
+Otto > listen
+You hear nothing unexpected.
+
+Otto > u
+You open the security gate.
+
+You ascend the stairs, continuing your search...
+
+
+press a key to continue...
+
+
+
+(as The Girl) You hold tight to the bed sheet as you climb through the window.
+You hear a noise coming from the other side of the bedroom door, fear rises up
+inside. You pull the curtain closed, hoping to hide your escape attempt.
+
+Hanging outside the third floor
+You are hanging outside the third storey window, gripping the bed sheet tied
+inside the room. You can go down.
+
+The Girl > d
+Lowering yourself down, one handful at a time, you reach the end of the sheet.
+
+Hanging outside the second floor
+You are hanging outside a window. You are at the end of the sheet, and cannot go
+down any more.
+
+The Girl > look down
+You see nothing unexpected in that direction.
+
+The Girl > *note !
+I didn't understand that sentence.
+
+The Girl > x window
+A chipped white frame with murky glass panes.
+
+The Girl > open it
+You struggle to open the window, maybe a little force is called for.
+
+The Girl > smash window
+You kick the window and shatter the glass pane. You should be able to fit
+through it.
+
+The Girl > listen
+You hear nothing unexpected.
+
+The Girl > x window
+A chipped white frame with murky glass panes.
+
+The Girl > *note are there jagged edges? will i cut myself
+I didn't understand that sentence.
+
+The Girl > enter window
+You raise your legs through the opening and lower yourself into the room.
+
+bathroom
+You are in a bathroom, there is a claw-foot bath, one window and a basin. It is
+dark outside. The room is very dim, the moon giving just enough light to see. A
+mirror is fixed to the wall. The exit is to the south.
+
+You can see a brass lantern here.
+
+The Girl > undo
+Hanging outside the second floor
+[Previous turn undone.]
+
+The Girl > go in
+You can't go that way.
+
+The Girl > *note synonym
+I didn't understand that sentence.
+
+The Girl > enter
+You must supply a noun.
+
+The Girl > enter window
+You raise your legs through the opening and lower yourself into the room.
+
+bathroom
+You are in a bathroom, there is a claw-foot bath, one window and a basin. It is
+dark outside. The room is very dim, the moon giving just enough light to see. A
+mirror is fixed to the wall. The exit is to the south.
+
+You can see a brass lantern here.
+
+The Girl > i
+You are carrying:
+  some twine
+  a bottle of lamp oil
+  a craft knife
+
+The Girl > get lantern
+You pick up the brass lantern.
+
+The Girl > put oil in it
+You unscrew the lantern base and fill it with the lamp oil. Screwing the base
+back on, you discard the empty oil bottle.
+
+The Girl > *note he could find the bottle
+I didn't understand that sentence.
+
+The Girl > x bath
+A stained white claw-foot bath. The feet are metal and have decorative faces
+moulded into them.
+
+The Girl > take a bath
+That's hardly portable.
+
+The Girl > use basin
+I didn't understand that sentence.
+
+The Girl > *note i feel dirty
+I didn't understand that sentence.
+
+The Girl > look through window
+You find nothing of interest.
+
+The Girl > x mirror
+A rectangular mirror without any frame. The edges of the glass are stained.
+
+The Girl > x me
+You see dirt on your bruised arms. You are wearing red jeans and a yellow
+blouse. 
+
+The Girl > clean arms
+You can't see any such thing.
+
+The Girl > l
+bathroom
+You are in a bathroom, there is a claw-foot bath, one window and a basin. It is
+dark outside. The room is very dim, the moon giving just enough light to see. A
+mirror is fixed to the wall. The exit is to the south.
+
+The Girl > listen
+You hear nothing unexpected.
+
+The Girl > s
+
+Darkness
+It is pitch dark, and you can't see a thing.
+
+The Girl > light lamp
+You can't see any such thing.
+
+The Girl > n
+You feel the urgent need to get out of here, quick. You don't want to find out
+who is in those rooms!
+
+The Girl > switch lamp
+You can't see any such thing.
+
+The Girl > undo
+Darkness
+[Previous turn undone.]
+
+The Girl > undo
+Darkness
+[Previous turn undone.]
+
+The Girl > undo
+Darkness
+[Previous turn undone.]
+
+The Girl > undo
+bathroom
+[Previous turn undone.]
+
+The Girl > light lamp
+You can't see any such thing.
+
+The Girl > i
+You are carrying:
+  a brass lantern
+  some twine
+  a craft knife
+
+The Girl > x lantern
+A brass lantern with a spark wheel fixed next to the wick.
+
+The brass lantern is currently switched off.
+
+The Girl > switch it
+You flick the spark wheel, the wick catches alight.
+
+The Girl > s
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third
+floor, protected by a security gate. You can go back down to the first floor.
+You see doors to the north, east and south.
+
+The Girl > *note it would be idiomatic to flee down immediately
+I didn't understand that sentence.
+
+The Girl > n
+You feel the urgent need to get out of here, quick. You don't want to find out
+who is in those rooms!
+
+The Girl > *note what if there is another survivor?
+I didn't understand that sentence.
+
+The Girl > d
+Frightened and shaking, you go down the stairs...
+
+
+press a key to continue...
+
+
+
+(as Otto) You reach the top of the stairs. A bedroom door in front of you is
+latched from the outside, you undo the latch and step inside. You see a doorway
+leading to a loft: a broken chair and cut bonds inside. You dash into the
+loft...
+
+Loft
+You are in what looks like a loft, crates and boxes stacked against the walls.
+Wooden floors and white walls surround you. The ceiling rafters are visible.
+There is a single window. There is a door to the west.
+
+A broken chair and cut rope lies on the floor.
+
+A small cardboard box is nearby.
+
+You can also see pots of paints and a tube of hardened glue here.
+
+Otto > x chair
+Some of the legs are snapped off.
+
+The loft door slams shut behind you!
+
+Otto > take all
+pots of paints: You don't want the paints.
+tube of hardened glue: You don't need dry glue.
+small cardboard box: You don't want the empty box.
+
+Otto > break door
+On second thought, you don't think that is a good idea.
+
+Otto > shout
+I didn't understand that sentence.
+
+Otto > w
+(first opening the loft door)
+
+Bedroom
+A small bedroom furnished with a mattress on the floor and a curtain against one
+wall. The loft is back to the east, another door is due south.
+
+You can see a sheet here.
+
+Otto > x sheet
+Pale from dirt.
+
+Otto > s
+Someone has locked the bedroom door!
+
+Otto > shoot door
+(the bedroom door)
+You fire two rounds into the lock of the door, it breaks open.
+
+Otto > s
+A chilling scream echos from down below. You run down the stairs as fast as you
+can...
+
+
+
+press a key to continue...
+
+
+
+(as Tad) The room is very dim, all of them are, in hell. You have been hiding
+from the Demons that hunt you. Everywhere you go, they follow. Angry nasty
+demons that want your flesh. You managed to trap one of them, now locked in the
+attic.
+
+Kitchen
+In the pale light you see a bare kitchen: scuffed wooden floors, a table and
+some cupboards fixed to the wall. There is a door to the west.
+
+You can see a kitchen table (on which are some sharp knives) here.
+
+Tad > take knives
+You pick up a sharp cleaver from the pile of knives.
+
+Tad > x them
+A small collection of sharp knives. This is how you protect yourself.
+
+Tad > 
+*note Tad is the perpetrator? Having a role for the perpetrator can be triggering.
+I didn't understand that sentence.
+
+Tad > 
+I beg your pardon?
+
+Tad > x table
+A worn and dirty table.
+
+On the kitchen table are some sharp knives.
+
+Tad > i
+You are carrying:
+  a cleaver
+
+You hear breaking glass. The Demon! You must stop it, before it comes for your
+flesh.
+
+You unlock the kitchen door.
+
+Tad > *note Angry nasty demons - suggest Angry wicked demons
+I didn't understand that sentence.
+
+Tad > x cupboards
+Empty cupboards, like so many graves, are fixed to the wall. Some are missing
+doors, you used those for firewood.
+
+Tad > x floor
+Scuffed wooden floors groan under your steps.
+
+Tad > x me
+You are wearing stained brown trousers and a black golf shirt. You have not
+looked in a mirror recently, for fear of what Demons may stare back.
+
+Tad > *note suggest:what Demon may stare back
+I didn't understand that sentence.
+
+Tad > w
+You prepare to meet the horror, and pass through the door...
+
+
+press a key to continue...
+
+
+
+(as The Girl) You reach to bottom of the stairs, breathless and shaking.
+
+Living room
+The room is dim and nothing you see makes sense. There are doors to the south
+and east.
+
+The Girl > 
+*note suggest use different colour text for different characters (or just the character name).
+I didn't understand that sentence.
+
+The Girl > *note typo You reach to bottom (to the bottom / reach the bottom)
+I didn't understand that sentence.
+
+The Girl > *oh no will i die if i pick the wrong door?
+I didn't understand that sentence.
+
+The Girl > s
+The kitchen door opens, a shape moves out from the shadow. You see the killer,
+moving towards you with a knife. You scream.
+
+Tad moves closer to you, a cleaver in his hand...
+
+The Girl > *note the girl doesn't know Tad's name?
+I didn't understand that sentence.
+
+The Girl > stab him
+I didn't understand that sentence.
+
+The Girl > cut him
+I'm not sure what 'him' refers to.
+
+The Girl > cut tad
+The knife is in your pocket. You limbs frozen, you can't move while he glares at
+you.
+
+Tad moves closer to you, a cleaver in his hand...
+
+The Girl > talk
+I didn't understand that sentence.
+
+The Girl > *note plead for mercy
+I didn't understand that sentence.
+
+The Girl > i
+You are carrying:
+  a brass lantern (providing light)
+  some twine
+  a craft knife
+
+Tad moves closer to you, a cleaver in his hand...
+
+The Girl > throw knife
+You want to hang on to it.
+
+Tad moves closer to you, a cleaver in his hand...
+
+You close your eyes.
+
+
+press a key to continue...
+
+
+
+Living room
+The room is dim and nothing you see makes sense. There are doors to the south
+and east.
+
+You can see Otto and Tad here.
+
+Otto > *note I can see myself (Otto)?
+I didn't understand that sentence.
+
+Otto > say hello
+Whom do you want to say that to?
+
+Otto > tad
+There is no reply.
+
+The killer moves closer to the girl, a cleaver in his hand...
+
+Otto > *note the girl? I didn't see her
+I didn't understand that sentence.
+
+Otto > x killer
+You are wasting time!
+
+The killer moves closer to the girl, a cleaver in his hand...
+
+Otto > shoot
+What do you want to shoot?
+
+Otto > girl
+On second thought, you don't think that is a good idea.
+
+The killer moves closer to the girl, a cleaver in his hand...
+
+Otto > x girl
+You are wasting time!
+
+The killer moves closer to the girl, a cleaver in his hand...
+
+Otto > attack killer
+You aim your pistol at the killer, exhale and squeeze the trigger...
+
+
+
+press a key to continue...
+
+
+
+(as Tad) You enter the Living room, the Demon is here. It is mocking you,
+calling out for your flesh. The parlour is due south, the kitchen to the east.
+Stairs go up to the second floor.
+
+Living room
+The room is dim and nothing you see makes sense. There are doors to the south
+and east.
+
+You can see a Demon here.
+
+Tad > say hello
+(to the Demon)
+There is no reply.
+
+Tad > x demon
+It has the figure of a man with leather-like skin, it has no use for clothes.
+The knees bend backwards, six razor talons extend where fingers would be. Sharp
+fangs fill the mouth, a bald head is adorned with two goat-like horns.
+
+Tad > x me
+You are wearing stained brown trousers and a black golf shirt. You have not
+looked in a mirror recently, for fear of what Demons may stare back.
+
+Tad > save
+Ok.
+
+Tad > 
