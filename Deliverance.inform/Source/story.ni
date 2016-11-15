@@ -947,7 +947,7 @@ Instead of closing the outer curtain during the fifth act, say "It is already dr
 
 
 Lower Outside is a room. It is below Upper Outside. 
-The printed name is "Hanging outside the second floor". The description is "You are hanging outside a window. You are at the end of the sheet, and cannot go down any more."
+The printed name is "Hanging outside the second floor". The description is "You are hanging outside a window. You are at the end of the sheet, and cannot go down any more.[if the bathroom-window is open][paragraph break]The window is broken open, you can go in.[end if]";
 
 A Lower Makeshift Rope is in Lower Outside. It is scenery. The printed name is "sheet". Understand "sheet" as Lower Makeshift Rope. The description is "You are hanging on to the sheet for dear life. You are at the end of the sheet."
 
@@ -1394,4 +1394,4 @@ The dream sequence begins when play begins.
 
 Chapter 14 - Dev testing - not for release
 
-The fourth act begins when play begins.
+The fifth act begins when play begins.
