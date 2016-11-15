@@ -117,7 +117,7 @@ Instead of switching off the tactical-torch:
 
 
 Tad Kemp is a man. The description is "A lithe man [if Tad is dead]lies on the floor staring[else]glares at you[end if] through slit brown eyes. His ruddy tone and wavy brown hair does nothing to detract from his prowling jackal disposition."
-The self description of Tad is "You are wearing stained brown trousers and a black golf shirt. You have not looked in a mirror recently, for fear of what Demons may stare back."
+The self description of Tad is "You are wearing stained brown trousers and a black golf shirt. You have not looked in a mirror recently, for fear of what Demon may stare back."
 Understand "killer" as Tad Kemp.
 
 Instead of searching a dead Tad Kemp:
@@ -1160,7 +1160,7 @@ Chapter 7 - Seventh act
 The seventh act is a scene. The seventh act begins when the sixth act ends. The seventh act ends when the seventh act is done.
 
 When the seventh act begins:
-	say "(as [Tad]) The room is very dim, all of them are, in hell. You have been hiding from the Demons that hunt you. Everywhere you go, they follow. Angry nasty demons that want your flesh. You managed to trap one of them, now locked in the attic.";
+	say "(as [Tad]) The room is very dim, all of them are, in hell. You have been hiding from the Demons that hunt you. Everywhere you go, they follow. Angry, wicked demons that want your flesh. You managed to trap one of them, now locked in the attic.";
 	move Tad to the Kitchen;
 	now the player is Tad;
 	Tad hears noise in four turns from now;
@@ -1189,7 +1189,7 @@ The eighth act is a scene. The eighth act begins when the seventh act ends. The 
 
 When the eighth act begins:
 	now the description of the Living Room is "The room is dim and nothing you see makes sense. There are doors to the south and east.";
-	say "(as [Victoria]) You reach to bottom of the stairs, breathless and shaking.";
+	say "(as [Victoria]) You reach the bottom of the stairs, breathless and shaking.";
 	move Victoria to the Living room;
 	now the player is Victoria;
 	try looking;
@@ -1206,7 +1206,7 @@ Instead of examining during the eighth act:
 
 Check going during the eighth act:
 	if Tad is not in the Living Room:
-		say "The kitchen door opens, a shape moves out from the shadow. You see the killer, moving towards you with a knife. You scream.";
+		say "The kitchen door opens and Tad appears from the shadows, moving towards you with a cleaver in his hand. That same crazed look on his face when he abducted you. You scream.";
 		move Tad to the Living Room;
 		Otto appears in three turns from now;
 		stop the action;
@@ -1220,7 +1220,7 @@ Every turn during the eighth act:
 		say "[Tad] moves closer to you, a cleaver in his hand...";
 
 Instead of attacking tad when the player is Victoria during the eighth act:
-	say "The knife is in your pocket. You limbs frozen, you can't move while he glares at you.";
+	say "Your limbs are frozen while he glares at you.";
 
 At the time when Otto appears:
 	now the eighth act is done;
@@ -1231,6 +1231,8 @@ Instead of listening during the eighth act:
 	else:
 		say "You hear somebody rustling around beyond the door to the east. You make a note to avoid that door.";
 
+Every turn when Tad is in the location during the eighth act:
+	say "All you can do is sob and plead for mercy.";
 
 Chapter 9 - Ninth act
 
@@ -1381,4 +1383,4 @@ The dream sequence begins when play begins.
 
 Chapter 14 - Dev testing - not for release
 
-The fifth act begins when play begins.
+The eighth act begins when play begins.
