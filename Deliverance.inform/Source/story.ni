@@ -888,7 +888,7 @@ Instead of cutting the rope:
 	silently try exiting;
 	try looking;
 
-A device called a brass lantern is in the cardboard box. The description is "A brass lantern with a spark wheel fixed next to the wick.". A brass lantern can be full or empty. A brass lantern is empty.
+A device called a brass lantern is in the cardboard box. The description is "A brass lantern with a spark wheel fixed next to the wick.". A brass lantern can be full or empty. A brass lantern is empty. Understand "lamp" as lantern.
 
 The initial appearance of a brass lantern is "The lantern catches your eye."
 
@@ -915,6 +915,7 @@ Instead of inserting lamp oil into a brass lantern:
 	now a brass lantern is full;
 	now the lamp oil is nowhere;
 
+Instead of burning the brass lantern, try switching on the brass lantern.
 
 
 Chapter 13 - Second and Third Floor Windows
