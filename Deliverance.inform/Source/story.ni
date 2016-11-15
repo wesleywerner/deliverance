@@ -636,7 +636,7 @@ A basin is in the bathroom. It is scenery. The description is "A simple pedestal
 
 A mirror is in the bathroom. It is scenery. Understand "stain" and "edges" as a mirror. The description is "A rectangular mirror without any frame. The edges of the glass are stained." Instead of searching mirror, say "You look at yourself in the mirror: [mirror description of the player][paragraph break]".
 
-The moon is a thing in the bathroom. It is scenery. It is lit. The description is "The pale moon pushes through the clouds, proving some light in the dim bathroom."
+The moon is a thing in the bathroom. It is scenery. It is lit. The description is "The pale moon pushes through the clouds, proving some light in the dim bathroom." Understand "clouds" as moon.
 
 
 Chapter 9 - Second floor bedrooms
