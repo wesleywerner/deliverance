@@ -669,7 +669,7 @@ Report entering a code:
 
 The bronze key is in the safe. The description is "A short but fat bronze key, it has decorative grape vines embossed around the shaft and the head."
 
-Understand "unlock safe" and "unlock the safe" as a mistake ("The safe has a keypad, maybe you should look at that.").
+Understand "unlock safe" and "unlock the safe" as a mistake ("The safe has a keypad, to unlock the safe you can ENTER <a number> in the keypad.").
 
 Chapter 10 - Third Floor Hall
 
@@ -1394,4 +1394,4 @@ The dream sequence begins when play begins.
 
 Chapter 14 - Dev testing - not for release
 
-The fifth act begins when play begins.
+The fourth act begins when play begins.
