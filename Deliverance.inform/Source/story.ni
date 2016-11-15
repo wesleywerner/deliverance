@@ -728,7 +728,7 @@ Instead of tying sheet to pipes during the third act:
 
 [It is south of the Upper Outside and north of the Third Floor Bedroom.]
 [ a one-way escape door because we don't want to reference it when the player is hanging on the other side. ]
-The escape-window is a closed door. It is north of the Third Floor Bedroom. It is scenery. The printed name is "window". Understand "window" and "grass" as escape-window. The description is "[if a curtain is closed]The window is covered by the curtain.[else]You look through the window. You see grass down below, no other houses are visible. You appear to be on the third storey."
+The escape-window is a closed door. It is outside of the Third Floor Bedroom and inside of the Upper Outside. It is scenery. The printed name is "window". Understand "window" and "grass" as escape-window. The description is "[if a curtain is closed]The window is covered by the curtain.[else]You look through the window. You see grass down below, no other houses are visible. You appear to be on the third storey."
 Instead of searching escape-window, try examining escape-window.
 
 Instead of exiting when the location is the Third Floor Bedroom, try entering the escape-window.
@@ -738,7 +738,7 @@ Instead of going down when the location is the Third Floor Bedroom, try entering
 Instead of inserting the sheet into escape-window:
 	say "You can't throw the sheet out the window, it will help to TIE the sheet to something first."
 
-Instead of going the escape-window during the third act:
+Instead of going to the Upper Outside during the third act:
 	if the sheet is untied:
 		say "It is too high up, you will surely fall. Perhaps if you had something to climb down with.";
 		stop the action;
