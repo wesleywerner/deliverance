@@ -607,6 +607,11 @@ Bathroom is a room. It is north of the Second Floor Hall. The description is "Yo
 The bathroom-window is a closed locked door. It is scenery. It is inside of Lower Outside and outside of the bathroom. The printed name is "window". Understand "window" as bathroom-window. The description is "The window is shoulder height, it leads to the outside."
 Instead of opening the locked bathroom-window, say "It won't open. It must be secured permanently."
 
+Instead of searching the bathroom-window when the location is in the interior:
+	say "You see the moon enveloped by the dark evening."
+Instead of searching the bathroom-window when the location is not in the interior:
+	say "You see a bathroom through the window."
+
 A bath is in the bathroom. It is scenery. The description is "A stained white claw-foot bath. The feet are metal and have decorative faces moulded into them."
 Some faces are a part of the bath. The description is "Moulded faces make up the feet of the bathtub." Understand "claw-foot" and "feet" as faces.
 
