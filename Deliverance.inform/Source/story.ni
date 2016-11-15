@@ -616,7 +616,7 @@ A bath is in the bathroom. It is scenery. The description is "A stained white cl
 Some faces are a part of the bath. The description is "Moulded faces make up the feet of the bathtub." Understand "claw-foot" and "feet" as faces.
 
 Washing-up is an action applying to nothing.
-Understand "wash self" and "wash face" and "bathe" as "[cleaning-up]".
+Understand "wash self" and "wash face" and "bathe" and "wash arms" as "[cleaning-up]".
 Understand "[cleaning-up]" as washing-up.
 Carry out washing-up:
 	if a bath is visible:
