@@ -604,14 +604,8 @@ Chapter 8 - Bathroom
 
 Bathroom is a room. It is north of the Second Floor Hall. The description is "You are in a bathroom, there is a claw-foot bath, one window and a basin. [if Bathroom is dark]It is dark outside. The room is very dim, the moon giving just enough light to see.[end if] A mirror is fixed to the wall. The exit is to the south."
 
-The bathroom-window is a closed locked door. It is scenery. It is south of Lower Outside and north of the bathroom. The printed name is "window". Understand "window" as bathroom-window. The description is "The window is shoulder height, it leads to the outside."
+The bathroom-window is a closed locked door. It is scenery. It is inside of Lower Outside and outside of the bathroom. The printed name is "window". Understand "window" as bathroom-window. The description is "The window is shoulder height, it leads to the outside."
 Instead of opening the locked bathroom-window, say "It won't open. It must be secured permanently."
-
-Instead of entering the bathroom-window during the sixth act:
-	say "You manage to squeeze your way through the broken frame, which is not that large for a man of your build. You cut your forearm badly. A chilling scream echos from down below right before you dash out the bathroom and down the stairs...";
-	now Otto is bleeding;
-	now the sixth act is done;
-	stop the action;
 
 A bath is in the bathroom. It is scenery. The description is "A stained white claw-foot bath. The feet are metal and have decorative faces moulded into them."
 Some faces are a part of the bath. The description is "Moulded faces make up the feet of the bathtub." Understand "claw-foot" and "feet" as faces.
@@ -945,18 +939,8 @@ Instead of attacking bathroom-window during the fifth act:
 	say "You kick the window and shatter the glass pane. You should be able to fit through it without cutting yourself.";
 	now the bathroom-window is open;
 
-Instead of entering bathroom-window during the fifth act:
-	if the location is Lower Outside:
-		say "You raise your legs through the opening and lower yourself into the room.";
-		continue the action;
-	otherwise:
-		say "You are not going back up there.";
-
 Instead of examining bathroom-window during the sixth act:
 	say "A chipped white frame with murky glass panes."
-	
-Instead of opening bathroom-window during the sixth act:
-	say "It won't open, but the glass panes are broken away. You can climb through it."
 
 Part 3 - Scenes
 
@@ -1132,6 +1116,7 @@ When the sixth act begins:
 	move Otto to the Loft;
 	now the player is Otto;
 	now the sheet is tied;
+	now the bathroom-window is open;
 	try looking;
 
 When the sixth act ends:
@@ -1141,7 +1126,14 @@ Instead of listening for the first time during the sixth act:
 	say "You hear breaking glass, sounds like it came from one level below you.".
 
 Instead of listening when the location is in the interior during the sixth act:
-	say "You hear movement down below.".
+	say "You hear movement below inside the house.".
+
+After going to the Bathroom during the sixth act:
+	say "You manage to squeeze your way through the broken frame, which is not that large for a man of your build. You cut your forearm badly. A chilling scream echos from down below right before you dash out the bathroom and down the stairs...";
+	now Otto is bleeding;
+	now the sixth act is done;
+	stop the action;
+
 
 
 Chapter 7 - Seventh act
@@ -1370,4 +1362,4 @@ The dream sequence begins when play begins.
 
 Chapter 14 - Dev testing - not for release
 
-The fifth act begins when play begins.
+The third act begins when play begins.
