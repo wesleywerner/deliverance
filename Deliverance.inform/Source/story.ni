@@ -1239,13 +1239,15 @@ Chapter 9 - Ninth act
 The ninth act is a scene. The ninth act begins when the eighth act ends. The ninth act ends when the ninth act is done.
 
 When the ninth act begins:
-	[now the description of the Living room is "(as [the player]) A door to the south leads to the parlour, another to the east. You are on the stairs.";]
-	move Otto to the Living room;
-	move Victoria to the Living room;
-	move Tad to the Living room;
+	if Otto is not in the location:
+		move Otto to the Living room;
+	if Victoria is not in the location:
+		move Victoria to the Living room;
+	if Tad is not in the location:
+		move Tad to the Living room;
 	if Otto is not bleeding:
 		now the player is Otto;
-		[try looking;]
+		try looking;
 	otherwise:
 		say "The shot missed! The killer turns to the detective. Now is your chance!";
 		now the player is Victoria;
