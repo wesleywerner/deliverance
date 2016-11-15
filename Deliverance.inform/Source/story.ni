@@ -610,6 +610,8 @@ Instead of opening the locked bathroom-window, say "It won't open. It must be se
 A bath is in the bathroom. It is scenery. The description is "A stained white claw-foot bath. The feet are metal and have decorative faces moulded into them."
 Some faces are a part of the bath. The description is "Moulded faces make up the feet of the bathtub." Understand "claw-foot" and "feet" as faces.
 
+Instead of taking a bath, try entering a bath.
+
 Instead of entering the bath:
 	if the player is victoria:
 		say "You would love a bath, anywhere but here.";
@@ -1375,4 +1377,4 @@ The dream sequence begins when play begins.
 
 Chapter 14 - Dev testing - not for release
 
-The sixth act begins when play begins.
+The fifth act begins when play begins.
