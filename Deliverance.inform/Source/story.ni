@@ -771,7 +771,7 @@ Check going south when the location is the Third Floor Bedroom during the sixth 
 
 Chapter 12 - Third floor loft
 
-The Loft is a room. The description is "[if the player is tied]You don't know where you are, some kind of room. You feel too panicked to notice your surroundings. It is difficult to move.[else]You are in what looks like a loft, crates and boxes stacked against the walls. Wooden floors and white walls surround you. The ceiling rafters are visible. There is a single window. A broken chair and cut rope lies on the floor. There is an exit to the west.[end if]";
+The Loft is a room. The description is "[if the player is tied]You don't know where you are. You feel too panicked to notice your surroundings. You are tied to a chair with rope.[else]You are surrounded by boxes and white walls, a single window is visible. A broken chair and cut rope lies on the floor. There is an exit to the west.[end if]";
 
 The Loft is east of the Third Floor Bedroom.
 
