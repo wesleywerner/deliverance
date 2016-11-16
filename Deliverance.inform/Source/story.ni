@@ -783,7 +783,7 @@ Instead of searching the window, say "It is too far up, you can't see through it
 
 A thing called some boxes are in the loft. The description is "You don't want to rummage through old boxes when you feel a strong need to get out of here." It is scenery. Understand "crate" and "crates" as boxes.
 
-A supporter called the rickety chair is in the loft. It is fixed in place. The printed name is "chair". It is scenery. The description is "[if the player is tied]It feels rickety and creaks when you move. You should try get up.[else]Some of the legs are snapped off."
+A supporter called the rickety chair is in the loft. It is fixed in place. The printed name is "chair". It is scenery. The description is "[if the player is tied]It feels rickety and creaks when you move. [end if][if the chair is upright]You should try get up.[end if][if the player is not tied]A broken chair.[end if]";
 
 The rickety chair can be upright or sideways. The rickety chair is upright.
 Instead of taking rickety chair, say "You have no need for a broken chair."
