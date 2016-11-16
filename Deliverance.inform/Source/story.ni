@@ -206,11 +206,11 @@ The description is "[dreamy-kids]". Understand "children" as kids.
 
 To say dreamy-park-description:
 	if reality is lucid:
-		say "You are walking on a scenic path with your husband, the park is beautiful this time of year, a clear sky stretches above you. A playground is in the distance, a dozen kids playing on the swings and seesaws. Majestic trees line the path, you are walking north.";
+		say "You are walking on a scenic path with your husband. The park is beautiful this time of year, a clear sky stretches above you. There is a playground is in the distance, a dozen kids playing on the swings and seesaws. Majestic trees line the path leading north.";
 	if reality is confused:
-		say "You are on a path, your husband beside you. The park surrounding you looks pale and unkempt, a grey sky looms up above. A playground is in the distance, a few kids are ambling around the swings and seesaws. Tired trees line the path, you are walking north.";
+		say "You are on a path, your husband beside you. The park surrounding you looks pale and unkempt, a grey sky looms up above. The playground in the distance has few kids, ambling around the swings and seesaws. Tired trees line the path leading north.";
 	if reality is dreamlike:
-		say "The once beautiful park is lifeless, a black sky hovers above you. A distant playground with swings and seesaws is abandoned. Dead trees line the path heading north.";
+		say "The once beautiful park is lifeless, a black sky hovers above you. There is a playground in the distance, it's swings and seesaws now abandoned. Dead trees line the path leading north.";
 
 To say dreamy-path:
 	if reality is lucid:
@@ -296,7 +296,7 @@ Instead of asking Quinn about "the/-- picnic" when reality is confused:
 Instead of asking Quinn about "the/-- playground/swings/seesaws" when reality is lucid:
 	say "'Those kids really love those swings and seesaws', Quinn chuckles.";
 Instead of asking Quinn about "the/-- playground/swings/seesaws" when reality is confused:
-	say "'They look a bit empty, don't they.' he laments.";
+	say "'They look a bit empty, don't they' he laments.";
 Instead of asking Quinn about "the/-- sky/clouds" when reality is lucid:
 	say "'This day is splendid!' your husband grins, 'a picnic would be nice'.";
 Instead of asking Quinn about "the/-- sky/clouds" when reality is confused:
@@ -305,36 +305,39 @@ Instead of asking Quinn about "the/-- kids/children" when reality is lucid:
 	say "'Maybe our own kids will play here, one day', Quinn smiles.";
 Instead of asking Quinn about "the/-- kids/children" when reality is confused:
 	say "Quinn does not seem interested in the kids right now. He seems troubled.";
-Instead of asking Quinn about "the/-- himself/husband" when reality is lucid:
-	say "'I always feel great on a day like this.' he grins.";
-Instead of asking Quinn about "the/-- himself/husband" when reality is confused:
-	say "'Today feels a bit drab, something is missing.' he laments.";
+Instead of asking Quinn about "himself/husband" when reality is lucid:
+	say "'I always feel great on a day like this' he grins.";
+Instead of asking Quinn about "himself/husband" when reality is confused:
+	say "'Today feels a bit drab, something is missing' he laments.";
 Instead of asking Quinn about "me" when reality is lucid:
-	say "Quinn winks at you.";
-Instead of asking Quinn about "the/-- me/trouble" when reality is lucid:
+	say "Quinn gives you a kiss.";
+Instead of asking Quinn about "the/-- trouble" when reality is lucid:
 	say "'Nothing is wrong today, my love', he kisses you on the cheek.";
-Instead of asking Quinn about "the/-- me/trouble/distraction" when reality is confused:
-	say "'Why did you go missing, Victoria? I wish I knew what happened to you', he laments.";
+Instead of asking Quinn about "the/-- trouble" when reality is confused:
+	say "'You are missing, Victoria. I wish I knew what happened to you', he laments.";
 Instead of asking Quinn about "missing" when reality is confused:
-	say "'Yes you disappeared, very much unlike you.', he laments.";
+	say "'Oh Victoria, I wish I knew where you are, and hope you are alright', he laments.";
 Instead of asking Quinn about "going missing" when reality is confused:
-	say "'Yes you disappeared, very much unlike you.', he laments.";
+	say "'Oh Victoria, I wish I knew where you are, and hope you are alright', he laments.";
 Instead of asking Quinn about "disturbed" when reality is confused:
-	say "'Yes you disappeared, very much unlike you.', he laments.";
+	say "'You went missing, Victoria', he laments.";
 Instead of asking Quinn about "being disturbed" when reality is confused:
-	say "'Yes you disappeared, very much unlike you.', he laments.";
+	say "'You went missing, Victoria', he laments.";
 
 Instead of asking Quinn about something when reality is lucid:
 	say "Quinn ignores the question and smiles at the children playing."
 Instead of asking Quinn about something when reality is confused:
 	say "Quinn ignores you, he seems troubled by something."
 Instead of asking Quinn about something when reality is dreamlike:
-	say "Your husband tries to speak, his lips are moving but you can't hear the words, like he is very far away."
-
+	say "[one of]Quinn tries to speak, his lips move but you can't hear the words, like he is very far away.[or]Quinn mouths the words, you can't hear them. He is staring far into the distance beyond you.[or]Quinn's lips move but you can't hear the words.[stopping]";
 Instead of smelling during the dream sequence:
 	if reality is lucid, say "The air smells fresh and clean.";
 	if reality is confused, say "The air in the park smells stale.";
 	if reality is dreamlike, say "The air is pungent with decay.";
+Instead of kissing Quinn during the dream sequence:
+	if reality is lucid, say "Quinn returns the gesture with a bright smile.";
+	if reality is confused, say "Quinn smiles at the gesture, but he seems troubled.";
+	if reality is dreamlike, say "Some unseen force is holding you back from getting close to Quinn.";
 
 Instead of listening during the dream sequence:
 	if reality is lucid, say "The sound of children play echoes across the stretch of grass.";
@@ -374,7 +377,7 @@ Every turn during the dream sequence:
 
 test park with "x quinn/x path/x sky/x playground/x kids/ask children about swings/tell kids about seesaws/x swings/x trees/x grass/n"
 
-test quinn with "ask quinn about us/ask quinn about park/ask quinn about picnic/ask quinn about kids/ask quinn about playground/ask quinn about sky/ask quinn about trees/ask quinn about swings/ask quinn about seesaws/ask quinn about marriage/ask quinn about wedding/ask quinn about himself/ask quinn about husband/ask quinn about me/ask quinn about honeymoon/ask quinn about ring/ask quinn about children/ask husband about trouble/ask husband about missing/ask husband about going missing/ask husband about being disturbed/ask husband about disturbed/n"
+test quinn with "ask quinn about us/ask quinn about park/ask quinn about picnic/ask quinn about kids/ask quinn about playground/ask quinn about sky/ask quinn about trees/ask quinn about swings/ask quinn about seesaws/ask quinn about marriage/ask quinn about wedding/ask quinn about himself/ask quinn about husband/ask quinn about me/ask quinn about honeymoon/ask quinn about ring/ask quinn about children/ask husband about trouble/ask husband about missing/ask husband about going missing/ask husband about being disturbed/ask husband about disturbed/kiss quinn/n"
 
 
 
@@ -1388,4 +1391,4 @@ The dream sequence begins when play begins.
 
 Chapter 14 - Dev testing - not for release
 
-The tenth act begins when play begins.
+The dream sequence begins when play begins.
