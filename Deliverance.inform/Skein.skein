@@ -1,46 +1,848 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x16107a0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
-  <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x16107a0"/>
-  <item nodeId="node-0x16107a0">
+<Skein rootNode="node-1">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-75"/>
+  <item nodeId="node-1">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">
-
-
-
-Light pierces your vision as your eyes flutter open. Blurred shapes spin around as you shake the sound of a pounding heart free. You just woke from a very strange dream.
-
-# BETA 2 RELEASE
-# Enter SCRIPT to record a transcript. Feedback is appreciated and credited.
-
-Deliverance
-Some demons are more real than others, by Wesley Werner
-Release 1 / Serial number 161115 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
-
-Loft (on the chair)
-You don&apos;t know where you are, some kind of room. You feel too panicked to notice your surroundings. It is difficult to move.
-
-Victoria &gt; </result>
-    <commentary xml:space="preserve">
-
-
-
-Light pierces your vision as your eyes flutter open. Blurred shapes spin around as you shake the sound of a pounding heart free. You just woke from a very strange dream.
-
-# BETA 2 RELEASE
-# Enter SCRIPT to record a transcript. Feedback is appreciated and credited.
-
-Deliverance
-Some demons are more real than others, by Wesley Werner
-Release 1 / Serial number 161115 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
-
-Loft (on the chair)
-You don&apos;t know where you are, some kind of room. You feel too panicked to notice your surroundings. It is difficult to move.
-
-Victoria &gt; </commentary>
+    <result xml:space="preserve">Deliverance is a short interactive fiction story. It is a dark psychological thriller that contains elements of delusion and abduction. It may also contain triggers as viewed through the perpetrator's eyes. **Sensitive players should approach carefully**&#x000A;&#x000A;You can read INFO on the game.&#x000A;&#x000A;# BETA 2 RELEASE&#x000A;# Enter SCRIPT to record a transcript. Feedback is appreciated and credited.&#x000A;&#x000A;Deliverance&#x000A;Some demons are more real than others, by Wesley Werner&#x000A;Release 1 / Serial number 161117 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Park&#x000A;You are walking on a scenic path with your husband. The park is beautiful this time of year, a clear sky stretches above you. There is a playground is in the distance, a dozen kids playing on the swings and seesaws. Majestic trees line the path leading north.&#x000A;&#x000A;&#x000A;You can see Quinn here.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve">&#x000A;&#x000A;&#x000A;&#x000A;Light pierces your vision as your eyes flutter open. Blurred shapes spin around as you shake the sound of a pounding heart free. You just woke from a very strange dream.&#x000A;&#x000A;# BETA 2 RELEASE&#x000A;# Enter SCRIPT to record a transcript. Feedback is appreciated and credited.&#x000A;&#x000A;Deliverance&#x000A;Some demons are more real than others, by Wesley Werner&#x000A;Release 1 / Serial number 161115 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Loft (on the chair)&#x000A;You don't know where you are, some kind of room. You feel too panicked to notice your surroundings. It is difficult to move.&#x000A;&#x000A;Victoria &gt; </commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-2"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You walk north along the path. Everything around you seems different, you are not sure how much time has passed.&#x000A;&#x000A;Park&#x000A;You are on a path, your husband beside you. The park surrounding you looks pale and unkempt, a grey sky looms up above. The playground in the distance has few kids, ambling around the swings and seesaws. Tired trees line the path leading north.&#x000A;&#x000A;&#x000A;You can see Quinn here.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-3"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You walk north along the path. Everything around you seems different, you are not sure how much time has passed.&#x000A;&#x000A;Park&#x000A;The once beautiful park is lifeless, a black sky hovers above you. There is a playground in the distance, it's swings and seesaws now abandoned. Dead trees line the path leading north.&#x000A;&#x000A;&#x000A;You can see Quinn here.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You walk north along the path. Your legs feel heavy, as if moving through mud. Everything around you fades away, you are left in darkness.&#x000A;&#x000A;Light pierces your vision as your eyes flutter open. Blurred shapes spin around as you shake the sound of a pounding heart free. You just woke from a very strange dream.&#x000A;&#x000A;Loft (on the chair)&#x000A;You don't know where you are. You feel too panicked to notice your surroundings. You are tied to a chair with rope.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">You awaken in the Loft as Victoria</annotation>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">stand up</command>
+    <result xml:space="preserve">You rock the chair. Some part of it snaps underneath you, it sags to the right. The chair sounds pretty weak, you think it might break if you try that again.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">again</command>
+    <result xml:space="preserve">You rock the chair. One side of the chair breaks under the strain and you topple onto your side, your head almost hits a small cardboard box. Your one arm is free!&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">take box</command>
+    <result xml:space="preserve">You reach for the box. As you pull it closer it falls over, craft supplies spill out in front of you - a tube of hardened glue, pots of paints and a craft knife.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">You pick up the craft knife carefully, avoiding the business end of it.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">cut ropes</command>
+    <result xml:space="preserve">You curl up enough to reach your legs and sever the bonds around them. You get up into a kneeling position and cut your other arm free. You stand up, wobbling.&#x000A;&#x000A;Loft&#x000A;You are surrounded by boxes and white walls, a single window is visible. A broken chair and cut rope lies on the floor. There is an exit to the west.&#x000A;&#x000A;You can see pots of paints, a tube of hardened glue and a small cardboard box (empty) here.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Bedroom&#x000A;A small bedroom furnished with a mattress on the floor and a curtain against one wall. The loft is back to the east. The bedroom door is to south.&#x000A;&#x000A;On the mattress is a sheet.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;The room turns into a tunnel, the floor rising up to meet you. Shadows creep in from all sides as your vision fades.&#x000A;&#x000A;&#x000A;press a key to continue...&#x000A;&#x000A;(as Otto) The last daylight creeps away, the moon struggles to find gaps through looming clouds. A chill moves over your skin.&#x000A;&#x000A;Front of the house&#x000A;You are in front of an old, remote house. The flaking paint and shoddy walkway indicate it's age and abandonment. The porch leads to the south. The front door is to the west. You are carrying your badge and gun.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">You pass out, play continues as Otto in Front of the house</annotation>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You walk down the porch, and around to the south side of the house.&#x000A;&#x000A;Porch&#x000A;The rough wood of the porch is weathered and stripped of varnish. There are two windows here. The porch continues west. The front door is back to the north.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You walk along the porch to the west side of the house.&#x000A;&#x000A;Rear of the house&#x000A;The back of the house is no less weathered. There is a bay window to the east.&#x000A;&#x000A;An anonymous tip to the homicide office, in connection with the missing woman, led me here.&#x000A;&#x000A;Victoria... I pray she is still alive.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">open bay window</command>
+    <result xml:space="preserve">You pull on the window frame, rust crumbles between the hinges. It swings open.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">enter bay window</command>
+    <result xml:space="preserve">Looking to make sure the room is empty, you slip inside.&#x000A;&#x000A;Parlour&#x000A;A low and wide table dominates the room, tattered armchairs guarding it, a carpet underneath it. A serving dish is on the table. A bay window is to the west, a door to the north.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">You are now in the Parlour</annotation>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the living room door)&#x000A;You open the door as silently possible.&#x000A;&#x000A;Living room&#x000A;An old couch rests against a wall, a painting hangs above it. A writing desk squats in one corner, and a serving trolley in the other. A door to the south leads back to the Parlour, another leads to the east. Stairs go up to the second floor.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">open teapot</command>
+    <result xml:space="preserve">Lifting the butterfly lid, a business card is revealed inside the teapot.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">take card</command>
+    <result xml:space="preserve">You pick up the business card.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">x card</command>
+    <result xml:space="preserve">"Unholy Battle pest control, Tad Kemp". You notice an impression like writing on the back of the card.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">x impression</command>
+    <result xml:space="preserve">The back of the card has 6375 written on it.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">The code to unlock the safe</annotation>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">go up</command>
+    <result xml:space="preserve">You peer up the staircase, making sure nobody else is watching from above, and cautiously ascend the stairs.&#x000A;&#x000A;&#x000A;press a key to continue...&#x000A;&#x000A;(as Victoria) Your eyes flutter open.&#x000A;&#x000A;Bedroom&#x000A;A small bedroom furnished with a mattress on the floor and a curtain against one wall. The loft is back to the east. The bedroom door is to south.&#x000A;&#x000A;On the mattress is a sheet.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">Viewpoint switched to Victoria</annotation>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">open curtain</command>
+    <result xml:space="preserve">You pull the curtain open, there is a window behind it. Near the floor are some pipes.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">take sheet</command>
+    <result xml:space="preserve">You pick up the sheet.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">tie sheet to pipes</command>
+    <result xml:space="preserve">You open the window.&#x000A;&#x000A;You wrap one end of the sheet around the pipes and make a knot. You drop the other end of the sheet out the window.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">You hold on to the makeshift rope, climb through the window and prepare yourself.&#x000A;&#x000A;&#x000A;press a key to continue...&#x000A;&#x000A;(as Otto) As you reach the second floor.&#x000A;&#x000A;Second Floor&#x000A;You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see exits to the north and south.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">You switch back to Otto</annotation>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Bedroom&#x000A;The bedroom is furnished with a mattress in the corner, and a bedside table against the wall. There is a safe under the table. The exit is to the north.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">A small gun safe with an electronic keypad.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">x keypad</command>
+    <result xml:space="preserve">An electronic pad for entering a code. (You can ENTER &lt;a number&gt; to unlock it).&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">enter 6375</command>
+    <result xml:space="preserve">(in the keypad)&#x000A;Click. The safe door creaks open. Inside is a bronze key.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">take bronze key</command>
+    <result xml:space="preserve">You pick up the bronze key.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Second Floor&#x000A;You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see exits to the north and south.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">unlock security gate with bronze key</command>
+    <result xml:space="preserve">You unlock the security gate.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">go up</command>
+    <result xml:space="preserve">You open the security gate.&#x000A;&#x000A;You ascend the stairs, continuing your search...&#x000A;&#x000A;&#x000A;press a key to continue...&#x000A;&#x000A;(as Victoria) You hold tight to the bed sheet as you climb through the window. You hear a noise coming from the other side of the bedroom door, fear rises up inside. You pull the curtain closed, hoping to hide your escape attempt.&#x000A;&#x000A;Hanging outside the third floor&#x000A;You are hanging outside the third storey window, gripping the bed sheet tied inside the room. You can go down.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">You switch back to Victoria, hanging outside</annotation>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">Lowering yourself down, one handful at a time, you reach the end of the sheet.&#x000A;&#x000A;Hanging outside the second floor&#x000A;You are hanging outside a window. You are at the end of the sheet, and cannot go down any more.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">open window</command>
+    <result xml:space="preserve">You struggle to open the window, maybe a little force is called for.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">kick window</command>
+    <result xml:space="preserve">You kick the window and shatter the glass pane. You should be able to fit through it without cutting yourself.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">go in</command>
+    <result xml:space="preserve">Bathroom&#x000A;You are in a bathroom, there is a claw-foot bath and a basin here, a window on the north wall. A mirror is fixed to the wall. The exit is to the south.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">look in mirror</command>
+    <result xml:space="preserve">You look at yourself in the mirror: Big orange eyes stare back at you. Your straight brown hair is tangled about your face. You look like hell.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Frightened and shaking, you run out the bathroom and down the stairs...&#x000A;&#x000A;&#x000A;press a key to continue...&#x000A;&#x000A;(as Otto) You reach the top of the stairs. A bedroom door in front of you is latched from the outside, you undo the latch and step inside. You see a doorway leading to a loft: a broken chair and cut bonds inside. You dash into the loft...&#x000A;&#x000A;Loft&#x000A;You are surrounded by boxes and white walls, a single window is visible. A broken chair and cut rope lies on the floor. There is an exit to the west.&#x000A;&#x000A;You can see pots of paints, a tube of hardened glue and a small cardboard box (empty) here.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">You switch back to Otto</annotation>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Bedroom&#x000A;A small bedroom furnished with a mattress on the floor and a curtain against one wall. The loft is back to the east. The bedroom door is to south.&#x000A;&#x000A;You can see a sheet here.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">out of the Loft</annotation>
+    <children>
+      <child nodeId="node-41"/>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">Someone has locked the bedroom door!&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">For the heroic ending</annotation>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">shoot the door</command>
+    <result xml:space="preserve">You fire two rounds into the lock of the door, it breaks open.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">A chilling scream echos from down below. You run down the stairs as fast as you can...&#x000A;&#x000A;&#x000A;&#x000A;press a key to continue...&#x000A;&#x000A;(as Tad) The room is very dim, all of them are, in hell. You have been hiding from the Demons that hunt you. Everywhere you go, they follow. Angry, wicked demons that want your flesh. You managed to trap one of them, now locked in the attic.&#x000A;&#x000A;Kitchen&#x000A;In the pale light you see a bare kitchen: scuffed wooden floors, a table and some cupboards fixed to the wall. There is a door to the west.&#x000A;&#x000A;You can see a kitchen table (on which are some sharp knives) here.&#x000A;&#x000A;Tad &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">Viewpoint changes to Tad</annotation>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Tad &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Tad &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Tad &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;You hear breaking glass. The Demon! You must stop it, before it comes for your flesh.&#x000A;&#x000A;You unlock the kitchen door.&#x000A;&#x000A;Tad &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">You pick up a sharp cleaver from the pile of knives.&#x000A;&#x000A;Tad &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You prepare to meet the horror, and pass through the door...&#x000A;&#x000A;&#x000A;press a key to continue...&#x000A;&#x000A;(as Victoria) You reach the bottom of the stairs, breathless and shaking.&#x000A;&#x000A;Living room&#x000A;The room is dim and nothing you see makes sense. There are doors to the south and east.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">You switch back to Victoria, in the living room</annotation>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">The kitchen door opens and Tad appears from the shadows, moving towards you with a cleaver in his hand. That same crazed look on his face when he abducted you. You scream.&#x000A;&#x000A;All you can do is sob and plead for mercy.&#x000A;&#x000A;Tad moves closer to you, a cleaver in his hand...&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;All you can do is sob and plead for mercy.&#x000A;&#x000A;Tad moves closer to you, a cleaver in his hand...&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;All you can do is sob and plead for mercy.&#x000A;&#x000A;Tad moves closer to you, a cleaver in his hand...&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;All you can do is sob and plead for mercy.&#x000A;&#x000A;Tad moves closer to you, a cleaver in his hand...&#x000A;&#x000A;You close your eyes.&#x000A;&#x000A;&#x000A;press a key to continue...&#x000A;&#x000A;Living room&#x000A;The room is dim and nothing you see makes sense. There are doors to the south and east.&#x000A;&#x000A;You can see Tad and Victoria here.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">You switch to Otto, as he reaches the living room</annotation>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">shoot tad</command>
+    <result xml:space="preserve">You aim your pistol at Tad, exhale and squeeze the trigger...&#x000A;&#x000A;&#x000A;&#x000A;press a key to continue...&#x000A;&#x000A;(as Tad) You enter the Living room, the Demon is here. It is mocking you, calling out for your flesh. The parlour is due south, the kitchen to the east. Stairs go up to the second floor.&#x000A;&#x000A;Living room&#x000A;The room is dim and nothing you see makes sense. There are doors to the south and east.&#x000A;&#x000A;You can see a Demon here.&#x000A;&#x000A;Tad &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">You switch back to Tad</annotation>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">attack the demon</command>
+    <result xml:space="preserve">Another demon appears behind you, swiping at you with razor claws, tearing the skin from your back.&#x000A;&#x000A;You crumple to the floor in a bloody mess, sobbing, bleeding out.&#x000A;&#x000A;&#x000A;&#x000A;press a key to continue...&#x000A;&#x000A;(as Otto) For a moment you stand lifeless, making sense of the scene. Victoria collapses to the floor. You have to get her out of here.&#x000A;&#x000A;Living room&#x000A;The exit is to the south.&#x000A;&#x000A;You can see Victoria and Tad here.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">You switch to Otto</annotation>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">take victoria</command>
+    <result xml:space="preserve">You lift her up.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You carry Victoria outside, the cool night air promising peace. You hear sirens wailing over the hill.&#x000A;&#x000A;&#x000A;&#x000A;    *** THE DAILY NEWS&#x000A;Last night Victoria Cote was found safe in an abandoned house in an undisclosed location. Her family is relieved to have her back. Detective Otto York was first on the location to ensure her safety. The family and police declined to release further details at this time. ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">*** heroic ending</annotation>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">open curtain</command>
+    <result xml:space="preserve">You pull the curtain open, there is a window behind it. Near the floor are some pipes.&#x000A;&#x000A;Someone has tied a bed sheet to the pipes, and hung the other end out the window.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">For the brave ending</annotation>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">You grab the sheet and climb through the window.&#x000A;&#x000A;Hanging outside the third floor&#x000A;You are hanging outside the third storey window, gripping the bed sheet tied inside the room. You can go down.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">Lowering yourself down, one handful at a time, you reach the end of the sheet.&#x000A;&#x000A;Hanging outside the second floor&#x000A;You are hanging outside a window. You are at the end of the sheet, and cannot go down any more.&#x000A;&#x000A;The window is broken open, you can go in.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">go in</command>
+    <result xml:space="preserve">You manage to squeeze your way through the broken frame, which is not that large for a man of your build. You cut your forearm badly. A chilling scream echos from down below right before you dash out the bathroom and down the stairs...&#x000A;&#x000A;&#x000A;&#x000A;press a key to continue...&#x000A;&#x000A;(as Tad) The room is very dim, all of them are, in hell. You have been hiding from the Demons that hunt you. Everywhere you go, they follow. Angry, wicked demons that want your flesh. You managed to trap one of them, now locked in the attic.&#x000A;&#x000A;Kitchen&#x000A;In the pale light you see a bare kitchen: scuffed wooden floors, a table and some cupboards fixed to the wall. There is a door to the west.&#x000A;&#x000A;You can see a kitchen table (on which are some sharp knives) here.&#x000A;&#x000A;Tad &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">Otto cuts his arm. Viewpoint changes to Tad</annotation>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Tad &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Tad &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Tad &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;You hear breaking glass. The Demon! You must stop it, before it comes for your flesh.&#x000A;&#x000A;You unlock the kitchen door.&#x000A;&#x000A;Tad &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">You pick up a sharp cleaver from the pile of knives.&#x000A;&#x000A;Tad &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You prepare to meet the horror, and pass through the door...&#x000A;&#x000A;&#x000A;press a key to continue...&#x000A;&#x000A;(as Victoria) You reach the bottom of the stairs, breathless and shaking.&#x000A;&#x000A;Living room&#x000A;The room is dim and nothing you see makes sense. There are doors to the south and east.&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">You switch back to Victoria, in the living room</annotation>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">The kitchen door opens and Tad appears from the shadows, moving towards you with a cleaver in his hand. That same crazed look on his face when he abducted you. You scream.&#x000A;&#x000A;All you can do is sob and plead for mercy.&#x000A;&#x000A;Tad moves closer to you, a cleaver in his hand...&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;All you can do is sob and plead for mercy.&#x000A;&#x000A;Tad moves closer to you, a cleaver in his hand...&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;All you can do is sob and plead for mercy.&#x000A;&#x000A;Tad moves closer to you, a cleaver in his hand...&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;All you can do is sob and plead for mercy.&#x000A;&#x000A;Tad moves closer to you, a cleaver in his hand...&#x000A;&#x000A;There is movement to your right, a detective on the stairs! They aim their gun at Tad with a bloodied, shaking arm. The gun fires...&#x000A;&#x000A;&#x000A;press a key to continue...&#x000A;&#x000A;The shot missed! Tad turns to the detective. Now is your chance!&#x000A;&#x000A;Victoria &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">The shot missed Tad, now is your chance</annotation>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">cut tad with craft knife</command>
+    <result xml:space="preserve">You slip the craft knife into your palm, scared to death, your limbs seem to move on their on volition. You slash at Tad's neck, blood gushes out. More blood than you ever saw.&#x000A;&#x000A;&#x000A;&#x000A;press a key to continue...&#x000A;&#x000A;(as Tad) You enter the Living room, the Demon is here. It is mocking you, calling out for your flesh. The parlour is due south, the kitchen to the east. Stairs go up to the second floor.&#x000A;&#x000A;Living room&#x000A;The room is dim and nothing you see makes sense. There are doors to the south and east.&#x000A;&#x000A;You can see a Demon here.&#x000A;&#x000A;Tad &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">You switch back to Tad</annotation>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">attack the demon</command>
+    <result xml:space="preserve">Another demon appears behind you, swiping at you with razor claws, and misses by a small miracle. You turn to face it, ready to cut it's throat. You realize your mistake the second you feel sharp claws slashing through your neck, and again, and again.&#x000A;&#x000A;You crumple to the floor in a bloody mess, sobbing, bleeding out.&#x000A;&#x000A;&#x000A;&#x000A;press a key to continue...&#x000A;&#x000A;(as Otto) For a moment you stand lifeless, making sense of the scene. Victoria collapses to the floor. You have to get her out of here.&#x000A;&#x000A;Living room&#x000A;The exit is to the south.&#x000A;&#x000A;You can see Victoria and Tad here.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">You switch to Otto</annotation>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">take victoria</command>
+    <result xml:space="preserve">You lift her up.&#x000A;&#x000A;Otto &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You carry Victoria outside, the cool night air promising peace. You hear sirens wailing over the hill.&#x000A;&#x000A;&#x000A;&#x000A;    *** THE DAILY NEWS&#x000A;Last night Victoria Cote was found safe in an abandoned house in an undisclosed location. Her family is relieved to have her back. Detective Otto York was first on the location to ensure her safety. The family and police declined to release further details at this time. ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve">*** brave ending</annotation>
   </item>
 </Skein>
