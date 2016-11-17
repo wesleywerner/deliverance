@@ -2,7 +2,6 @@
 
 The story headline is "Some demons are more real than others,".
 
-[ We use the press any key to continue extension ]
 Include Basic Screen Effects by Emily Short.
 Release along with a solution.
 Release along with the library card.
@@ -13,7 +12,7 @@ Release along with an introductory postcard.
 Release along with an interpreter.
 
 When play begins:
-	say "Deliverance is a short interactive fiction story. It is a dark psychological thriller that contains elements of delusion and abduction. It may also contain triggers as viewed through the perpetrator's eyes.[line break]**Sensitive players should approach carefully**[line break]";
+	say "Deliverance is a short interactive fiction story. It is a dark psychological thriller that contains elements of delusion and abduction. It may also contain triggers as viewed through the perpetrator's eyes. **Sensitive players should approach carefully**[paragraph break]You can read INFO on the game.";
 
 Part 1 - Definitions
 
@@ -107,7 +106,7 @@ The self description of Otto is "You are wearing black jeans, a light blue colla
 The mirror description of Otto is "A determined gentleman with droopy violet eyes and thin eyebrows. Your brown hair is worn in a style that reminds you of a river."
 
 Your badge is a thing carried by Otto. The description is "A silver badge attached to your belt, with words embossed on the front, Detective Otto York. Homicide."
-A gun is a thing carried by Otto. The description is "A Glock 9mm, standard issue."
+A gun is a thing carried by Otto. The description is "A Glock 9mm, standard issue. It is loaded."
 
 Tad Kemp is a man. The description is "A lithe man [if Tad is dead]lies on the floor staring[else]glares at you[end if] through slit brown eyes. His ruddy tone and wavy brown hair does nothing to detract from his prowling jackal disposition."
 The self description of Tad is "You are wearing stained brown trousers and a black golf shirt. You have not looked in a mirror recently, for fear of what Demon may stare back."
@@ -159,6 +158,76 @@ Instead of smelling:
 Instead of listening when the location is not in the interior:
 	say "The cool night is quiet, save for the faint chirps of crickets in the distance.".
 
+Chapter 5 - Help and Info
+
+Understand "help" or "hint" or "hints" as asking for help.
+Asking for help is an action out of world.
+Understand "about" or "info" as asking for info.
+Asking for info is an action out of world.
+Carry out asking for info:
+	say "[story title] was written by Special Agent. The idea started as a Halloween project that grew into something larger.";
+	say "[line break]I want to thank these fine folks for testing, your help was invaluable to the game's improvement: heartless zombie, popcorn. Thank you![paragraph break]You can also get a HINT when stuck.";
+
+Carry out asking for help for the first time:
+	say "So you want a hint? Well this is your only notice, if you ask me again I will give you a hint.";
+	stop the action;
+Carry out asking for help during the dream sequence:
+	say "Are you following the path?";
+Carry out asking for help during the first act:
+	if the rickety chair is upright:
+		say "Have you tried standing up a few times?";
+	else if Victoria is tied:
+		say "If only you had something to cut the ropes.";
+	else:
+		say "You are trying to escape, remember?";
+Carry out asking for help during the second act:
+	if the location is not in the interior:
+		say "There must be a way inside, a door or a window perhaps?";
+	else:
+		say "Have you examined and opened everything?";
+Carry out asking for help during the third act:
+	if the curtain is closed:
+		say "Surely there must be a window we can climb through.";
+	else if the sheet is untied:
+		say "I wonder if we can tie the sheet to something?";
+	else:
+		say "Have you tried going out?";
+Carry out asking for help during the fourth act:
+	if the business card is not carried by the player:
+		say "People often write down important numbers. What you seek may be written on a small card, hidden inside something else in plain sight.";
+	else if the gun safe is closed:
+		say "Have you examined the business card?"; 
+	else if the third-floor-gate is locked:
+		say "A key for the security gate is in a safe place.";
+	else:
+		say "There is one floor above you to explore.";
+Carry out asking for help during the fifth act:
+	if the location is Upper Outside:
+		say "Have you tried going down?";
+	else if the location is the Lower Outside and the bathroom-window is closed:
+		say "Have you tried kicking/smashing the window to open it?";
+	else if the location is the Lower Outside:
+		say "You can't go up or down, so you can only go...";
+	else if the location is the Bathroom:
+		say "You are trying to escape, remember?";
+Carry out asking for help during the sixth act:
+	if the location is The Loft:
+		say "Somebody was tied up here, but where did they go? Listen for any noises?";
+	else if the location is in the interior:
+		say "Two ways out, one is obvious, the other only occurs to somebody carrying a gun.";
+Carry out asking for help during the seventh act:
+	say "There is no puzzle to solve, just follow the cues.";
+Carry out asking for help during the eighth act:
+	if Tad is in the location:
+		say "All you can do is wait and hope for a miracle.";
+	else:
+		say "You are trying to escape, remember?";
+Carry out asking for help during the ninth act:
+	say "The perp seems hostile, you obviously recognize the girl. You are authorized to use force.";
+Carry out asking for help during the tenth act:
+	say "You feel compelled to cut/attack/kill the demon.";
+Carry out asking for help during the eleventh act:
+	say "It makes sense to take her with you.";
 
 Part 2 - Rooms
 
