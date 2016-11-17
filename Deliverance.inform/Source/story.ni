@@ -12,6 +12,9 @@ Release along with a file of "Map" called "floorplan.jpg".
 Release along with an introductory postcard.
 Release along with an interpreter.
 
+When play begins:
+	say "Deliverance is a short interactive fiction story. It is a dark psychological thriller that contains elements of delusion and abduction. It may also contain triggers as viewed through the perpetrator's eyes.[line break]**Sensitive players should approach carefully**[line break]";
+
 Part 1 - Definitions
 
 Chapter 1 - Actions
