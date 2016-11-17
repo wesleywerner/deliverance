@@ -553,10 +553,13 @@ A kitchen table is a supporter in the kitchen. The description is "A worn and di
 Some sharp knives are on the kitchen table. Understand "knife" as sharp knives. The description is "A small collection of sharp knives. This is how you protect yourself."
 
 Instead of taking sharp knives:
-	now Tad carries a cleaver;
-	say "You pick up a sharp cleaver from the pile of knives.";
+	if a cleaver is carried by Tad:
+		say "You have one already.";
+	else:
+		now Tad carries a cleaver;
+		say "You pick up a sharp cleaver from the pile of knives.";
 
-A cleaver is a thing. The description is "[if the player is Tad]A sharp meat cleaver. This one is called protector.[else]A meat cleaver, a potential murder weapon."
+A cleaver is a thing. The description is "It is a sharp meat cleaver."
 
 Instead of going west during the seventh act:
 	if the kitchen door is locked:
