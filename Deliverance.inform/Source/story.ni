@@ -103,18 +103,8 @@ Detective Otto York is a man. The description is "This determined gentleman has 
 The self description of Otto is "You are wearing black jeans, a light blue collared shirt and a leather jacket. A gun holster is strapped underneath around your shoulder, a badge is attached to your belt."
 The mirror description of Otto is "A determined gentleman with droopy violet eyes and thin eyebrows. Your brown hair is worn in a style that reminds you of a river."
 
-Your badge is a thing carried by Otto. The description is "[if tactical-torch is lit]You shine your torch on your badge. [end if]A silver badge attached to your belt, with words embossed on the front, Detective Otto York. Homicide."
+Your badge is a thing carried by Otto. The description is "A silver badge attached to your belt, with words embossed on the front, Detective Otto York. Homicide."
 A gun is a thing carried by Otto. The description is "A Glock 9mm, standard issue."
-A tactical-torch is a device carried by Otto. The description is "A high-powered tactical torch." The printed name of a tactical-torch is "torch". Understand "torch" as tactical-torch.
-Instead of switching on the tactical-torch:
-	if the location is not dark, say "You don't need it right now." instead;
-	say "A bright beam flows out of your torch.";
-	Now the tactical-torch is lit.
-Instead of switching off the tactical-torch:
-	if the tactical-torch is lit:
-		now the tactical-torch is not lit;
-	say "click."
-
 
 Tad Kemp is a man. The description is "A lithe man [if Tad is dead]lies on the floor staring[else]glares at you[end if] through slit brown eyes. His ruddy tone and wavy brown hair does nothing to detract from his prowling jackal disposition."
 The self description of Tad is "You are wearing stained brown trousers and a black golf shirt. You have not looked in a mirror recently, for fear of what Demon may stare back."
@@ -415,7 +405,7 @@ Porch is a room. It is southwest of the Front of the house. The description is "
 [ helper that allows the player to just go north. ]
 Instead of going north when the location is the Porch: try going northeast.
 
-Some porch-windows is a thing in the porch. The printed name is "windows". It is scenery. Understand "window" and "windows" as porch-windows. The description is "Murky and dark, you can only make out the shapes of a table and some chairs. It looks like a parlour." Instead of searching porch-windows, try examining porch-windows. Instead of attacking porch-windows, say "You prefer finding a less noisy way inside." Instead of opening porch-windows, say "These windows are not supposed to open."
+Some porch-windows is a thing in the porch. The printed name is "windows". It is scenery. Understand "window" and "windows" as porch-windows. The description is "You can see the shapes of a table and some chairs." Instead of searching porch-windows, try examining porch-windows. Instead of attacking porch-windows, say "You prefer finding a less noisy way inside." Instead of opening porch-windows, say "These windows are not supposed to open."
 
 Some porch-planks are in the porch. Understand "wood" and "porch" and "floor" and "planks" as porch-planks. It is scenery. The description is "The rough wood planks of the porch are weathered and stripped of their varnish years ago."
 
@@ -589,13 +579,13 @@ Check going up when the location is the Second Floor Hall:
 
 Chapter 8 - Bathroom
 
-Bathroom is a room. It is north of the Second Floor Hall. The description is "You are in a bathroom, there is a claw-foot bath, one window and a basin. [if Bathroom is dark]It is dark outside. The room is very dim, the moon giving just enough light to see.[end if] A mirror is fixed to the wall. The exit is to the south."
+Bathroom is a room. It is north of the Second Floor Hall. The description is "You are in a bathroom, there is a claw-foot bath and a basin here, a window on the north wall. A mirror is fixed to the wall. The exit is to the south."
 
-The bathroom-window is a closed locked door. It is scenery. It is inside of Lower Outside and outside of the bathroom. The printed name is "window". Understand "window" as bathroom-window. The description is "The window is shoulder height, it leads to the outside."
+The bathroom-window is a closed locked door. It is scenery. It is inside of Lower Outside and outside of the bathroom. The printed name is "window". Understand "window" as bathroom-window. The description is "It has a white wooden frame, a sliver of the moon is visible."
 Instead of opening the locked bathroom-window, say "It won't open. It must be secured permanently."
 
 Instead of searching the bathroom-window when the location is in the interior:
-	say "You see the moon enveloped by the dark evening."
+	say "The window is closed, but you can tell it is dusk outside."
 Instead of searching the bathroom-window when the location is not in the interior:
 	say "You see a bathroom through the window."
 
@@ -694,17 +684,6 @@ The first-mattress is a supporter in the Third Floor Bedroom. It is scenery. The
 A sheet is on the first-mattress. The description is "Pale from dirt." A sheet can be tied or untied. The sheet is untied.
 
 Instead of taking the tied sheet, say "The sheet is tied to the pipes. You can't take it."
-
-[A simple-torch is a device on the first-mattress. The printed name is "torch". Understand "torch" as simple-torch. The description is "A simple black plastic torch."
-Instead of switching on the simple-torch:
-	if the location is not dark, say "You don't need it right now." instead;
-	say "The torch emits a warm glow, not very bright, but enough to see.";
-	Now the simple-torch is lit.
-Instead of switching off the simple-torch:
-	if the simple-torch is lit:
-		now the simple-torch is not lit;
-	say "click."
-]
 
 A closed openable container called a curtain is in the Third Floor Bedroom. It is scenery. The description is "Filthy and eaten by fish moths.[if a curtain is closed] It is drawn closed.[end if]".
 Instead of opening curtain:
@@ -811,13 +790,10 @@ Instead of closing a small cardboard box:
 	otherwise:
  		say "You leave the empty box alone.";
 
-the twine, a tube of hardened glue, pots of paints, a bottle of lamp oil and a craft knife are things inside a small cardboard box.
+A tube of hardened glue, pots of paints and a craft knife are things inside a small cardboard box.
 
-The twine is plural-named. The description of twine is "a light string of two smaller strands."
 The description of a tube of hardened glue is "The label reads 'The Steel Queen Super Glue', the tube is rock hard."
 The description of pots of paints is "Small pots of red, green and blue paints." Understand "paint" as paints.
-The description of a bottle of lamp oil is "'Grail of Fire Lamp Oil', the bottle is half full and smudged from usage."
-The initial appearance of the lamp oil is "The lamp oil catches your eye."
 
 Instead of taking a tube of hardened glue when the player is untied, say "You don't need dry glue."
 
@@ -874,36 +850,6 @@ Instead of cutting the rope:
 	Now the player is untied;
 	silently try exiting;
 	try looking;
-
-A device called a brass lantern is in the cardboard box. The description is "A brass lantern with a spark wheel fixed next to the wick.". A brass lantern can be full or empty. A brass lantern is empty. Understand "lamp" as lantern.
-
-The initial appearance of a brass lantern is "The lantern catches your eye."
-
-Instead of taking the lantern:
-	if the player is Victoria:
-		continue the action;
-	otherwise:
-		say "You don't need a lantern, you have a torch.";
-
-Instead of switching on a brass lantern:
-	if a brass lantern is empty:
-		say "You flick the spark wheel but the wick does not light. The lantern needs fuel.";
-		stop the action;
-	otherwise:
-		say "You flick the spark wheel, the wick catches alight.";
-		now the brass lantern is lit;
-
-Instead of switching off a brass lantern:
-	say "You blow out the flame.";
-	now a brass lantern is not lit;
-
-Instead of inserting lamp oil into a brass lantern:
-	say "You unscrew the lantern base and fill it with the lamp oil. Screwing the base back on, you discard the empty oil bottle.";
-	now a brass lantern is full;
-	now the lamp oil is nowhere;
-
-Instead of burning the brass lantern, try switching on the brass lantern.
-
 
 Chapter 13 - Second and Third Floor Windows
 
@@ -1062,8 +1008,7 @@ Chapter 4 - Fourth act
 The fourth act is a scene. The fourth act begins when third act ends. The fourth act ends when the fourth act is done.
 
 When the fourth act begins:
-	say "(as [Otto]) As you reach the top of the second floor, the last of the daylight vanishes. You are left in darkness.";
-	now all rooms in the interior are dark;
+	say "(as [Otto]) As you reach the second floor.";
 	move Otto to the Second Floor Hall;
 	now the player is Otto;
 	try looking;
