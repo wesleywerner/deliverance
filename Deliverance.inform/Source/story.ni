@@ -909,7 +909,8 @@ Instead of touching the rickety chair when Victoria is not tied:
 Instead of getting off the rickety chair for the first time:
 	say "You rock the chair. Some part of it snaps underneath you, it sags to the right. The chair sounds pretty weak, you think it might break if you try that again."
 	
-Understand "move chair" as a mistake ("Perhaps you means to GET UP.");
+Instead of pushing the rickety chair when Victoria is tied:
+	say "Perhaps you meant to GET UP.";
 	
 Instead of getting off the rickety chair for the second time:
 	Move small cardboard box to the loft;
