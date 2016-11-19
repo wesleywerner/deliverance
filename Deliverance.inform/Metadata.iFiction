@@ -3,7 +3,7 @@
     <story>
         <identification>
             <ifid>BF24E716-9DF2-11E6-97DB-74E50B693D30</ifid>
-            <format>zcode</format>
+            <format>glulx</format>
         </identification>
         <bibliographic>
             <title>Deliverance</title>
@@ -41,11 +41,11 @@
             <generatorversion>6M62</generatorversion>
             <originated>2016-11-19</originated>
         </colophon>
-        <zcode>
+        <glulx>
             <serial>161119</serial>
             <release>1</release>
             <compiler>Inform 7 build 6M62</compiler>
             <coverpicture>1</coverpicture>
-        </zcode>
+        </glulx>
     </story>
 </ifindex>
