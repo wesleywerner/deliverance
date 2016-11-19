@@ -575,7 +575,9 @@ Some teacups are on the trolley. It is scenery. The description is "Pale white t
 
 A business card is in the teapot. The description is "A white card with black print." Instead of examining a business card, say "'Unholy Battle pest control, Tad Kemp'. You notice an impression like writing on the back of the card."
 An impression is part of a business card. Instead of examining impression, try turning a business card.
-Instead of turning a business card, say "The back of the card has 6375 written on it."
+Instead of turning a business card:
+	say "The back of the card has 6375 written on it. You commit this to memory.";
+	now the code is part of the player.
 Instead of touching a business card, try turning a business card.
 Instead of touching impression, try turning a business card.
 
@@ -651,7 +653,7 @@ Check going up when the location is the Second Floor Hall:
 
 Chapter 8 - Bathroom
 
-Bathroom is a room. It is north of the Second Floor Hall. The description is "You are in a bathroom, there is a claw-foot bath and a basin here, a window on the north wall. A mirror is fixed to the wall. The exit is to the south."
+Bathroom is a room. It is north of the Second Floor Hall. The description is "You are in a bathroom, you see a claw-foot bath and a basin here, a mirror is fixed to the wall above the basin. There is window on the north wall. There is an exit to the south."
 
 The bathroom-window is a closed locked door. It is scenery. It is inside of Lower Outside and outside of the bathroom. The printed name is "window". Understand "window" as bathroom-window. The description is "It has a white wooden frame, a sliver of the moon is visible."
 Instead of opening the locked bathroom-window, say "It won't open. It must be secured permanently."
@@ -698,7 +700,9 @@ The bedside table is a supporter in the Second Floor Bedroom. It is scenery. The
 
 Some newspapers are on the bedside table. It is scenery. The description is "These are fairly recent, somebody is living here.". Instead of taking newspapers, say "You don't want the newspapers."
 
-A gun safe is a locked closed container in the Second Floor Bedroom. It is fixed in place. It is scenery. The description is "A small gun safe with an electronic keypad." The keypad is part of the gun safe. The description is "An electronic pad for entering a code. (You can ENTER <a number> to unlock it)."
+A gun safe is a locked closed container in the Second Floor Bedroom. It is fixed in place. It is scenery. The description is "A small gun safe with an electronic keypad." The keypad is part of the gun safe. The description is "An electronic pad for entering a code."
+
+The code is a thing. The description is "A number written on the back of the business card, you have committed it to memory." Instead of dropping the code, say "The number is committed to memory."
 
 Instead of attacking a gun safe:
 	say "The bullet will ricochet off the safe, it is too dangerous."
@@ -706,7 +710,17 @@ Instead of attacking a gun safe:
 Instead of taking a gun safe:
 	say "It is fixed securely to the wall."
 
-Entering a code is an action applying to one number and one thing. Understand "enter [number] in [keypad]" as entering a code.
+Instead of unlocking a gun safe with:
+	say "You only need to OPEN THE SAFE, and if you know the code you will enter it."
+
+Instead of opening a gun safe:
+	if the code is part of the player:
+		now the safe is open;
+		say "You enter the code you memorized from the back of the business card, you hear the electronic lock unlatch and the safe door swings open. Inside is [a list of things in the safe].";
+	else:
+		say "The safe beeps in error. You do not know the code to open the safe.";
+
+[Entering a code is an action applying to one number and one thing. Understand "enter [number] in [keypad]" as entering a code.
 Check entering a code:
 	if the safe is open, say "The safe is already open." instead;
 	if the number understood is not 6375:
@@ -714,11 +728,9 @@ Check entering a code:
 Carry out entering a code:
 	now the safe is open;
 Report entering a code:
-	say "Click. The safe door creaks open. Inside is [a list of things in the safe].";
+	say "Click. The safe door creaks open. Inside is [a list of things in the safe].";]
 
 The bronze key is in the safe. The description is "A short but fat bronze key, it has decorative grape vines embossed around the shaft and the head."
-
-Understand "unlock safe" and "unlock the safe" as a mistake ("The safe has a keypad, to unlock the safe you can ENTER <a number> in the keypad.").
 
 Chapter 10 - Third Floor Hall
 
@@ -728,7 +740,7 @@ There is a closed locked door called Security Gate. It is scenery. The printed n
 
 Chapter 11 - Third Floor Bedroom
 
-Third Floor Bedroom is a room. The printed name is "Bedroom". The description is "A small bedroom furnished with a mattress on the floor and a curtain against one wall[if curtain is open], a window behind it. Some pipes run along the wall behind the curtain[end if]. The loft is back to the east. The bedroom door is to south.[if curtain is open and a sheet is tied][paragraph break]A bed sheet is tied to the pipes, the other end hanging out the window.[end if]"
+Third Floor Bedroom is a room. The printed name is "Bedroom". The description is "A small bedroom furnished with a mattress on the floor and a curtain against one wall[if curtain is open], a window behind it. Some pipes run along the wall behind the curtain[end if]. The loft is back to the east. The bedroom door is to the south.[if curtain is open and a sheet is tied][paragraph break]A bed sheet is tied to the pipes, the other end hanging out the window.[end if]"
 
 Carry out going to Third Floor Bedroom during the first act:
 	Victoria passes-out in one turn from now.
@@ -943,7 +955,7 @@ Instead of closing the escape-window when the location is the Upper Outside:
 A Makeshift Rope is here. It is scenery. The printed name is "sheet". Understand "sheet" as Makeshift Rope. The description is "You are hanging on to the sheet for dear life."
 
 Carry out going down when the location is Upper Outside:
-	say "Lowering yourself down, one handful at a time, you reach the end of the sheet.";
+	say "Lowering yourself down, you reach the end of the sheet.";
 
 The Outer Curtain is in the Upper Outside. It is scenery. The printed name is "curtain".
 Instead of examining the outer curtain during the fifth act, say "You drew the curtain closed to hide your escape." 
@@ -1211,7 +1223,7 @@ Chapter 8 - Eighth act
 The eighth act is a scene. The eighth act begins when the seventh act ends. The eighth act ends when the eighth act is done.
 
 When the eighth act begins:
-	now the description of the Living Room is "The room is dim and nothing you see makes sense. There are doors to the south and east.";
+	now the description of the Living Room is "The room is dim and nothing you see makes sense. You see an exit to the south.";
 	say "(as [Victoria]) You reach the bottom of the stairs, breathless and shaking.";
 	move Victoria to the Living room;
 	now the player is Victoria;
@@ -1220,9 +1232,10 @@ When the eighth act begins:
 When the eighth act ends:
 	if Otto is not bleeding:
 		say "You close your eyes.";
+		pause for dramatic effect;
 	otherwise:
 		say "There is movement to your right, a detective on the stairs! They aim their gun at Tad with a bloodied, shaking arm. The gun fires...";
-	pause for dramatic effect;
+		[ we do not pause here, Victoria stay in the role in the next scene ]
 
 Instead of examining during the eighth act:
 	say "You can't focus on anything.";
@@ -1270,6 +1283,7 @@ When the ninth act begins:
 		move Tad to the Living room;
 	if Otto is not bleeding:
 		now the player is Otto;
+		say "(as [Otto]) You reach the Living Room just in time.";
 		try looking;
 	otherwise:
 		say "The shot missed! Tad turns to the detective. Now is your chance!";
