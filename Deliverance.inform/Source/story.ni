@@ -197,7 +197,7 @@ Carry out asking for help during the fourth act:
 		say "People often write down important numbers. What you seek may be written on a small card, hidden inside something else in plain sight.";
 	else if the gun safe is closed:
 		say "Have you examined the business card?"; 
-	else if the third-floor-gate is locked:
+	else if the Security Gate is locked:
 		say "A key for the security gate is in a safe place.";
 	else:
 		say "There is one floor above you to explore.";
@@ -640,10 +640,10 @@ Second Floor Hall is a room. It is above the Living room. The printed name is "S
 Some second-floor-stairs are in the Second Floor Hall. It is scenery. Understand "stairs" as second-floor-stairs. Instead of entering second-floor-stairs: try going up. The description is "A flight of wooden stairs, they lead up and down."
 
 Check going up when the location is the Second Floor Hall:
-	if the third-floor-gate is locked:
+	if the Security Gate is locked:
 		continue the action;
 	otherwise:
-		try opening the third-floor-gate;
+		try opening the Security Gate;
 		if the fourth act is undone:
 			now the fourth act is done;
 			stop the action;
@@ -724,7 +724,7 @@ Chapter 10 - Third Floor Hall
 
 Third Floor Hall is a room. The printed name is "Third Floor".
 
-There is a closed locked door called third-floor-gate. It is scenery. The printed name is "the security gate". It is above the Second Floor Hall and below the Third Floor Hall. Understand "gate" and "security gate" as third-floor-gate. The description is "It is a swing gate made of metal bars.". The bronze key unlocks the third-floor-gate.
+There is a closed locked door called Security Gate. It is scenery. The printed name is "the security gate". It is above the Second Floor Hall and below the Third Floor Hall. Understand "gate" and "security gate" as Security Gate. The description is "It is a swing gate made of metal bars.". The bronze key unlocks the Security Gate.
 
 Chapter 11 - Third Floor Bedroom
 
@@ -1102,8 +1102,8 @@ When the fifth act begins:
 	now the player is Victoria;
 	now the curtain is closed;
 	move Otto to waiting room;
-	now the third-floor-gate is open;
-	now the third-floor-gate is unlocked;
+	now the Security Gate is open;
+	now the Security Gate is unlocked;
 	say "(as [Victoria]) You hold tight to the bed sheet as you climb through the window. You hear a noise coming from the other side of the bedroom door, fear rises up inside. You pull the curtain closed, hoping to hide your escape attempt.";
 	try looking;
 
@@ -1111,7 +1111,7 @@ When the fifth act ends:
 	say "Frightened and shaking, you run out the bathroom and down the stairs...";
 	pause for dramatic effect;
 
-Instead of closing third-floor-gate during the fifth act:
+Instead of closing Security Gate during the fifth act:
 	say "You don't want to close it, you only want to get down stairs and out of this place."
 
 Instead of listening when the location is Lower Outside during the fifth act:
@@ -1126,7 +1126,7 @@ Instead of listening when the location is the bathroom during the fifth act:
 	say "You only hear your own heart pounding, your climb down was taxing."
 Instead of listening during the fifth act:
 	say "You hear movement upstairs!";
-Instead of examining third-floor-gate during the fifth act:
+Instead of examining Security Gate during the fifth act:
 	say "This gate leads up the stairs, where you were kept. Somebody has opened the gate. They could be up there now.";
 
 
