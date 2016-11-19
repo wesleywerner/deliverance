@@ -282,7 +282,7 @@ To say dreamy-path:
 	if reality is confused:
 		say "A dreary cobblestone path comprised of dark shaded tones. The path winds through the park. The sky casting a dull undertone on the path ahead of you.";
 	if reality is dreamlike:
-		say "A broken cobblestone path comprised of brown and black shaded stones. The path is winding affair intended to confused and mislead.";
+		say "A broken cobblestone path comprised of brown and black shaded stones. The path winds and twists in ways intended to confused and mislead.";
 
 To say dreamy-sky:
 	if reality is lucid:
@@ -296,7 +296,7 @@ To say dreamy-playground:
 	if reality is lucid:
 		say "A merry affair in the distance, situated on top of luscious grass. You see a set of four swings and a couple of seesaws. It is the main attraction for children.";
 	if reality is confused:
-		say "The playground is dull, the few children moping around the swings and seesaws don't seem to eager to play.";
+		say "The playground is dull, the few children moping around the swings and seesaws don't seem eager to play.";
 	if reality is dreamlike:
 		say "The playground is deserted. You see a set of four swings and a couple of seesaws.";
 
@@ -324,7 +324,7 @@ To say dreamy-swings:
 
 To say dreamy-trees:
 	if reality is lucid:
-		say "Beautiful oak trees line the path, they must at least a century old.";
+		say "Beautiful oak trees line the path, they must be at least a century old.";
 	if reality is confused:
 		say "The oaks look tired, their branches sagging from the weight of their leaves.";
 	if reality is dreamlike:
@@ -411,7 +411,7 @@ Instead of listening during the dream sequence:
 Instead of going north during the dream sequence:
 	if reality is dreamlike:
 		[ our dream ends here ]
-		say "You walk north along the path. Your legs feel heavy, as if moving through mud. Everything around you fades away, you are left in darkness.";
+		say "You walk north along the path. Your legs feel heavy, as if moving through mud. Everything around you fades away, you are left in darkness.[paragraph break][italic type]Time passes.[roman type][line break]";
 		now the dream sequence is done;
 	otherwise:
 		distort reality;
