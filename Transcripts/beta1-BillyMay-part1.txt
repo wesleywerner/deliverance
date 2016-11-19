@@ -1,0 +1,1183 @@
+Start of a transcript of
+
+Deliverance
+Some demons are more real than others, by Wesley Werner
+Release 1 / Serial number 161106 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Identification number: //BF24E716-9DF2-11E6-97DB-74E50B693D30//
+Standard interpreter 1.1 (4F) / Library serial number 080126
+Standard Rules version 3/120430 by Graham Nelson
+
+The Girl > i
+You are tied up and cannot search your pockets.
+
+The Girl > x me
+You see dirt on your bruised arms. You are wearing red jeans and a yellow blouse. Your hands are tied with ropes to the back of the chair, your feet tied to the legs of the chair.
+
+The Girl > look
+Loft (on the chair)
+You don't know where you are, some kind of room. You feel too panicked to notice your surroundings. It is difficult to move.
+
+The Girl > x ropes
+They are bound around your hands and feet, fixing you to the chair.
+
+The Girl > x chair
+It feels rickety and creaks when you move. You should try get up.
+
+The Girl > ! you should try to get up.
+(Noted)
+The Girl > stand
+You try to stand up. Your hands and feet are bound to the chair with rope, and you nearly topple over. The chair creaks violently.
+
+The Girl > look up
+You see nothing unexpected in that direction.
+
+The Girl > look down
+You see nothing unexpected in that direction.
+
+The Girl > stand up
+You rock the chair. Some part of it snaps underneath you, it sags to the right.
+
+The Girl > stand up
+You rock the chair. One side of the chair breaks under the strain and you topple onto your side, your head almost hitting a small cardboard box. Your one arm is freed.
+
+The Girl > untie rope
+You struggle to untie the knots. There must be another way.
+
+The Girl > x box
+A small closed box.
+
+The Girl > open box
+You reach for the box. As you pull it closer it falls over, craft supplies spill out in front of you - some twine, a tube of hardened glue, pots of paints, a bottle of lamp oil and a craft knife.
+
+The Girl > take knife and oil and paints and glue and twine
+craft knife: You pick up the craft knife carefully, avoiding the business end of it.
+bottle of lamp oil: You pick up the bottle of lamp oil, and drop it despite your restraints.
+pots of paints: You pick up pots of paints, and drop it despite your restraints.
+tube of hardened glue: You pick up the tube of hardened glue, and drop it despite your restraints.
+twine: You pick up the twine, and drop it despite your restraints.
+
+The Girl > use knife on rope
+I didn't understand that sentence.
+
+The Girl > cut rope with knife
+You curl up enough to reach your legs and sever the bonds around them. You get up into a kneeling position and cut your other arm free. You stand up, wobbling.
+
+Loft
+You are in what looks like a loft, crates and boxes stacked against the walls. Wooden floors and white walls surround you. The ceiling rafters are visible. There is a single window. There is a door to the west.
+
+A broken chair and cut rope lies on the floor.
+
+A small cardboard box is nearby.
+
+You can also see a bottle of lamp oil, pots of paints, a tube of hardened glue and some twine here.
+
+The Girl > take all
+bottle of lamp oil: You pick up the bottle of lamp oil.
+pots of paints: You don't want the paints.
+tube of hardened glue: You don't need dry glue.
+twine: You pick up the twine.
+small cardboard box: You don't want the empty box.
+
+The Girl > x crates
+You don't want to rummage through old boxes when you feel a strong need to get out of here.
+
+The Girl > x window
+A small window allows a trickle of light into the room.
+
+The Girl > look out window
+It is too far up, you can't see through it.
+
+The Girl > climb crates
+Little is to be achieved by that.
+
+The Girl > x rafters
+The visible rafters make you think of an attic.
+
+The Girl > take rafters
+That's hardly portable.
+
+The Girl > take crates
+They're hardly portable.
+
+The Girl > take chair
+You have no need for a broken chair.
+
+The Girl > take me
+You are always self-possessed.
+
+The Girl > w
+(first opening the loft door)
+
+
+You feel faint.
+
+Bedroom
+A small bedroom furnished with a mattress on the floor and a curtain against one wall. The loft is back to the east, another door is due south.
+
+On the mattress is a sheet.
+
+The Girl > take sheet
+You pick up the sheet.
+
+The room turns into a tunnel, the floor rising up to meet you. Shadows creep in from all sides as your vision fades.
+
+
+press a key to continue...
+
+
+
+(as Otto) The last daylight creeps away, the moon struggles to find gaps through looming clouds. A chill moves over your skin.
+
+Front of the house
+You are in front of an old house. The flaking paint and shoddy walkway indicate it's age and abandonment. The front door is here, the porch wraps around the building, towards the south. You are carrying your badge, gun and torch.
+
+Otto > i
+You are carrying:
+  your badge
+  a gun
+  a torch
+
+Otto > x torch
+A high-powered tactical torch.
+
+The torch is currently switched off.
+
+Earlier today, an anonymous tip was called in at the homicide office. All they gave was a name, in connection with the missing girl.
+
+Otto > x gun
+A Glock 9mm, standard issue.
+
+The name led to outdated property records, and those led to this address. I had to get here quick, even if my partner was an hour away in the other direction. I had to.
+
+Otto > x badge
+A silver badge attached to your belt, with words embossed on the front, Detective Otto York. Homicide.
+
+This place is derelict, remote and dreary. The perfect place to hide an abducted girl. Never have I wanted something so dismal to be so true. I pray she is alive.
+
+Otto > ! it's called a "flashlight" in the us
+(Noted)
+Otto > shoot
+What do you want to shoot?
+
+Otto > me
+Suicide is not the answer.
+
+Otto > open door
+You grasp the oval shaped metal door knob, with a firm grip you twist it back and forth. Locked.
+
+Otto > kick door
+This door may be old, but it is too solid to break down.
+
+Otto > shoot lock
+You can't see any such thing.
+
+Otto > shoot knob
+On second thought, you don't think that is a good idea.
+
+Otto > kick knob
+On second thought, you don't think that is a good idea.
+
+Otto > s
+You walk down the porch, and around to the south side of the house.
+
+Porch
+The rough wood of the porch is weathered and stripped of varnish. There are two windows here. The porch continues west. The front door is back to the north.
+
+Otto > enter window
+They're not something you can enter.
+
+Otto > x window
+Murky and dark, you can only make out the shapes of a table and some chairs. It looks like a parlour.
+
+Otto > break window
+You prefer finding a less noisy way inside.
+
+Otto > w
+You walk along the porch to the west side of the house.
+
+Rear of the house
+The back of the house is no less weathered. There is a bay window here.
+
+Otto > x window
+It is divided into four panes of glass, and sits about chest-height.
+
+Otto > open window
+You pull on the window frame, rust crumbles between the hinges. It swings open.
+
+Otto > enter window
+Looking to make sure the room is empty, you slip inside.
+
+Parlour
+A large carpet covers the floor. A low and wide table dominates the room, tattered armchairs guarding it. A silver serving dish is on the table. A bay window is to the west, a door to the north.
+
+Otto > take dish
+Despite this silly act of curiosity, you have to see what is on the dish. You have to be sure. You lift the lid to reveal bone fragments.
+
+Otto > x fragments
+These are his trophies. You are now convinced this is, the right place.
+
+Otto > x carpet
+It's once-floral pattern, now faded by time and memory, reminds you of a muddy lily pond.
+
+Otto > look under carpet
+You find nothing of interest.
+
+Otto > look under table
+You find nothing of interest.
+
+Otto > x armchair
+Torn and tattered, the floor looks more inviting.
+
+Otto > take armchair
+That's hardly portable.
+
+Otto > n
+(first opening the living room door)
+You open the door as silently possible.
+
+Living room
+An old couch rests against a wall, a painting hangs above it. A writing desk squats in one corner, and a serving trolley in the other. A door to the south leads back to the Parlour, another leads to the east. Stairs go up to the second floor.
+
+Otto > x couch
+A musty antiquated thing, likely a housing for many unseen critters.
+
+Otto > take couch
+That's hardly portable.
+
+Otto > push couch
+It is fixed in place.
+
+Otto > look under couch
+You find nothing of interest.
+
+Otto > x painting
+It depicts four horsemen riding through the sky, rolling clouds behind them. On the earth below, soldiers and slaves alike engage in a battle frenzy. You recognize the horsemen by name: Conquest, War, Famine and Death.
+
+Otto > take painting
+That's hardly portable.
+
+Otto > look behind painting
+You can't see any such thing.
+
+Otto > x desk
+A squat dark wood desk. You notice engravings on it's surface.
+
+Otto > x engravings
+Names carved into the varnished wood. You read: Annette Faith Parker. Meghan Mcclure. Jami Berg. All previous victims.
+
+Otto > take desk
+That's hardly portable.
+
+Otto > look under desk
+You find nothing of interest.
+
+Otto > open drawer
+You can't see any such thing.
+
+Otto > x trolley
+An rickety looking thing slanted to one side: two of the wheels are missing. It has a teapot and some teacups on it.
+
+Otto > x teapot
+A white ceramic teapot with a decorative design painted on: green leaves with violet and magenta orchid blooms. The handle in the shape of butterfly wings.
+
+Otto > look in teapot
+You can't see inside, since the teapot is closed.
+
+Otto > open teapot
+Lifting the butterfly lid, a business card is revealed inside the teapot.
+
+Otto > take card
+You pick up the business card.
+
+Otto > read card
+"Unholy Battle pest control, Tad Kemp". You notice an impression like writing on the back of the card.
+
+Otto > read back of card
+You can't see any such thing.
+
+Otto > x card
+"Unholy Battle pest control, Tad Kemp". You notice an impression like writing on the back of the card.
+
+Otto > read impression
+You can't see any such thing.
+
+Otto > x impression
+You can't see any such thing.
+
+Otto > turn over card
+You can't see any such thing.
+
+Otto > look behind card
+You can't see any such thing.
+
+Otto > read writing
+A squat dark wood desk. You notice engravings on it's surface.
+
+Otto > read back of card
+You can't see any such thing.
+
+Otto > ! reading the back of that card is a bit unneccessarily tricky
+(Noted)
+Otto > look behind card
+You can't see any such thing.
+
+Otto > look
+Living room
+An old couch rests against a wall, a painting hangs above it. A writing desk squats in one corner, and a serving trolley in the other. A door to the south leads back to the Parlour, another leads to the east. Stairs go up to the second floor.
+
+Otto > x trolley
+An rickety looking thing slanted to one side: two of the wheels are missing. It has a teapot and some teacups on it.
+
+Otto > take cups
+You can't see any such thing.
+
+Otto > take teacups
+You refuse to break for tea.
+
+Otto > e
+(first opening the kitchen door)
+The kitchen door is locked.
+
+Otto > kick door
+Which do you mean, the living room door or the kitchen door?
+
+Otto > kitchen
+On second thought, you don't think that is a good idea.
+
+Otto > shoot door
+Which do you mean, the living room door or the kitchen door?
+
+Otto > kitchen
+On second thought, you don't think that is a good idea.
+
+Otto > u
+You peer up the staircase, making sure nobody else is watching from above, and cautiously ascend the stairs.
+
+
+press a key to continue...
+
+
+
+(as The Girl) Your eyes flutter open.
+
+Bedroom
+A small bedroom furnished with a mattress on the floor and a curtain against one wall. The loft is back to the east, another door is due south.
+
+The Girl > i
+You are carrying:
+  a sheet
+  some twine
+  a bottle of lamp oil
+  a craft knife
+
+The Girl > take curtain
+That's hardly portable.
+
+The Girl > x curtain
+Filthy and eaten by fish moths. It is drawn closed.
+
+The Girl > open curtain
+You pull the curtain open, there is a window behind it. Near the floor are some pipes.
+
+The Girl > x pipes
+They are painted the same as the faded white walls. You guess they carry water.
+
+The Girl > open window
+You open the window.
+
+The Girl > tie sheet to pipes
+You wrap one end of the sheet around the pipes and make a knot. You drop the other end of the sheet out the window.
+
+The Girl > climb down sheet
+I only understood you as far as wanting to climb down.
+
+The Girl > climb down
+You must name something more substantial.
+
+The Girl > climb sheet
+Little is to be achieved by that.
+
+The Girl > climb out window
+You hold on to the makeshift rope, climb through the window and prepare yourself.
+
+
+press a key to continue...
+
+
+
+(as Otto) As you reach the top of the second floor, the last of the daylight vanishes. You are left in darkness.
+
+Darkness
+It is pitch dark, and you can't see a thing.
+
+Otto > turn on flashlight
+You can't see any such thing.
+
+Otto > turn on torch
+A bright beam flows out of your torch.
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see doors to the north, east and south.
+
+Otto > ! i feel "there are stairs..." would be better.
+(Noted)
+Otto > e
+
+Bedroom
+This room is bare, save for some dust covering the floor. There is one lonely window.
+
+Otto > x wubdiw
+You can't see any such thing.
+
+Otto > oops window
+You see grass down below, no other houses are visible. You are on a second storey floor.
+
+Otto > take dust
+You can't see any such thing.
+
+Otto > x dust
+You can't see any such thing.
+
+Otto > x floor
+You can't see any such thing.
+
+Otto > look down
+You see nothing unexpected in that direction.
+
+Otto > look up
+You see nothing unexpected in that direction.
+
+Otto > !here is an opportunity to flesh the story out a little more by putting drag marks in the dust behind "examine floor" 
+(Noted)
+Otto > examine floor
+You can't see any such thing.
+
+Otto > e
+You can't go that way.
+
+Otto > w
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see doors to the north, east and south.
+
+Otto > s
+
+Bedroom
+The bedroom is somewhat furnished, a mattress on the floor serves as a bed, a bedside table next to it. The window is covered with a sheet. There is something under the table.
+
+Otto > look under table
+You see a safe under the table.
+
+Otto > open safe
+The gun safe is locked.
+
+Otto > unlock safe
+What do you want to unlock the gun safe with?
+
+Otto > gun
+(the gun)
+The gun does not fit the gun safe lock.
+
+Otto > look under mattress
+You find nothing of interest.
+
+Otto > x bed
+A single mattress on the floor.
+
+Otto > push mattress
+It is fixed in place.
+
+Otto > x table
+A low bedside table, some newspapers are on it.
+
+Otto > take newspaper
+You don't want the newspapers.
+
+Otto > read newspaper
+These are fairly recent, somebody is living here.
+
+Otto > look under newspaper
+You find nothing of interest.
+
+Otto > look behind safe
+You can't see any such thing.
+
+Otto > push safe
+It is fixed in place.
+
+Otto > e
+You can't go that way.
+
+Otto > w
+You can't go that way.
+
+Otto > n
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see doors to the north, east and south.
+
+Otto > s
+
+Bedroom
+The bedroom is somewhat furnished, a mattress on the floor serves as a bed, a bedside table next to it. The window is covered with a sheet. There is something under the table.
+
+Otto > s
+You can't go that way.
+
+Otto > ! wasn't this the bedroom that the girl climbed out of a moment ago? where is the previous room she was in?
+(Noted)
+Otto > e
+You can't go that way.
+
+Otto > look
+Bedroom
+The bedroom is somewhat furnished, a mattress on the floor serves as a bed, a bedside table next to it. The window is covered with a sheet. There is something under the table.
+
+Otto > x sheet
+A dirty and torn sheet covers the window.
+
+Otto > take sheet
+That's hardly portable.
+
+Otto > untie sheet
+You can't untie that.
+
+Otto > look behind sheet
+You can't see any such thing.
+
+Otto > ! never mind, i mistook the sheet for the other sheet
+(Noted)
+Otto > n
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see doors to the north, east and south.
+
+Otto > n
+
+bathroom
+You are in a bathroom, there is a claw-foot bath, one window and a basin. It is dark outside. The room is very dim, the moon giving just enough light to see. A mirror is fixed to the wall. The exit is to the south.
+
+You can see a brass lantern here.
+
+Otto > i
+You are carrying:
+  a business card
+  your badge
+  a gun
+  a torch (providing light)
+
+Otto > ! the room would not be "very dim" while i am holding a police flashlight that is turned on.
+(Noted)
+Otto > ! it would be uncomfortable bright since it is a smalller room and a police torch is north of 500 lumens.
+(Noted)
+Otto > ! i am also not getting the feeling that i am walking through a dark house with a flashlight.
+(Noted)
+Otto > look up youtube videos on "surefire" if you want to get a good understanind on how leo torches work.
+I only understood you as far as wanting to look up.
+
+Otto > !  look up youtube videos on "surefire" if you want to get a good understanind on how leo torches work/look.
+(Noted)
+Otto > x bath
+A stained white claw-foot bath. The feet are metal and have decorative faces moulded into them.
+
+Otto > x faces
+Moulded faces make up the feet of the bathtub.
+
+Otto > look in bath
+You find nothing of interest.
+
+Otto > look under bath
+You find nothing of interest.
+
+Otto > look behind bath
+You can't see any such thing.
+
+Otto > x basin
+A simple pedestal basin of white ceramic.
+
+Otto > look in basin
+You find nothing of interest.
+
+Otto > x mirror
+A rectangular mirror without any frame. The edges of the glass are stained.
+
+Otto > x stains
+You can't see any such thing.
+
+Otto > x edges of the glass
+You can't see any such thing.
+
+Otto > look out window
+You find nothing of interest.
+
+Otto > shine light our of window
+You can't see any such thing.
+
+Otto > point torch
+I didn't understand that sentence.
+
+Otto > aim torch
+I didn't understand that sentence.
+
+Otto > s
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see doors to the north, east and south.
+
+Otto > u
+(first opening the security gate)
+the security gate is locked.
+
+Otto > unlock gate
+What do you want to unlock the security gate with?
+
+Otto > gun
+The gun does not fit the security gate lock.
+
+Otto > shoot lock
+You can't see any such thing.
+
+Otto > x lock
+You can't see any such thing.
+
+Otto > x gate
+It is a swing gate made of metal bars.
+
+Otto > i
+You are carrying:
+  a business card
+  your badge
+  a gun
+  a torch (providing light)
+
+Otto > look
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see doors to the north, east and south.
+
+Otto > d
+
+Living room
+An old couch rests against a wall, a painting hangs above it. A writing desk squats in one corner, and a serving trolley in the other. A door to the south leads back to the Parlour, another leads to the east. Stairs go up to the second floor.
+
+Otto > e
+(first opening the kitchen door)
+The kitchen door is locked.
+
+Otto > open kitchen door
+The kitchen door is locked.
+
+Otto > kick kitchen door
+On second thought, you don't think that is a good idea.
+
+Otto > knock on door
+Which do you mean, the living room door or the kitchen door?
+
+Otto > kitchen
+You knock on the kitchen door.
+
+Otto > wait
+Time passes.
+
+Otto > examine kitchen door
+You see nothing special about the kitchen door.
+
+Otto > hit kitchen door
+On second thought, you don't think that is a good idea.
+
+Otto > look
+Living room
+An old couch rests against a wall, a painting hangs above it. A writing desk squats in one corner, and a serving trolley in the other. A door to the south leads back to the Parlour, another leads to the east. Stairs go up to the second floor.
+
+Otto > x couch
+A musty antiquated thing, likely a housing for many unseen critters.
+
+Otto > ! i am assuming i need to find ways to gain access to through the two locked doors and the safe?
+(Noted)
+Otto > ! this is starting to not make much sense because by now this property would be swarming with cops
+(Noted)
+Otto > ! otherwise a nice game overall
+(Noted)
+Otto > open desk
+It has no drawers to open.
+
+Otto > look on desk
+You can't see any such thing.
+
+Otto > x desk
+A squat dark wood desk. You notice engravings on it's surface.
+
+Otto > look under desk
+You find nothing of interest.
+
+Otto > move painting
+It is fixed in place.
+
+Otto > s
+
+Parlour
+A large carpet covers the floor. A low and wide table dominates the room, tattered armchairs guarding it. A silver serving dish is on the table. A bay window is to the west, a door to the north.
+
+Otto > x armchair
+Torn and tattered, the floor looks more inviting.
+
+Otto > move armchair
+It is fixed in place.
+
+Otto > push armchair
+It is fixed in place.
+
+Otto > sit in chair
+You did not come here for the holiday.
+
+Otto > look down
+You see nothing unexpected in that direction.
+
+Otto > x table
+A dark wood table with Flemish scroll style legs.
+
+Otto > x legs
+The legs have scrolls at the top and bottom, spiralling in opposite directions. It must be hand carved.
+
+Otto > push carpet
+It is fixed in place.
+
+Otto > move carpet
+It is fixed in place.
+
+Otto > x serving dish
+An undecorated silver dish, tarnished with age. 
+
+In serving dish are some bone fragments.
+
+Otto > take fragments
+No, they can be taken into evidence later. Time matters.
+
+Otto > w
+
+Rear of the house
+The back of the house is no less weathered. There is a bay window here.
+
+Otto > look
+Rear of the house
+The back of the house is no less weathered. There is a bay window here.
+
+Otto > w
+You can't go that way.
+
+Otto > s
+You can't go that way.
+
+Otto > w
+You can't go that way.
+
+Otto > e
+
+Porch
+The rough wood of the porch is weathered and stripped of varnish. There are two windows here. The porch continues west. The front door is back to the north.
+
+Otto > look in window
+Murky and dark, you can only make out the shapes of a table and some chairs. It looks like a parlour.
+
+Otto > n
+
+Front of the house
+You are in front of an old house. The flaking paint and shoddy walkway indicate it's age and abandonment. The front door is here, the porch wraps around the building, towards the south. You are carrying business card, your badge, gun and torch.
+
+Otto >  n
+You can't go that way.
+
+Otto > x card
+"Unholy Battle pest control, Tad Kemp". You notice an impression like writing on the back of the card.
+
+Otto > x impression
+You can't see any such thing.
+
+Otto > use torch on impression
+I didn't understand that sentence.
+
+Otto > use torch on card
+I didn't understand that sentence.
+
+Otto > feel impression
+You can't see any such thing.
+
+Otto > feel card
+You feel nothing unexpected.
+
+Otto > x card
+"Unholy Battle pest control, Tad Kemp". You notice an impression like writing on the back of the card.
+
+Otto > look at back of card
+You can't see any such thing.
+
+Otto > i
+You are carrying:
+  a business card
+  your badge
+  a gun
+  a torch (providing light)
+
+Otto > x badge
+You shine your torch on your badge. A silver badge attached to your belt, with words embossed on the front, Detective Otto York. Homicide.
+
+Otto > shine torch on card
+I only understood you as far as wanting to shine the torch.
+
+Otto > n
+You can't go that way.
+
+Otto > s
+You walk down the porch, and around to the south side of the house.
+
+Porch
+The rough wood of the porch is weathered and stripped of varnish. There are two windows here. The porch continues west. The front door is back to the north.
+
+Otto > x windows
+Murky and dark, you can only make out the shapes of a table and some chairs. It looks like a parlour.
+
+Otto > enter window
+They're not something you can enter.
+
+Otto > open window
+These windows are not supposed to open.
+
+Otto > w
+You walk along the porch to the west side of the house.
+
+Rear of the house
+The back of the house is no less weathered. There is a bay window here.
+
+Otto > w
+You can't go that way.
+
+Otto > enter
+You must supply a noun.
+
+Otto > enter window
+Looking to make sure the room is empty, you slip inside.
+
+Parlour
+A large carpet covers the floor. A low and wide table dominates the room, tattered armchairs guarding it. A silver serving dish is on the table. A bay window is to the west, a door to the north.
+
+Otto > look under carpet
+You find nothing of interest.
+
+Otto > look under dish
+You find nothing of interest.
+
+Otto > n
+
+Living room
+An old couch rests against a wall, a painting hangs above it. A writing desk squats in one corner, and a serving trolley in the other. A door to the south leads back to the Parlour, another leads to the east. Stairs go up to the second floor.
+
+Otto > shine light on paintig
+You can't see any such thing.
+
+Otto > shine light
+You can't see any such thing.
+
+Otto > use light
+I didn't understand that sentence.
+
+Otto > i
+You are carrying:
+  a business card
+  your badge
+  a gun
+  a torch (providing light)
+
+Otto > shine torch
+You rub the torch.
+
+Otto > shine torch on painting
+I only understood you as far as wanting to shine the torch.
+
+Otto > use torch on painting
+I didn't understand that sentence.
+
+Otto > w
+You can't go that way.
+
+Otto > d
+You can't go that way.
+
+Otto > u
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see doors to the north, east and south.
+
+Otto > d
+
+Living room
+An old couch rests against a wall, a painting hangs above it. A writing desk squats in one corner, and a serving trolley in the other. A door to the south leads back to the Parlour, another leads to the east. Stairs go up to the second floor.
+
+Otto > x trolley
+An rickety looking thing slanted to one side: two of the wheels are missing. It has a teapot and some teacups on it.
+
+Otto > x teapot
+A white ceramic teapot with a decorative design painted on: green leaves with violet and magenta orchid blooms. The handle in the shape of butterfly wings.
+
+Otto > look in teapot
+The teapot is empty.
+
+Otto > look under teapot
+You find nothing of interest.
+
+Otto > look in teacups
+You find nothing of interest.
+
+Otto > look under teacups
+You find nothing of interest.
+
+Otto > u
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see doors to the north, east and south.
+
+Otto > s
+
+Bedroom
+The bedroom is somewhat furnished, a mattress on the floor serves as a bed, a bedside table next to it. The window is covered with a sheet. There is something under the table.
+
+Otto > ! "there is something under the table" is not correct
+(Noted)
+Otto > ! it should either state that it is a safe, our should be hidden behind the "look under table" command
+(Noted)
+Otto > look under table
+You see a safe under the table.
+
+Otto > x safe
+A small gun safe with an electronic keypad.
+
+Otto > e keypad
+I only understood you as far as wanting to (go) e.
+
+Otto > oops x
+Sorry, that can't be corrected.
+
+Otto > x keypad
+An electronic pad for entering a code. You can ENTER 0000 to unlock the safe.
+
+Otto > 0000
+I didn't understand that sentence.
+
+Otto > enter 0000
+(in the keypad)
+The safe beeps in error.
+
+Otto > x card
+"Unholy Battle pest control, Tad Kemp". You notice an impression like writing on the back of the card.
+
+Otto > x writing on card
+You can't see any such thing.
+
+Otto > enter 1234
+(in the keypad)
+The safe beeps in error.
+
+Otto > use card on keypad
+I didn't understand that sentence.
+
+Otto > use torch on card
+I didn't understand that sentence.
+
+Otto > i
+You are carrying:
+  a business card
+  your badge
+  a gun
+  a torch (providing light)
+
+Otto > use torch on light
+I didn't understand that sentence.
+
+Otto > use torch on keypad
+I didn't understand that sentence.
+
+Otto > turn off torch
+click.
+
+It is now pitch dark in here!
+
+Otto > look
+Darkness
+It is pitch dark, and you can't see a thing.
+
+Otto > n
+
+Darkness
+It is pitch dark, and you can't see a thing.
+
+Otto > e
+
+Darkness
+It is pitch dark, and you can't see a thing.
+
+Otto > w
+
+Darkness
+It is pitch dark, and you can't see a thing.
+
+Otto > w
+You can't go that way.
+
+Otto > turn on torch
+A bright beam flows out of your torch.
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see doors to the north, east and south.
+
+Otto > n
+
+bathroom
+You are in a bathroom, there is a claw-foot bath, one window and a basin. It is dark outside. The room is very dim, the moon giving just enough light to see. A mirror is fixed to the wall. The exit is to the south.
+
+You can see a brass lantern here.
+
+Otto > x lantern
+A brass lantern with a spark wheel fixed next to the wick.
+
+The brass lantern is currently switched off.
+
+Otto > take lantern
+You don't need a lantern, you have a torch.
+
+Otto > turn on lantern
+You flick the spark wheel but the wick does not light. The lantern needs fuel.
+
+Otto > look under lantern
+You find nothing of interest.
+
+Otto > turn on bath
+It isn't something you can switch.
+
+Otto > turn on basin
+It isn't something you can switch.
+
+Otto > turn on sink
+You can't see any such thing.
+
+Otto > use card on mirror
+I didn't understand that sentence.
+
+Otto > take mirror
+That's hardly portable.
+
+Otto > ? i am assuming the impressions on the card is the combination to the safe?
+(Noted)
+Otto > x card
+"Unholy Battle pest control, Tad Kemp". You notice an impression like writing on the back of the card.
+
+Otto > x back of card
+You can't see any such thing.
+
+Otto > read back of card
+You can't see any such thing.
+
+Otto > use torch on card
+I didn't understand that sentence.
+
+Otto > use torch
+I didn't understand that sentence.
+
+Otto > look
+bathroom
+You are in a bathroom, there is a claw-foot bath, one window and a basin. It is dark outside. The room is very dim, the moon giving just enough light to see. A mirror is fixed to the wall. The exit is to the south.
+
+You can see a brass lantern here.
+
+Otto > use card on mirror
+I didn't understand that sentence.
+
+Otto > turn off torch
+click.
+
+Otto > look
+bathroom
+You are in a bathroom, there is a claw-foot bath, one window and a basin. It is dark outside. The room is very dim, the moon giving just enough light to see. A mirror is fixed to the wall. The exit is to the south.
+
+You can see a brass lantern here.
+
+Otto > x window
+The window is shoulder height, it leads to the outside.
+
+Otto > look out window
+You find nothing of interest.
+
+Otto > s
+
+Darkness
+It is pitch dark, and you can't see a thing.
+
+Otto > turn on light
+You can't see any such thing.
+
+Otto > turn on torch
+A bright beam flows out of your torch.
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see doors to the north, east and south.
+
+Otto > u
+(first opening the security gate)
+the security gate is locked.
+
+Otto > e
+
+Bedroom
+This room is bare, save for some dust covering the floor. There is one lonely window.
+
+Otto > x window
+You see grass down below, no other houses are visible. You are on a second storey floor.
+
+Otto > look up
+You see nothing unexpected in that direction.
+
+Otto > w
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see doors to the north, east and south.
+
+Otto > s
+
+Bedroom
+The bedroom is somewhat furnished, a mattress on the floor serves as a bed, a bedside table next to it. The window is covered with a sheet. There is something under the table.
+
+Otto > look up
+You see nothing unexpected in that direction.
+
+Otto > look behind sheet
+You can't see any such thing.
+
+Otto > n
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third floor, protected by a security gate. You can go back down to the first floor. You see doors to the north, east and south.
+
+Otto > d
+
+Living room
+An old couch rests against a wall, a painting hangs above it. A writing desk squats in one corner, and a serving trolley in the other. A door to the south leads back to the Parlour, another leads to the east. Stairs go up to the second floor.
+
+Otto > x painting
+It depicts four horsemen riding through the sky, rolling clouds behind them. On the earth below, soldiers and slaves alike engage in a battle frenzy. You recognize the horsemen by name: Conquest, War, Famine and Death.
+
+Otto > turn off torch
+click.
+
+It is now pitch dark in here!
+
+Otto > save
+Save failed.
+
+Otto > save
+Ok.
+
+Otto > help
+I didn't understand that sentence.
+
+Otto > about
+I didn't understand that sentence.
+
+Otto > quit
+Are you sure you want to quit? y
