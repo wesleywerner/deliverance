@@ -591,12 +591,14 @@ Some horsemen are part of the painting. Understand "horses" and "war" and "conqu
 Some clouds are part of the painting. Understand "rolling clouds" as clouds. The description is "The clouds in the painting seem in turmoil, blocking out the entirety of the sky, except for one small patch in the heavens above, occupied by a lonesome white lamb."
 A lamb is part of the painting. The description is "It watches the scene below with quiet indifference."
 Some fighters are part of the painting. Understand "soldiers" and "slaves" as fighters. The description is "The soldiers and slaves are in the middle of a massive battle. It does not seem they can tell friend apart from foe."
+Instead of taking a painting, say "It is fixed to the wall. And you don't need to lug that around."
 
 A writing desk is a supporter in the living room. It is scenery. The description is "A squat dark wood desk. You notice engravings on it's surface." Instead of opening the writing desk, say "It has no drawers to open."
 Some engravings are part of the writing desk. The description is "Names carved into the varnished wood. You read: Annette Faith Parker. Meghan Mcclure. Jami Berg. All previous victims."
 
 A couch is in the living room. It is scenery.  The description is "A musty antiquated thing, likely a housing for many unseen critters."
 Instead of searching a couch, say "You only find dust." Instead of entering couch, say "And risk all the lice and bedbugs living in it?"
+Instead of looking under a couch, say "You only find dust." Instead of pushing a couch, say "There is no need to move this couch."
 
 Check going up when the location is the living room:
 	if the second act is undone:
