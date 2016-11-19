@@ -6,7 +6,7 @@ Include Basic Screen Effects by Emily Short.
 Release along with a solution.
 Release along with the library card.
 Release along with cover art.
-Release along with a file of "Map" called "floorplan.jpg".
+Release along with a file of "Map" called "map.jpg".
 [Release along with a file of "Design notes" called "deliverance-design.txt".]
 Release along with an introductory postcard.
 Release along with an interpreter.
