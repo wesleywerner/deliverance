@@ -524,7 +524,11 @@ parlour-chairs are a thing in the parlour. It is fixed in place. It is scenery. 
 
 parlour-carpet is a thing in the parlour. It is fixed in place. It is scenery. The printed name is "carpet". The description is "It's once-floral pattern, now faded by time and memory, reminds you of a muddy lily pond." Understand "floor" and "carpet" as parlour-carpet.
 
+Instead of looking under the parlour-carpet, say "You lift the carpet and only find the floor, there is nothing suspicious about it. You drop the carpet back where it was."
+
 parlour-table is a supporter in the parlour. It is fixed in place. It is scenery. The printed name is "table". The description is "A dark wood table with Flemish scroll style legs." Understand "table" as parlour-table.
+
+Instead of looking under the parlour-table, say "The carpet is under the table."
 
 parlour-legs is a part of parlour-table. The description is "The legs have scrolls at the top and bottom, spiralling in opposite directions. It must be hand carved." Understand "legs" as parlour-legs.
 
