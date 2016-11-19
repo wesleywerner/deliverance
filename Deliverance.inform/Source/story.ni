@@ -477,13 +477,13 @@ Porch is a room. It is southwest of the Front of the house. The description is "
 [ helper that allows the player to just go north. ]
 Instead of going north when the location is the Porch: try going northeast.
 
-Some porch-windows is a thing in the porch. The printed name is "windows". It is scenery. Understand "window" and "windows" as porch-windows. The description is "You can see the shapes of a table and some chairs." Instead of searching porch-windows, try examining porch-windows. Instead of attacking porch-windows, say "You prefer finding a less noisy way inside." Instead of opening porch-windows, say "These windows are not supposed to open."
+Some porch-windows is a thing in the porch. The printed name is "windows". It is scenery. Understand "window" and "windows" as porch-windows. The description is "Through the window you see the shapes of a table and some chairs." Instead of searching porch-windows, try examining porch-windows. Instead of attacking porch-windows, say "You prefer finding a less noisy way inside." Instead of opening porch-windows, say "These windows do not open."
 
 Some porch-planks are in the porch. Understand "wood" and "porch" and "floor" and "planks" as porch-planks. It is scenery. The description is "The rough wood planks of the porch are weathered and stripped of their varnish years ago."
 
 Carry out going northwest when the location is the porch: say "You walk along the porch to the west side of the house."
 
-
+Instead of entering some porch-windows, say "These windows do not open."
 
 
 
