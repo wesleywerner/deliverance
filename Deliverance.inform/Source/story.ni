@@ -148,6 +148,8 @@ can't open what's locked rule response (A) is "[The noun] [are] locked.".
 block attacking rule response (A) is "A less violent act is better at this time.".
 report smelling rule response (A) is "That is a silly thing to try smell.".
 report listening rule response (A) is "You don't hear any noises coming from [the noun].".
+can't take what's fixed in place rule response (A) is "No thanks.".
+can't take scenery rule response (A) is "No thanks.".
 
 Instead of smelling:
 	if the location is in the interior:
