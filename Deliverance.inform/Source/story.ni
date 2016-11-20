@@ -621,6 +621,7 @@ The Kitchen is a room. The description is "In the pale light you see a bare kitc
  
 The kitchen door is a locked door. It is scenery. It is east of the Living room and west of the Kitchen. The description is "The kitchen door is [if the kitchen door is open]open[else]closed[end if].".
 Does the player mean unlocking kitchen door with bronze key: it is very likely.
+The kitchen door can be silent or noisy. The kitchen door is silent.
 
 The kitchen-floor is in the Kitchen. Understand "floor" and "floors" as kitchen-floor. It is scenery. The printed name is "floor". The description is "Scuffed wooden floors groan under your steps."
 
@@ -1079,6 +1080,10 @@ Instead of knocking the bedroom door during the first act:
 
 Instead of waiting during the second act, say "You better get moving, you can't wait around for your partner to arrive."
 
+Instead of attacking The kitchen door during the second act:
+	now The kitchen door is noisy;
+	say "You bash the door but it holds firm."
+
 Chapter 3 - Third act
 
 The third act is a scene. The third act begins when second act ends. The third act ends when the third act is done.
@@ -1211,10 +1216,10 @@ Chapter 7 - Seventh act
 The seventh act is a scene. The seventh act begins when the sixth act ends. The seventh act ends when the seventh act is done.
 
 When the seventh act begins:
-	say "(as [Tad]) The room is very dim, all of them are, in hell. You have been hiding from the Demons that hunt you. Everywhere you go, they follow. Angry, wicked demons that want your flesh. You managed to trap one of them, now locked in the attic.";
+	say "(as [Tad]) You have been hiding from the Demons that hunt you. Everywhere you go, they follow. Angry, wicked demons that want your flesh. You managed to trap one of them, and locked it in the attic.[if The kitchen door is noisy] Not too long ago you heard one of them bashing at the door.[end if]";
 	move Tad to the Kitchen;
 	now the player is Tad;
-	Tad hears noise in four turns from now;
+	Tad hears noise in two turns from now;
 	try looking;
 
 When the seventh act ends:
@@ -1222,7 +1227,7 @@ When the seventh act ends:
 	pause for dramatic effect;
 
 At the time when Tad hears noise:
-	say "You hear breaking glass. The Demon! You must stop it, before it comes for your flesh.[paragraph break]You unlock the kitchen door.";
+	say "You hear breaking glass. The Demon! You must stop it, before it comes for you.[paragraph break]You unlock the kitchen door.";
 	now the kitchen door is unlocked;
 
 Instead of listening during the seventh act:
