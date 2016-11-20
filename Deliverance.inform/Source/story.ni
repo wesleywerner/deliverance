@@ -857,7 +857,10 @@ A thing called the window is in the loft. The description is "A small window all
 
 Instead of searching the window, say "It is too far up, you can't see through it."
 
-A thing called some boxes are in the loft. The description is "You don't want to rummage through old boxes when you feel a strong need to get out of here." It is scenery. Understand "crate" and "crates" as boxes.
+A thing called some boxes are in the loft. The description is "Quite a few boxes are piled in the room." It is scenery. Understand "crate" and "crates" as boxes.
+Instead of opening some boxes, say "You don't want to rummage through those old boxes."
+Instead of entering some boxes, say "Even if you stand on them, you won't reach the window."
+Instead of attacking some boxes, say "You give the nearest box a violent kick. That felt good but it won't help you get out of here."
 
 A supporter called the rickety chair is in the loft. It is fixed in place. The printed name is "chair". It is scenery. The description is "[if the player is tied]It feels rickety and creaks when you move. [end if][if the chair is upright]You should try to stand up.[end if][if the player is not tied]A broken chair.[end if]";
 
