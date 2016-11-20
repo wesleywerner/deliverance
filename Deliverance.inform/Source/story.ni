@@ -725,7 +725,7 @@ Chapter 9 - Second floor bedrooms
 
 The Second Floor Bedroom is a room. It is south of the Second Floor Hall. The printed name is "Bedroom". The description is "The bedroom is furnished with a mattress in the corner, and a bedside table against the wall. There is a safe under the table. The exit is to the north."
 
-The second-mattress is a supporter in the Second Floor Bedroom. It is scenery. The printed name is "mattress". Understand "bed" and "mattress" as second-mattress. The description is "A single mattress on the floor." Instead of entering the second-mattress, say "This is no time to fool around!"
+The Dusty Mattress is a supporter in the Second Floor Bedroom. It is scenery. The printed name is "mattress". Understand "bed" and "mattress" as Dusty Mattress. The description is "A single mattress on the floor." Instead of entering the Dusty Mattress, say "This is no time to fool around!"
 
 The bedside table is a supporter in the Second Floor Bedroom. It is scenery. The description is "A low bedside table with some newspapers on it." Instead of looking under the bedside table, say "You see a safe under the table."
 
@@ -794,9 +794,11 @@ Instead of opening the Third Floor Bedroom door during the sixth act:
 Instead of searching the Third Floor Bedroom door:
 	say "You can't see through the door."
 
-The first-mattress is a supporter in the Third Floor Bedroom. It is scenery. The description is "A single sized mattress lies on the floor." Understand "bed" and "mattress" as first-mattress. The printed name is "mattress"
+The Grimy Mattress is a supporter in the Third Floor Bedroom. It is scenery. The description is "A single sized mattress lies on the floor." Understand "bed" and "mattress" as Grimy Mattress. The printed name is "mattress"
 
-A sheet is on the first-mattress. The description is "Pale from dirt." A sheet can be tied or untied. The sheet is untied.
+Instead of entering The Grimy Mattress, say "You don't have time to lie around."
+
+A sheet is on the Grimy Mattress. The description is "Pale from dirt." A sheet can be tied or untied. The sheet is untied.
 
 Instead of taking the tied sheet, say "The sheet is tied to the pipes. You can't take it."
 
