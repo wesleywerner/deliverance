@@ -510,9 +510,12 @@ The bay window is a door. It is east of Rear of the house and west of the Parlou
 Instead of searching the bay window, say "You see the parlour inside."
 
 Instead of opening the bay window:
-	now the bay window is open;	
-	say "You pull on the window frame, rust crumbles between the hinges. It swings open.";
-	stop the action;
+	if the bay window is open:
+		say "It is already open.";
+	else:
+		now the bay window is open;	
+		say "You pull on the window frame, rust crumbles between the hinges. It swings open.";
+		stop the action;
 
 [Carry out going east when the location is the rear of the house:]
 Carry out going the bay window: 
@@ -548,7 +551,7 @@ Instead of opening the serving dish:
 		say "There is no need to relive that moment all over again.";
 		stop the action;
 	now the serving dish is open;
-	say "Despite this silly act of curiosity, you have to see what is on the dish. You have to be sure. You lift the lid to reveal [list of things in serving dish].";
+	say "You lift the lid, revealing [list of things in serving dish].";
 
 Some bone fragments are in the serving dish. It is plural-named. The description is "These are Tad's trophies, your main suspect. He keeps human bones, and displays them exactly like this." Understand "bones" as bone fragments. Instead of taking bone fragments, say "No, they can be taken into evidence later. Time matters."
 
