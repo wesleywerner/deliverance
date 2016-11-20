@@ -672,6 +672,8 @@ Second Floor Hall is a room. It is above the Living room. The printed name is "S
 
 Some second-floor-stairs are in the Second Floor Hall. It is scenery. Understand "stairs" as second-floor-stairs. Instead of entering second-floor-stairs: try going up. The description is "A flight of wooden stairs, they lead up and down."
 
+Instead of going the Security Gate, try going up.
+
 Check going up when the location is the Second Floor Hall:
 	if the Security Gate is locked:
 		continue the action;
