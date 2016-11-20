@@ -1206,12 +1206,13 @@ Chapter 6 - Sixth act
 The sixth act is a scene. The sixth act begins when the fifth act ends. The sixth act ends when the sixth act is done.
 
 When the sixth act begins:
-	say "(as [Otto]) You reach the top of the stairs. A bedroom door in front of you is latched from the outside, you undo the latch and step inside. You see a doorway leading to a loft: a broken chair and cut bonds inside.[paragraph break]You dash into the loft...";
+	say "(as [Otto]) You reach the top of the stairs, a door in front of you is latched from the outside. You undo the latch and dash through into the loft...";
 	move Otto to the Loft;
 	now the player is Otto;
 	now the sheet is tied;
 	now the Bathroom Window is open;
 	now the escape-window is open;
+	now the sheet is scenery;
 	try looking;
 
 When the sixth act ends:
