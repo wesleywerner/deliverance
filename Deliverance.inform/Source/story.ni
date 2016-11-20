@@ -93,9 +93,11 @@ Instead of taking inventory when the player is tied:
 		continue the action;
 
 Victoria Cote is a woman. The description is "She has large orange eyes and messy brown hair. She is short and has an hourglass build."
-The self description of Victoria is "You see dirt on your bruised arms. You are wearing red your jeans and yellow blouse. [if Victoria is tied]Your hands are tied with ropes to the back of the chair, your feet tied to the legs of the chair.[end if]".
+The self description of Victoria is "You see dirt on your bruised arms. You are wearing [a list of things worn by Victoria]. [if Victoria is tied]Your hands are tied with ropes to the back of the chair, your feet tied to the legs of the chair.[end if]".
 The mirror description of Victoria is "Big orange eyes stare back at you. Your straight brown hair is tangled about your face. You look like hell."
 Understand "girl" and "the girl" as Victoria.
+A pair of red jeans are worn by Victoria. The description is "Faded red jeans with front pockets." Instead of taking off the red jeans, say "You are not removing them!". Instead of searching the red jeans, try taking inventory.
+A yellow blouse is worn by Victoria. The description is "A bright yellow blouse." Instead of taking off the yellow blouse, say "You are not removing them!". Instead of searching the yellow blouse, say "Your blouse has no pockets."
 
 Quinn Cooper is a man. The description is "Your husband has a gentle way about him, with his deep-set eyes the color of coffee. His straight, chocolate-colored hair reaches his shoulders. He is tall and has a lean build. His prominent cheekbones is one of his more striking features."
 Understand "husband" as Quinn.
