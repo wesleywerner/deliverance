@@ -577,11 +577,27 @@ Instead of pushing a trolley, say "It is broken and refuses to move."
 Instead of pulling a trolley, say "It is broken and refuses to move."
 Some wheels are a part of the trolley. The description is "The two remaining wheels are discs of black plastic." Understand "wheel" as wheels.
 
-A teapot is a closed openable container on the trolley. It is scenery. The description is "A white ceramic teapot with a decorative design painted on: green leaves with violet and magenta orchid blooms. The handle in the shape of butterfly wings." Instead of taking teapot, say "You refuse to break for tea."
+A teapot is a closed openable container on the trolley. It is scenery. The description is "[if a teapot is pristine]A white ceramic teapot with a decorative design painted on: green leaves with violet and magenta orchid blooms. The handle in the shape of butterfly wings[else]The teapot is smashed to pieces[end if]."
+Instead of taking a pristine teapot, say "You refuse to break for tea."
+Instead of taking a broken teapot, say "You refuse to break for tea. It is smashed beyond use anyway."
 
-Instead of opening the teapot:
+Instead of opening a pristine teapot:
 	now the teapot is open;
 	say "Lifting the butterfly lid, a [list of things in teapot] is revealed inside the teapot."
+Instead of opening a broken teapot:
+	say "There is nothing left of the teapot to open."
+Instead of closing a broken teapot:
+	say "There is nothing left of the teapot to close."
+
+[ the player can smash the teapot, revealing the card ]
+A teapot can be pristine or broken. A teapot is pristine.
+
+Instead of attacking a pristine teapot:
+	now the teapot is broken;
+	now the printed name of the teapot is "remains of a teapot";
+	now the teapot is plural-named;
+	say "You smash the teapot into many shards. You notice [a list of things in the teapot] was hidden inside it.";
+	now everything in the teapot is on the trolley;
 	
 Some teacups are on the trolley. It is scenery. The description is "Pale white tea cups without any designs." Understand "cup" and "cups" and "teacup" as teacups. Instead of taking teacups, say "You refuse to break for tea."
 
