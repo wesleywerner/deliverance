@@ -162,6 +162,11 @@ Instead of smelling:
 Instead of listening when the location is not in the interior:
 	say "The cool night is quiet, save for the faint chirps of crickets in the distance.".
 
+Instead of waiting:
+	if the player is Otto, say "You wait one minute to see if anything happens.";
+	if the player is Victoria, say "You pause for a minute, repeating to yourself, 'everything is okay'.";
+	if the player is Tad, say "You twitch and shift your eyes from left to right for a full minute.";
+
 Chapter 5 - Help and Info
 
 Understand "help" or "hint" or "hints" as asking for help.
