@@ -530,7 +530,7 @@ A rear-house-proxy is in Rear of the house. It is scenery. The printed name is "
 
 Chapter 4 - Parlour
 
-Parlour is a room. The description is "A low and wide table dominates the room, tattered armchairs guarding it, a carpet underneath it. A serving dish is on the table. A bay window is to the west, a door to the north."
+Parlour is a room. The description is "A low and wide table dominates the room, tattered armchairs guarding it, a carpet covers the floor. A serving dish rests on the table. You see a bay window to the west, and an exit to the north."
 
 parlour-chairs are a thing in the parlour. It is fixed in place. It is scenery. The printed name is "chair". The description is "Torn and tattered, the floor looks more inviting." Instead of entering parlour-chairs, say "You did not come here for the holiday." Understand "chair" and "chairs" and "armchair" and "armchairs" as parlour-chairs.
 
@@ -568,14 +568,9 @@ Instead of taking serving dish:
 
 Chapter 5 - Living room
 
-Living room is a room. The description is "An old couch rests against a wall, a painting hangs above it. A writing desk squats in one corner, and a serving trolley in the other. A door to the south leads back to the Parlour, another leads to the east. Stairs go up to the second floor."
+Living room is a room. It is north of the Parlour. The description is "An old couch rests against a wall, a painting hangs above it. A writing desk squats in one corner, and a serving trolley in the other. The exit to the south leads back to the Parlour, and there is a door to the east. You see some stairs going up."
 
 Some living-room-stairs are in the living room. It is scenery. Understand "stairs" as living-room-stairs. The description is "A flight of wooden stairs that lead up."
-
-The living room door is a door. It is north of the Parlour and south of the Living Room. It is scenery. 
-Instead of opening the living room door:
-	now the living room door is open;
-	say "You open the door as silently possible.";
 
 A trolley is a supporter in the living room. It is scenery. The description is "An rickety looking thing slanted to one side: two of the wheels are missing. It has [a list of things on a trolley] on it."
 Instead of pushing a trolley, say "It is broken and refuses to move."
