@@ -213,7 +213,7 @@ Carry out asking for help during the fourth act:
 Carry out asking for help during the fifth act:
 	if the location is Upper Outside:
 		say "Have you tried going down?";
-	else if the location is the Lower Outside and the bathroom-window is closed:
+	else if the location is the Lower Outside and the Bathroom Window is closed:
 		say "Have you tried kicking/smashing the window to open it?";
 	else if the location is the Lower Outside:
 		say "You can't go up or down, so you can only go...";
@@ -688,13 +688,15 @@ Chapter 8 - Bathroom
 
 Bathroom is a room. It is north of the Second Floor Hall. The description is "You are in a bathroom, you see a claw-foot bath and a basin here, a mirror is fixed to the wall above the basin. There is window on the north wall. There is an exit to the south."
 
-The bathroom-window is a closed locked door. It is scenery. It is inside of Lower Outside and outside of the bathroom. The printed name is "window". Understand "window" as bathroom-window. The description is "It has a white wooden frame, a sliver of the moon is visible."
-Instead of opening the locked bathroom-window, say "It won't open. It must be secured permanently."
+The Bathroom Window is a closed locked door. It is scenery. It is inside of Lower Outside and outside of the bathroom. The printed name is "window". Understand "window" as Bathroom Window. The description is "It has a white wooden frame, a sliver of the moon is visible."
+Instead of opening the locked Bathroom Window, say "It won't open. It must be secured permanently."
 
-Instead of searching the bathroom-window when the location is in the interior:
+Instead of searching the Bathroom Window when the location is in the interior:
 	say "The window is closed, but you can tell it is dusk outside."
-Instead of searching the bathroom-window when the location is not in the interior:
+Instead of searching the Bathroom Window when the location is not in the interior:
 	say "You see a bathroom through the window."
+
+Instead of closing an open Bathroom Window, say "No point in closing it now."
 
 A bath is in the bathroom. It is scenery. The description is "A stained white claw-foot bath. The feet are metal and have decorative faces moulded into them."
 Some faces are a part of the bath. The description is "Moulded faces make up the feet of the bathtub." Understand "claw-foot" and "feet" as faces.
@@ -1004,25 +1006,25 @@ Instead of closing the outer curtain during the fifth act, say "It is already dr
 
 
 Lower Outside is a room. It is below Upper Outside. 
-The printed name is "Hanging outside the second floor". The description is "You are hanging outside a window. You are at the end of the sheet, and cannot go down any more.[if the bathroom-window is open][paragraph break]The window is broken open, you can go in.[end if]";
+The printed name is "Hanging outside the second floor". The description is "You are hanging outside a window. You are at the end of the sheet, and cannot go down any more.[if the Bathroom Window is open][paragraph break]The window is broken open, you can go in.[end if]";
 
 A Lower Makeshift Rope is in Lower Outside. It is scenery. The printed name is "sheet". Understand "sheet" as Lower Makeshift Rope. The description is "You are hanging on to the sheet for dear life. You are at the end of the sheet."
 
 Check going up when the location is Lower Outside:
 	say "You refuse to climb back up." instead.
 	
-[ Alter the bathroom-window description this time ]
-Instead of examining bathroom-window during the fifth act:
-	say "[if bathroom-window is closed]A chipped white frame with murky glass panes.[else]A chipped white frame with broken glass panes."
+[ Alter the Bathroom Window description this time ]
+Instead of examining Bathroom Window during the fifth act:
+	say "[if Bathroom Window is closed]A chipped white frame with murky glass panes.[else]A chipped white frame with broken glass panes."
 
-Instead of opening bathroom-window during the fifth act:
+Instead of opening Bathroom Window during the fifth act:
 	say "You struggle to open the window, maybe a little force is called for."
 
-Instead of attacking bathroom-window during the fifth act:
+Instead of attacking Bathroom Window during the fifth act:
 	say "You kick the window and shatter the glass pane. You should be able to fit through it without cutting yourself.";
-	now the bathroom-window is open;
+	now the Bathroom Window is open;
 
-Instead of examining bathroom-window during the sixth act:
+Instead of examining Bathroom Window during the sixth act:
 	say "A chipped white frame with murky glass panes."
 
 Part 3 - Scenes
@@ -1173,7 +1175,7 @@ Instead of smelling when the location is not in the interior during the fifth ac
 	say "Apart from smelling the damp evening air, you don't notice any other smells.".
 Instead of listening when the location is the Upper Outside during the fifth act:
 	say "You hear faint movements through the window, coming from behind the bedroom door."
-Instead of listening to bathroom-window during the fifth act:
+Instead of listening to Bathroom Window during the fifth act:
 	say "You don't hear any noises through this window."
 Instead of listening when the location is the bathroom during the fifth act:
 	say "You only hear your own heart pounding, your climb down was taxing."
@@ -1208,7 +1210,7 @@ When the sixth act begins:
 	move Otto to the Loft;
 	now the player is Otto;
 	now the sheet is tied;
-	now the bathroom-window is open;
+	now the Bathroom Window is open;
 	now the escape-window is open;
 	try looking;
 
