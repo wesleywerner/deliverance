@@ -123,6 +123,8 @@ Instead of cutting Tad:
 
 A Demon is an animal. The description is "It has the figure of a man with leather-like skin, it has no use for clothes. The knees bend backwards, six razor talons extend where fingers would be. Sharp fangs fill the mouth, a bald head is adorned with two goat-like horns."
 
+Instead of asking Demon about, say "It growls at you."
+Instead of telling Demon about, say "It growls at you."
 
 Chapter 3 - Not for release
 
