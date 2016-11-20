@@ -147,7 +147,7 @@ Chapter 4 - Default responses
 standard report taking rule response (A) is "You pick up [the noun].".
 can't unlock without the correct key rule response (A) is "[The second noun] does not fit [the noun] lock.".
 can't open what's locked rule response (A) is "[The noun] [are] locked.".
-block attacking rule response (A) is "A less violent act is better at this time.".
+block attacking rule response (A) is "A less violent act is more suitable at this time.".
 report smelling rule response (A) is "That is a silly thing to try smell.".
 report listening rule response (A) is "You don't hear any noises coming from [the noun].".
 can't take what's fixed in place rule response (A) is "No thanks.".
