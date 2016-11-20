@@ -241,70 +241,70 @@ The interior is a region. The Parlour, Living room, Second Floor Hall, Bathroom,
 
 Chapter - Dream Sequence
 
-The Park is a room. The description is "[dreamy-park-description]".
+The Park is a room. The description is "[dreamy-park-description]."
 
 The path is in the park. It is scenery. 
-The description is "[dreamy-path]".
+The description is "[dreamy-path]."
 
 The sky is in the park. It is scenery. 
-The description is "[dreamy-sky]". Understand "clouds" as sky.
+The description is "[dreamy-sky]." Understand "clouds" as sky.
 
 A playground is in the park. It is scenery. 
-The description is "[dreamy-playground]".
+The description is "[dreamy-playground]."
 
 The swings are in the park. It is scenery. 
-The description is "[dreamy-swings]".
+The description is "[dreamy-swings]."
 
 The seesaws are in the park. It is scenery. 
-The description is "[dreamy-swings]". Understand "seesaw" as seesaws.
+The description is "[dreamy-swings]." Understand "seesaw" as seesaws.
 
 Some trees are in the park. It is scenery.
-The description is "[dreamy-trees]".
+The description is "[dreamy-trees]."
 Understand "oak" and "leaves" as trees.
 
 The grass is in the park. It is scenery.
-The description is "[dreamy-grass]".
+The description is "[dreamy-grass]."
 
 Some kids are people in the park. It is scenery. 
-The description is "[dreamy-kids]". Understand "children" as kids.
+The description is "[dreamy-kids]." Understand "children" as kids.
 
 To say dreamy-park-description:
 	if reality is lucid:
-		say "You are walking on a scenic path with your husband. The park is beautiful this time of year, a clear sky stretches above you. There is a playground is in the distance, a dozen kids playing on the swings and seesaws. Majestic trees line the path leading north.";
+		say "You are walking on a scenic path with your husband. The park is beautiful this time of year, a clear sky stretches above you. There is a playground is in the distance, a dozen kids playing on the swings and seesaws. Majestic trees line the path leading north";
 	if reality is confused:
-		say "You are on a path, your husband beside you. The park surrounding you looks pale and unkempt, a grey sky looms up above. The playground in the distance has few kids, ambling around the swings and seesaws. Tired trees line the path leading north.";
+		say "You are on a path, your husband beside you. The park surrounding you looks pale and unkempt, a grey sky looms up above. The playground in the distance has few kids, ambling around the swings and seesaws. Tired trees line the path leading north";
 	if reality is dreamlike:
-		say "The once beautiful park is lifeless, a black sky hovers above you. There is a playground in the distance, it's swings and seesaws now abandoned. Dead trees line the path leading north.";
+		say "The once beautiful park is lifeless, a black sky hovers above you. There is a playground in the distance, it's swings and seesaws now abandoned. Dead trees line the path leading north";
 
 To say dreamy-path:
 	if reality is lucid:
-		say "A smooth cobblestone path comprised of dark and light shaded tones, the stones consisting of a multitude of shapes. The path winds through the park. The bright sky illuminates the path ahead of you.";
+		say "A smooth cobblestone path comprised of dark and light shaded tones, the stones consisting of a multitude of shapes. The path winds through the park. The bright sky illuminates the path ahead of you";
 	if reality is confused:
-		say "A dreary cobblestone path comprised of dark shaded tones. The path winds through the park. The sky casting a dull undertone on the path ahead of you.";
+		say "A dreary cobblestone path comprised of dark shaded tones. The path winds through the park. The sky casting a dull undertone on the path ahead of you";
 	if reality is dreamlike:
-		say "A broken cobblestone path comprised of brown and black shaded stones. The path winds and twists in ways intended to confused and mislead.";
+		say "A broken cobblestone path comprised of brown and black shaded stones. The path winds and twists in ways intended to confused and mislead";
 
 To say dreamy-sky:
 	if reality is lucid:
-		say "A beautiful clear, temperate sky. Faint wisps of cirrus clouds are visible, high above you. It reminds you of your wedding day.";
+		say "A beautiful clear, temperate sky. Faint wisps of cirrus clouds are visible, high above you. It reminds you of your wedding day";
 	if reality is confused:
-		say "The sky is covered by pale stratus clouds. You thought that it was clear and temperate just a moment ago.";
+		say "The sky is covered by pale stratus clouds. You thought that it was clear and temperate just a moment ago";
 	if reality is dreamlike:
-		say "The sky is dark, you can't see any stars, moon or clouds.";
+		say "The sky is dark, you can't see any stars, moon or clouds";
 
 To say dreamy-playground:
 	if reality is lucid:
-		say "A merry affair in the distance, situated on top of luscious grass. You see a set of four swings and a couple of seesaws. It is the main attraction for children.";
+		say "A merry affair in the distance, situated on top of luscious grass. You see a set of four swings and a couple of seesaws. It is the main attraction for children";
 	if reality is confused:
-		say "The playground is dull, the few children moping around the swings and seesaws don't seem eager to play.";
+		say "The playground is dull, the few children moping around the swings and seesaws don't seem eager to play";
 	if reality is dreamlike:
-		say "The playground is deserted. You see a set of four swings and a couple of seesaws.";
+		say "The playground is deserted. You see a set of four swings and a couple of seesaws";
 
 To say dreamy-kids:
 	if reality is lucid:
-		say "The dozen or so kids are playing joyfully on the playground swings and seesaw. Seeing them fills you with joy at the thought of having your own one day.";
+		say "The dozen or so kids are playing joyfully on the playground swings and seesaw. Seeing them fills you with joy at the thought of having your own one day";
 	if reality is confused:
-		say "They stand around the playground, listlessly pushing empty swings without a word.";
+		say "They stand around the playground, listlessly pushing empty swings without a word";
 	if reality is dreamlike:
 		say "";
 
@@ -316,27 +316,27 @@ Instead of telling kids about something:
 
 To say dreamy-swings:
 	if reality is lucid:
-		say "The rhythmic motion of the kids playing on the swings and seesaws is mesmerizing. It makes you feel happy.";
+		say "The rhythmic motion of the kids playing on the swings and seesaws is mesmerizing. It makes you feel happy";
 	if reality is confused:
-		say "The staccato rhythm of empty swings, and awkwardly poised seesaws, all feel out of place.";
+		say "The staccato rhythm of empty swings, and awkwardly poised seesaws, all feel out of place";
 	if reality is dreamlike:
-		say "The swings sway gently in the wind, the seesaws frozen in mid-sway.";
+		say "The swings sway gently in the wind, the seesaws frozen in mid-sway";
 
 To say dreamy-trees:
 	if reality is lucid:
-		say "Beautiful oak trees line the path, they must be at least a century old.";
+		say "Beautiful oak trees line the path, they must be at least a century old";
 	if reality is confused:
-		say "The oaks look tired, their branches sagging from the weight of their leaves.";
+		say "The oaks look tired, their branches sagging from the weight of their leaves";
 	if reality is dreamlike:
-		say "The oak trees are bare of leaves. They don't inspire happy thoughts.";
+		say "The oak trees are bare of leaves. They don't inspire happy thoughts";
 
 To say dreamy-grass:
 	if reality is lucid:
-		say "Luscious and green, the perfect grass for a park.";
+		say "Luscious and green, the perfect grass for a park";
 	if reality is confused:
-		say "It looks pale and dry.";
+		say "It looks pale and dry";
 	if reality is dreamlike:
-		say "The grass is dead.";
+		say "The grass is dead";
 
 Instead of examining Quinn when reality is lucid:
 	say "[description of Quinn][paragraph break]He looks expectantly at the children playing in the playground.";
