@@ -450,7 +450,7 @@ test quinn with "ask quinn about us/ask quinn about park/ask quinn about picnic/
 
 Chapter 1 - Front of the house
 
-Front of the house is a room. The description is "You are in front of an old, remote house. The flaking paint and shoddy walkway indicate it's age and abandonment. The porch leads to the south. The front door is to the west. You are carrying [list of things carried by the player]."
+Front of the house is a room. The description is "You are in front of an old, remote house. The flaking paint and shoddy walkway indicate it's age and abandonment. The porch leads to the south. The front door is to the west."
 
 The house proper is a thing in the front of the house. It is scenery. Understand "house" as the house proper. The description is "Shabby and derelict." Instead of entering the house proper, try entering the front door.
 
@@ -1048,14 +1048,12 @@ The second act is a scene. The second act begins when first act ends.
 The second act ends when the second act is done. 
 
 When the second act begins:
-	say "(as [Otto]) The last daylight creeps away, the moon struggles to find gaps through looming clouds. A chill moves over your skin.";
+	say "(as [Otto]) Dusk creeps in, the moon struggles to find gaps through looming clouds. A chill moves over your skin.";
 	Move Otto York to the front of the house;
 	Now the player is Otto;
 	try looking;
-	The player recounts in one turn from now;
-	
-At the time when the player recounts:
-	say "[italic type]An anonymous tip to the homicide office, in connection with the missing woman, led me here.[paragraph break]Victoria... I pray she is still alive.[roman type][line break]";
+	say "You are carrying [list of things carried by the player].";
+	say "[line break][italic type]An anonymous caller directed me to this house, in connection with the missing woman. My partner is on his way with the cavalry.[paragraph break]Victoria... I pray she is still alive.[roman type][line break]";
 
 When the second act ends:
 	say "You peer up the staircase, making sure nobody else is watching from above, and cautiously ascend the stairs.";
@@ -1075,7 +1073,7 @@ Instead of listening to kitchen door during the second act:
 Instead of knocking the bedroom door during the first act:
 	say "You hesitate to knock on the door, scared of whomever kidnapped you. You would rather try and escape unnoticed.".
 
-
+Instead of waiting during the second act, say "You better get moving, you can't wait around for your partner to arrive."
 
 Chapter 3 - Third act
 
