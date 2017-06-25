@@ -1,0 +1,1463 @@
+Start of a transcript of
+
+Deliverance
+Some demons are more real than others, by Wesley Werner
+Release 1 / Serial number 161120 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) 
+Identification number: //BF24E716-9DF2-11E6-97DB-74E50B693D30//
+Standard interpreter 1.1 (4F) / Library serial number 080126
+Standard Rules version 3/120430 by Graham Nelson
+
+Victoria > info
+Deliverance was written by Special Agent. The idea started as a Halloween
+project that grew into something larger.
+
+I want to thank these fine folks for testing, your help was invaluable to the
+game's improvement: heartless zombie, popcorn. Thank you!
+
+You can also get a HINT when stuck.
+
+Victoria > hint
+So you want a hint? Well this is your only notice, if you ask me again I will
+give you a hint.
+
+Victoria > hint
+Are you following the path?
+
+Victoria > x quinn
+Your husband has a gentle way about him, with his deep-set eyes the color of
+coffee. His straight, chocolate-colored hair reaches his shoulders. He is tall
+and has a lean build. His prominent cheekbones is one of his more striking
+features.
+
+He looks expectantly at the children playing in the playground.
+
+A soft, warm wind caresses your face.
+
+Victoria > *note cheekbones are
+(Noted)
+Victoria > x children
+The dozen or so kids are playing joyfully on the playground swings and seesaw.
+Seeing them fills you with joy at the thought of having your own one day.
+
+A soft, warm wind caresses your face.
+
+Victoria > i
+You are carrying:
+  a pair of red jeans (being worn)
+  a yellow blouse (being worn)
+
+Victoria > x jeans
+Faded red jeans with front pockets.
+
+Victoria > x pockets
+You can't see any such thing.
+
+Victoria > x blouse
+A bright yellow blouse.
+
+Victoria > l
+Park
+You are walking on a scenic path with your husband. The park is beautiful this
+time of year, a clear sky stretches above you. There is a playground is in the
+distance, a dozen kids playing on the swings and seesaws. Majestic trees line
+the path leading north.
+
+You can see Quinn here.
+
+Victoria > x path
+A smooth cobblestone path comprised of dark and light shaded tones, the stones
+consisting of a multitude of shapes. The path winds through the park. The bright
+sky illuminates the path ahead of you.
+
+Victoria > x park
+You can't see any such thing.
+
+Victoria > x sky
+A beautiful clear, temperate sky. Faint wisps of cirrus clouds are visible, high
+above you. It reminds you of your wedding day.
+
+Victoria > l
+Park
+You are walking on a scenic path with your husband. The park is beautiful this
+time of year, a clear sky stretches above you. There is a playground is in the
+distance, a dozen kids playing on the swings and seesaws. Majestic trees line
+the path leading north.
+
+You can see Quinn here.
+
+A soft, warm wind caresses your face.
+
+Victoria > *note playground in the distance
+(Noted)
+Victoria > x trees
+Beautiful oak trees line the path, they must be at least a century old.
+
+Victoria > follow quinn
+I didn't understand that sentence.
+
+Victoria > follow path
+I didn't understand that sentence.
+
+Victoria > talk
+I didn't understand that sentence.
+
+Victoria > say hello
+(to Quinn)
+There is no reply.
+
+Victoria > task quinn about children
+I didn't understand that sentence.
+
+Victoria > oops ask
+"Maybe our own kids will play here, one day", Quinn smiles.
+
+Victoria > smile
+I didn't understand that sentence.
+
+Victoria > ask him about him
+Quinn ignores the question and smiles at the children playing.
+
+Victoria > l
+Park
+You are walking on a scenic path with your husband. The park is beautiful this
+time of year, a clear sky stretches above you. There is a playground is in the
+distance, a dozen kids playing on the swings and seesaws. Majestic trees line
+the path leading north.
+
+You can see Quinn here.
+
+Victoria > x me
+You see dirt on your bruised arms. You are wearing a pair of red jeans and a
+yellow blouse. 
+
+Victoria > *note dirt on my arms, bruised?
+(Noted)
+Victoria > wipe arms
+You can't see any such thing.
+
+Victoria > x dirt
+You can't see any such thing.
+
+Victoria > listen
+The cool night is quiet, save for the faint chirps of crickets in the distance.
+
+A soft, warm wind caresses your face.
+
+Victoria > s
+You came to the park with your husband, Quinn, for a walk. You are not going
+back home now.
+
+Victoria > n
+You walk north along the path. Everything around you seems different, you are
+not sure how much time has passed.
+
+Park
+You are on a path, your husband beside you. The park surrounding you looks pale
+and unkempt, a grey sky looms up above. The playground in the distance has few
+kids, ambling around the swings and seesaws. Tired trees line the path leading
+north.
+
+You can see Quinn here.
+
+Victoria > x sky
+The sky is covered by pale stratus clouds. You thought that it was clear and
+temperate just a moment ago.
+
+Victoria > x quinn
+Your husband has a sombre look about him. His dark deep-set eyes indicating as
+much. The breeze moving his hair about his shoulders. Shadows underlie his
+prominent cheekbones.
+
+He seems troubled by something.
+
+Victoria > talk
+I didn't understand that sentence.
+
+Victoria > i
+You are carrying:
+  a pair of red jeans (being worn)
+  a yellow blouse (being worn)
+
+Victoria > x me
+You see dirt on your bruised arms. You are wearing a pair of red jeans and a
+yellow blouse. 
+
+Victoria > *note now I could have dirty arms.
+(Noted)
+Victoria > ask quinn about him
+Quinn ignores you, he seems troubled by something.
+
+Victoria > ask quinn about something
+Quinn ignores you, he seems troubled by something.
+
+Victoria > hint
+Are you following the path?
+
+Victoria > l
+Park
+You are on a path, your husband beside you. The park surrounding you looks pale
+and unkempt, a grey sky looms up above. The playground in the distance has few
+kids, ambling around the swings and seesaws. Tired trees line the path leading
+north.
+
+You can see Quinn here.
+
+Victoria > x kids
+They stand around the playground, listlessly pushing empty swings without a
+word.
+
+Victoria > listen
+The cool night is quiet, save for the faint chirps of crickets in the distance.
+
+Victoria > x trees
+The oaks look tired, their branches sagging from the weight of their leaves.
+
+Victoria > ask him about me
+Quinn ignores you, he seems troubled by something.
+
+Victoria > n
+You walk north along the path. Everything around you seems different, you are
+not sure how much time has passed.
+
+Park
+The once beautiful park is lifeless, a black sky hovers above you. There is a
+playground in the distance, it's swings and seesaws now abandoned. Dead trees
+line the path leading north.
+
+You can see Quinn here.
+
+Victoria > x sky
+The sky is dark, you can't see any stars, moon or clouds.
+
+An icy chill cuts your face. You shiver.
+
+Victoria > x me
+You see dirt on your bruised arms. You are wearing a pair of red jeans and a
+yellow blouse. 
+
+Victoria > x playground
+The playground is deserted. You see a set of four swings and a couple of
+seesaws.
+
+Victoria > x him
+Your husband has stopped walking, he stares at you with a disturbed expression
+on his face.
+
+Victoria > touch him
+Quinn might not like that.
+
+Victoria > say goodbye
+(to Quinn)
+There is no reply.
+
+Victoria > n
+You walk north along the path. Your legs feel heavy, as if moving through mud.
+Everything around you fades away, you are left in darkness.
+
+Time passes.
+
+Light pierces your vision as your eyes flutter open. Blurred shapes spin around
+as you shake the sound of a pounding heart free. You just woke from a very
+strange dream.
+
+Loft (on the chair)
+You don't know where you are. You feel too panicked to notice your surroundings.
+You are tied to a chair with rope.
+
+Victoria > *note the room name is too specific for an unknown place
+(Noted)
+Victoria > x chair
+It feels rickety and creaks when you move. You should try to stand up.
+
+Victoria > stand up
+You rock the chair. Some part of it snaps underneath you, it sags to the right.
+The chair sounds pretty weak, you think it might break if you try that again.
+
+Victoria > listen
+You don't hear anything, except the creaking chair when you move.
+
+Victoria > x rope
+The rope is tied around your hands and feet, fixing you to the chair.
+
+Victoria > untie it
+You can't untie that.
+
+Victoria > get rope
+Ironically you are tied up with the very rope you want to take.
+
+Victoria > i
+Your hands are tied to the back of the chair with rope, you can't reach your
+pockets.
+
+Victoria > scream
+I didn't understand that sentence.
+
+Victoria > l
+Loft (on the chair)
+You don't know where you are. You feel too panicked to notice your surroundings.
+You are tied to a chair with rope.
+
+Victoria > hint
+Have you tried standing up a few times?
+
+Victoria > stand up
+You rock the chair. One side of the chair breaks under the strain and you topple
+onto your side, your head almost hits a small cardboard box. Your one arm is
+free!
+
+Victoria > x box
+A small closed box.
+
+Victoria > get it
+You reach for the box. As you pull it closer it falls over, craft supplies spill
+out in front of you - a tube of hardened glue, pots of paints and a craft knife.
+
+Victoria > cut rope
+You have nothing to cut the rope with.
+
+Victoria > get knife
+You pick up the craft knife carefully, avoiding the business end of it.
+
+Victoria > cut rope
+You curl up enough to reach your legs and sever the bonds around them. You get
+up into a kneeling position and cut your other arm free. You stand up, wobbling.
+
+Loft
+You are surrounded by boxes and white walls, a single window is visible. A
+broken chair and cut rope lies on the floor. There is an exit to the west.
+
+You can see pots of paints, a tube of hardened glue and a small cardboard box
+(empty) here.
+
+Victoria > x paints
+Small pots of red, green and blue paints.
+
+Victoria > x glue
+The label reads "The Steel Queen Super Glue", the tube is rock hard.
+
+Victoria > x box
+The small box is open, it's contents on the floor.
+
+Victoria > take all
+pots of paints: You don't want the paints.
+tube of hardened glue: You don't need dry glue.
+small cardboard box: You don't want the empty box.
+
+Victoria > x knife
+A partially rusted craft knife with a yellow plastic handle. The blade is still
+sharp.
+
+Victoria > x boxes
+Quite a few boxes are piled in the room.
+
+Victoria > x walls
+White walls, lined with crates and boxes.
+
+Victoria > x window
+A small window allows a trickle of light into the room.
+
+Victoria > open it
+It isn't something you can open.
+
+Victoria > look out
+You see nothing unusual in that direction.
+
+Victoria > look in the window
+It is too far up, you can't see through it.
+
+Victoria > stand on boxes
+Even if you stand on them, you won't reach the window.
+
+Victoria > i
+You are carrying:
+  a craft knife
+  a pair of red jeans (being worn)
+  a yellow blouse (being worn)
+
+Victoria > l
+Loft
+You are surrounded by boxes and white walls, a single window is visible. A
+broken chair and cut rope lies on the floor. There is an exit to the west.
+
+You can see pots of paints, a tube of hardened glue and a small cardboard box
+(empty) here.
+
+Victoria > listen
+You stop to listen carefully for any noises. You hear nothing.
+
+Victoria > x chair
+A broken chair.
+
+Victoria > get it
+You have no need for a broken chair.
+
+Victoria > get rope
+You don't need cut ropes.
+
+Victoria > w
+
+Bedroom
+A small bedroom furnished with a mattress on the floor and a curtain against one
+wall. The loft is back to the east. The bedroom door is to the south.
+
+On the mattress is a sheet.
+
+Victoria > listen
+You stop to listen carefully for any noises. You hear nothing.
+
+The room turns into a tunnel, the floor rising up to meet you. Shadows creep in
+from all sides as your vision fades.
+
+
+press a key to continue...
+
+
+
+(as Otto) Dusk creeps in, the moon struggles to find gaps through looming
+clouds. A chill moves over your skin.
+
+Front of the house
+You are in front of an old, remote house. The flaking paint and shoddy walkway
+indicate it's age and abandonment. The porch leads to the south. The front door
+is to the west.
+
+You are carrying your badge and gun.
+
+An anonymous caller directed me to this house, in connection with the missing
+woman. My partner is on his way with the cavalry.
+
+Victoria... I pray she is still alive.
+
+Otto > x badge
+A silver badge attached to your belt, with words embossed on the front,
+Detective Otto York. Homicide.
+
+Otto > x gun
+A Glock 9mm, standard issue. It is loaded.
+
+Otto > 
+*note consider spelling out that Otto is police even if the player doesn't examine anything.
+(Noted)
+Otto > x safety
+You can't see any such thing.
+
+Otto > x house
+Shabby and derelict.
+
+Otto > x door
+A solid wood door with a knocker fixed on the front.
+
+Otto > i
+You are carrying:
+  your badge
+  a gun
+
+Otto > x me
+You are wearing black jeans, a light blue collared shirt and a leather jacket. A
+gun holster is strapped underneath around your shoulder, a badge is attached to
+your belt.
+
+Otto > *note Victoria's clothes are listed in inventory.
+(Noted)
+Otto > *note "Victoria... I pray she is still alive.
+(Noted)
+Otto > 
+*note It sounds personal to use the victim's first name but not her surname.
+(Noted)
+Otto > z
+You better get moving, you can't wait around for your partner to arrive.
+
+Otto > s
+You walk down the porch, and around to the south side of the house.
+
+Porch
+The rough wood of the porch is weathered and stripped of varnish. There are two
+windows here. The porch continues west. The front door is back to the north.
+
+Otto > x windows
+Through the window you see the shapes of a table and some chairs.
+
+Otto > x table
+You can't see any such thing.
+
+Otto > x porch
+The rough wood planks of the porch are weathered and stripped of their varnish
+years ago.
+
+Otto > w
+You walk along the porch to the west side of the house.
+
+Rear of the house
+The back of the house is no less weathered. There is a bay window to the east.
+
+Otto > x window
+It is divided into four panes of glass, and sits about chest-height. The window
+is closed.
+
+Otto > look in window
+You see the parlour inside.
+
+Otto > x parlour
+You can't see any such thing.
+
+Otto > open window
+You pull on the window frame, rust crumbles between the hinges. It swings open.
+
+Otto > go in
+You can't go that way.
+
+Otto > go in window
+Looking to make sure the room is empty, you slip inside.
+
+Parlour
+A low and wide table dominates the room, tattered armchairs guarding it, a
+carpet covers the floor. A serving dish rests on the table. You see a bay window
+to the west, and an exit to the north.
+
+Otto > close window
+You close the bay window.
+
+Otto > listen
+The house is quiet, apart from the creaking floor boards when you move.
+
+Otto > x table
+A dark wood table with Flemish scroll style legs.
+
+Otto > x armchairs
+Torn and tattered, the floor looks more inviting.
+
+Otto > x carpet
+It's once-floral pattern, now faded by time and memory, reminds you of a muddy
+lily pond.
+
+Otto > x dish
+An undecorated silver dish, tarnished with age. A lid covers it.
+
+Otto > get lid
+You lift the lid, revealing bone fragments.
+
+Otto > x fragments
+These are Tad's trophies, your main suspect. He keeps human bones, and displays
+them exactly like this.
+
+Otto > 
+*note would the detective already know all these details. Or would it be a surprise - you open a dish and the bones look
+(Noted)
+Otto > *note look strange.
+(Noted)
+Otto > get bones
+No, they can be taken into evidence later. Time matters.
+
+Otto > look under carpet
+You lift the carpet and only find the floor, there is nothing suspicious about
+it. You drop the carpet back where it was.
+
+Otto > x floor
+It's once-floral pattern, now faded by time and memory, reminds you of a muddy
+lily pond.
+
+Otto > l
+Parlour
+A low and wide table dominates the room, tattered armchairs guarding it, a
+carpet covers the floor. A serving dish rests on the table. You see a bay window
+to the west, and an exit to the north.
+
+Otto > take all
+bone fragments: No, they can be taken into evidence later. Time matters.
+
+Otto > n
+
+Living room
+An old couch rests against a wall, a painting hangs above it. A writing desk
+squats in one corner, and a serving trolley in the other. The exit to the south
+leads back to the Parlour, and there is a door to the east. You see some stairs
+going up.
+
+Otto > x couch
+A musty antiquated thing, likely a housing for many unseen critters.
+
+Otto > search it
+You only find dust.
+
+Otto > x painting
+It depicts four horsemen riding through the sky, rolling clouds behind them. On
+the earth below, soldiers and slaves alike engage in a battle frenzy. A small
+plaque is fixed to the frame.
+
+Otto > read plaque
+The plaque reads: "Conquest, War, Famine and Death."
+
+Otto > x desk
+A squat dark wood desk with no drawers. You notice engravings on it's surface.
+
+Otto > x engravings
+Names carved into the varnished wood. You read: Annette Faith Parker. Meghan
+Mcclure. Jami Berg. All previous victims.
+
+Otto > 
+*note It would be more horrifying if the detective didn't know the fate of those girls. "All missing girls."
+(Noted)
+Otto > x trolley
+An rickety looking thing slanted to one side: two of the wheels are missing. It
+has a teapot and some teacups on it.
+
+Otto > open teapot
+Lifting the butterfly lid, a business card is revealed inside the teapot.
+
+Otto > get card
+You pick up the business card.
+
+Otto > x it
+"Unholy Battle pest control, Tad Kemp". You notice an impression like writing on
+the back of the card.
+
+Otto > x impression
+The back of the card has 6375 written on it. You commit this to memory.
+
+Otto > close pot
+You can't see any such thing.
+
+Otto > x pot
+You can't see any such thing.
+
+Otto > *note =teapot
+(Noted)
+Otto > x teapot
+A white ceramic teapot with a decorative design painted on: green leaves with
+violet and magenta orchid blooms. The handle in the shape of butterfly wings.
+
+Otto > get it
+You refuse to break for tea.
+
+Otto > x cups
+Pale white tea cups without any designs.
+
+Otto > push trolley
+It is broken and refuses to move.
+
+Otto > shoot teapot
+You smash the teapot into many shards. You notice nothing was hidden inside it.
+
+Otto > *note I already have the card
+(Noted)
+Otto > x teapot
+The teapot is smashed to pieces.
+
+Otto > listen
+The house is quiet, apart from the creaking floor boards when you move.
+
+Otto > u
+You peer up the staircase, making sure nobody else is watching from above, and
+cautiously ascend the stairs.
+
+
+press a key to continue...
+
+
+
+(as Victoria) Your eyes flutter open.
+
+Bedroom
+A small bedroom furnished with a mattress on the floor and a curtain against one
+wall. The loft is back to the east. The bedroom door is to the south.
+
+On the mattress is a sheet.
+
+Victoria > 
+*note for the impression to be a puzzle. You could require that the player touches the card or finds a bright light.
+(Noted)
+Victoria > x sheet
+Pale from dirt.
+
+Victoria > x mattress
+A single sized mattress lies on the floor.
+
+On the mattress is a sheet.
+
+Victoria > x me
+You see dirt on your bruised arms. You are wearing a pair of red jeans and a
+yellow blouse. 
+
+Victoria > listen
+You hear faint sounds coming through the bedroom door.
+
+Victoria > *note SCARY!
+(Noted)
+Victoria > go behind the curtain
+You can't see any such thing.
+
+Victoria > x curtain
+Filthy and eaten by fish moths. It is drawn closed.
+
+Victoria > get sheet
+You pick up the sheet.
+
+Victoria > open curtain
+You pull the curtain open, there is a window behind it. Near the floor are some
+pipes.
+
+Victoria > x pipes
+They are painted the same as the faded white walls. You guess they carry water.
+
+Victoria > x window
+You look through the window. You see grass down below, no other houses are
+visible. You appear to be on the third storey.
+
+Victoria > open window
+You open the window.
+
+Victoria > out
+It is too high up, you will surely fall. Perhaps if you had something to climb
+down with.
+
+Victoria > hint
+I wonder if we can tie the sheet to something?
+
+Victoria > x sheet
+Pale from dirt.
+
+Victoria > l
+Bedroom
+A small bedroom furnished with a mattress on the floor and a curtain against one
+wall, a window behind it. Some pipes run along the wall behind the curtain. The
+loft is back to the east. The bedroom door is to the south.
+
+Victoria > tie sheet to pipes
+You wrap one end of the sheet around the pipes and make a knot. You drop the
+other end of the sheet out the window.
+
+Victoria > save
+Ok.
+
+Victoria > s
+(first opening the bedroom door)
+The bedroom door is locked.
+
+Victoria > knock on the door
+You hesitate to knock on the door, scared of whomever kidnapped you. You would
+rather try and escape unnoticed.
+
+Victoria > listen to door
+You hear somebody moving around downstairs.
+
+Victoria > hide
+I didn't understand that sentence.
+
+Victoria > d
+You hold on to the makeshift rope, climb through the window and prepare
+yourself.
+
+
+press a key to continue...
+
+
+
+(as Otto) As you reach the second floor.
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third
+floor, protected by a security gate. You can go back down to the first floor.
+You see exits to the north and south.
+
+Otto > x gate
+It is a swing gate made of metal bars.
+
+Otto > open it
+the security gate is locked.
+
+Otto > unlock it
+What do you want to unlock the security gate with?
+
+Otto > card
+The business card does not fit the security gate lock.
+
+Otto > i
+You are carrying:
+  a business card
+  your badge
+  a gun
+
+Otto > shoot gate
+A less violent act is more suitable at this time.
+
+Otto > n
+
+Bathroom
+You are in a bathroom, you see a claw-foot bath and a basin here, a mirror is
+fixed to the wall above the basin. There is window on the north wall. There is
+an exit to the south.
+
+Otto > shoot mirror
+A less violent act is more suitable at this time.
+
+Otto > *note There is A window
+(Noted)
+Otto > x bath
+A stained white claw-foot bath. The feet are metal and have decorative faces
+moulded into them.
+
+Otto > x basin
+A simple pedestal basin of white ceramic.
+
+Otto > x mirror
+A rectangular mirror without any frame. The edges of the glass are stained.
+
+Otto > x stain
+A rectangular mirror without any frame. The edges of the glass are stained.
+
+Otto > x window
+It has a white wooden frame, a sliver of the moon is visible.
+
+Otto > x moon
+The pale moon pushes through the clouds, proving some light in the dim bathroom.
+
+Otto > listen
+You can hear faint noises coming from upstairs. Somebody is up there, moving
+around.
+
+Otto > s
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third
+floor, protected by a security gate. You can go back down to the first floor.
+You see exits to the north and south.
+
+Otto > s
+
+Bedroom
+The bedroom is furnished with a mattress in the corner, and a bedside table
+against the wall. There is a safe under the table. The exit is to the north.
+
+Otto > x mattress
+A single mattress on the floor.
+
+Otto > get it
+No thanks.
+
+Otto > x table
+A low bedside table with some newspapers on it.
+
+Otto > x papers
+You can't see any such thing.
+
+Otto > *note synonym
+(Noted)
+Otto > x them
+You can't see 'them' (nothing) at the moment.
+
+Otto > x newspapers
+These are fairly recent, somebody is living here.
+
+Otto > x safe
+A small gun safe with an electronic keypad.
+
+Otto > get it
+It is fixed securely to the wall.
+
+Otto > open it
+You enter the code you memorized from the back of the business card, you hear
+the electronic lock unlatch and the safe door swings open. Inside is a bronze
+key.
+
+Otto > *note sp? memorized
+(Noted)
+Otto > x key
+A short but fat bronze key, it has decorative grape vines embossed around the
+shaft and the head.
+
+Otto > get it
+You pick up the bronze key.
+
+Otto > 
+*note should there be something to show it's useful for the security gate?
+(Noted)
+Otto > s
+You can't go that way.
+
+Otto > l
+Bedroom
+The bedroom is furnished with a mattress in the corner, and a bedside table
+against the wall. There is a safe under the table. The exit is to the north.
+
+Otto > n
+
+Second Floor
+You are in the second floor hallway. Here are stairs that lead up to the third
+floor, protected by a security gate. You can go back down to the first floor.
+You see exits to the north and south.
+
+Otto > u
+(first opening the security gate)
+the security gate is locked.
+
+Otto > unlock it
+What do you want to unlock the bronze key with?
+
+Otto > *note ???
+You can't see any such thing.
+
+Otto > unlock gate
+What do you want to unlock the security gate with?
+
+Otto > key
+You unlock the security gate.
+
+Otto > enter it
+You open the security gate.
+
+You ascend the stairs, continuing your search...
+
+
+press a key to continue...
+
+
+
+(as Victoria) You hold tight to the bed sheet as you climb through the window.
+You hear a noise coming from the other side of the bedroom door, fear rises up
+inside. You pull the curtain closed, hoping to hide your escape attempt.
+
+Hanging outside the third floor
+You are hanging outside the third storey window, gripping the bed sheet tied
+inside the room. You can go down.
+
+Victoria > listen
+You hear faint movements through the window, coming from behind the bedroom
+door.
+
+Victoria > d
+Lowering yourself down, you reach the end of the sheet.
+
+Hanging outside the second floor
+You are hanging outside a window. You are at the end of the sheet, and cannot go
+down any more.
+
+Victoria > open window
+You struggle to open the window, maybe a little force is called for.
+
+Victoria > push window
+It is fixed in place.
+
+Victoria > *note another hint response needed
+(Noted)
+Victoria > hint
+Have you tried kicking/smashing the window to open it?
+
+Victoria > hit window
+You kick the window and shatter the glass pane. You should be able to fit
+through it without cutting yourself.
+
+Victoria > open window
+You struggle to open the window, maybe a little force is called for.
+
+Victoria > *note what is the command to get inside?
+(Noted)
+Victoria > hint
+You can't go up or down, so you can only go...
+
+Victoria > go in
+
+Bathroom
+You are in a bathroom, you see a claw-foot bath and a basin here, a mirror is
+fixed to the wall above the basin. There is window on the north wall. There is
+an exit to the south.
+
+Victoria > x bath
+A stained white claw-foot bath. The feet are metal and have decorative faces
+moulded into them.
+
+Victoria > 
+*note consider writing a different description of each room for each character.
+(Noted)
+Victoria > x faces
+Moulded faces make up the feet of the bathtub.
+
+Victoria > *note what are the expressions on the faces?
+(Noted)
+Victoria > x basin
+A simple pedestal basin of white ceramic.
+
+Victoria > x me
+You see dirt on your bruised arms. You are wearing a pair of red jeans and a
+yellow blouse. 
+
+Victoria > listen
+You only hear your own heart pounding, your climb down was taxing.
+
+Victoria > wash dirt
+I didn't understand that sentence.
+
+Victoria > wash
+I didn't understand that sentence.
+
+Victoria > clean arms
+You can't see any such thing.
+
+Victoria > clean me
+You rub Victoria.
+
+Victoria > *note underwhelming responses
+(Noted)
+Victoria > use basin
+I didn't understand that sentence.
+
+Victoria > use bath
+I didn't understand that sentence.
+
+Victoria > take a bath
+You would love a bath, anywhere but here.
+
+Victoria > get dirt
+You can't see any such thing.
+
+Victoria > x mirror
+A rectangular mirror without any frame. The edges of the glass are stained.
+
+Victoria > look in mirror
+You look at yourself in the mirror: Big orange eyes stare back at you. Your
+straight brown hair is tangled about your face. You look like hell.
+
+Victoria > l
+Bathroom
+You are in a bathroom, you see a claw-foot bath and a basin here, a mirror is
+fixed to the wall above the basin. There is window on the north wall. There is
+an exit to the south.
+
+Victoria > smash mirror
+A less violent act is more suitable at this time.
+
+Victoria > x window
+A chipped white frame with broken glass panes.
+
+Victoria > break it
+You kick the window and shatter the glass pane. You should be able to fit
+through it without cutting yourself.
+
+Victoria > x exit
+You can't see any such thing.
+
+Victoria > listen
+You only hear your own heart pounding, your climb down was taxing.
+
+Victoria > rest
+I didn't understand that sentence.
+
+Victoria > s
+Frightened and shaking, you run out the bathroom and down the stairs...
+
+
+press a key to continue...
+
+
+
+(as Otto) You reach the top of the stairs, a door in front of you is latched
+from the outside. You undo the latch and dash through into the loft...
+
+Loft
+You are surrounded by boxes and white walls, a single window is visible. A
+broken chair and cut rope lies on the floor. There is an exit to the west.
+
+You can see pots of paints, a tube of hardened glue and a small cardboard box
+(empty) here.
+
+Otto > take all
+pots of paints: You don't want the paints.
+tube of hardened glue: You don't need dry glue.
+small cardboard box: You don't want the empty box.
+
+Otto > x chair
+A broken chair.
+
+Otto > 
+*note does the detective draw any conclusions about what happened here given the cut rope and the broken chair?
+(Noted)
+Otto > x rope
+The rope is cut to pieces.
+
+Otto > x window
+A small window allows a trickle of light into the room.
+
+Otto > listen
+You hear movement below inside the house.
+
+Otto > w
+
+Bedroom
+A small bedroom furnished with a mattress on the floor and a curtain against one
+wall. The loft is back to the east. The bedroom door is to the south.
+
+Otto > x mattress
+A single sized mattress lies on the floor.
+
+Otto > x curtain
+Filthy and eaten by fish moths. It is drawn closed.
+
+Otto > open it
+You pull the curtain open, there is a window behind it. Near the floor are some
+pipes.
+
+Someone has tied a bed sheet to the pipes, and hung the other end out the
+window.
+
+Otto > look down
+You see nothing unusual in that direction.
+
+Otto > look out
+You see nothing unusual in that direction.
+
+Otto > look in window
+You look through the window. You see grass down below, no other houses are
+visible. You appear to be on the third storey.
+
+Otto > get sheet
+The sheet is tied to the pipes. You can't take it.
+
+Otto > untie it
+You can't untie that.
+
+Otto > s
+Someone has locked the bedroom door!
+
+Otto > shout
+I didn't understand that sentence.
+
+Otto > attack the door
+You fire two rounds into the lock of the door, it breaks open.
+
+Otto > s
+A chilling scream echos from down below. You run down the stairs as fast as you
+can...
+
+
+
+press a key to continue...
+
+
+
+(as Tad) You have been hiding from the Demons that hunt you. Everywhere you go,
+they follow. Angry, wicked demons that want your flesh. You managed to trap one
+of them, and locked it in the attic.
+
+Kitchen
+In the pale light you see a bare kitchen: scuffed wooden floors, a table and
+some cupboards fixed to the wall. There is a door to the west.
+
+You can see a kitchen table (on which are some sharp knives) here.
+
+Tad > feel knives
+You feel nothing unexpected.
+
+Tad > *note how sharp are they?
+(Noted)
+Tad > get knife
+You pick up a sharp cleaver from the pile of knives.
+
+You hear breaking glass. The Demon! You must stop it, before it comes for you.
+
+You unlock the kitchen door.
+
+Tad > x table
+A worn and dirty table.
+
+On the kitchen table are some sharp knives.
+
+Tad > get knife
+You have one already.
+
+Tad > i
+You are carrying:
+  a cleaver
+
+Tad > x me
+You are wearing stained brown trousers and a black golf shirt. You have not
+looked in a mirror recently, for fear of what Demon may stare back.
+
+Tad > x cleaver
+It is a sharp meat cleaver.
+
+Tad > *note Tad could offer an opinion: Good for cutting up Demons.
+(Noted)
+Tad > open door
+You open the kitchen door.
+
+Tad > x it
+The kitchen door is open.
+
+Tad > w
+You prepare to meet the horror, and pass through the door...
+
+
+press a key to continue...
+
+
+
+(as Victoria) You reach the bottom of the stairs, breathless and shaking.
+
+Living room
+The room is dim and nothing you see makes sense. You see an exit to the south.
+
+Victoria > listen
+You hear somebody rustling around beyond the door to the east. You make a note
+to avoid that door.
+
+Victoria > breathe
+I didn't understand that sentence.
+
+Victoria > s
+The kitchen door opens and Tad appears from the shadows, moving towards you with
+a cleaver in his hand. That same crazed look on his face when he abducted you.
+You scream.
+
+All you can do is sob and plead for mercy.
+
+Tad moves closer to you, a cleaver in his hand...
+
+Victoria > sob
+I didn't understand that sentence.
+
+Victoria > plead
+I didn't understand that sentence.
+
+Victoria > scream
+I didn't understand that sentence.
+
+Victoria > x tad
+You can't focus on anything.
+
+All you can do is sob and plead for mercy.
+
+Tad moves closer to you, a cleaver in his hand...
+
+Victoria > hint
+All you can do is wait and hope for a miracle.
+
+Victoria > talk
+I didn't understand that sentence.
+
+Victoria > ask tad about tad
+There is no reply.
+
+All you can do is sob and plead for mercy.
+
+Tad moves closer to you, a cleaver in his hand...
+
+Victoria > ask tad for mercy
+You can't see any such thing.
+
+Victoria > tell tad about quinn
+This provokes no reaction.
+
+All you can do is sob and plead for mercy.
+
+Tad moves closer to you, a cleaver in his hand...
+
+You close your eyes.
+
+
+press a key to continue...
+
+
+
+(as Otto) You reach the Living Room just in time.
+
+Living room
+The room is dim and nothing you see makes sense. You see an exit to the south.
+
+You can see Tad and Victoria here.
+
+Otto > say hello
+Whom do you want to say that to?
+
+Otto > tad
+There is no reply.
+
+Tad moves closer to Victoria, a cleaver in his hand...
+
+Otto > ask tad about cleaver
+There is no reply.
+
+Tad moves closer to Victoria, a cleaver in his hand...
+
+Otto > get cleaver
+That seems to belong to Tad.
+
+Tad moves closer to Victoria, a cleaver in his hand...
+
+Otto > get victoria
+I don't suppose Victoria would care for that.
+
+Tad moves closer to Victoria, a cleaver in his hand...
+
+Otto > x tad
+You are wasting time!
+
+Tad moves closer to Victoria, a cleaver in his hand...
+
+Otto > x victoria
+You are wasting time!
+
+Tad moves closer to Victoria, a cleaver in his hand...
+
+Otto > shoot victoria
+A less violent act is more suitable at this time.
+
+Tad moves closer to Victoria, a cleaver in his hand...
+
+Otto > *note too generic response
+(Noted)
+Otto > attack tad
+You aim your pistol at Tad, exhale and squeeze the trigger...
+
+
+
+press a key to continue...
+
+
+
+(as Tad) You enter the Living room, the Demon is here. It is mocking you,
+calling out for your flesh. The parlour is due south, the kitchen to the east.
+Stairs go up to the second floor.
+
+Living room
+The room is dim and nothing you see makes sense. You see an exit to the south.
+
+You can see a Demon here.
+
+Tad > say hello
+(to the Demon)
+There is no reply.
+
+Tad > x demon
+It has the figure of a man with leather-like skin, it has no use for clothes.
+The knees bend backwards, six razor talons extend where fingers would be. Sharp
+fangs fill the mouth, a bald head is adorned with two goat-like horns.
+
+Tad > s
+Another demon appears behind you, swiping at you with razor claws, tearing the
+skin from your back.
+
+You crumple to the floor in a bloody mess, sobbing, bleeding out.
+
+
+
+press a key to continue...
+
+
+
+(as Otto) For a moment you stand lifeless, making sense of the scene. Victoria
+collapses to the floor. You have to get her out of here.
+
+Living room
+The exit is to the south.
+
+You can see Victoria and Tad here.
+
+Otto > x tad
+A lithe man lies on the floor staring through slit brown eyes. His ruddy tone
+and wavy brown hair does nothing to detract from his prowling jackal
+disposition.
+
+Otto > 
+*note it's more horrifying if he looks just like a regular guy - you never would have known he would abduct people.
+(Noted)
+Otto > x her
+(Victoria)
+She has large orange eyes and messy brown hair. She is short and has an
+hourglass build.
+
+Otto > wake her
+(Victoria)
+That seems unnecessary.
+
+Otto > i
+You are carrying:
+  a bronze key
+  a business card
+  your badge
+  a gun
+
+Otto > *note oh I should have shown tad my badge!
+(Noted)
+Otto > show badge to tad
+Tad is unimpressed.
+
+Otto > *note Tad is dead?!
+(Noted)
+Otto > show badge to victoria
+Victoria is unimpressed.
+
+Otto > *note she's unconscious
+(Noted)
+Otto > shoot tad
+He will be dead soon enough. You need to get out of here, now.
+
+Otto > *note why do I need to flee? (You need to get Victoria out of here, now)
+(Noted)
+Otto > talk
+I didn't understand that sentence.
+
+Otto > ask tad about tad
+There is no reply.
+
+Otto > *note why?
+(Noted)
+Otto > Victoria, s
+Victoria has better things to do.
+
+Otto > *note what is the syntax?
+(Noted)
+Otto > hint
+It makes sense to take her with you.
+
+Otto > Victoria, follow me
+There is no reply.
+
+Otto > s
+You can't leave Victoria lying here.
+
+Otto > hint
+It makes sense to take her with you.
+
+Otto > save victoria
+I only understood you as far as wanting to save.
+
+Otto > rescue her
+I didn't understand that sentence.
+
+Otto > help her
+I only understood you as far as wanting to help.
+
+Otto > lift victoria
+I didn't understand that sentence.
+
+Otto > get victoria
+You lift her up.
+
+Otto > x victoria
+She has large orange eyes and messy brown hair. She is short and has an
+hourglass build.
+
+Otto > *note does she look different close up?
+(Noted)
+Otto > say goodbye to tad
+There is no reply.
+
+Otto > say hello to victoria
+There is no reply.
+
+Otto > s
+You carry Victoria outside, the cool night air promising peace. You hear sirens
+wailing over the hill.
+
+
+
+    *** THE DAILY NEWS
+Last night Victoria Cote was found safe in an abandoned house in an undisclosed
+location. Her family is relieved to have her back. Detective Otto York was first
+on the location to ensure her safety. The family and police declined to release
+further details at this time. ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+> quit
