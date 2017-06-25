@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>BF24E716-9DF2-11E6-97DB-74E50B693D30</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>Deliverance</title>
+            <author>Wesley Werner</author>
+            <headline>Some demons are more real than others,</headline>
+            <genre>Fiction</genre>
+            <firstpublished>2017</firstpublished>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <resources>
+            <auxiliary>
+                <leafname>map.jpg</leafname>
+                <description>Map</description>
+            </auxiliary>
+        </resources>
+        <cover>
+            <format>jpg</format>
+            <height>960</height>
+            <width>960</width>
+            <description>The cover art.</description>
+        </cover>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2017-04-23</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6M62</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6M62</generatorversion>
+            <originated>2017-04-23</originated>
+        </colophon>
+        <glulx>
+            <serial>170423</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6M62</compiler>
+            <coverpicture>1</coverpicture>
+        </glulx>
+    </story>
+</ifindex>

@@ -1,0 +1,78 @@
+Solution to "Deliverance" by Wesley Werner
+
+N
+N
+N ... You awaken in the Loft as Victoria
+STAND UP
+AGAIN
+TAKE BOX
+TAKE KNIFE
+CUT ROPES
+GO WEST
+Z ... You pass out, play continues as Otto in Front of the house
+GO SOUTH
+GO WEST
+OPEN BAY WINDOW
+ENTER BAY WINDOW ... You are now in the Parlour
+GO NORTH
+OPEN TEAPOT
+TAKE CARD
+X CARD
+GO UP ... Viewpoint switched to Victoria
+OPEN CURTAIN
+TAKE SHEET
+TIE SHEET TO PIPES
+GO DOWN ... You switch back to Otto
+GO SOUTH
+X SAFE
+X KEYPAD
+X BUSINESS CARD
+X IMPRESSION
+OPEN THE SAFE
+TAKE BRONZE KEY
+GO NORTH
+UNLOCK SECURITY GATE WITH BRONZE KEY
+GO UP ... You switch back to Victoria, hanging outside
+GO DOWN
+OPEN WINDOW
+KICK WINDOW
+GO IN
+LOOK IN MIRROR
+GO SOUTH ... You switch back to Otto
+GO WEST ... out of the Loft
+Choice:
+  OPEN DOOR -> go to branch (1) ... For the heroic ending
+  OPEN CURTAIN -> go to branch (2) ... For the brave ending
+
+Branch (1)
+SHOOT THE DOOR
+GO SOUTH ... Viewpoint changes to Tad
+Z
+Z
+TAKE KNIFE
+GO WEST ... You switch back to Victoria, in the living room
+GO SOUTH
+Z
+Z
+Z ... You switch to Otto, as he reaches the living room
+SHOOT TAD ... You switch back to Tad
+ATTACK THE DEMON ... You switch to Otto
+TAKE VICTORIA
+GO SOUTH ... heroic ending
+
+Branch (2)
+GO DOWN
+GO DOWN
+GO IN ... Otto cuts his arm. Viewpoint changes to Tad
+Z
+Z
+TAKE KNIFE
+GO WEST ... You switch back to Victoria, in the living room
+GO SOUTH
+Z
+Z
+Z ... The shot missed Tad, now is your chance
+CUT TAD WITH CRAFT KNIFE ... You switch back to Tad
+ATTACK THE DEMON ... You switch to Otto
+TAKE VICTORIA
+GO SOUTH ... brave ending
